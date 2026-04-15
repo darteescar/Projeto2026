@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  .row.justify-content-center
+    .col-md-6
+      .card.shadow-sm.border-0.rounded-3.mt-5
+        .card-body.p-4
+          h3.text-center.mb-4 Criar Conta
+          form(action="/registo" method="POST")
+            .row.mb-3
+              .col-md-6
+                label.form-label(for="nome") Nome Próprio
+                input#nome.form-control(type="text" name="nome" placeholder="Seu nome" required)
+              .col-md-6
+                label.form-label(for="apelido") Apelido
+                input#apelido.form-control(type="text" name="apelido" placeholder="Seu apelido" required)
+            .mb-3
+              label.form-label(for="email") E-mail
+              input#email.form-control(type="email" name="email" placeholder="username@exemplo.com" required)
+            .mb-3
+              label.form-label(for="password") Palavra-passe
+              input#password.form-control(type="password" name="password" placeholder="Crie uma password" required)
+            .mb-3
+              label.form-label(for="confirm-password") Confirmar Palavra-passe
+              input#confirm-password.form-control(type="password" name="confirm-password" placeholder="Repita a password" required)
+            .d-grid.gap-2.mt-4
+              button.btn.btn-primary(type="submit") Registar Conta
+          .text-center.mt-3
+            span Já tem uma conta? 
+            a(href="/login") Faça o login

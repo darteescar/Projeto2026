@@ -1,5 +1,52 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .text-center.mb-5.mt-4
+    h1.display-4.fw-bold Bem-vindo à Plataforma de Recursos
+    p.lead.text-muted Partilhe, descubra e organize os melhores materiais académicos da Universidade.
+
+  .row.mb-4
+    .col-md-8
+      .card.shadow-sm.border-0.h-100
+        .card-header.bg-primary.text-white
+          h4.mb-0
+            i.bi.bi-newspaper.me-2
+            | Últimas Notícias
+        .card-body
+          .list-group.list-group-flush
+            // Exemplo de iteração caso tenha notícias
+            a.list-group-item.list-group-item-action(href="#")
+              .d-flex.justify-content-between.align-items-center
+                h5.mb-1 Nova funcionalidade de Upload
+                small.text-muted 3 dias atrás
+              p.mb-1 Agora já pode fazer upload de múltiplos ficheiros de uma só vez na página de adição de recurso.
+            a.list-group-item.list-group-item-action(href="#")
+              .d-flex.justify-content-between.align-items-center
+                h5.mb-1 Bem-vindos ao novo semestre
+                small.text-muted 1 semana atrás
+              p.mb-1 Acompanhe os materiais dos colegas e ajude a comunidade com os seus apontamentos.
+    
+    .col-md-4
+      .card.shadow-sm.border-0.h-100
+        .card-header.bg-success.text-white
+          h4.mb-0
+            i.bi.bi-trophy-fill.me-2
+            | Top 10 + Visitados
+        .card-body
+          ol.list-group.list-group-numbered.list-group-flush
+            // Exemplo caso tenham dados da DB
+            li.list-group-item.d-flex.justify-content-between.align-items-start
+              .ms-2.me-auto
+                .fw-bold Apontamentos de EW
+                | Eng. Web
+              span.badge.bg-primary.rounded-pill 1.2k views
+            li.list-group-item.d-flex.justify-content-between.align-items-start
+              .ms-2.me-auto
+                .fw-bold Slides de BD
+                | Bases de Dados
+              span.badge.bg-primary.rounded-pill 953 views
+            li.list-group-item.d-flex.justify-content-between.align-items-start
+              .ms-2.me-auto
+                .fw-bold Dataset Projeto AI
+                | Inteligência Artificial
+              span.badge.bg-primary.rounded-pill 840 views

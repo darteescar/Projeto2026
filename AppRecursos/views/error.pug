@@ -1,6 +1,16 @@
 extends layout
 
 block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+  .container.text-center.mt-5
+    .row.justify-content-center
+      .col-md-8
+        i.bi.bi-exclamation-triangle.text-warning(style="font-size: 5rem;")
+        h1.display-1.fw-bold.mt-3= error.status
+        h2.mb-4= message
+        .card.text-start.bg-light.border-danger
+          .card-body.text-danger
+            pre.mb-0 #{error.stack}
+        .mt-5
+          a.btn.btn-primary(href="/")
+            i.bi.bi-house-door.me-2
+            | Voltar à Página Inicial

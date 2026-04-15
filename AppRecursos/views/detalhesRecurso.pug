@@ -1,0 +1,121 @@
+extends layout
+
+block content
+  .row.mt-4
+    .col-lg-8
+      .card.shadow-sm.border-0.mb-4
+        .card-body.p-4
+          .d-flex.justify-content-between.align-items-start.mb-3
+            h2.fw-bold.mb-0
+              i.bi.bi-file-earmark-text.text-primary.me-2
+              | Apontamentos de Engenharia Web
+            .d-flex.gap-2
+              // Se for o autor
+              a.btn.btn-outline-primary.btn-sm(href="/recursos/editar/1")
+                i.bi.bi-pencil.me-1
+                | Editar
+              button.btn.btn-outline-danger.btn-sm(data-bs-toggle="modal" data-bs-target="#deleteModal")
+                i.bi.bi-trash.me-1
+                | Eliminar
+              
+          span.badge.bg-info.text-dark.fs-6.mb-3 Resumos
+          span.badge.bg-secondary.fs-6.ms-2 EW
+          span.badge.bg-dark.fs-6.ms-2 2025/2026
+          
+          h5.mt-4 Descrição:
+          p.text-muted.text-justify
+            | Resumo completo dos capítulos 1 a 4 lecionados na UC de Engenharia Web (Mestrado em Engenharia Informática). Aborda conceitos de HTTP, Node.js, Express, Pug e MongoDB.
+            
+          hr.my-4
+          
+          .row.text-center.g-4
+            .col-md-4
+              .p-3.border.rounded.bg-light
+                i.bi.bi-star-fill.text-warning.fs-3.d-block.mb-2
+                h5.mb-0 4.8 / 5.0
+                small.text-muted Classificação
+            .col-md-4
+              .p-3.border.rounded.bg-light
+                i.bi.bi-download.text-success.fs-3.d-block.mb-2
+                h5.mb-0 156
+                small.text-muted Downloads
+            .col-md-4
+              .p-3.border.rounded.bg-light
+                i.bi.bi-eye.text-primary.fs-3.d-block.mb-2
+                h5.mb-0 342
+                small.text-muted Visualizações
+          
+      .card.shadow-sm.border-0
+        .card-body.p-4
+          h4.mb-3
+            i.bi.bi-chat-left-text.me-2
+            | Comentários e Avaliações
+          
+          form.mb-4(action="/recursos/avaliar/1" method="POST")
+            .mb-3
+              label.form-label.fw-bold Avaliação (1 a 5)
+              select.form-select.w-auto(name="rating")
+                option(value="5") 5 Estrelas
+                option(value="4") 4 Estrelas
+                option(value="3") 3 Estrelas
+                option(value="2") 2 Estrelas
+                option(value="1") 1 Estrela
+            .mb-3
+              label.form-label.fw-bold Comentário
+              textarea.form-control(name="comentario" rows="2" placeholder="Deixe um comentário sobre este recurso...")
+            button.btn.btn-primary.btn-sm(type="submit")
+              i.bi.bi-send.me-1
+              | Enviar
+          
+          hr
+          
+          .d-flex.mb-3
+            .flex-shrink-0
+              img.rounded-circle(src="/images/default-avatar.png" width="40" height="40" alt="Avatar")
+            .flex-grow-1.ms-3
+              h6.mb-1 
+                a(href="/perfil/2") Ana Correia
+                span.text-warning.ms-2 ★★★★★
+              small.text-muted Há 2 dias
+              p.mb-0 Muito útil! Ajudou-me muito no projeto final, recomendo.
+
+    .col-lg-4
+      .card.shadow-sm.border-0.mb-4
+        .card-body
+          h5.card-title.border-bottom.pb-2 Informações Gerais
+          ul.list-unstyled.mt-3.mb-0
+            li.mb-2
+              i.bi.bi-person.me-2.text-primary
+              strong Autor: 
+              a(href="/perfil/1") Bruno Silva
+            li.mb-2
+              i.bi.bi-calendar-event.me-2.text-primary
+              strong Data de Adição: 
+              | 14/04/2026
+            li.mb-2
+              i.bi.bi-eye.me-2.text-primary
+              strong Visibilidade: 
+              | Pública
+            li.mb-2
+              i.bi.bi-file-zip.me-2.text-primary
+              strong Tamanho: 
+              | 4.2 MB
+              
+          .d-grid.mt-4
+            a.btn.btn-success.btn-lg(href="/recursos/download/1")
+              i.bi.bi-cloud-download.me-2
+              | Baixar Ficheiro
+
+  // Delete Confirmation Modal
+  .modal.fade#deleteModal(tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true")
+    .modal-dialog
+      .modal-content
+        .modal-header
+          h5.modal-title#deleteModalLabel Confirmar Eliminação
+          button.btn-close(type="button" data-bs-dismiss="modal" aria-label="Close")
+        .modal-body
+          p Tem a certeza que pretende eliminar este recurso?
+        .modal-footer
+          button.btn.btn-secondary(type="button" data-bs-dismiss="modal") Cancelar
+          form(action="/recursos/delete/1" method="POST")
+            button.btn.btn-danger(type="submit") Eliminar
