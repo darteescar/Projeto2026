@@ -1,0 +1,12 @@
+1 - Login
+2 - Registo
+3 - Home (algumas noticias, top 10 recursos + visitados, redirecionar para cada página: Início, Recursos, Adicionar Recurso, Sobre, Imagem Perfil que redireciona para o perfil do utilizador)
+4 - Perfil
+5 - Recursos (tabela com os recursos, ordenada por data de criação, com opção de pesquisa e filtro por UC, ANO, VISIBILIDADE (publica/privada), TIPO (slides, teste, video, dataset, livros, aulas gravadas, resumos, fichas, formulário, resolução de teste e resolução de ficha) com opção de download e visualização do recurso) e possível escolha de ordenação por estrelas ou data do recurso
+6 - Criar Recurso (formulário para criar um novo recurso, com campos)
+7 - Registo de Recurso:
+     nome/titulo, ano, tipo, descrição, UC, autor, data de adição/registo ao website, visibilidade
+
+8 - Página de detalhes do recurso (com informações detalhadas sobre o recurso, incluindo título, descrição, tipo, ano, UC, autor, data de criação, número de downloads, número de visualizações e classificação por estrelas) e com a opção de edição do recurso que redireciona para a página de edição do recurso
+9 - Página de erro
+10 - Pop-up de confirmação para eliminar/editar/criar recurso
