@@ -1,0 +1,38 @@
+services:
+  # 1. Serviço de Base de Dados (MongoDB)
+  mongodb:
+    build:
+      context: ./data
+      dockerfile: Dockerfile.mongo
+    container_name: mongodb_server
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: always
+    networks:
+      - projeto-network
+
+  # 2. Serviço de API de Dados
+  api-dados:
+    build:
+      context: ./data
+      dockerfile: Dockerfile.api
+    container_name: api_dados_server
+    ports:
+      - "16000:16000"
+    environment:
+      - PORT=16000
+      - MONGO_URL=mongodb://mongodb:27017/recursosEscolares
+    depends_on:
+      - mongodb
+    restart: always
+    networks:
+      - projeto-network
+
+volumes:
+  mongo_data:
+
+networks:
+  projeto-network:
+    driver: bridge
