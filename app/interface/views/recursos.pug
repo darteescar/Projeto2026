@@ -1,0 +1,68 @@
+extends layout
+
+block content
+  .d-flex.justify-content-between.align-items-center.mb-4.mt-3
+    h2.mb-0 Catálogo de Recursos
+    a.btn.btn-success(href="/recursos/adicionar")
+      i.bi.bi-plus-lg.me-1
+      | Novo Recurso
+
+  .card.shadow-sm.border-0.mb-4
+    .card-body
+      form.row.g-3.justify-content-center(action="/recursos" method="GET")
+        .col-md-3
+          label.form-label.fw-bold(for="uc") UC (Unidade Curricular)
+          select#uc.form-select(name="uc")
+            option(value="") Todos
+            for uc in ucs
+              option(value=uc selected=(query && query.uc === uc) ? 'selected' : '')= uc
+        .col-md-3
+          label.form-label.fw-bold(for="tipo") Tipo de Recurso
+          select#tipo.form-select(name="tipo")
+            option(value="") Todos
+            for tipo in tipos
+              option(value=tipo selected=(query && query.tipo === tipo) ? 'selected' : '')= tipo
+        .col-md-3
+          label.form-label.fw-bold(for="ordem") Ordenar por:
+          select#ordem.form-select(name="ordem")
+            option(value="data_desc" selected=(query && query.ordem === 'data_desc') ? 'selected' : '') Data (Mais recente)
+            option(value="data_asc" selected=(query && query.ordem === 'data_asc') ? 'selected' : '') Data (Mais antigo)
+            option(value="estrelas_desc" selected=(query && query.ordem === 'estrelas_desc') ? 'selected' : '') Avaliação (Melhores)
+        .col-md-3.d-flex.align-items-end
+          button.btn.btn-primary.w-100(type="submit")
+            i.bi.bi-filter.me-1
+            | Aplicar Filtros
+
+  .card.shadow-sm.border-0
+    .card-body.p-0
+      .table-responsive
+        table.table.table-striped.table-hover.align-middle.mb-0
+          thead.table-dark
+            tr
+              th Título
+              th Autor
+              th UC
+              th Tipo
+              th Data
+              th Rating
+              th Ações
+          tbody
+            each rec in recursos
+              tr
+                td.fw-bold= rec.titulo
+                td= rec.autor
+                td= rec.uc
+                td
+                  span.badge.bg-info.text-dark= rec.tipo
+                td= rec.data_registo ? new Date(rec.data_registo).toLocaleDateString('pt-PT') : 'N/D'
+                td
+                  i.bi.bi-star-fill.text-warning.me-1
+                  | #{rec.media_avaliacoes || 0}
+                td
+                  a.btn.btn-sm.btn-outline-primary.me-1(href=`/recursos/detalhes/${rec.id}` title="Visualizar/Detalhes")
+                    i.bi.bi-eye
+                  a.btn.btn-sm.btn-outline-success(href=`/recursos/download/${rec.id}` title="Download")
+                    i.bi.bi-download
+            else
+              tr
+                td(colspan="7").text-center.text-muted.py-4 Nenhumm recurso encontrado

@@ -1,0 +1,122 @@
+extends layout
+
+block content
+  .row.mt-4
+    .col-lg-8
+      .card.shadow-sm.border-0.mb-4
+        .card-body.p-4
+          .d-flex.justify-content-between.align-items-start.mb-3
+            h2.fw-bold.mb-0
+              i.bi.bi-file-earmark-text.text-primary.me-2
+              | #{recurso.titulo}
+            .d-flex.gap-2
+              // TODO:so se for o autor
+              a.btn.btn-outline-primary.btn-sm(href=`/recursos/editar/${recurso.id}`)
+                i.bi.bi-pencil-square.me-1
+                | Editar
+              button.btn.btn-outline-danger.btn-sm(data-bs-toggle="modal" data-bs-target="#deleteModal")
+                i.bi.bi-trash.me-1
+                | Eliminar
+              
+          span.badge.bg-info.text-dark.fs-6.mb-3= recurso.tipo
+          span.badge.bg-secondary.fs-6.ms-2= recurso.uc
+          span.badge.bg-dark.fs-6.ms-2= recurso.ano
+          
+          h5.mt-4 Descrição:
+          p.text-muted.text-justify= recurso.descricao || 'Sem descrição disponível.'
+            
+          hr.my-4
+          
+          .row.text-center.g-4
+            .col-md-4
+              .p-3.border.rounded.bg-light
+                h3.text-warning.mb-0
+                  i.bi.bi-star-fill.me-2
+                  | #{recurso.media_avaliacoes || 0}/5
+                small.text-muted Classificação
+            .col-md-4
+              .p-3.border.rounded.bg-light
+                h3.text-success.mb-0
+                  i.bi.bi-download.me-2
+                  | #{recurso.downloads || 0}
+                small.text-muted Downloads
+            .col-md-4
+              .p-3.border.rounded.bg-light
+                h3.text-info.mb-0
+                  i.bi.bi-eye-fill.me-2
+                  | #{recurso.visualizacoes || 0}
+                small.text-muted Visualizações
+          
+      .card.shadow-sm.border-0
+        .card-body.p-4
+          h4.mb-3
+            i.bi.bi-chat-left-text.me-2
+            | Comentários e Avaliações
+          
+          form.mb-4(action=`/recursos/avaliar/${recurso.id}` method="POST")
+            .mb-3
+              input.form-control(type="number" name="avaliacao" min="1" max="5" placeholder="Avaliação 1-5" required)
+            .mb-3
+              textarea.form-control(name="comentario" rows="2" placeholder="Deixe um comentário sobre este recurso..." required)
+            button.btn.btn-primary.btn-sm(type="submit")
+              i.bi.bi-send.me-1
+              | Enviar Comentário
+          
+          hr
+          
+          if comentarios && comentarios.length > 0
+            each c in comentarios
+              .d-flex.mb-3
+                .flex-shrink-0
+                  img.rounded-circle(src="/images/default-avatar.png" width="40" height="40" alt="Avatar" onerror="this.src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png'")
+                .flex-grow-1.ms-3
+                  .d-flex.justify-content-between.align-items-center
+                    h6.fw-bold.mb-1= c.autor
+                    small.text-muted= new Date(c.data).toLocaleDateString('pt-PT')
+                  p.mb-1
+                    i.bi.bi-star-fill.text-warning.me-1
+                    strong.me-2= c.avaliacao
+                    | #{c.descricao}
+          else
+            p.text-muted.mt-3 Nenhum comentário até ao momento. Seja o primeiro!
+
+    .col-lg-4
+      .card.shadow-sm.border-0.mb-4
+        .card-body
+          h5.card-title.border-bottom.pb-2 Informações Gerais
+          ul.list-unstyled.mt-3.mb-0
+            li.mb-2
+              i.bi.bi-person-fill.text-secondary.me-2
+              strong Autor: 
+              a(href=`/perfil/${recurso.autor}`)= recurso.autor
+            li.mb-2
+              i.bi.bi-calendar-event.text-secondary.me-2
+              strong Data: 
+              | #{recurso.data_registo ? new Date(recurso.data_registo).toLocaleDateString('pt-PT') : 'N/D'}
+            li.mb-2
+              i.bi.bi-eye-fill.text-secondary.me-2
+              strong Visibilidade: 
+              | #{recurso.visibilidade || 'Pública'}
+            li.mb-2
+              i.bi.bi-hdd-fill.text-secondary.me-2
+              strong Tamanho: 
+              | #{recurso.tamanho_bytes ? (recurso.tamanho_bytes / 1024).toFixed(2) + ' KB' : 'N/D'}
+              
+          .d-grid.mt-4
+            a.btn.btn-success.btn-lg(href=`/recursos/download/${recurso.id}`)
+              i.bi.bi-cloud-download.me-2
+              | Descarregar Ficheiro
+
+  // Delete Confirmation Modal
+  .modal.fade#deleteModal(tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true")
+    .modal-dialog
+      .modal-content
+        .modal-header
+          h5.modal-title#deleteModalLabel Confirmar Eliminação
+          button.btn-close(type="button" data-bs-dismiss="modal" aria-label="Close")
+        .modal-body
+          p Tem a certeza que pretende eliminar este recurso?
+        .modal-footer
+          button.btn.btn-secondary(type="button" data-bs-dismiss="modal") Cancelar
+          form(action=`/recursos/delete/${recurso.id}` method="POST")
+            button.btn.btn-danger(type="submit") Eliminar
