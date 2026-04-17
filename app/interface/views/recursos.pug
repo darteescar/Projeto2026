@@ -42,6 +42,7 @@ block content
               th Título
               th Autor
               th UC
+              th Ano
               th Tipo
               th Data
               th Rating
@@ -52,6 +53,7 @@ block content
                 td.fw-bold= rec.titulo
                 td= rec.autor
                 td= rec.uc
+                td= rec.ano || 'N/D'
                 td
                   span.badge.bg-info.text-dark= rec.tipo
                 td= rec.data_registo ? new Date(rec.data_registo).toLocaleDateString('pt-PT') : 'N/D'

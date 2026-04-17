@@ -46,9 +46,9 @@
     },
     {
         "id": "4",
-        "titulo": "Teste 2",
+        "titulo": "Resolução não oficial Teste 1",
         "ano": "2023/2024",
-        "tipo": "Teste/Exame",
+        "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
         "autor": "1",
         "data_registo": "2025-10-22",
@@ -57,7 +57,7 @@
         "downloads": 220,
         "visualizacoes": 1713,
         "media_avaliacoes": 3.2,
-        "path": "Algoritmos/Testes e Exames/2023_2024/teste_2.pdf"
+        "path": "Algoritmos/Testes e Exames/2023_2024/teste_1_sol_não_oficial.pdf"
     },
     {
         "id": "5",
@@ -77,7 +77,7 @@
     {
         "id": "6",
         "titulo": "Resolução não oficial Teste 1",
-        "ano": "2023/2024",
+        "ano": "2022/2023",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
         "autor": "14",
@@ -87,12 +87,12 @@
         "downloads": 478,
         "visualizacoes": 1295,
         "media_avaliacoes": 1.7,
-        "path": "Algoritmos/Testes e Exames/2023_2024/teste_1_sol_não_oficial.pdf"
+        "path": "Algoritmos/Testes e Exames/2022_2023/teste_1_sol_não_oficial.pdf"
     },
     {
         "id": "7",
         "titulo": "Teste 1",
-        "ano": "2023/2024",
+        "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
         "autor": "12",
@@ -102,12 +102,12 @@
         "downloads": 303,
         "visualizacoes": 1362,
         "media_avaliacoes": 2.9,
-        "path": "Algoritmos/Testes e Exames/2023_2024/teste_1.pdf"
+        "path": "Algoritmos/Testes e Exames/2022_2023/teste_1.pdf"
     },
     {
         "id": "8",
         "titulo": "Recurso",
-        "ano": "2023/2024",
+        "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
         "autor": "11",
@@ -117,12 +117,12 @@
         "downloads": 70,
         "visualizacoes": 157,
         "media_avaliacoes": 2.7,
-        "path": "Algoritmos/Testes e Exames/2023_2024/recurso.pdf"
+        "path": "Algoritmos/Testes e Exames/2022_2023/recurso.pdf"
     },
     {
         "id": "9",
         "titulo": "Teste 2",
-        "ano": "2023/2024",
+        "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
         "autor": "12",
@@ -132,7 +132,7 @@
         "downloads": 4,
         "visualizacoes": 1996,
         "media_avaliacoes": 3.0,
-        "path": "Algoritmos/Testes e Exames/2023_2024/teste_2.pdf"
+        "path": "Algoritmos/Testes e Exames/2022_2023/teste_2.pdf"
     },
     {
         "id": "10",
@@ -151,9 +151,9 @@
     },
     {
         "id": "11",
-        "titulo": "Teste 1",
-        "ano": "2023/2024",
-        "tipo": "Teste/Exame",
+        "titulo": "Resolução Teste 1",
+        "ano": "2019/2020",
+        "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
         "autor": "13",
         "data_registo": "2026-04-14",
@@ -162,13 +162,13 @@
         "downloads": 434,
         "visualizacoes": 1657,
         "media_avaliacoes": 3.3,
-        "path": "Algoritmos/Testes e Exames/2023_2024/teste_1.pdf"
+        "path": "Algoritmos/Testes e Exames/2019_2020/teste_1_sol.pdf"
     },
     {
         "id": "12",
-        "titulo": "Resolução Teste 1",
+        "titulo": "Teste 1",
         "ano": "2019/2020",
-        "tipo": "Resolução de Teste/Exame",
+        "tipo": "Teste/Exame",
         "uc": "Algoritmos",
         "autor": "6",
         "data_registo": "2025-12-16",
@@ -177,12 +177,12 @@
         "downloads": 328,
         "visualizacoes": 616,
         "media_avaliacoes": 3.4,
-        "path": "Algoritmos/Testes e Exames/2019_2020/teste_1_sol.pdf"
+        "path": "Algoritmos/Testes e Exames/2019_2020/teste_1.pdf"
     },
     {
         "id": "13",
         "titulo": "Teste 2",
-        "ano": "2023/2024",
+        "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
         "autor": "12",
@@ -192,13 +192,13 @@
         "downloads": 367,
         "visualizacoes": 173,
         "media_avaliacoes": 3.4,
-        "path": "Algoritmos/Testes e Exames/2023_2024/teste_2.pdf"
+        "path": "Algoritmos/Testes e Exames/2019_2020/teste_2.pdf"
     },
     {
         "id": "14",
-        "titulo": "Resolução Teste 2",
+        "titulo": "Recurso",
         "ano": "2019/2020",
-        "tipo": "Resolução de Teste/Exame",
+        "tipo": "Teste/Exame",
         "uc": "Algoritmos",
         "autor": "3",
         "data_registo": "2025-11-07",
@@ -207,12 +207,12 @@
         "downloads": 494,
         "visualizacoes": 620,
         "media_avaliacoes": 2.3,
-        "path": "Algoritmos/Testes e Exames/2019_2020/teste_2_sol.pdf"
+        "path": "Algoritmos/Testes e Exames/2019_2020/recurso.pdf"
     },
     {
         "id": "15",
         "titulo": "Teste 1",
-        "ano": "2023/2024",
+        "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
         "autor": "6",
@@ -222,12 +222,12 @@
         "downloads": 266,
         "visualizacoes": 433,
         "media_avaliacoes": 2.7,
-        "path": "Algoritmos/Testes e Exames/2023_2024/teste_1.pdf"
+        "path": "Algoritmos/Testes e Exames/2021_2022/teste_1.pdf"
     },
     {
         "id": "16",
         "titulo": "Resolução Teste 1",
-        "ano": "2019/2020",
+        "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
         "autor": "11",
@@ -237,12 +237,12 @@
         "downloads": 42,
         "visualizacoes": 1412,
         "media_avaliacoes": 2.4,
-        "path": "Algoritmos/Testes e Exames/2019_2020/teste_1_sol.pdf"
+        "path": "Algoritmos/Testes e Exames/2021_2022/teste_1_sol.pdf"
     },
     {
         "id": "17",
-        "titulo": "Recurso",
-        "ano": "2023/2024",
+        "titulo": "Teste 2",
+        "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
         "autor": "2",
@@ -252,13 +252,13 @@
         "downloads": 293,
         "visualizacoes": 1172,
         "media_avaliacoes": 4.3,
-        "path": "Algoritmos/Testes e Exames/2023_2024/recurso.pdf"
+        "path": "Algoritmos/Testes e Exames/2021_2022/teste_2.pdf"
     },
     {
         "id": "18",
-        "titulo": "Teste 2",
-        "ano": "2023/2024",
-        "tipo": "Teste/Exame",
+        "titulo": "Resolução Teste 2",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
         "autor": "2",
         "data_registo": "2026-01-23",
@@ -267,13 +267,13 @@
         "downloads": 222,
         "visualizacoes": 1794,
         "media_avaliacoes": 3.7,
-        "path": "Algoritmos/Testes e Exames/2023_2024/teste_2.pdf"
+        "path": "Algoritmos/Testes e Exames/2021_2022/teste_2_sol.pdf"
     },
     {
         "id": "19",
-        "titulo": "Resolução não oficial Teste 1",
-        "ano": "2023/2024",
-        "tipo": "Resolução de Teste/Exame",
+        "titulo": "Teste 1",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
         "uc": "Algoritmos",
         "autor": "5",
         "data_registo": "2026-04-03",
@@ -282,12 +282,12 @@
         "downloads": 379,
         "visualizacoes": 1433,
         "media_avaliacoes": 2.9,
-        "path": "Algoritmos/Testes e Exames/2023_2024/teste_1_sol_não_oficial.pdf"
+        "path": "Algoritmos/Testes e Exames/2024_2025/teste_1.pdf"
     },
     {
         "id": "20",
-        "titulo": "Teste 1",
-        "ano": "2023/2024",
+        "titulo": "Teste 2",
+        "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
         "autor": "13",
@@ -297,12 +297,12 @@
         "downloads": 321,
         "visualizacoes": 1048,
         "media_avaliacoes": 3.9,
-        "path": "Algoritmos/Testes e Exames/2023_2024/teste_1.pdf"
+        "path": "Algoritmos/Testes e Exames/2024_2025/teste_2.pdf"
     },
     {
         "id": "21",
         "titulo": "Recurso",
-        "ano": "2023/2024",
+        "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
         "autor": "8",
@@ -312,7 +312,7 @@
         "downloads": 198,
         "visualizacoes": 1862,
         "media_avaliacoes": 2.4,
-        "path": "Algoritmos/Testes e Exames/2023_2024/recurso.pdf"
+        "path": "Algoritmos/Testes e Exames/2024_2025/recurso.pdf"
     },
     {
         "id": "22",
