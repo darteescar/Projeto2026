@@ -1,0 +1,46 @@
+extends layout
+
+block content
+  .text-center.mb-5.mt-4
+    h1.display-4.fw-bold Bem-vindo à Plataforma de Recursos de LEI
+    p.lead.text-muted Partilha, descubre e organiza os materiais académicos de LEI.
+
+  .row.mb-4
+    .col-md-8
+      .card.shadow-sm.border-0.h-100
+        .card-header.bg-primary.text-white
+          h4.mb-0
+            i.bi.bi-newspaper.me-2
+            | Últimos Recursos Adicionados
+        .card-body
+          .list-group.list-group-flush
+            if recentes && recentes.length > 0
+              each r in recentes
+                a.list-group-item.list-group-item-action(href=`/recursos/detalhes/${r.id}`)
+                  .d-flex.justify-content-between.align-items-center
+                    h5.mb-1= r.titulo
+                    small.text-muted= new Date(r.data_registo).toLocaleDateString('pt-PT')
+                  p.mb-1 
+                    span.badge.bg-info.text-dark.me-2= r.tipo
+                    | Adicionado por #{r.autor} à UC de #{r.uc}
+            else
+              p.text-muted.text-center.mt-3 Sem novidades de momento.
+    
+    .col-md-4
+      .card.shadow-sm.border-0.h-100
+        .card-header.bg-success.text-white
+          h4.mb-0
+            i.bi.bi-trophy-fill.me-2
+            | Top Mais Visitados
+        .card-body
+          ol.list-group.list-group-numbered.list-group-flush
+            if top10 && top10.length > 0
+              each t in top10
+                li.list-group-item.d-flex.justify-content-between.align-items-start
+                  .ms-2.me-auto
+                    .fw-bold 
+                      a.text-decoration-none.text-dark(href=`/recursos/detalhes/${t.id}`)= t.titulo
+                    | #{t.uc}
+                  span.badge.bg-primary.rounded-pill #{t.visualizacoes || 0} views
+            else
+              p.text-muted.text-center.mt-3 Sem dados.
