@@ -1,0 +1,272 @@
+[
+    {
+        "_id": "1",
+        "nome": "Rui",
+        "apelido": "Carvalho",
+        "data_criacao": "2026-02-01T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass1123",
+        "email": "user1@example.com"
+    },
+    {
+        "_id": "2",
+        "nome": "Sofia",
+        "apelido": "Silva",
+        "data_criacao": "2025-12-08T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass2123",
+        "email": "user2@example.com"
+    },
+    {
+        "_id": "3",
+        "nome": "José",
+        "apelido": "Martins",
+        "data_criacao": "2025-07-16T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass3123",
+        "email": "user3@example.com"
+    },
+    {
+        "_id": "4",
+        "nome": "João",
+        "apelido": "Ribeiro",
+        "data_criacao": "2025-12-08T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass4123",
+        "email": "user4@example.com"
+    },
+    {
+        "_id": "5",
+        "nome": "João",
+        "apelido": "Ferreira",
+        "data_criacao": "2025-07-21T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass5123",
+        "email": "user5@example.com"
+    },
+    {
+        "_id": "6",
+        "nome": "Hugo",
+        "apelido": "Gomes",
+        "data_criacao": "2025-07-27T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass6123",
+        "email": "user6@example.com"
+    },
+    {
+        "_id": "7",
+        "nome": "Maria",
+        "apelido": "Pinto",
+        "data_criacao": "2025-05-14T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass7123",
+        "email": "user7@example.com"
+    },
+    {
+        "_id": "8",
+        "nome": "Cláudia",
+        "apelido": "Alves",
+        "data_criacao": "2026-04-08T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass8123",
+        "email": "user8@example.com"
+    },
+    {
+        "_id": "9",
+        "nome": "Catarina",
+        "apelido": "Oliveira",
+        "data_criacao": "2026-01-12T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass9123",
+        "email": "user9@example.com"
+    },
+    {
+        "_id": "10",
+        "nome": "Tiago",
+        "apelido": "Silva",
+        "data_criacao": "2025-07-05T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass10123",
+        "email": "user10@example.com"
+    },
+    {
+        "_id": "11",
+        "nome": "Inês",
+        "apelido": "Marques",
+        "data_criacao": "2026-01-28T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass11123",
+        "email": "user11@example.com"
+    },
+    {
+        "_id": "12",
+        "nome": "Catarina",
+        "apelido": "Marques",
+        "data_criacao": "2025-09-03T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass12123",
+        "email": "user12@example.com"
+    },
+    {
+        "_id": "13",
+        "nome": "Ana",
+        "apelido": "Dias",
+        "data_criacao": "2025-06-04T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass13123",
+        "email": "user13@example.com"
+    },
+    {
+        "_id": "14",
+        "nome": "Tiago",
+        "apelido": "Lopes",
+        "data_criacao": "2025-07-02T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass14123",
+        "email": "user14@example.com"
+    },
+    {
+        "_id": "15",
+        "nome": "Maria",
+        "apelido": "Martins",
+        "data_criacao": "2025-06-27T12:21:47Z",
+        "role": "PRODUTOR",
+        "password": "pass15123",
+        "email": "user15@example.com"
+    },
+    {
+        "_id": "16",
+        "nome": "Maria",
+        "apelido": "Dias",
+        "data_criacao": "2025-08-25T12:21:47Z",
+        "role": "USER",
+        "password": "pass16123",
+        "email": "user16@example.com"
+    },
+    {
+        "_id": "17",
+        "nome": "Rui",
+        "apelido": "Carvalho",
+        "data_criacao": "2025-06-04T12:21:47Z",
+        "role": "USER",
+        "password": "pass17123",
+        "email": "user17@example.com"
+    },
+    {
+        "_id": "18",
+        "nome": "Cláudia",
+        "apelido": "Gomes",
+        "data_criacao": "2025-05-05T12:21:47Z",
+        "role": "USER",
+        "password": "pass18123",
+        "email": "user18@example.com"
+    },
+    {
+        "_id": "19",
+        "nome": "Hugo",
+        "apelido": "Ferreira",
+        "data_criacao": "2025-10-27T12:21:47Z",
+        "role": "USER",
+        "password": "pass19123",
+        "email": "user19@example.com"
+    },
+    {
+        "_id": "20",
+        "nome": "Teresa",
+        "apelido": "Costa",
+        "data_criacao": "2026-02-21T12:21:47Z",
+        "role": "USER",
+        "password": "pass20123",
+        "email": "user20@example.com"
+    },
+    {
+        "_id": "21",
+        "nome": "Carlos",
+        "apelido": "Rodrigues",
+        "data_criacao": "2025-11-07T12:21:47Z",
+        "role": "USER",
+        "password": "pass21123",
+        "email": "user21@example.com"
+    },
+    {
+        "_id": "22",
+        "nome": "Rui",
+        "apelido": "Santos",
+        "data_criacao": "2025-07-21T12:21:47Z",
+        "role": "USER",
+        "password": "pass22123",
+        "email": "user22@example.com"
+    },
+    {
+        "_id": "23",
+        "nome": "Hugo",
+        "apelido": "Martins",
+        "data_criacao": "2026-02-18T12:21:47Z",
+        "role": "USER",
+        "password": "pass23123",
+        "email": "user23@example.com"
+    },
+    {
+        "_id": "24",
+        "nome": "José",
+        "apelido": "Costa",
+        "data_criacao": "2026-02-13T12:21:47Z",
+        "role": "USER",
+        "password": "pass24123",
+        "email": "user24@example.com"
+    },
+    {
+        "_id": "25",
+        "nome": "Rui",
+        "apelido": "Ferreira",
+        "data_criacao": "2025-10-25T12:21:47Z",
+        "role": "USER",
+        "password": "pass25123",
+        "email": "user25@example.com"
+    },
+    {
+        "_id": "26",
+        "nome": "Sofia",
+        "apelido": "Rodrigues",
+        "data_criacao": "2026-03-09T12:21:47Z",
+        "role": "USER",
+        "password": "pass26123",
+        "email": "user26@example.com"
+    },
+    {
+        "_id": "27",
+        "nome": "João",
+        "apelido": "Lopes",
+        "data_criacao": "2025-11-30T12:21:47Z",
+        "role": "USER",
+        "password": "pass27123",
+        "email": "user27@example.com"
+    },
+    {
+        "_id": "28",
+        "nome": "Carlos",
+        "apelido": "Dias",
+        "data_criacao": "2025-04-21T12:21:47Z",
+        "role": "USER",
+        "password": "pass28123",
+        "email": "user28@example.com"
+    },
+    {
+        "_id": "29",
+        "nome": "Sofia",
+        "apelido": "Silva",
+        "data_criacao": "2026-03-27T12:21:47Z",
+        "role": "USER",
+        "password": "pass29123",
+        "email": "user29@example.com"
+    },
+    {
+        "_id": "30",
+        "nome": "Teresa",
+        "apelido": "Silva",
+        "data_criacao": "2026-02-07T12:21:47Z",
+        "role": "USER",
+        "password": "pass30123",
+        "email": "user30@example.com"
+    }
+]
