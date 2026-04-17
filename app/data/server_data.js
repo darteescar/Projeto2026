@@ -51,5 +51,11 @@ app.listen(PORT, () => {
     console.log('  PUT    /comentarios/:id');
     console.log('  DELETE /comentarios/:id');
     console.log('');
-    // TODO: users
+    console.log('  [USERS]');
+    console.log('  POST   /users');
+    console.log('  GET    /users');
+    console.log('  GET    /users?email=xxxx&password=yyyy');
+    console.log('  GET    /users/:id');
+    console.log('  PUT    /users/:id');
+    console.log('  DELETE /users/:id');
 });

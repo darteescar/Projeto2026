@@ -6,6 +6,6 @@ mongoimport --host localhost --db recursosEscolares --collection recursos --type
 mongoimport --host localhost --db recursosEscolares --collection comentarios --type json --file /docker-entrypoint-initdb.d/comentarios.json --jsonArray
 
 # Importa o dataset de users para a base de dados recursosEscolares, coleção users
-#TODO: mongoimport --host localhost --db recursosEscolares --collection users --type json --file /docker-entrypoint-initdb.d/users.json --jsonArray
+mongoimport --host localhost --db recursosEscolares --collection users --type json --file /docker-entrypoint-initdb.d/users.json --jsonArray
 
 echo "Import concluído."

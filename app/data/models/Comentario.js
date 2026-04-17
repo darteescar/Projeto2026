@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
 const comentarioSchema = new mongoose.Schema({
-    id: { type: String, required: true, unique: true },
-    recurso_id: { type: String, required: true },
-    autor: { type: String, required: true },
+    id: { type: Number, required: true, unique: true },
+    recurso_id: { type: Number, required: true },
+    autor: { type: Number, required: true },
     avaliacao: { type: Number, required: true, min: 1, max: 5 },
     descricao: { type: String, required: true },
     data: { type: Date, required: true }
