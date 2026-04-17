@@ -29,6 +29,22 @@ services:
     restart: always
     networks:
       - projeto-network
+  # 4. Serviço de Interface Web
+  interface:
+    build:
+      context: ./interface
+      dockerfile: Dockerfile.interface
+    container_name: interface_server
+    ports:
+      - "16002:16002"
+    environment:
+      - PORT=16002
+      - API_DADOS_URL=http://api_dados_server:16000/api
+    depends_on:
+      - api-dados
+    restart: always
+    networks:
+      - projeto-network 
 
 volumes:
   mongo_data:

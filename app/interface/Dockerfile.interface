@@ -1,0 +1,21 @@
+# Dockerfile para a interface
+# Usa a imagem oficial do Node.js como base
+FROM node:22-alpine
+
+# Definir a diretoria de trabalho
+WORKDIR /app
+
+# Copiar os ficheiros de configuração e código para dentro da imagem
+COPY package*.json ./
+
+# Instalar as dependências
+RUN npm install
+
+# Copiar o código da aplicação para dentro da imagem
+COPY . .
+
+# Expor a porta da API
+EXPOSE 16002
+
+# Comando para arrancar a aplicação
+CMD ["node", "server_interface.js"]
