@@ -15,19 +15,19 @@ block content
           select#uc.form-select(name="uc")
             option(value="") Todos
             for uc in ucs
-              option(value=uc selected=(query && query.uc === uc) ? 'selected' : '')= uc
+              option(value=uc selected=(query && query.uc === uc))= uc
         .col-md-3
           label.form-label.fw-bold(for="tipo") Tipo de Recurso
           select#tipo.form-select(name="tipo")
             option(value="") Todos
             for tipo in tipos
-              option(value=tipo selected=(query && query.tipo === tipo) ? 'selected' : '')= tipo
+              option(value=tipo selected=(query && query.tipo === tipo))= tipo
         .col-md-3
           label.form-label.fw-bold(for="ordem") Ordenar por:
           select#ordem.form-select(name="ordem")
-            option(value="data_desc" selected=(query && query.ordem === 'data_desc') ? 'selected' : '') Data (Mais recente)
-            option(value="data_asc" selected=(query && query.ordem === 'data_asc') ? 'selected' : '') Data (Mais antigo)
-            option(value="estrelas_desc" selected=(query && query.ordem === 'estrelas_desc') ? 'selected' : '') Avaliação (Melhores)
+            option(value="data_desc" selected=(query && query.ordem === 'data_desc')) Data (Mais recente)
+            option(value="data_asc" selected=(query && query.ordem === 'data_asc')) Data (Mais antigo)
+            option(value="estrelas_desc" selected=(query && query.ordem === 'estrelas_desc')) Avaliação (Melhores)
         .col-md-3.d-flex.align-items-end
           button.btn.btn-primary.w-100(type="submit")
             i.bi.bi-filter.me-1
@@ -65,4 +65,4 @@ block content
                     i.bi.bi-download
             else
               tr
-                td(colspan="7").text-center.text-muted.py-4 Nenhumm recurso encontrado
+                td(colspan="7").text-center.text-muted.py-4 Nenhum recurso encontrado
