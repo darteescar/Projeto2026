@@ -17,7 +17,10 @@ block content
             .row.mb-3
               .col-md-6
                 label.form-label.fw-bold(for="uc") Unidade Curricular (UC)
-                input#uc.form-control(type="text" name="uc" placeholder="Ex: Eng. Web" required)
+                select#uc.form-select(name="uc" required)
+                  option(value="" disabled selected) Selecione uma opção...
+                  each val in ['Álgebra', 'Algoritmos', 'Análise', 'Arquitetura', 'BD', 'CC', 'CG', 'CP', 'Cálculo', 'DSS', 'EA', 'EPTN', 'FCD', 'FM', 'IA', 'IO', 'IPM', 'Lógica', 'MNONL', 'PF', 'PI', 'PL', 'POO', 'RC', 'SC', 'SD', 'SO', 'TMD']
+                    option(value=val)= val
               .col-md-6
                 label.form-label.fw-bold(for="ano") Ano Letivo
                 input#ano.form-control(type="text" name="ano" placeholder="Ex: 2025/2026" required)
@@ -27,31 +30,18 @@ block content
                 label.form-label.fw-bold(for="tipo") Tipo de Recurso
                 select#tipo.form-select(name="tipo" required)
                   option(value="" disabled selected) Selecione uma opção...
-                  option(value="slides") Slides
-                  option(value="teste") Teste
-                  option(value="video") Vídeo
-                  option(value="dataset") Dataset
-                  option(value="livros") Livros
-                  option(value="aulas") Aulas Gravadas
-                  option(value="resumos") Resumos
-                  option(value="fichas") Fichas
-                  option(value="formulario") Formulário
-                  option(value="resolucao_teste") Resolução de Teste
-                  option(value="resolucao_ficha") Resolução de Ficha
+                  each val in ['Bibliografia', 'Exercícios', 'Ficha', 'Formulário', 'Resolução de Ficha', 'Resolução de Teste/Exame', 'Resumos', 'Slides', 'Teste/Exame']
+                    option(value=val)= val
               .col-md-6
                 label.form-label.fw-bold Visibilidade
                 .mt-2
                   .form-check.form-check-inline
-                    input#publica.form-check-input(type="radio" name="visibilidade" value="publica" checked)
+                    input#publica.form-check-input(type="radio" name="visibilidade" value="publico" checked)
                     label.form-check-label(for="publica") Pública
                   .form-check.form-check-inline
-                    input#privada.form-check-input(type="radio" name="visibilidade" value="privada")
+                    input#privada.form-check-input(type="radio" name="visibilidade" value="privado")
                     label.form-check-label(for="privada") Privada
 
-            .mb-3
-              label.form-label.fw-bold(for="descricao") Descrição
-              textarea#descricao.form-control(name="descricao" rows="4" placeholder="Breve descrição do conteúdo do recurso...")
-            
             .mb-4
               label.form-label.fw-bold(for="ficheiro") Ficheiro (PDF, Imagem, etc.)
               input#ficheiro.form-control(type="file" name="ficheiro" required)

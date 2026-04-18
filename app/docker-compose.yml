@@ -42,6 +42,8 @@ services:
       - API_DADOS_URL=http://api_dados_server:16000/api
     depends_on:
       - api-dados
+    volumes:
+      - ./interface/public/uploads:/app/public/uploads
     restart: always
     networks:
       - projeto-network 

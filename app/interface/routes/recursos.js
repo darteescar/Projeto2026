@@ -2,6 +2,8 @@ var axios = require('axios');
 var express = require('express');
 var router = express.Router();
 var multer = require('multer');
+var fs = require('fs');
+var path = require('path');
 
 // Define a pasta onde o multer vai colocar os ficheiros recebidos
 var upload = multer({ dest: 'uploads/' });
@@ -26,7 +28,7 @@ router.get('/', async function(req, res) {
 
     const selectedOrder = ordemMap[ordem] || ordemMap.data_desc;
 
-    // Filtros para a tabela (com projeção, ordenação e visibilidade pública)
+    // Filtros para a tabela
     const filtrosApi = {
       visibilidade: 'publico',
       _select: 'id,titulo,uc,ano,tipo,data_registo,media_avaliacoes',
@@ -38,7 +40,7 @@ router.get('/', async function(req, res) {
     if (req.query.tipo) filtrosApi.tipo = req.query.tipo;
     if (req.query.ano) filtrosApi.ano = req.query.ano;
 
-    // Filtros para preencher os dropdowns (todas as UCs e tipos de ficheiros públicos)
+    // Filtros para preencher os dropdowns
     const filtrosPublicos = {
       visibilidade: 'publico',
       _select: 'uc,tipo,ano'
@@ -85,23 +87,52 @@ router.get('/adicionar', function(req, res) {
 // POST adicionar novo recurso à base de dados 
 router.post('/adicionar', upload.single('ficheiro'), async function(req, res, next) {
   try {
-    const recursos = await axios.get(`${API_DADOS_URL}/recursos`);
-    const newId = recursos.data.length + 1;
+    const recursosResp = await axios.get(`${API_DADOS_URL}/recursos`);
+    const maxId = recursosResp.data.reduce((max, r) => Math.max(max, Number(r.id) || 0), 0);
+    const novoId = (maxId + 1).toString();
+
+    let relativePath = "";
+
+    if (req.file) {
+      // Normalizar o nome da UC
+      const ucNormalizada = req.body.uc
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')     // Remove acentos
+        .replace(/[^a-zA-Z0-9]/g, '_')       // Remove espaços e símbolos estranhos
+        .toLowerCase();
+
+      // Definir o path final
+      const dirPath = path.join(__dirname, '../public/uploads', ucNormalizada);
+      
+      // Cria a pasta caso não exista
+      if (!fs.existsSync(dirPath)) {
+        fs.mkdirSync(dirPath, { recursive: true });
+      }
+
+      // Gerar o nome final
+      const newFilename = `${novoId}_${req.file.originalname.replace(/\s+/g, '_')}`;
+      const finalFilePath = path.join(dirPath, newFilename);
+      
+      fs.renameSync(req.file.path, finalFilePath);
+
+      // Caminho guardado na BD para aceder depois
+      relativePath = `/uploads/${ucNormalizada}/${newFilename}`;
+    }
 
     const recurso = {
-      id: newId,
+      id: novoId,
       titulo: req.body.titulo,
       ano: req.body.ano,
       tipo: req.body.tipo,
       uc: req.body.uc,
-      autor: 1, // TODO: substituir pelo id numérico do user autenticado
+      autor: "1", // TODO: substituir pelo id do autor logado
       data_registo: new Date().toISOString(),
       visibilidade: req.body.visibilidade,
       tamanho_bytes: req.file ? req.file.size : 0,
       downloads: 0,
       visualizacoes: 0,
       media_avaliacoes: 0,
-      path: "" // TODO: decidir o storage
+      path: relativePath
     };
     
     await axios.post(`${API_DADOS_URL}/recursos`, recurso);
@@ -181,6 +212,16 @@ router.post('/editar/:id', async function(req, res) {
 // POST eliminar recurso específico
 router.post('/delete/:id', async function(req, res) {
   try {
+    const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
+    const recurso = response.data;
+
+    if (recurso.path) {
+      const filePath = path.join(__dirname, '../public', recurso.path);
+      if (fs.existsSync(filePath)) {
+        fs.unlinkSync(filePath); // Apaga o ficheiro físico
+      }
+    }
+
     await axios.delete(`${API_DADOS_URL}/recursos/${req.params.id}`);
     res.redirect('/recursos');
   } catch (err) {
@@ -227,8 +268,39 @@ router.post('/avaliar/:id', async function(req, res, next) {
   }
 });
 
-router.get('/download/:id', function(req, res, next) {
-  res.status(500).render('error', { message: 'Download não implementado', error: new Error('Download não implementado') });
+router.get('/download/:id', async function(req, res, next) {
+  try {
+    // Obter os dados do recurso
+    const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
+    const recurso = response.data;
+
+    // Verificar se o recurso tem um ficheiro (path) guardado
+    if (!recurso.path) {
+      return res.status(404).render('error', { message: 'Este recurso não tem nenhum ficheiro associado.', error: null });
+    }
+
+    // Construir o caminho absoluto para o ficheiro no disco
+    // recurso.path tem o formato "/uploads/uc/id_ficheiro.pdf"
+    const filePath = path.join(__dirname, '../public', recurso.path);
+
+    // Confirmar que o ficheiro fisicamente ainda lá está
+    if (!fs.existsSync(filePath)) {
+      return res.status(404).render('error', { message: 'Ficheiro não encontrado no servidor.', error: null });
+    }
+
+    // Limpar o nome do ficheiro para que no browser faça download sem o prefixo do ID
+    const nomeGuardado = recurso.path.split('/').pop(); // "42_teste.pdf"
+    const nomeLimpo = nomeGuardado.replace(new RegExp(`^${recurso.id}_`), ''); // "teste.pdf"
+
+    // Incrementar contador de downloads
+    const recursoAtualizado = { ...recurso, downloads: (recurso.downloads || 0) + 1 };
+    await axios.put(`${API_DADOS_URL}/recursos/${recurso.id}`, recursoAtualizado);
+
+    // Enviar ficheiro
+    res.download(filePath, nomeLimpo);
+  } catch (err) {
+    res.status(500).render('error', { message: 'Erro ao processar o pedido de download.', error: err });
+  }
 });
 
 module.exports = router;
