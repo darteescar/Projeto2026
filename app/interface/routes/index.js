@@ -2,7 +2,7 @@ var axios = require('axios');
 var express = require('express');
 var router = express.Router();
 
-const API_DADOS_URL = process.env.API_DADOS_URL || 'http://localhost:16002';
+const API_DADOS_URL = process.env.API_DADOS_URL || 'http://api_dados_server:16000/api';
 
 // GET página principal
 router.get('/', async function(req, res) {
@@ -25,17 +25,6 @@ router.get('/sobre', function(req, res) {
   res.render('sobre', { title: 'Sobre | Recursos LEI' });
 });
 
-// GET perfil do utilizador atual
-router.get('/perfil', function(req, res, next) {
-  // TODO: depois com os users is buscar a informação direita
-  res.render('profile', { title: 'O Meu Perfil | Recursos LEI' });
-});
-
-// GET perfil de um utilizador específico
-router.get('/perfil/:id', function(req, res, next) {
-  // TODO: meter o titulo do perfil como o nome do utilizador
-  res.render('profile', { title: 'Perfil de Utilizador | Recursos LEI' });
-});
 
 
 

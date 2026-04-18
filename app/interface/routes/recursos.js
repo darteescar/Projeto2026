@@ -6,7 +6,7 @@ var multer = require('multer');
 // Define a pasta onde o multer vai colocar os ficheiros recebidos
 var upload = multer({ dest: 'uploads/' });
 
-const API_DADOS_URL = process.env.API_DADOS_URL || 'http://localhost:16002';
+const API_DADOS_URL = process.env.API_DADOS_URL || 'http://localhost:16000/api';
 
 //!===================================================!//
 //!     Todas as rotas já têm o prefixo /recursos     !//
@@ -15,25 +15,58 @@ const API_DADOS_URL = process.env.API_DADOS_URL || 'http://localhost:16002';
 // GET todos os recursos, com filtros opcionais
 router.get('/', async function(req, res) {
   try {
-    const queryParams = new URLSearchParams(req.query).toString();
+    const ordem = req.query.ordem || 'data_desc';
+
+    const ordemMap = {
+      data_desc: { _sort: 'data_registo', _order: 'desc' },
+      data_asc: { _sort: 'data_registo', _order: 'asc' },
+      estrelas_desc: { _sort: 'media_avaliacoes', _order: 'desc' },
+      estrelas_asc: { _sort: 'media_avaliacoes', _order: 'asc' }
+    };
+
+    const selectedOrder = ordemMap[ordem] || ordemMap.data_desc;
+
+    // Filtros para a tabela (com projeção, ordenação e visibilidade pública)
+    const filtrosApi = {
+      visibilidade: 'publico',
+      _select: 'id,titulo,uc,ano,tipo,data_registo,media_avaliacoes',
+      ...selectedOrder
+    };
+
+    // Propagar filtros de pesquisa
+    if (req.query.uc) filtrosApi.uc = req.query.uc;
+    if (req.query.tipo) filtrosApi.tipo = req.query.tipo;
+    if (req.query.ano) filtrosApi.ano = req.query.ano;
+
+    // Filtros para preencher os dropdowns (todas as UCs e tipos de ficheiros públicos)
+    const filtrosPublicos = {
+      visibilidade: 'publico',
+      _select: 'uc,tipo,ano'
+    };
+
+    const queryParams = new URLSearchParams(filtrosApi).toString();
+    const allParams = new URLSearchParams(filtrosPublicos).toString();
+
     const [responseFiltered, responseAll] = await Promise.all([
       axios.get(`${API_DADOS_URL}/recursos?${queryParams}`),
-      axios.get(`${API_DADOS_URL}/recursos`)
+      axios.get(`${API_DADOS_URL}/recursos?${allParams}`)
     ]);
-    
+
     const recursos = responseFiltered.data;
     const todosRecursos = responseAll.data;
 
-    // Extrair UCs e Tipos únicos
+    // Extrair UCs e Tipos únicos para os filtros do Pug
     const ucs = [...new Set(todosRecursos.map(r => r.uc).filter(Boolean))].sort();
     const tipos = [...new Set(todosRecursos.map(r => r.tipo).filter(Boolean))].sort();
+    const anos = [...new Set(todosRecursos.map(r => r.ano).filter(Boolean))].sort().reverse();
 
     res.render('recursos', { 
       title: 'Catálogo de Recursos | Recursos LEI', 
-      query: req.query, 
+      query: { ...req.query, ordem }, 
       recursos,
       ucs,
-      tipos
+      tipos,
+      anos
     });
   } catch (err) {
     res.status(500).render('error', { message: 'Erro ao contactar API de Dados', error: err });
@@ -61,7 +94,7 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
       ano: req.body.ano,
       tipo: req.body.tipo,
       uc: req.body.uc,
-      autor: "Sistema de Teste", // TODO: meter o user que está logado
+      autor: 1, // TODO: substituir pelo id numérico do user autenticado
       data_registo: new Date().toISOString(),
       visibilidade: req.body.visibilidade,
       tamanho_bytes: req.file ? req.file.size : 0,
@@ -92,7 +125,18 @@ router.get('/detalhes/:id', async function(req, res) {
     
     const recurso = recResp.data;
     const comentarios = comRes.data;
-    res.render('detalhesRecurso', { title: 'Detalhes do Recurso | Recursos LEI', recurso, comentarios });
+
+    let autor;
+    try {
+      const userResp = await axios.get(`${API_DADOS_URL}/users/${recurso.autor}`);
+      autor = `${userResp.data.nome} ${userResp.data.apelido}`;
+    } catch (userErr) {
+      if (!(userErr.response && userErr.response.status === 404)) {
+        throw userErr;
+      }
+    }
+
+    res.render('detalhesRecurso', { title: 'Detalhes do Recurso | Recursos LEI', recurso, comentarios, autor });
   } catch (err) {
     res.status(500).render('error', { message: 'Erro ao obter dados do recurso', error: err });
   }
@@ -165,10 +209,13 @@ router.post('/delete/:id', async function(req, res) {
 
 router.post('/avaliar/:id', async function(req, res, next) {
   try {
+    const comentariosResp = await axios.get(`${API_DADOS_URL}/comentarios`);
+    const maxId = comentariosResp.data.reduce((max, c) => Math.max(max, Number(c.id) || 0), 0);
+
     const evalData = {
-      id: crypto.randomUUID(),
-      recurso_id: req.params.id,
-      autor: "User_" + Math.floor(Math.random() * 100), // temp format
+      id: maxId + 1,
+      recurso_id: Number(req.params.id),
+      autor: 1, // TODO: substituir pelo id numérico do user autenticado
       avaliacao: Number(req.body.avaliacao) || 5, // assuming no stars on UI yet, defaults to 5
       descricao: req.body.comentario,
       data: new Date().toISOString()

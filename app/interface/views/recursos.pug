@@ -10,24 +10,31 @@ block content
   .card.shadow-sm.border-0.mb-4
     .card-body
       form.row.g-3.justify-content-center(action="/recursos" method="GET")
-        .col-md-3
-          label.form-label.fw-bold(for="uc") UC (Unidade Curricular)
+        .col-md-2
+          label.form-label.fw-bold(for="uc") UC
           select#uc.form-select(name="uc")
-            option(value="") Todos
+            option(value="") Todas
             for uc in ucs
               option(value=uc selected=(query && query.uc === uc))= uc
-        .col-md-3
-          label.form-label.fw-bold(for="tipo") Tipo de Recurso
+        .col-md-2
+          label.form-label.fw-bold(for="tipo") Tipo
           select#tipo.form-select(name="tipo")
             option(value="") Todos
             for tipo in tipos
               option(value=tipo selected=(query && query.tipo === tipo))= tipo
+        .col-md-2
+          label.form-label.fw-bold(for="ano") Ano
+          select#ano.form-select(name="ano")
+            option(value="") Todos
+            for ano in anos
+              option(value=ano selected=(query && query.ano == ano))= ano
         .col-md-3
           label.form-label.fw-bold(for="ordem") Ordenar por:
           select#ordem.form-select(name="ordem")
-            option(value="data_desc" selected=(query && query.ordem === 'data_desc')) Data (Mais recente)
+            option(value="data_desc" selected=(!query || !query.ordem || query.ordem === 'data_desc')) Data (Mais recente)
             option(value="data_asc" selected=(query && query.ordem === 'data_asc')) Data (Mais antigo)
             option(value="estrelas_desc" selected=(query && query.ordem === 'estrelas_desc')) Avaliação (Melhores)
+            option(value="estrelas_asc" selected=(query && query.ordem === 'estrelas_asc')) Avaliação (Piores)
         .col-md-3.d-flex.align-items-end
           button.btn.btn-primary.w-100(type="submit")
             i.bi.bi-filter.me-1
@@ -40,7 +47,6 @@ block content
           thead.table-dark
             tr
               th Título
-              th Autor
               th UC
               th Ano
               th Tipo
@@ -51,7 +57,6 @@ block content
             each rec in recursos
               tr
                 td.fw-bold= rec.titulo
-                td= rec.autor
                 td= rec.uc
                 td= rec.ano || 'N/D'
                 td
