@@ -113,7 +113,8 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
       const newFilename = `${novoId}_${req.file.originalname.replace(/\s+/g, '_')}`;
       const finalFilePath = path.join(dirPath, newFilename);
       
-      fs.renameSync(req.file.path, finalFilePath);
+      fs.copyFileSync(req.file.path, finalFilePath);
+      fs.unlinkSync(req.file.path);
 
       // Caminho guardado na BD para aceder depois
       relativePath = `/uploads/${ucNormalizada}/${newFilename}`;
@@ -151,19 +152,22 @@ router.get('/detalhes/:id', async function(req, res) {
   try {
     const [recResp, comRes] = await Promise.all([
       axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`),
-      axios.get(`${API_DADOS_URL}/comentarios?recurso_id=${req.params.id}`)
+      axios.get(`${API_DADOS_URL}/comentarios?recurso_id=${req.params.id}&_sort=data&_order=desc`)
     ]);
     
-    const recurso = recResp.data;
+    let recurso = recResp.data;
     const comentarios = comRes.data;
 
-    let autor;
+    recurso.visualizacoes = (recurso.visualizacoes || 0) + 1;
+    await axios.put(`${API_DADOS_URL}/recursos/${recurso.id}`, recurso);
+
+    let autor = "Autor Desconhecido";
     try {
       const userResp = await axios.get(`${API_DADOS_URL}/users/${recurso.autor}`);
       autor = `${userResp.data.nome} ${userResp.data.apelido}`;
-    } catch (userErr) {
-      if (!(userErr.response && userErr.response.status === 404)) {
-        throw userErr;
+    } catch (errAutor) {
+      if (!(errAutor.response && errAutor.response.status === 404)) {
+        console.error("Erro ao obter o autor:", errAutor.message);
       }
     }
 

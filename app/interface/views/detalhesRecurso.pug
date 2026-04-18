@@ -21,9 +21,6 @@ block content
           span.badge.bg-info.text-dark.fs-6.mb-3= recurso.tipo
           span.badge.bg-secondary.fs-6.ms-2= recurso.uc
           span.badge.bg-dark.fs-6.ms-2= recurso.ano
-          
-          h5.mt-4 Descrição:
-          p.text-muted.text-justify= recurso.descricao || 'Sem descrição disponível.'
             
           hr.my-4
           
@@ -88,7 +85,7 @@ block content
             li.mb-2
               i.bi.bi-person-fill.text-secondary.me-2
               strong Autor: 
-              a(href=`/perfil/${recurso.autor}`)= recurso.autor
+              a(href=`/perfil/${recurso.autor}`)= autor
             li.mb-2
               i.bi.bi-calendar-event.text-secondary.me-2
               strong Data: 
@@ -96,13 +93,16 @@ block content
             li.mb-2
               i.bi.bi-eye-fill.text-secondary.me-2
               strong Visibilidade: 
-              | #{recurso.visibilidade || 'Pública'}
+              | #{recurso.visibilidade === 'publico' ? 'Público' : 'Privado'}
             li.mb-2
               i.bi.bi-hdd-fill.text-secondary.me-2
               strong Tamanho: 
               | #{recurso.tamanho_bytes ? (recurso.tamanho_bytes / 1024).toFixed(2) + ' KB' : 'N/D'}
               
-          .d-grid.mt-4
+          .d-grid.mt-4.gap-2
+            a.btn.btn-primary.btn-lg(href=recurso.path target="_blank")
+              i.bi.bi-eye-fill.me-2
+              | Visualizar Ficheiro
             a.btn.btn-success.btn-lg(href=`/recursos/download/${recurso.id}`)
               i.bi.bi-cloud-download.me-2
               | Descarregar Ficheiro
