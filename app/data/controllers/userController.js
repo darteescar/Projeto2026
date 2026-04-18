@@ -13,14 +13,45 @@ const userController = {
 
     getAllUsers: async function(req, res){
         try {
+            let queryObj = { ...req.query };
 
-            const { email, password } = req.query;
-            let filter = {};
-            
-            if (email) filter.email = email;
-            if (password) filter.password = password;
+            const searchTerm = queryObj.q;
+            const fields = queryObj._select;
+            const sortField = queryObj._sort;
+            const order = queryObj._order === 'desc' ? -1 : 1;
 
-            const users = await User.find(filter);
+            delete queryObj.q;
+            delete queryObj._select;
+            delete queryObj._sort;
+            delete queryObj._order;
+
+            let mongoQuery = {};
+            let projection = {};
+            let mongoSort = {};
+
+            if (searchTerm) {
+                mongoQuery = { $text: { $search: searchTerm } };
+                projection.score = { $meta: 'textScore' };
+                mongoSort = { score: { $meta: 'textScore' } };
+            } else {
+                mongoQuery = queryObj;
+            }
+
+            if (fields) {
+                fields.split(',').forEach(f => {
+                    projection[f.trim()] = 1;
+                });
+            }
+
+            let execQuery = User.find(mongoQuery, projection);
+
+            if (sortField) {
+                execQuery = execQuery.sort({ [sortField]: order });
+            } else if (searchTerm) {
+                execQuery = execQuery.sort(mongoSort);
+            }
+
+            const users = await execQuery.exec();
             res.json(users);
         } catch (error) {
             res.status(500).json({ message: error.message });
