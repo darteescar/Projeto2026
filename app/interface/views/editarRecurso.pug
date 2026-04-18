@@ -9,57 +9,49 @@ block content
             i.bi.bi-pencil-square.me-2
             | Editar Recurso
         .card-body.p-4
-          form(action="/recursos/editar/1" method="POST" enctype="multipart/form-data")
+          form(action=`/recursos/editar/${recurso.id}` method="POST" enctype="multipart/form-data")
             .mb-3
               label.form-label.fw-bold(for="titulo") Título/Nome do Recurso
-              input#titulo.form-control(type="text" name="titulo" value="Dataset de Engenharia Web" required)
+              input#titulo.form-control(type="text" name="titulo" value=recurso.titulo required)
             
             .row.mb-3
               .col-md-6
                 label.form-label.fw-bold(for="uc") Unidade Curricular (UC)
-                input#uc.form-control(type="text" name="uc" value="EW" required)
+                select#uc.form-select(name="uc" required)
+                  each val in ['Álgebra', 'Algoritmos', 'Análise', 'Arquitetura', 'BD', 'CC', 'CG', 'CP', 'Cálculo', 'DSS', 'EA', 'EPTN', 'FCD', 'FM', 'IA', 'IO', 'IPM', 'Lógica', 'MNONL', 'PF', 'PI', 'PL', 'POO', 'RC', 'SC', 'SD', 'SO', 'TMD']
+                    option(value=val selected=(recurso.uc === val))= val
               .col-md-6
                 label.form-label.fw-bold(for="ano") Ano Letivo
-                input#ano.form-control(type="text" name="ano" value="2025/2026" required)
+                input#ano.form-control(type="text" name="ano" value=recurso.ano required)
 
             .row.mb-3
               .col-md-6
                 label.form-label.fw-bold(for="tipo") Tipo de Recurso
                 select#tipo.form-select(name="tipo" required)
-                  option(value="slides") Slides
-                  option(value="teste") Teste
-                  option(value="video") Vídeo
-                  option(value="dataset") Dataset
-                  option(value="livros") Livros
-                  option(value="aulas") Aulas Gravadas
-                  option(value="resumos" selected) Resumos
-                  option(value="fichas") Fichas
-                  option(value="formulario") Formulário
-                  option(value="resolucao_teste") Resolução de Teste
-                  option(value="resolucao_ficha") Resolução de Ficha
+                  each val in ['Bibliografia', 'Exercícios', 'Ficha', 'Formulário', 'Resolução de Ficha', 'Resolução de Teste/Exame', 'Resumos', 'Slides', 'Teste/Exame']
+                    option(value=val selected=(recurso.tipo === val))= val
               .col-md-6
                 label.form-label.fw-bold Visibilidade
                 .mt-2
                   .form-check.form-check-inline
-                    input#publica.form-check-input(type="radio" name="visibilidade" value="publica" checked)
+                    input#publica.form-check-input(type="radio" name="visibilidade" value="publico" checked=(recurso.visibilidade === 'publico'))
                     label.form-check-label(for="publica") Pública
                   .form-check.form-check-inline
-                    input#privada.form-check-input(type="radio" name="visibilidade" value="privada")
+                    input#privada.form-check-input(type="radio" name="visibilidade" value="privado" checked=(recurso.visibilidade === 'privado'))
                     label.form-check-label(for="privada") Privada
 
-            .mb-3
-              label.form-label.fw-bold(for="descricao") Descrição
-              textarea#descricao.form-control(name="descricao" rows="4") Resumo completo dos capítulos 1 a 4...
-            
             .mb-4
               label.form-label.fw-bold(for="ficheiro") Substituir Ficheiro (Opcional)
+              .mb-2.text-primary
+                i.bi.bi-file-earmark-text.me-1
+                span Ficheiro atual: #{recurso.path.split('/').pop().replace(new RegExp(`^${recurso.id}_`), '')}
               input#ficheiro.form-control(type="file" name="ficheiro")
               small.text-muted Se não selecionar novo ficheiro, mantém-se o atual.
 
             hr.mb-4
             
             .d-flex.justify-content-end.gap-2
-              a.btn.btn-outline-secondary(href="/recursos/detalhes/1") Cancelar
+              a.btn.btn-outline-secondary(href=`/recursos/detalhes/${recurso.id}`) Cancelar
               button.btn.btn-warning(type="submit")
                 i.bi.bi-save.me-1
                 | Guardar Alterações

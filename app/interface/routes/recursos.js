@@ -193,16 +193,78 @@ router.get('/editar/:id', async function(req, res) {
 });
 
 // POST atualizar recurso específico
-router.post('/editar/:id', async function(req, res) {
+router.post('/editar/:id', upload.single('ficheiro'), async function(req, res) {
   try {
-    const recurso = {
+    const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
+    const recursoAntigo = response.data;
+
+    let relativePath = recursoAntigo.path;
+    let tamanho_bytes = recursoAntigo.tamanho_bytes;
+
+    // Normalizar a UC
+    const ucNormalizada = req.body.uc
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')     // Remove acentos
+      .replace(/[^a-zA-Z0-9]/g, '_')       // Remove espaços e símbolos estranhos
+      .toLowerCase();
+
+    // Lógica do Ficheiro
+    if (req.file) {
+      // Se enviou ficheiro novo, apagar o antigo
+      if (recursoAntigo.path) {
+        const oldFilePath = path.join(__dirname, '../public', recursoAntigo.path);
+        if (fs.existsSync(oldFilePath)) {
+          fs.unlinkSync(oldFilePath);
+        }
+      }
+
+      const dirPath = path.join(__dirname, '../public/uploads', ucNormalizada);
+      if (!fs.existsSync(dirPath)) {
+        fs.mkdirSync(dirPath, { recursive: true });
+      }
+
+      const newFilename = `${req.params.id}_${req.file.originalname.replace(/\s+/g, '_')}`;
+      const finalFilePath = path.join(dirPath, newFilename);
+      
+      fs.copyFileSync(req.file.path, finalFilePath);
+      fs.unlinkSync(req.file.path);
+
+      relativePath = `/uploads/${ucNormalizada}/${newFilename}`;
+      tamanho_bytes = req.file.size;
+    } else if (recursoAntigo.uc !== req.body.uc && recursoAntigo.path) {
+      // Se não enviou ficheiro novo mas mudou a UC, movemos o ficheiro atual de pasta
+      const oldFilePath = path.join(__dirname, '../public', recursoAntigo.path);
+      
+      if (fs.existsSync(oldFilePath)) {
+        const dirPath = path.join(__dirname, '../public/uploads', ucNormalizada);
+        if (!fs.existsSync(dirPath)) {
+          fs.mkdirSync(dirPath, { recursive: true });
+        }
+
+        const existingFilename = recursoAntigo.path.split('/').pop();
+        const finalFilePath = path.join(dirPath, existingFilename);
+
+        // Copia para a nova UC e apaga da antiga
+        fs.copyFileSync(oldFilePath, finalFilePath);
+        fs.unlinkSync(oldFilePath);
+
+        relativePath = `/uploads/${ucNormalizada}/${existingFilename}`;
+      }
+    }
+
+    // Juntar dados do form aos dados antigos do recurso
+    const recursoAtualizado = {
+      ...recursoAntigo, // Mantém id, autor, datas, visualizacoes, etc
       titulo: req.body.titulo,
       ano: req.body.ano,
       tipo: req.body.tipo,
       uc: req.body.uc,
-      visibilidade: req.body.visibilidade
+      visibilidade: req.body.visibilidade,
+      path: relativePath,
+      tamanho_bytes: tamanho_bytes
     };
-    await axios.put(`${API_DADOS_URL}/recursos/${req.params.id}`, recurso);
+
+    await axios.put(`${API_DADOS_URL}/recursos/${req.params.id}`, recursoAtualizado);
     res.redirect(`/recursos/detalhes/${req.params.id}`);
   } catch (err) {
     res.status(500).render('error', { message: 'Erro ao atualizar recurso', error: err });
@@ -233,25 +295,9 @@ router.post('/delete/:id', async function(req, res) {
   }
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//?================================?//
+//?         Comentar Recurso       ?//
+//?================================?//
 router.post('/avaliar/:id', async function(req, res, next) {
   try {
     const comentariosResp = await axios.get(`${API_DADOS_URL}/comentarios`);
@@ -271,6 +317,10 @@ router.post('/avaliar/:id', async function(req, res, next) {
     res.status(500).render('error', { message: 'Falha a comentar', error: err });
   }
 });
+
+//?================================?//
+//?        Download Recurso        ?//
+//?================================?//
 
 router.get('/download/:id', async function(req, res, next) {
   try {
