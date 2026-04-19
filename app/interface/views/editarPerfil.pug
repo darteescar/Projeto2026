@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  .row.justify-content-center
+    .col-lg-8
+      .card.shadow-sm.border-0.mt-4
+        .card-header.bg-warning.py-3
+          h3.mb-0.text-dark
+            i.bi.bi-person-lines-fill.me-2
+            | Editar Perfil
+        .card-body.p-4
+          form(action=`/users/perfil/editar/${user.id}` method="POST")
+            .row.mb-3
+              .col-md-6
+                label.form-label.fw-bold(for="nome") Nome
+                input#nome.form-control(type="text" name="nome" value=user.nome required)
+              .col-md-6
+                label.form-label.fw-bold(for="apelido") Apelido
+                input#apelido.form-control(type="text" name="apelido" value=user.apelido required)
+            
+            hr.my-4
+
+            h5.mb-3 Alterar Palavra-passe
+
+            .row.mb-3
+              .col-md-6
+                label.form-label.fw-bold(for="password_atual") Palavra-passe Atual
+                input#password_atual.form-control(type="password" name="password_atual" placeholder="********")
+              .col-md-6
+                label.form-label.fw-bold(for="password_nova") Nova Palavra-passe
+                input#password_nova.form-control(type="password" name="password_nova" placeholder="********")
+
+            hr.mb-4
+            
+            .d-flex.justify-content-end.gap-2
+              a.btn.btn-outline-secondary(href=`/users/perfil/${user.id}`) Cancelar
+              button.btn.btn-warning(type="submit")
+                i.bi.bi-save.me-1
+                | Guardar Alterações
