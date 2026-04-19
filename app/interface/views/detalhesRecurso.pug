@@ -35,7 +35,7 @@ block content
               .p-3.border.rounded.bg-light
                 h3.text-success.mb-0
                   i.bi.bi-download.me-2
-                  | #{recurso.downloads || 0}
+                  span#downloadCounter #{recurso.downloads || 0}
                 small.text-muted Downloads
             .col-md-4
               .p-3.border.rounded.bg-light
@@ -50,7 +50,7 @@ block content
             i.bi.bi-chat-left-text.me-2
             | Comentários e Avaliações
           
-          form.mb-4(action=`/recursos/avaliar/${recurso.id}` method="POST")
+          form.mb-4(action=`/recursos/comentar/${recurso.id}` method="POST")
             .mb-3
               input.form-control(type="number" name="avaliacao" min="1" max="5" placeholder="Avaliação 1-5" required)
             .mb-3
@@ -68,7 +68,8 @@ block content
                   img.rounded-circle(src="/images/default-avatar.png" width="40" height="40" alt="Avatar" onerror="this.src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png'")
                 .flex-grow-1.ms-3
                   .d-flex.justify-content-between.align-items-center
-                    h6.fw-bold.mb-1= c.autor
+                    h6.fw-bold.mb-1
+                      a.text-decoration-none(href=`/users/perfil/${c.autorId}`)= c.autorNome
                     small.text-muted= new Date(c.data).toLocaleDateString('pt-PT')
                   p.mb-1
                     i.bi.bi-star-fill.text-warning.me-1
@@ -102,8 +103,8 @@ block content
           .d-grid.mt-4.gap-2
             a.btn.btn-primary.btn-lg(href=recurso.path target="_blank")
               i.bi.bi-eye-fill.me-2
-              | Visualizar Ficheiro
-            a.btn.btn-success.btn-lg(href=`/recursos/download/${recurso.id}`)
+              | Abrir
+            a.btn.btn-success.btn-lg(href=`/recursos/download/${recurso.id}` onclick="const counter = document.getElementById('downloadCounter'); counter.innerText = parseInt(counter.innerText) + 1;")
               i.bi.bi-cloud-download.me-2
               | Descarregar Ficheiro
 

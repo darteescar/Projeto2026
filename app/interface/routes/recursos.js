@@ -156,7 +156,20 @@ router.get('/detalhes/:id', async function(req, res) {
     ]);
     
     let recurso = recResp.data;
-    const comentarios = comRes.data;
+    let comentarios = comRes.data;
+
+    // Obter o nome de todos os autores dos comentários
+    comentarios = await Promise.all(comentarios.map(async (c) => {
+      try {
+        const userResp = await axios.get(`${API_DADOS_URL}/users/${c.autor}`);
+        c.autorNome = `${userResp.data.nome} ${userResp.data.apelido}`;
+        c.autorId = c.autor;
+      } catch (e) {
+        c.autorNome = "Utilizador Desconhecido";
+        c.autorId = c.autor;
+      }
+      return c;
+    }));
 
     recurso.visualizacoes = (recurso.visualizacoes || 0) + 1;
     await axios.put(`${API_DADOS_URL}/recursos/${recurso.id}`, recurso);
@@ -298,7 +311,9 @@ router.post('/delete/:id', async function(req, res) {
 //?================================?//
 //?         Comentar Recurso       ?//
 //?================================?//
-router.post('/avaliar/:id', async function(req, res, next) {
+
+// POST adicionar comentário a um recurso específico
+router.post('/comentar/:id', async function(req, res, next) {
   try {
     const comentariosResp = await axios.get(`${API_DADOS_URL}/comentarios`);
     const maxId = comentariosResp.data.reduce((max, c) => Math.max(max, Number(c.id) || 0), 0);
@@ -312,9 +327,24 @@ router.post('/avaliar/:id', async function(req, res, next) {
       data: new Date().toISOString()
     };
     await axios.post(`${API_DADOS_URL}/comentarios`, evalData);
+
+    // Obter todas as avaliações atuais para este recurso após inserir a nova
+    const recursoComentariosResp = await axios.get(`${API_DADOS_URL}/comentarios?recurso_id=${req.params.id}`);
+    const comentarios = recursoComentariosResp.data;
+    
+    // Calcular a nova média
+    const somaAvaliacoes = comentarios.reduce((acc, c) => acc + Number(c.avaliacao), 0);
+    const novaMedia = comentarios.length > 0 ? (somaAvaliacoes / comentarios.length).toFixed(1) : 0;
+
+    // Atualizar a média no recurso correspondente
+    const recursoResp = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
+    const recursoAtualizado = { ...recursoResp.data, media_avaliacoes: Number(novaMedia) };
+    await axios.put(`${API_DADOS_URL}/recursos/${req.params.id}`, recursoAtualizado);
+
     res.redirect(`/recursos/detalhes/${req.params.id}`);
   } catch (err) {
-    res.status(500).render('error', { message: 'Falha a comentar', error: err });
+    console.error(err);
+    res.status(500).render('error', { message: 'Falha a comentar e atualizar a classificação do recurso', error: err });
   }
 });
 
@@ -322,6 +352,7 @@ router.post('/avaliar/:id', async function(req, res, next) {
 //?        Download Recurso        ?//
 //?================================?//
 
+// GET para descarregar o ficheiro de um recurso específico
 router.get('/download/:id', async function(req, res, next) {
   try {
     // Obter os dados do recurso
@@ -343,8 +374,8 @@ router.get('/download/:id', async function(req, res, next) {
     }
 
     // Limpar o nome do ficheiro para que no browser faça download sem o prefixo do ID
-    const nomeGuardado = recurso.path.split('/').pop(); // "42_teste.pdf"
-    const nomeLimpo = nomeGuardado.replace(new RegExp(`^${recurso.id}_`), ''); // "teste.pdf"
+    const nomeGuardado = recurso.path.split('/').pop();
+    const nomeLimpo = nomeGuardado.replace(new RegExp(`^${recurso.id}_`), '');
 
     // Incrementar contador de downloads
     const recursoAtualizado = { ...recurso, downloads: (recurso.downloads || 0) + 1 };
