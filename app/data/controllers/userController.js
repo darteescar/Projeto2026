@@ -3,10 +3,26 @@ const User = require('../models/User');
 const userController = {
     createUser: async function(req, res){
         try {
-            const newUser = new User(req.body);
+            const lastUser = await User.findOne().sort({ id: -1 }).exec();
+            const nextId = lastUser ? lastUser.id + 1 : 1;
+
+            const newUser = new User({
+                id: nextId,
+                nome: req.body.nome,
+                apelido: req.body.apelido,
+                email: req.body.email,
+                password: req.body.password,
+                data_criacao: new Date(),
+                role: req.body.role || 'user'
+            });
+
             await newUser.save();
             res.status(201).json(newUser);
         } catch (error) {
+            console.error('createUser error:', error);
+            if (error.code === 11000) {
+                return res.status(400).json({ message: 'Email já registado.' });
+            }
             res.status(400).json({ message: error.message });
         }
     },
@@ -99,3 +115,10 @@ const userController = {
 };
 
 module.exports = userController;
+module.exports.login = async (email, password) => {
+    const user = await User.findOne({ email });
+    if (user && user.password === password) { // Se usares bcrypt, usa o compare aqui
+        return user;
+    }
+    throw new Error('Incorreto');
+};

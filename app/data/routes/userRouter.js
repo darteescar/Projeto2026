@@ -17,4 +17,10 @@ router.put('/users/:id', userController.updateUser);
 // Apagar user por ID
 router.delete('/users/:id', userController.deleteUser);
 
+router.post('/login_check', (req, res) => {
+    userController.login(req.body.email, req.body.password)
+        .then(user => res.jsonp(user))
+        .catch(err => res.status(401).jsonp({ error: "Credenciais inválidas" }));
+});
+
 module.exports = router;

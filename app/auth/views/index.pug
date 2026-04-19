@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .container.mt-5
+    .row.justify-content-center
+      .col-md-6.text-center
+        .card.shadow-sm.border-0.p-5
+          h1 Bem-vindo à Plataforma
+          p Escolha uma opção para aceder aos recursos:
+          .d-grid.gap-3.mt-4
+            a.btn.btn-primary.btn-lg(href="/login") Entrar (Login)
+            a.btn.btn-outline-secondary.btn-lg(href="/register") Criar Conta (Registo)
