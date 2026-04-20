@@ -27,14 +27,16 @@ html(lang="pt")
             li.nav-item
               a.nav-link(href="/sobre") Sobre
           ul.navbar-nav
-            li.nav-item
-              a.nav-link(href="/login")
-                i.bi.bi-box-arrow-in-right.me-1
-                | Login
-            li.nav-item
-              a.nav-link(href="/users/perfil")
-                i.bi.bi-person-circle.me-1
-                | Perfil
+            if id
+              li.nav-item
+                a.nav-link(href=`/users/perfil/${id}`)
+                  i.bi.bi-person-circle.me-1
+                  | Perfil
+            else
+              li.nav-item
+                a.nav-link(href="/login")
+                  i.bi.bi-box-arrow-in-right.me-1
+                  | Login
 
     main.container.my-5
       block content

@@ -46,7 +46,7 @@ app.post('/login', (req, res) => {
         .then(response => {
             const user = response.data;
             const token = jwt.sign(
-                { email: user.email, role: user.role, nome: user.nome, apelido: user.apelido },
+                { email: user.email, role: user.role, nome: user.nome, apelido: user.apelido, id: user.id },
                 SECRET, { expiresIn: '1d' }
             );
             res.cookie('token', token, { httpOnly: true });

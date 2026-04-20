@@ -68,10 +68,11 @@ router.get('/', async function(req, res) {
       recursos,
       ucs,
       tipos,
-      anos
+      anos,
+      id: req.user.id
     });
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao contactar API de Dados', error: err });
+    res.status(500).render('error', { message: 'Erro ao contactar API de Dados', error: err, id: req.user.id });
   }
 });
 
@@ -81,7 +82,7 @@ router.get('/', async function(req, res) {
 
 // GET formulário para adicionar novo recurso
 router.get('/adicionar', function(req, res) {
-  res.render('adicionarRecurso', { title: 'Adicionar Recurso | Recursos LEI' });
+  res.render('adicionarRecurso', { title: 'Adicionar Recurso | Recursos LEI', id: req.user.id });
 });
 
 // POST adicionar novo recurso à base de dados 
@@ -126,7 +127,7 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
       ano: req.body.ano,
       tipo: req.body.tipo,
       uc: req.body.uc,
-      autor: "1", // TODO: substituir pelo id do autor logado
+      autor: req.user.id, // TODO: substituir pelo id do autor logado
       data_registo: new Date().toISOString(),
       visibilidade: req.body.visibilidade,
       tamanho_bytes: req.file ? req.file.size : 0,
@@ -184,7 +185,7 @@ router.get('/detalhes/:id', async function(req, res) {
       }
     }
 
-    res.render('detalhesRecurso', { title: 'Detalhes do Recurso | Recursos LEI', recurso, comentarios, autor });
+    res.render('detalhesRecurso', { title: 'Detalhes do Recurso | Recursos LEI', recurso, comentarios, autor, id: req.user.id });
   } catch (err) {
     res.status(500).render('error', { message: 'Erro ao obter dados do recurso', error: err });
   }
@@ -199,9 +200,9 @@ router.get('/editar/:id', async function(req, res) {
   try {
     const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
     const recurso = response.data;
-    res.render('editarRecurso', { title: 'Editar Recurso | Recursos LEI', recurso });
+    res.render('editarRecurso', { title: 'Editar Recurso | Recursos LEI', recurso, id: req.user.id });
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao visualizar recurso. Não o conseguiu aceder.', error: err });
+    res.status(500).render('error', { message: 'Erro ao visualizar recurso. Não o conseguiu aceder.', error: err, id: req.user.id });
   }
 });
 

@@ -15,7 +15,7 @@ const API_DADOS_URL = process.env.API_DADOS_URL || 'http://api_dados_server:1600
 // GET perfil do utilizador atual
 router.get('/perfil', function(req, res, next) {
   // TODO: depois com os users is buscar a informação direita
-  res.render('profile', { title: 'O Meu Perfil | Recursos LEI' });
+  res.render('profile', { title: 'O Meu Perfil | Recursos LEI', id: req.user.id });
 });
 
 // GET perfil de um utilizador específico
@@ -33,10 +33,11 @@ router.get('/perfil/:id', async function(req, res, next) {
       title: `${user.nome} ${user.apelido} | Perfil | Recursos LEI`, 
       user, 
       recursos, 
-      contribuicoes: recursos.length 
+      contribuicoes: recursos.length,
+      id: req.user.id
     });
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao carregar perfil', error: err });
+    res.status(500).render('error', { message: 'Erro ao carregar perfil', error: err, id: req.user.id });
   }
 });
 
@@ -49,9 +50,9 @@ router.get('/perfil/editar/:id', async function(req, res, next) {
   try {
     const userResp = await axios.get(`${API_DADOS_URL}/users/${req.params.id}`);
     const user = userResp.data;
-    res.render('editarPerfil', { title: 'Editar Perfil | Recursos LEI', user });
+    res.render('editarPerfil', { title: 'Editar Perfil | Recursos LEI', user, id: req.user.id });
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao carregar edição de perfil', error: err });
+    res.status(500).render('error', { message: 'Erro ao carregar edição de perfil', error: err, id: req.user.id });
   }
 });
 
@@ -71,7 +72,7 @@ router.post('/perfil/editar/:id', async function(req, res, next) {
       if (user.password === password_atual) {
         user.password = password_nova;
       } else {
-        return res.status(400).render('error', { message: 'A palavra-passe atual está incorreta.', error: { status: 400 } });
+        return res.status(400).render('error', { message: 'A palavra-passe atual está incorreta.', error: { status: 400 }, id: req.user.id });
       }
     }
 
@@ -79,7 +80,7 @@ router.post('/perfil/editar/:id', async function(req, res, next) {
 
     res.redirect(`/users/perfil/${req.params.id}`);
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao atualizar o perfil', error: err });
+    res.status(500).render('error', { message: 'Erro ao atualizar o perfil', error: err, id: req.user.id });
   }
 });
 

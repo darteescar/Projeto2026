@@ -39,8 +39,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Mount the routes
 app.use('/', verificaAcesso, require('./routes/index'));
-app.use('/recursos', recursosRouter);
-app.use('/users', userRouter);
+app.use('/recursos', verificaAcesso, recursosRouter);
+app.use('/users', verificaAcesso, userRouter);
 
 const PORT = process.env.PORT || 16002;
 
