@@ -47,6 +47,22 @@ services:
     restart: always
     networks:
       - projeto-network 
+  
+  auth-server:
+    build: ./auth
+    container_name: auth_server
+    ports:
+      - "16001:16001"
+    environment:
+      - PORT=16001
+      - API_DADOS_URL=http://api_dados_server:16000/api
+      - JWT_SECRET=${JWT_SECRET:-secret_default_2026}
+      - COOKIE_NAME=auth_token
+    depends_on:
+      - api-dados
+    restart: always
+    networks:
+      - projeto-network
 
 volumes:
   mongo_data:

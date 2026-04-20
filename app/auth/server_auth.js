@@ -6,7 +6,8 @@ const jwt = require('jsonwebtoken');
 
 const app = express();
 const SECRET = "ENGWEB_PROJETO_2026";
-const DATA_API = "http://localhost:16000/api"; // Porta do serviço Data /api
+const DATA_API = process.env.API_DADOS_URL || 'http://api_dados_server:16000/api';
+const PORT = process.env.PORT || 16001;
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
@@ -57,7 +58,7 @@ app.post('/login', (req, res) => {
         }));
 });
 
-app.listen(16001, () => console.log("Auth Service na porta 16001"));
+app.listen(PORT, () => console.log("Auth Service na porta 16001"));
 
 
 /**
