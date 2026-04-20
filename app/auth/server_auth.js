@@ -30,8 +30,12 @@ app.post('/register', (req, res) => {
         .then(() => res.redirect('/login'))
         .catch(err => {
             console.error('Auth register error:', err.response ? err.response.data : err.message);
+            let errorMessage = "Erro no registo. Verifique os dados e tente novamente.";
+            if (err.response && err.response.data && err.response.data.message === 'Email já registado.') {
+                errorMessage = "Email já registado. Escolha outro.";
+            }
             res.render('register', {
-                error: "Erro no registo. Verifique os dados e tente novamente.",
+                error: errorMessage,
                 formData: { nome: req.body.nome, apelido: req.body.apelido, email: req.body.email }
             });
         });

@@ -127,7 +127,7 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
       ano: req.body.ano,
       tipo: req.body.tipo,
       uc: req.body.uc,
-      autor: req.user.id, // TODO: substituir pelo id do autor logado
+      autor: req.user.id,
       data_registo: new Date().toISOString(),
       visibilidade: req.body.visibilidade,
       tamanho_bytes: req.file ? req.file.size : 0,
