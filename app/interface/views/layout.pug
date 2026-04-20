@@ -32,9 +32,13 @@ html(lang="pt")
                 a.nav-link(href=`/users/perfil/${id}`)
                   i.bi.bi-person-circle.me-1
                   | Perfil
+              li.nav-item
+                a.nav-link(href="http://localhost:16001/logout")
+                  i.bi.bi-box-arrow-right.me-1
+                  | Logout
             else
               li.nav-item
-                a.nav-link(href="/login")
+                a.nav-link(href="http://localhost:16001/login")
                   i.bi.bi-box-arrow-in-right.me-1
                   | Login
 
