@@ -1,0 +1,5538 @@
+[
+    {
+        "id": 1,
+        "titulo": "Teste 2",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/1_teste_2.pdf"
+    },
+    {
+        "id": 2,
+        "titulo": "Teste 1",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/2_teste_1.pdf"
+    },
+    {
+        "id": 3,
+        "titulo": "Recurso",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/3_recurso.pdf"
+    },
+    {
+        "id": 4,
+        "titulo": "Resolução não oficial Teste 1",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/4_teste_1_sol_não_oficial.pdf"
+    },
+    {
+        "id": 5,
+        "titulo": "Resolução não oficial Recurso",
+        "ano": "2022/2023",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/5_recurso_sol_não_oficial.pdf"
+    },
+    {
+        "id": 6,
+        "titulo": "Resolução não oficial Teste 1",
+        "ano": "2022/2023",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/6_teste_1_sol_não_oficial.pdf"
+    },
+    {
+        "id": 7,
+        "titulo": "Teste 1",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/7_teste_1.pdf"
+    },
+    {
+        "id": 8,
+        "titulo": "Recurso",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/8_recurso.pdf"
+    },
+    {
+        "id": 9,
+        "titulo": "Teste 2",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/9_teste_2.pdf"
+    },
+    {
+        "id": 10,
+        "titulo": "Resolução Teste 2",
+        "ano": "2019/2020",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/10_teste_2_sol.pdf"
+    },
+    {
+        "id": 11,
+        "titulo": "Resolução Teste 1",
+        "ano": "2019/2020",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/11_teste_1_sol.pdf"
+    },
+    {
+        "id": 12,
+        "titulo": "Teste 1",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/12_teste_1.pdf"
+    },
+    {
+        "id": 13,
+        "titulo": "Teste 2",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/13_teste_2.pdf"
+    },
+    {
+        "id": 14,
+        "titulo": "Recurso",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/14_recurso.pdf"
+    },
+    {
+        "id": 15,
+        "titulo": "Teste 1",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/15_teste_1.pdf"
+    },
+    {
+        "id": 16,
+        "titulo": "Resolução Teste 1",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/16_teste_1_sol.pdf"
+    },
+    {
+        "id": 17,
+        "titulo": "Teste 2",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/17_teste_2.pdf"
+    },
+    {
+        "id": 18,
+        "titulo": "Resolução Teste 2",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/18_teste_2_sol.pdf"
+    },
+    {
+        "id": 19,
+        "titulo": "Teste 1",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/19_teste_1.pdf"
+    },
+    {
+        "id": 20,
+        "titulo": "Teste 2",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/20_teste_2.pdf"
+    },
+    {
+        "id": 21,
+        "titulo": "Recurso",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/21_recurso.pdf"
+    },
+    {
+        "id": 22,
+        "titulo": "Capítulo 3",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/22_Capitulo_3 Análise de Pior Caso, Melhor Caso, e Caso Médio.pdf"
+    },
+    {
+        "id": 23,
+        "titulo": "Capítulo 4",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/23_Capitulo_4 Análise do Tempo de Execução de Algoritmos Recursivos.pdf"
+    },
+    {
+        "id": 24,
+        "titulo": "Capítulo 1",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/24_Capitulo_1 Especificação e Correcção de Algoritmos.pdf"
+    },
+    {
+        "id": 25,
+        "titulo": "Capítulo 6",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/25_Capitulo_6 Análise Amortizada de Algoritmos.pdf"
+    },
+    {
+        "id": 26,
+        "titulo": "Capítulo 2",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/26_Capitulo_2 Tempo de Execução de Algoritmos Iterativos.pdf"
+    },
+    {
+        "id": 27,
+        "titulo": "Capítulo 5",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Algoritmos",
+        "path": "files/algoritmos/27_Capitulo_5 Tópicos sobre Algoritmos de Ordenação.pdf"
+    },
+    {
+        "id": 28,
+        "titulo": "Teste Exemplo",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "IPM",
+        "path": "files/ipm/28_Teste_Exemplo_2023_2024.pdf"
+    },
+    {
+        "id": 29,
+        "titulo": "Recurso",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "IPM",
+        "path": "files/ipm/29_Recurso_2024.pdf"
+    },
+    {
+        "id": 30,
+        "titulo": "Teste Exemplo",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "IPM",
+        "path": "files/ipm/30_Teste_Exemplo_2020_2021.pdf"
+    },
+    {
+        "id": 31,
+        "titulo": "WebFrameworks",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/31_8_2_WebFrameworks.pdf"
+    },
+    {
+        "id": 32,
+        "titulo": "VueRouting",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/32_11_1_VueRouting.pdf"
+    },
+    {
+        "id": 33,
+        "titulo": "WebAccessibility",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/33_12_1_WebAccessibility.pdf"
+    },
+    {
+        "id": 34,
+        "titulo": "Conceptual Modelling",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/34_8_1_Conceptual_Modelling.pdf"
+    },
+    {
+        "id": 35,
+        "titulo": "Intro to Vue",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/35_9_2_Intro_to_Vue.pdf"
+    },
+    {
+        "id": 36,
+        "titulo": "HCD",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/36_2_HCD.pdf"
+    },
+    {
+        "id": 37,
+        "titulo": "Avaliacao de Interfaces",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/37_12_2_AvaliacaoInterfaces.pdf"
+    },
+    {
+        "id": 38,
+        "titulo": "Usabilidade",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/38_4_Usabilidade.pdf"
+    },
+    {
+        "id": 39,
+        "titulo": "WebComponents",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/39_9_1_WebComponents.pdf"
+    },
+    {
+        "id": 40,
+        "titulo": "HTML e CSS",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/40_6_HTML_CSS.pdf"
+    },
+    {
+        "id": 41,
+        "titulo": "VueComponents",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/41_10_VueComponents.pdf"
+    },
+    {
+        "id": 42,
+        "titulo": "JS",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/42_7_JS.pdf"
+    },
+    {
+        "id": 43,
+        "titulo": "Usabilidade",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/43_5_Usabilidade.pdf"
+    },
+    {
+        "id": 44,
+        "titulo": "VueStateManagement",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/44_11_2_VueStateManagement.pdf"
+    },
+    {
+        "id": 45,
+        "titulo": "Conceitos Base",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/45_1_Conceitos Base.pdf"
+    },
+    {
+        "id": 46,
+        "titulo": "Prototipagem",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IPM",
+        "path": "files/ipm/46_3_Prototipagem.pdf"
+    },
+    {
+        "id": 47,
+        "titulo": "Formulário 2",
+        "ano": "2023/2024",
+        "tipo": "Formulário",
+        "uc": "Lógica",
+        "path": "files/logica/47_Folha 2.pdf"
+    },
+    {
+        "id": 48,
+        "titulo": "Formulário 1",
+        "ano": "2023/2024",
+        "tipo": "Formulário",
+        "uc": "Lógica",
+        "path": "files/logica/48_Folha 1.pdf"
+    },
+    {
+        "id": 49,
+        "titulo": "Resolução Teste 2",
+        "ano": "2020/2021",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/49_teste_2_2020_2021_sol.pdf"
+    },
+    {
+        "id": 50,
+        "titulo": "Teste 2",
+        "ano": "2017/2018",
+        "tipo": "Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/50_teste_2_2017_2018.pdf"
+    },
+    {
+        "id": 51,
+        "titulo": "Teste 2",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/51_teste_2_2021_2022.pdf"
+    },
+    {
+        "id": 52,
+        "titulo": "Recurso",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/52_recurso_2020_2021.pdf"
+    },
+    {
+        "id": 53,
+        "titulo": "Recurso",
+        "ano": "2017/2018",
+        "tipo": "Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/53_recurso_2017_2018.pdf"
+    },
+    {
+        "id": 54,
+        "titulo": "Resolução Teste 2",
+        "ano": "2022/2023",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/54_teste_2_2022_2023_sol.pdf"
+    },
+    {
+        "id": 55,
+        "titulo": "Teste 2",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/55_teste_2_2022_2023.pdf"
+    },
+    {
+        "id": 56,
+        "titulo": "Resolução Recurso",
+        "ano": "2017/2018",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/56_recurso_2017_2018_sol.pdf"
+    },
+    {
+        "id": 57,
+        "titulo": "Resolução Teste 2",
+        "ano": "2017/2018",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/57_teste_2_2017_2018_sol.pdf"
+    },
+    {
+        "id": 58,
+        "titulo": "Resolução Teste 2",
+        "ano": "2018/2019",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/58_teste_2_2018_2019_sol.pdf"
+    },
+    {
+        "id": 59,
+        "titulo": "Teste 1",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/59_teste_1_2021_2022.pdf"
+    },
+    {
+        "id": 60,
+        "titulo": "Resolução Teste 1",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/60_teste_1_2021_2022_sol.pdf"
+    },
+    {
+        "id": 61,
+        "titulo": "Teste 2",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/61_teste_2_2018_2019.pdf"
+    },
+    {
+        "id": 62,
+        "titulo": "Resolução parcial Recurso",
+        "ano": "2020/2021",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/62_recurso_2020_2021_sol_partI.pdf"
+    },
+    {
+        "id": 63,
+        "titulo": "Recurso",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/63_recurso_2021_2022.pdf"
+    },
+    {
+        "id": 64,
+        "titulo": "Resolução Teste 2",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/64_teste_2_2021_2022_sol.pdf"
+    },
+    {
+        "id": 65,
+        "titulo": "Teste 2",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/65_teste_2_2020_2021.pdf"
+    },
+    {
+        "id": 66,
+        "titulo": "Resolução Teste 1",
+        "ano": "2018/2019",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/66_teste_1_2018_2019_sol.pdf"
+    },
+    {
+        "id": 67,
+        "titulo": "Resolução Recurso",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Lógica",
+        "path": "files/logica/67_recurso_2021_2022_sol.pdf"
+    },
+    {
+        "id": 68,
+        "titulo": "Ficha 5",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Lógica",
+        "path": "files/logica/68_Ficha 5.pdf"
+    },
+    {
+        "id": 69,
+        "titulo": "Ficha 3",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Lógica",
+        "path": "files/logica/69_Ficha 3.pdf"
+    },
+    {
+        "id": 70,
+        "titulo": "Ficha 4",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Lógica",
+        "path": "files/logica/70_Ficha 4.pdf"
+    },
+    {
+        "id": 71,
+        "titulo": "Ficha 1",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Lógica",
+        "path": "files/logica/71_Ficha 1.pdf"
+    },
+    {
+        "id": 72,
+        "titulo": "Ficha 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Lógica",
+        "path": "files/logica/72_Ficha 2.pdf"
+    },
+    {
+        "id": 73,
+        "titulo": "Resumos",
+        "ano": "2024/2025",
+        "tipo": "Resumos",
+        "uc": "BD",
+        "path": "files/bd/73_Resumos_BD.pdf"
+    },
+    {
+        "id": 74,
+        "titulo": "Teste LCC",
+        "ano": "2016/2017",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/74_teste_2016_2017_LCC.pdf"
+    },
+    {
+        "id": 75,
+        "titulo": "Teste LCC",
+        "ano": "2014/2015",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/75_teste_2014_2015_LCC.pdf"
+    },
+    {
+        "id": 76,
+        "titulo": "Teste Modelo LEI",
+        "ano": "2025/2026",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/76_teste_modelo_2025_2026_LEI.pdf"
+    },
+    {
+        "id": 77,
+        "titulo": "Recurso LCC",
+        "ano": "2017/2018",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/77_exame_2017_2018_LCC.pdf"
+    },
+    {
+        "id": 78,
+        "titulo": "Recurso LCC",
+        "ano": "2015/2016",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/78_exame_2015_2016_LCC.pdf"
+    },
+    {
+        "id": 79,
+        "titulo": "Recurso LCC",
+        "ano": "2016/2017",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/79_exame_2016_2017_LCC.pdf"
+    },
+    {
+        "id": 80,
+        "titulo": "Teste LEI",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/80_teste_2022_2023_LEI.pdf"
+    },
+    {
+        "id": 81,
+        "titulo": "Recurso LCC",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/81_exame_2022_2023_LCC.pdf"
+    },
+    {
+        "id": 82,
+        "titulo": "Recurso LCC",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/82_exame_2021_2022_LCC.pdf"
+    },
+    {
+        "id": 83,
+        "titulo": "Teste LCC",
+        "ano": "2010/2011",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/83_teste_2010_2011_LCC.pdf"
+    },
+    {
+        "id": 84,
+        "titulo": "Recurso LEI",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/84_exame_2024_2025_LEI_rec.pdf"
+    },
+    {
+        "id": 85,
+        "titulo": "Recurso LCC",
+        "ano": "2014/2015",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/85_exame_2014_2015_LCC.pdf"
+    },
+    {
+        "id": 86,
+        "titulo": "Teste LCC",
+        "ano": "2017/2018",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/86_teste_2017_2018_LCC.pdf"
+    },
+    {
+        "id": 87,
+        "titulo": "Teste LCC",
+        "ano": "2015/2016",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/87_teste_2015_2016_LCC.pdf"
+    },
+    {
+        "id": 88,
+        "titulo": "Teste LCC",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/88_teste_2022_2023_LCC.pdf"
+    },
+    {
+        "id": 89,
+        "titulo": "Recurso LEI",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/89_exame_2024_2025_LEI.pdf"
+    },
+    {
+        "id": 90,
+        "titulo": "Teste LCC",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/90_teste_2021_2022_LCC.pdf"
+    },
+    {
+        "id": 91,
+        "titulo": "Teste LEI",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/91_teste_2024_2025_LEI.pdf"
+    },
+    {
+        "id": 92,
+        "titulo": "Recurso LCC",
+        "ano": "2010/2011",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/92_exame_2010_2011_LCC.pdf"
+    },
+    {
+        "id": 93,
+        "titulo": "Teste",
+        "ano": "2009/2010",
+        "tipo": "Teste/Exame",
+        "uc": "BD",
+        "path": "files/bd/93_teste_2009_2010_LCC.pdf"
+    },
+    {
+        "id": 94,
+        "titulo": "Álgebra Relacional",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "BD",
+        "path": "files/bd/94_Álgebra Relacional.pdf"
+    },
+    {
+        "id": 95,
+        "titulo": "Normalização de Dados",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "BD",
+        "path": "files/bd/95_Normalização de Dados.pdf"
+    },
+    {
+        "id": 96,
+        "titulo": "Dados Informação e Conhecimento",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "BD",
+        "path": "files/bd/96_Dados Informação e Conhecimento.pdf"
+    },
+    {
+        "id": 97,
+        "titulo": "Ciclo de Vida de um SBD",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "BD",
+        "path": "files/bd/97_Ciclo de Vida de um SBD.pdf"
+    },
+    {
+        "id": 98,
+        "titulo": "A Linguagem SQL",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "BD",
+        "path": "files/bd/98_A Linguagem SQL.pdf"
+    },
+    {
+        "id": 99,
+        "titulo": "Caso de Estudo - Mercearia",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "BD",
+        "path": "files/bd/99_Caso de Estudo - Mercearia.pdf"
+    },
+    {
+        "id": 100,
+        "titulo": "Teste",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "SSI",
+        "path": "files/ssi/100_Teste_2425.pdf"
+    },
+    {
+        "id": 101,
+        "titulo": "Folha 1",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Análise",
+        "path": "files/analise/101_Analise_Folha1.pdf"
+    },
+    {
+        "id": 102,
+        "titulo": "Folha 5",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Análise",
+        "path": "files/analise/102_Analise_Folha5.pdf"
+    },
+    {
+        "id": 103,
+        "titulo": "Folha 4",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Análise",
+        "path": "files/analise/103_Analise_Folha4.pdf"
+    },
+    {
+        "id": 104,
+        "titulo": "Folha 7",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Análise",
+        "path": "files/analise/104_Analise_Folha7.pdf"
+    },
+    {
+        "id": 105,
+        "titulo": "Folha 8",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Análise",
+        "path": "files/analise/105_Analise_Folha8.pdf"
+    },
+    {
+        "id": 106,
+        "titulo": "Folha 3",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Análise",
+        "path": "files/analise/106_Analise_Folha3.pdf"
+    },
+    {
+        "id": 107,
+        "titulo": "Folha 6",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Análise",
+        "path": "files/analise/107_Analise_Folha6.pdf"
+    },
+    {
+        "id": 108,
+        "titulo": "Folha 2",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Análise",
+        "path": "files/analise/108_Analise_Folha2.pdf"
+    },
+    {
+        "id": 109,
+        "titulo": "Resolução Folha 8",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Análise",
+        "path": "files/analise/109_Folha8_sol.pdf"
+    },
+    {
+        "id": 110,
+        "titulo": "Resolução Folha 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Análise",
+        "path": "files/analise/110_Folha2_sol.pdf"
+    },
+    {
+        "id": 111,
+        "titulo": "Resolução Folha 3",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Análise",
+        "path": "files/analise/111_Folha3_sol.pdf"
+    },
+    {
+        "id": 112,
+        "titulo": "Resolução Folha 7",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Análise",
+        "path": "files/analise/112_Folha7_sol.pdf"
+    },
+    {
+        "id": 113,
+        "titulo": "Resolução Folha 1",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Análise",
+        "path": "files/analise/113_Folha1_sol.pdf"
+    },
+    {
+        "id": 114,
+        "titulo": "Resolução Folha 6",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Análise",
+        "path": "files/analise/114_Folha6_sol.pdf"
+    },
+    {
+        "id": 115,
+        "titulo": "Resolução Folha 5",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Análise",
+        "path": "files/analise/115_Folha5_sol.pdf"
+    },
+    {
+        "id": 116,
+        "titulo": "Resolução Folha 4",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Análise",
+        "path": "files/analise/116_Folha4_sol.pdf"
+    },
+    {
+        "id": 117,
+        "titulo": "Teste 2",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/117_teste_2.pdf"
+    },
+    {
+        "id": 118,
+        "titulo": "Resolução Teste 2",
+        "ano": "2018/2019",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/118_teste_2_sol.pdf"
+    },
+    {
+        "id": 119,
+        "titulo": "Resolução Recurso",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/119_recurso_sol.pdf"
+    },
+    {
+        "id": 120,
+        "titulo": "Recurso",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/120_recurso.pdf"
+    },
+    {
+        "id": 121,
+        "titulo": "Teste 2",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/121_teste_2.pdf"
+    },
+    {
+        "id": 122,
+        "titulo": "Resolução Teste 2",
+        "ano": "2018/2019",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/122_teste_2_sol.pdf"
+    },
+    {
+        "id": 123,
+        "titulo": "Teste 1",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/123_teste_1.pdf"
+    },
+    {
+        "id": 124,
+        "titulo": "Resolução Teste 1",
+        "ano": "2018/2019",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/124_teste_1_sol.pdf"
+    },
+    {
+        "id": 125,
+        "titulo": "Teste 2",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/125_teste_2.pdf"
+    },
+    {
+        "id": 126,
+        "titulo": "Resolução Teste 2",
+        "ano": "2018/2019",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/126_teste_2_sol.pdf"
+    },
+    {
+        "id": 127,
+        "titulo": "Teste 1",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/127_teste_1.pdf"
+    },
+    {
+        "id": 128,
+        "titulo": "Resolução Recurso",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/128_recurso_sol.pdf"
+    },
+    {
+        "id": 129,
+        "titulo": "Resolução Teste 1",
+        "ano": "2018/2019",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/129_teste_1_sol.pdf"
+    },
+    {
+        "id": 130,
+        "titulo": "Recurso",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/130_recurso.pdf"
+    },
+    {
+        "id": 131,
+        "titulo": "Teste 2",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/131_teste_2.pdf"
+    },
+    {
+        "id": 132,
+        "titulo": "Resolução Teste 2",
+        "ano": "2018/2019",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/132_teste_2_sol.pdf"
+    },
+    {
+        "id": 133,
+        "titulo": "Teste 1",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/133_teste_1.pdf"
+    },
+    {
+        "id": 134,
+        "titulo": "Resolução Teste 1",
+        "ano": "2018/2019",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Análise",
+        "path": "files/analise/134_teste_1_sol.pdf"
+    },
+    {
+        "id": 135,
+        "titulo": "Slides 4",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Análise",
+        "path": "files/analise/135_Slides4.pdf"
+    },
+    {
+        "id": 136,
+        "titulo": "Slides 2",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Análise",
+        "path": "files/analise/136_Slides2.pdf"
+    },
+    {
+        "id": 137,
+        "titulo": "Slides 1",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Análise",
+        "path": "files/analise/137_Slides1.pdf"
+    },
+    {
+        "id": 138,
+        "titulo": "Slides 3",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Análise",
+        "path": "files/analise/138_Slides3.pdf"
+    },
+    {
+        "id": 139,
+        "titulo": "Slides 5",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Análise",
+        "path": "files/analise/139_Slides5.pdf"
+    },
+    {
+        "id": 140,
+        "titulo": "Teste TN",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "EPTN",
+        "path": "files/eptn/140_Teste_2021_2022.pdf"
+    },
+    {
+        "id": 141,
+        "titulo": "Teste 2 TN",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "EPTN",
+        "path": "files/eptn/141_Teste_2021_2022_2.pdf"
+    },
+    {
+        "id": 142,
+        "titulo": "Resolução Teste TN",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "EPTN",
+        "path": "files/eptn/142_Teste_2021_2022_sol.pdf"
+    },
+    {
+        "id": 143,
+        "titulo": "Teste TN",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "EPTN",
+        "path": "files/eptn/143_Teste_2022_2023.pdf"
+    },
+    {
+        "id": 144,
+        "titulo": "3 Números primos",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "EPTN",
+        "path": "files/eptn/144_3 Números primos.pdf"
+    },
+    {
+        "id": 145,
+        "titulo": "6 Teoremas",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "EPTN",
+        "path": "files/eptn/145_6 Teoremas.pdf"
+    },
+    {
+        "id": 146,
+        "titulo": "2 Equações diofantinas",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "EPTN",
+        "path": "files/eptn/146_2 Equações diofantinas.pdf"
+    },
+    {
+        "id": 147,
+        "titulo": "1 Divisibilidade",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "EPTN",
+        "path": "files/eptn/147_1 Divisibilidade.pdf"
+    },
+    {
+        "id": 148,
+        "titulo": "5 Congruências Lineares",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "EPTN",
+        "path": "files/eptn/148_5 Congruências Lineares.pdf"
+    },
+    {
+        "id": 149,
+        "titulo": "4 Congruências",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "EPTN",
+        "path": "files/eptn/149_4 Congruências.pdf"
+    },
+    {
+        "id": 150,
+        "titulo": "Res Ficha 5",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/150_Res_Ficha_5.pdf"
+    },
+    {
+        "id": 151,
+        "titulo": "Res Ficha 6",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/151_Res_Ficha_6.pdf"
+    },
+    {
+        "id": 152,
+        "titulo": "Soluções Teoria de Números",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/152_Soluções Teoria de Números.pdf"
+    },
+    {
+        "id": 153,
+        "titulo": "Exercicios Teoria de Numeros",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/153_Exercicios Teoria de Numeros.pdf"
+    },
+    {
+        "id": 154,
+        "titulo": "Res Ficha 3",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/154_Res_Ficha_3.pdf"
+    },
+    {
+        "id": 155,
+        "titulo": "Res Ficha 4 TN",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/155_Res_Ficha_4.pdf"
+    },
+    {
+        "id": 156,
+        "titulo": "Res Ficha 2 TN",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/156_Res_Ficha_2.pdf"
+    },
+    {
+        "id": 157,
+        "titulo": "Teste EP",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "EPTN",
+        "path": "files/eptn/157_Teste_2021_2022.pdf"
+    },
+    {
+        "id": 158,
+        "titulo": "Resolução Recurso EP",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "EPTN",
+        "path": "files/eptn/158_Recurso_2021_2022_sol.pdf"
+    },
+    {
+        "id": 159,
+        "titulo": "Teste EP",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "EPTN",
+        "path": "files/eptn/159_Teste_2023_2024.pdf"
+    },
+    {
+        "id": 160,
+        "titulo": "Resolução Teste EP",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "EPTN",
+        "path": "files/eptn/160_Teste_2021_2022_sol.pdf"
+    },
+    {
+        "id": 161,
+        "titulo": "Recurso",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "EPTN",
+        "path": "files/eptn/161_Recurso_2021_2022.pdf"
+    },
+    {
+        "id": 162,
+        "titulo": "Cap I Probabilidades",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "EPTN",
+        "path": "files/eptn/162_Cap_I_Probabilidades.pdf"
+    },
+    {
+        "id": 163,
+        "titulo": "Cap IV DistribuicoesConhecidas",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "EPTN",
+        "path": "files/eptn/163_Cap_IV_DistribuicoesConhecidas.pdf"
+    },
+    {
+        "id": 164,
+        "titulo": "Cap II VariaveisAleatorias",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "EPTN",
+        "path": "files/eptn/164_Cap_II_VariaveisAleatorias.pdf"
+    },
+    {
+        "id": 165,
+        "titulo": "Cap III Parametros e Independencia VA",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "EPTN",
+        "path": "files/eptn/165_Cap_III_Parametros_e_Independencia_VA.pdf"
+    },
+    {
+        "id": 166,
+        "titulo": "EP Solucoes FP 4",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/166_EP_Solucoes_FP_4.pdf"
+    },
+    {
+        "id": 167,
+        "titulo": "Folha3 EP",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/167_Folha3_EP.pdf"
+    },
+    {
+        "id": 168,
+        "titulo": "Folha3 Supl EP",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/168_Folha3_Supl_EP.pdf"
+    },
+    {
+        "id": 169,
+        "titulo": "Folha2 EP",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/169_Folha2_EP.pdf"
+    },
+    {
+        "id": 170,
+        "titulo": "Res Folha 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/170_Res_Folha_2.pdf"
+    },
+    {
+        "id": 171,
+        "titulo": "EP Solucoes FP 3",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/171_EP_Solucoes_FP_3.pdf"
+    },
+    {
+        "id": 172,
+        "titulo": "Res Folha Sup 3",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/172_Res_Folha_Sup_3.pdf"
+    },
+    {
+        "id": 173,
+        "titulo": "Res Folha 3",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/173_Res_Folha_3.pdf"
+    },
+    {
+        "id": 174,
+        "titulo": "Folha1 EP",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/174_Folha1_EP.pdf"
+    },
+    {
+        "id": 175,
+        "titulo": "EP Solucoes FP 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/175_EP_Solucoes_FP_2.pdf"
+    },
+    {
+        "id": 176,
+        "titulo": "Res Folha 4",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/176_Res_Folha_4.pdf"
+    },
+    {
+        "id": 177,
+        "titulo": "Folha4 Supl EP",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/177_Folha4_Supl_EP.pdf"
+    },
+    {
+        "id": 178,
+        "titulo": "EP Solucoes FP 1",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/178_EP_Solucoes_FP_1.pdf"
+    },
+    {
+        "id": 179,
+        "titulo": "Folha4 EP",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/179_Folha4_EP.pdf"
+    },
+    {
+        "id": 180,
+        "titulo": "Res Folha Sup 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/180_Res_Folha_Sup_2.pdf"
+    },
+    {
+        "id": 181,
+        "titulo": "Folha2 Supl EP",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/181_Folha2_Supl_EP.pdf"
+    },
+    {
+        "id": 182,
+        "titulo": "Folha1 Supl EP",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/182_Folha1_Supl_EP.pdf"
+    },
+    {
+        "id": 183,
+        "titulo": "Resolução Folha 1",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "EPTN",
+        "path": "files/eptn/183_Res_Folha_1.pdf"
+    },
+    {
+        "id": 184,
+        "titulo": "Folha Auxílio",
+        "ano": "2023/2024",
+        "tipo": "Formulário",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/184_Folha Auxílio.pdf"
+    },
+    {
+        "id": 185,
+        "titulo": "Resolução Teste Modelo 2",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/185_teste_2_modelo_2024_2025_res.pdf"
+    },
+    {
+        "id": 186,
+        "titulo": "Teste Modelo 2",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/186_teste_2_modelo_2024_2025.pdf"
+    },
+    {
+        "id": 187,
+        "titulo": "Teste Modelo 2",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/187_teste_2_modelo_2021_2022.pdf"
+    },
+    {
+        "id": 188,
+        "titulo": "Teste Modelo 2",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/188_teste_2_modelo_2023_2024.pdf"
+    },
+    {
+        "id": 189,
+        "titulo": "Teste 2 Exercícios Complementares",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/189_teste_2_Exercícios Complementares_2024_2025.pdf"
+    },
+    {
+        "id": 190,
+        "titulo": "Resolução Teste Modelo 1",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/190_teste_1_modelo_2023_2024_res.pdf"
+    },
+    {
+        "id": 191,
+        "titulo": "Teste Modelo 1",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/191_teste_1_modelo_2021_2022.pdf"
+    },
+    {
+        "id": 192,
+        "titulo": "Teste 1 Exercícios Complementares",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/192_teste_1_Exercícios Complementares_2024_2025.pdf"
+    },
+    {
+        "id": 193,
+        "titulo": "Teste Modelo 1",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/193_teste_1_modelo_2023_2024.pdf"
+    },
+    {
+        "id": 194,
+        "titulo": "Teste Mdelo 1",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/194_teste_1_modelo_2022_2023.pdf"
+    },
+    {
+        "id": 195,
+        "titulo": "Teste Mdelo 1",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/195_teste_1_modelo_2024_2025.pdf"
+    },
+    {
+        "id": 196,
+        "titulo": "05-Pipelining",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/196_05-Pipelining.pdf"
+    },
+    {
+        "id": 197,
+        "titulo": "09-OpenMP",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/197_09-OpenMP.pptx"
+    },
+    {
+        "id": 198,
+        "titulo": "04-HMem-Organizacao",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/198_04-HMem-Organizacao.pptx"
+    },
+    {
+        "id": 199,
+        "titulo": "05-Pipelining",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/199_05-Pipelining.pdf"
+    },
+    {
+        "id": 200,
+        "titulo": "02-MediçãoDesempenho",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/200_02-MediçãoDesempenho.pdf"
+    },
+    {
+        "id": 201,
+        "titulo": "02-MediçãoDesempenho",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/201_02-MediçãoDesempenho.pdf"
+    },
+    {
+        "id": 202,
+        "titulo": "08-ArquitecturasMulticore",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/202_08-ArquitecturasMulticore.pptx"
+    },
+    {
+        "id": 203,
+        "titulo": "08-ArquitecturasMulticore",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/203_08-ArquitecturasMulticore.pptx"
+    },
+    {
+        "id": 204,
+        "titulo": "06-SuperEscalaridade",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/204_06-SuperEscalaridade.pptx"
+    },
+    {
+        "id": 205,
+        "titulo": "07-ProcessamentoVectorial",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/205_07-ProcessamentoVectorial.pptx"
+    },
+    {
+        "id": 206,
+        "titulo": "09-OpenMP",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/206_09-OpenMP.pptx"
+    },
+    {
+        "id": 207,
+        "titulo": "06-SuperEscalaridade",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/207_06-SuperEscalaridade.pptx"
+    },
+    {
+        "id": 208,
+        "titulo": "03-HierarquiaMemoria",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/208_03-HierarquiaMemoria.pdf"
+    },
+    {
+        "id": 209,
+        "titulo": "03-HierarquiaMemoria",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/209_03-HierarquiaMemoria.pdf"
+    },
+    {
+        "id": 210,
+        "titulo": "07-ProcessamentoVectorial",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/210_07-ProcessamentoVectorial.pptx"
+    },
+    {
+        "id": 211,
+        "titulo": "01-VonNewmann",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/211_01-VonNewmann.pdf"
+    },
+    {
+        "id": 212,
+        "titulo": "04-HMem-Organizacao",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/212_04-HMem-Organizacao.pptx"
+    },
+    {
+        "id": 213,
+        "titulo": "01-VonNewmann",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/213_01-VonNewmann.pdf"
+    },
+    {
+        "id": 214,
+        "titulo": "Ficha 5",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/214_Ficha 5.pdf"
+    },
+    {
+        "id": 215,
+        "titulo": "Ficha 3",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/215_Ficha 3.pdf"
+    },
+    {
+        "id": 216,
+        "titulo": "Ficha 6",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/216_Ficha 6.pdf"
+    },
+    {
+        "id": 217,
+        "titulo": "Ficha 1",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/217_Ficha 1.pdf"
+    },
+    {
+        "id": 218,
+        "titulo": "Ficha 8",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/218_Ficha 8.pdf"
+    },
+    {
+        "id": 219,
+        "titulo": "Ficha 2",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "Arquitetura",
+        "path": "files/arquitetura/219_Ficha 2.pdf"
+    },
+    {
+        "id": 220,
+        "titulo": "Exame Época Especial",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "PF",
+        "path": "files/pf/220_PF_EE_20_21.pdf"
+    },
+    {
+        "id": 221,
+        "titulo": "Recurso",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "PF",
+        "path": "files/pf/221_PF_Recurso_23_24.pdf"
+    },
+    {
+        "id": 222,
+        "titulo": "Teste Modelo LCC",
+        "ano": "2025/2026",
+        "tipo": "Teste/Exame",
+        "uc": "PF",
+        "path": "files/pf/222_PF_Teste_Modelo_25_26.pdf"
+    },
+    {
+        "id": 223,
+        "titulo": "Teste",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "PF",
+        "path": "files/pf/223_PF_Teste_23_24.pdf"
+    },
+    {
+        "id": 224,
+        "titulo": "Exame Época Especial",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "PF",
+        "path": "files/pf/224_PF_EE_19_20.pdf"
+    },
+    {
+        "id": 225,
+        "titulo": "Exame Época Especial",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "PF",
+        "path": "files/pf/225_PF_EE_22_23.pdf"
+    },
+    {
+        "id": 226,
+        "titulo": "Teste 1",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "MNONL",
+        "path": "files/mnonl/226_teste1_2020_2021.pdf"
+    },
+    {
+        "id": 227,
+        "titulo": "Teste 1",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "MNONL",
+        "path": "files/mnonl/227_teste1_2019_2020.pdf"
+    },
+    {
+        "id": 228,
+        "titulo": "1 Erros",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "MNONL",
+        "path": "files/mnonl/228_1_Erros.pdf"
+    },
+    {
+        "id": 229,
+        "titulo": "2 INTEGRA",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "MNONL",
+        "path": "files/mnonl/229_2_INTEGRA.pdf"
+    },
+    {
+        "id": 230,
+        "titulo": "8 SPLINE",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "MNONL",
+        "path": "files/mnonl/230_8_SPLINE.pdf"
+    },
+    {
+        "id": 231,
+        "titulo": "4 SENL",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "MNONL",
+        "path": "files/mnonl/231_4_SENL.pdf"
+    },
+    {
+        "id": 232,
+        "titulo": "7 MIN QUAD",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "MNONL",
+        "path": "files/mnonl/232_7_MIN_QUAD.pdf"
+    },
+    {
+        "id": 233,
+        "titulo": "6 SEL",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "MNONL",
+        "path": "files/mnonl/233_6_SEL.pdf"
+    },
+    {
+        "id": 234,
+        "titulo": "3 INTERPOLAÇÃO",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "MNONL",
+        "path": "files/mnonl/234_3_INTERP.pdf"
+    },
+    {
+        "id": 235,
+        "titulo": "5 ENL",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "MNONL",
+        "path": "files/mnonl/235_5_ENL.pdf"
+    },
+    {
+        "id": 236,
+        "titulo": "Solucoes MN",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "MNONL",
+        "path": "files/mnonl/236_Solucoes MN.pdf"
+    },
+    {
+        "id": 237,
+        "titulo": "Folhas MN",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "MNONL",
+        "path": "files/mnonl/237_Folhas MN.pdf"
+    },
+    {
+        "id": 238,
+        "titulo": "Teste 2",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "MNONL",
+        "path": "files/mnonl/238_teste2_2020_2021.pdf"
+    },
+    {
+        "id": 239,
+        "titulo": "1 Método DSC e Condições de Otimalidad",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "MNONL",
+        "path": "files/mnonl/239_1_Método DSC e Condições de Otimalidad.pdf"
+    },
+    {
+        "id": 240,
+        "titulo": "3 Otimização diferenciável Métodos do gradiente",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "MNONL",
+        "path": "files/mnonl/240_3_Otimização diferenciável_Métodos do gradiente.pdf"
+    },
+    {
+        "id": 241,
+        "titulo": "2 Otimização não diferenciável Método Nelder-Mead",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "MNONL",
+        "path": "files/mnonl/241_2_Otimização não diferenciável_Método Nelder-Mead.pdf"
+    },
+    {
+        "id": 242,
+        "titulo": "Folhas ONL",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "MNONL",
+        "path": "files/mnonl/242_Folhas ONL.pdf"
+    },
+    {
+        "id": 243,
+        "titulo": "Solucoes ONL",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "MNONL",
+        "path": "files/mnonl/243_Solucoes ONL.pdf"
+    },
+    {
+        "id": 244,
+        "titulo": "Calculo-de-Programas",
+        "ano": "2024/2025",
+        "tipo": "Bibliografia",
+        "uc": "CP",
+        "path": "files/cp/244_Calculo-de-Programas.pdf"
+    },
+    {
+        "id": 245,
+        "titulo": "Exame Época Especial LEI+MiEI",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/245_Exame_especial_2122.pdf"
+    },
+    {
+        "id": 246,
+        "titulo": "Teste 2 LEI+MiEI",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/246_Teste_2324_2.pdf"
+    },
+    {
+        "id": 247,
+        "titulo": "Teste",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/247_Teste_2324.pdf"
+    },
+    {
+        "id": 248,
+        "titulo": "Resolução Parcial Teste",
+        "ano": "2019/2020",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/248_Teste_1920_com_solucao_parcial.pdf"
+    },
+    {
+        "id": 249,
+        "titulo": "Teste 2021 LCC+MiEI",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/249_Teste_2021.pdf"
+    },
+    {
+        "id": 250,
+        "titulo": "Recurso 1920 LCC+MiEI",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/250_Exame_1920.pdf"
+    },
+    {
+        "id": 251,
+        "titulo": "Exame Época Especial LCC+MiEI",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/251_Exame_especial_2021.pdf"
+    },
+    {
+        "id": 252,
+        "titulo": "Resolução Teste 2",
+        "ano": "2022/2023",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/252_Teste_2223_2_com_solucao.pdf"
+    },
+    {
+        "id": 253,
+        "titulo": "Teste LCC+MiEI",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/253_Teste_1920.pdf"
+    },
+    {
+        "id": 254,
+        "titulo": "Resolução Exame Época Especial",
+        "ano": "2020/2021",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/254_Exame_especial_2021_com_solucao.pdf"
+    },
+    {
+        "id": 255,
+        "titulo": "Resolução Teste",
+        "ano": "2022/2023",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/255_Teste_2223_com_solucao.pdf"
+    },
+    {
+        "id": 256,
+        "titulo": "Resolução Teste",
+        "ano": "2020/2021",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/256_Teste_2021_com_solucao.pdf"
+    },
+    {
+        "id": 257,
+        "titulo": "Exame LCC+MiEI",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/257_Exame_1819.pdf"
+    },
+    {
+        "id": 258,
+        "titulo": "Teste LEI+MiEI",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/258_Teste_2223.pdf"
+    },
+    {
+        "id": 259,
+        "titulo": "Resolução Recurso",
+        "ano": "2018/2019",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/259_Exame_1819_com_solucao.pdf"
+    },
+    {
+        "id": 260,
+        "titulo": "Resolução parcial Exame Época Especial",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/260_Exame_especial_2122_com_solucao_parcial.pdf"
+    },
+    {
+        "id": 261,
+        "titulo": "Teste 2 LCC",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/261_Teste_2223_2.pdf"
+    },
+    {
+        "id": 262,
+        "titulo": "Resolução Teste 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/262_Teste_2324_2_com_resolucao.pdf"
+    },
+    {
+        "id": 263,
+        "titulo": "Resolução Recurso",
+        "ano": "2019/2020",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "CP",
+        "path": "files/cp/263_Exame_1920_com_solucao.pdf"
+    },
+    {
+        "id": 264,
+        "titulo": "Resolução Questoes 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/264_Questoes2.c"
+    },
+    {
+        "id": 265,
+        "titulo": "Questoes 1",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/265_Questoes1.pdf"
+    },
+    {
+        "id": 266,
+        "titulo": "Questoes 1",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/266_Questoes1.pdf"
+    },
+    {
+        "id": 267,
+        "titulo": "Resolução Questoes 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/267_Questoes2.c"
+    },
+    {
+        "id": 268,
+        "titulo": "Miniteste 2",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/268_02-2324.pdf"
+    },
+    {
+        "id": 269,
+        "titulo": "Miniteste 3",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/269_03-2324.pdf"
+    },
+    {
+        "id": 270,
+        "titulo": "Miniteste 3",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/270_03-2425.pdf"
+    },
+    {
+        "id": 271,
+        "titulo": "Miniteste 1",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/271_01-2425.pdf"
+    },
+    {
+        "id": 272,
+        "titulo": "Miniteste 1",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/272_01-2324.pdf"
+    },
+    {
+        "id": 273,
+        "titulo": "Miniteste 2",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/273_02-2425.pdf"
+    },
+    {
+        "id": 274,
+        "titulo": "Exame LEI",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/274_exame_2020_2021.pdf"
+    },
+    {
+        "id": 275,
+        "titulo": "Teste LEI",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/275_teste_2020_2021.pdf"
+    },
+    {
+        "id": 276,
+        "titulo": "Exame LEI",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/276_exame_2022_2023.pdf"
+    },
+    {
+        "id": 277,
+        "titulo": "Exame LEI",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/277_exame_2021_2022.pdf"
+    },
+    {
+        "id": 278,
+        "titulo": "Teste LEI",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/278_teste_2022_2023.pdf"
+    },
+    {
+        "id": 279,
+        "titulo": "Teste LEI",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/279_teste_2023_2024.pdf"
+    },
+    {
+        "id": 280,
+        "titulo": "Teste",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "PI",
+        "path": "files/pi/280_teste_2021_2022.pdf"
+    },
+    {
+        "id": 281,
+        "titulo": "Slides",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "PI",
+        "path": "files/pi/281_slides.pdf"
+    },
+    {
+        "id": 282,
+        "titulo": "Resumos SO",
+        "ano": 2025,
+        "tipo": "Resumos",
+        "uc": "SO",
+        "path": "files/so/282_Resumos_SO.pdf"
+    },
+    {
+        "id": 283,
+        "titulo": "Guiao 1 Esqueleto",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/283_Guiao1Esqueleto.zip"
+    },
+    {
+        "id": 284,
+        "titulo": "Guiao 4 Enunciado EN",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/284_Guiao4EnunciadoEN.pdf"
+    },
+    {
+        "id": 285,
+        "titulo": "Guiao 2 Slides",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/285_Guiao2Slides.pdf"
+    },
+    {
+        "id": 286,
+        "titulo": "Guiao 6 Enunciado",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/286_guiao6enunciado.pdf"
+    },
+    {
+        "id": 287,
+        "titulo": "Guiao 6 Slides",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/287_Guiao6Slides.pdf"
+    },
+    {
+        "id": 288,
+        "titulo": "Guiao 6 Enunciado EN",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/288_Guiao6EnunciadoEN.pdf"
+    },
+    {
+        "id": 289,
+        "titulo": "Ex6 skeleton",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/289_ex6_skeleton.c"
+    },
+    {
+        "id": 290,
+        "titulo": "Guiao 5 Slides",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/290_Guiao5Slides.pdf"
+    },
+    {
+        "id": 291,
+        "titulo": "Guiao 3 Slides",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/291_Guiao3Slides.pdf"
+    },
+    {
+        "id": 292,
+        "titulo": "Guiao 4 Esqueleto",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/292_Guiao4Esqueleto.zip"
+    },
+    {
+        "id": 293,
+        "titulo": "Guiao 5 Esqueleto",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/293_Guiao5Esqueleto.zip"
+    },
+    {
+        "id": 294,
+        "titulo": "Guiao 5 Enunciado",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/294_Guiao5Enunciado.pdf"
+    },
+    {
+        "id": 295,
+        "titulo": "Guiao 2 Enunciado",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/295_Guiao2Enunciado.pdf"
+    },
+    {
+        "id": 296,
+        "titulo": "Guiao 4 Enunciado",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/296_Guiao4Enunciado.pdf"
+    },
+    {
+        "id": 297,
+        "titulo": "Guiao 1 Slides",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/297_Guiao1Slides.pdf"
+    },
+    {
+        "id": 298,
+        "titulo": "Guiao 3 Enunciado EN",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/298_Guiao3EnunciadoEN.pdf"
+    },
+    {
+        "id": 299,
+        "titulo": "Guiao 4 Slides",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/299_Guiao4Slides.pdf"
+    },
+    {
+        "id": 300,
+        "titulo": "Guiao 2 Enunciado EN",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/300_Guiao2EnunciadoEN.pdf"
+    },
+    {
+        "id": 301,
+        "titulo": "Guiao 2 Esqueleto",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/301_Guiao2Esqueleto.zip"
+    },
+    {
+        "id": 302,
+        "titulo": "Guiao 1 Enunciado EN",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/302_Guiao1EnunciadoEN.pdf"
+    },
+    {
+        "id": 303,
+        "titulo": "Guiao 1 Enunciado",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/303_Guiao1Enunciado.pdf"
+    },
+    {
+        "id": 304,
+        "titulo": "Guiao 5 Enunciado EN",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/304_Guiao5EnunciadoEN.pdf"
+    },
+    {
+        "id": 305,
+        "titulo": "Guiao 3 Esqueleto",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/305_Guiao3Esqueleto.zip"
+    },
+    {
+        "id": 306,
+        "titulo": "Guiao 3 Enunciado",
+        "ano": 2025,
+        "tipo": "Ficha",
+        "uc": "SO",
+        "path": "files/so/306_Guiao3ENunciado.pdf"
+    },
+    {
+        "id": 307,
+        "titulo": "Recurso PT",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "SO",
+        "path": "files/so/307_recurso_2023_2024_PT.pdf"
+    },
+    {
+        "id": 308,
+        "titulo": "Teste PT",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "SO",
+        "path": "files/so/308_teste_2023_2024_PT.pdf"
+    },
+    {
+        "id": 309,
+        "titulo": "Recurso PT",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "SO",
+        "path": "files/so/309_recurso_2021_2022_PT.pdf"
+    },
+    {
+        "id": 310,
+        "titulo": "Teste modelo EN",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "SO",
+        "path": "files/so/310_teste_modelo_2024_2025_EN.pdf"
+    },
+    {
+        "id": 311,
+        "titulo": "Teste PT",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "SO",
+        "path": "files/so/311_teste_2021_2022_PT.pdf"
+    },
+    {
+        "id": 312,
+        "titulo": "Teste PT",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "SO",
+        "path": "files/so/312_teste_2022_2023_PT.pdf"
+    },
+    {
+        "id": 313,
+        "titulo": "Recurso PT",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "SO",
+        "path": "files/so/313_recurso_2022_2023_PT.pdf"
+    },
+    {
+        "id": 314,
+        "titulo": "Teste modelo PT",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "SO",
+        "path": "files/so/314_teste_modelo_2024_2025_PT.pdf"
+    },
+    {
+        "id": 315,
+        "titulo": "3 - CPU Virtualization Mechanisms",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "SO",
+        "path": "files/so/315_3 - CPU Virtualization Mechanisms.pdf"
+    },
+    {
+        "id": 316,
+        "titulo": "6 - Paging and Virtual Memory",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "SO",
+        "path": "files/so/316_6 - Paging and Virtual Memory.pdf"
+    },
+    {
+        "id": 317,
+        "titulo": "7 - IO Devices",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "SO",
+        "path": "files/so/317_7 - IO Devices.pdf"
+    },
+    {
+        "id": 318,
+        "titulo": "2 - Processes",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "SO",
+        "path": "files/so/318_2 - Processes.pdf"
+    },
+    {
+        "id": 319,
+        "titulo": "5 - Memory Virtualization Abstractions and Mechanisms",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "SO",
+        "path": "files/so/319_5 - Memory Virtualization Abstractions and Mechanisms.pdf"
+    },
+    {
+        "id": 320,
+        "titulo": "8 - File System Interface and Design",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "SO",
+        "path": "files/so/320_8 - File System Interface and Design.pdf"
+    },
+    {
+        "id": 321,
+        "titulo": "0 - Presentation",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "SO",
+        "path": "files/so/321_0 - Presentation.pdf"
+    },
+    {
+        "id": 322,
+        "titulo": "4 - CPU Scheduling",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "SO",
+        "path": "files/so/322_4 - CPU Scheduling.pdf"
+    },
+    {
+        "id": 323,
+        "titulo": "1 - OS Intro",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "SO",
+        "path": "files/so/323_1 - OS Intro.pdf"
+    },
+    {
+        "id": 324,
+        "titulo": "Recurso",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "CG",
+        "path": "files/cg/324_Recurso_22_23.pdf"
+    },
+    {
+        "id": 325,
+        "titulo": "Teste",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "CG",
+        "path": "files/cg/325_Teste_22_23.pdf"
+    },
+    {
+        "id": 326,
+        "titulo": "Exame Época Especial",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "CG",
+        "path": "files/cg/326_EE_23_24.pdf"
+    },
+    {
+        "id": 327,
+        "titulo": "Teste B",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "CG",
+        "path": "files/cg/327_Teste_24_25_B.pdf"
+    },
+    {
+        "id": 328,
+        "titulo": "Teste B",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "CG",
+        "path": "files/cg/328_Teste_23_24_B.pdf"
+    },
+    {
+        "id": 329,
+        "titulo": "Teste A",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "CG",
+        "path": "files/cg/329_Teste_23_24_A.pdf"
+    },
+    {
+        "id": 330,
+        "titulo": "Recurso ov",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "CG",
+        "path": "files/cg/330_Recurso_22_23_ov.pdf"
+    },
+    {
+        "id": 331,
+        "titulo": "Recurso B",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "CG",
+        "path": "files/cg/331_Recurso_23_24_B.pdf"
+    },
+    {
+        "id": 332,
+        "titulo": "Recurso A",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "CG",
+        "path": "files/cg/332_Recurso_23_24_A.pdf"
+    },
+    {
+        "id": 333,
+        "titulo": "Teste",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "CG",
+        "path": "files/cg/333_Teste_20_21.pdf"
+    },
+    {
+        "id": 334,
+        "titulo": "Folha Auxílio",
+        "ano": "2023/2024",
+        "tipo": "Formulário",
+        "uc": "Álgebra",
+        "path": "files/algebra/334_Folha Auxílio.pdf"
+    },
+    {
+        "id": 335,
+        "titulo": "Apontamentos",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Álgebra",
+        "path": "files/algebra/335_Apontamentos.pdf"
+    },
+    {
+        "id": 336,
+        "titulo": "Resolução Teste 2 LCC",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/336_teste_2_CC_2023_2024_sol.pdf"
+    },
+    {
+        "id": 337,
+        "titulo": "Resolução Recurso B",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/337_recurso_B_2024_2025_sol.pdf"
+    },
+    {
+        "id": 338,
+        "titulo": "Resolução Teste 2 B",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/338_teste_2_B_2023_2024_sol.pdf"
+    },
+    {
+        "id": 339,
+        "titulo": "Recurso B",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/339_recurso_B_2024_2025.pdf"
+    },
+    {
+        "id": 340,
+        "titulo": "Resolução Teste 2",
+        "ano": "2020/2021",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/340_teste_2_2020_2021_sol.pdf"
+    },
+    {
+        "id": 341,
+        "titulo": "Resolução Teste 1",
+        "ano": "2022/2023",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/341_teste_1_2022_2023_sol.pdf"
+    },
+    {
+        "id": 342,
+        "titulo": "Resolução Teste 1 LCC",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/342_teste_1_CC_2023_2024_sol.pdf"
+    },
+    {
+        "id": 343,
+        "titulo": "Teste 1",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/343_teste_1_2024_2025.pdf"
+    },
+    {
+        "id": 344,
+        "titulo": "Teste 2 LCC",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/344_teste_2_CC_2023_2024.pdf"
+    },
+    {
+        "id": 345,
+        "titulo": "Resolução Recurso LCC",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/345_recurso_CC_2023_2024_sol.pdf"
+    },
+    {
+        "id": 346,
+        "titulo": "Recurso A",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/346_recurso_A_2024_2025.pdf"
+    },
+    {
+        "id": 347,
+        "titulo": "Resolução Teste 2 A",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/347_teste_2_A_2023_2024_sol.pdf"
+    },
+    {
+        "id": 348,
+        "titulo": "Teste 1",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/348_teste_1_2020_2021.pdf"
+    },
+    {
+        "id": 349,
+        "titulo": "Teste 2 A",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/349_teste_2_A_2023_2024.pdf"
+    },
+    {
+        "id": 350,
+        "titulo": "Resolução Teste 1",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/350_teste_1_2024_2025_sol.pdf"
+    },
+    {
+        "id": 351,
+        "titulo": "Teste 1",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/351_teste_1_2022_2023.pdf"
+    },
+    {
+        "id": 352,
+        "titulo": "Teste 1",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/352_teste_1_2021_2022.pdf"
+    },
+    {
+        "id": 353,
+        "titulo": "Resolução Teste 1",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/353_teste_1_2021_2022_sol.pdf"
+    },
+    {
+        "id": 354,
+        "titulo": "Teste 2 B",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/354_teste_2_B_2023_2024.pdf"
+    },
+    {
+        "id": 355,
+        "titulo": "Teste 1 LCC",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/355_teste_1_CC_2023_2024.pdf"
+    },
+    {
+        "id": 356,
+        "titulo": "Resolução Recurso A",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/356_recurso_A_2024_2025_sol.pdf"
+    },
+    {
+        "id": 357,
+        "titulo": "Recurso LCC",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/357_recurso_CC_2023_2024.pdf"
+    },
+    {
+        "id": 358,
+        "titulo": "Resolução Teste 2",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/358_teste_2_2024_2025_sol.pdf"
+    },
+    {
+        "id": 359,
+        "titulo": "Teste 2",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/359_teste_2_2020_2021.pdf"
+    },
+    {
+        "id": 360,
+        "titulo": "Resolução Teste 1",
+        "ano": "2020/2021",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Álgebra",
+        "path": "files/algebra/360_teste_1_2020_2021_sol.pdf"
+    },
+    {
+        "id": 361,
+        "titulo": "Sistemas de equações lineares",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "Álgebra",
+        "path": "files/algebra/361_Capitulo_2_Sistemas_de_equações_lineares.pdf"
+    },
+    {
+        "id": 362,
+        "titulo": "Determinantes",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "Álgebra",
+        "path": "files/algebra/362_Capitulo_3_Determinantes.pdf"
+    },
+    {
+        "id": 363,
+        "titulo": "Matriz",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "Álgebra",
+        "path": "files/algebra/363_Capitulo_1_Matriz.pdf"
+    },
+    {
+        "id": 364,
+        "titulo": "Valores e Vetores Próprios",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "Álgebra",
+        "path": "files/algebra/364_Capitulo_6_Valores_e_Vetores_Próprios.pdf"
+    },
+    {
+        "id": 365,
+        "titulo": "Transformações Lineares",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "Álgebra",
+        "path": "files/algebra/365_Capitulo_5_Transformações_Lineares.pdf"
+    },
+    {
+        "id": 366,
+        "titulo": "Espaços Vetoriais",
+        "ano": 2025,
+        "tipo": "Slides",
+        "uc": "Álgebra",
+        "path": "files/algebra/366_Capitulo_4_Espaços_Vetoriais.pdf"
+    },
+    {
+        "id": 367,
+        "titulo": "Exercícios Sistemas Equaçoes Lineares",
+        "ano": 2026,
+        "tipo": "Ficha",
+        "uc": "Álgebra",
+        "path": "files/algebra/367_Exercícios_Sistemas_Equaçoes_Lineares.pdf"
+    },
+    {
+        "id": 368,
+        "titulo": "Exercícios Determinantes",
+        "ano": 2026,
+        "tipo": "Ficha",
+        "uc": "Álgebra",
+        "path": "files/algebra/368_Exercícios_Determinantes.pdf"
+    },
+    {
+        "id": 369,
+        "titulo": "Exercicios Matrizes",
+        "ano": 2026,
+        "tipo": "Ficha",
+        "uc": "Álgebra",
+        "path": "files/algebra/369_Exercicios_Matrizes.pdf"
+    },
+    {
+        "id": 370,
+        "titulo": "Exercícios Algebra Vetorial",
+        "ano": 2026,
+        "tipo": "Ficha",
+        "uc": "Álgebra",
+        "path": "files/algebra/370_Exercícios_Algebra_Vetorial.pdf"
+    },
+    {
+        "id": 371,
+        "titulo": "Exercícios Aplicações Lineares",
+        "ano": 2026,
+        "tipo": "Ficha",
+        "uc": "Álgebra",
+        "path": "files/algebra/371_Exercícios_Aplicações_Lineares.pdf"
+    },
+    {
+        "id": 372,
+        "titulo": "Exercicios Resolucao",
+        "ano": 2026,
+        "tipo": "Resolução de Ficha",
+        "uc": "Álgebra",
+        "path": "files/algebra/372_Exercicios_Resolucao.pdf"
+    },
+    {
+        "id": 373,
+        "titulo": "Exercícios Espaços Vetoriais",
+        "ano": 2026,
+        "tipo": "Ficha",
+        "uc": "Álgebra",
+        "path": "files/algebra/373_Exercícios_Espaços Vetoriais.pdf"
+    },
+    {
+        "id": 374,
+        "titulo": "Exercícios Valores Vetores Proprios",
+        "ano": 2026,
+        "tipo": "Ficha",
+        "uc": "Álgebra",
+        "path": "files/algebra/374_Exercícios_Valores_Vetores_Proprios.pdf"
+    },
+    {
+        "id": 375,
+        "titulo": "Recurso 1",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/375_Recurso_2024_2025_1.pdf"
+    },
+    {
+        "id": 376,
+        "titulo": "Recurso",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/376_Recurso_2022_2023.pdf"
+    },
+    {
+        "id": 377,
+        "titulo": "Recurso",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/377_Recurso_2023_2024.pdf"
+    },
+    {
+        "id": 378,
+        "titulo": "Recurso",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/378_Recurso_2019_2020.pdf"
+    },
+    {
+        "id": 379,
+        "titulo": "Recurso",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/379_Recurso_2021_2022.pdf"
+    },
+    {
+        "id": 380,
+        "titulo": "Recurso 2",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/380_Recurso_2024_2025_2.pdf"
+    },
+    {
+        "id": 381,
+        "titulo": "Teste",
+        "ano": "2025/2026",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/381_Teste_2025_2026.pdf"
+    },
+    {
+        "id": 382,
+        "titulo": "Teste",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/382_Teste_2021_2022.pdf"
+    },
+    {
+        "id": 383,
+        "titulo": "Teste",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/383_Teste_2023_2024.pdf"
+    },
+    {
+        "id": 384,
+        "titulo": "Teste",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/384_Teste_2022_2023.pdf"
+    },
+    {
+        "id": 385,
+        "titulo": "Teste",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/385_Teste_2024_2025.pdf"
+    },
+    {
+        "id": 386,
+        "titulo": "Exame Época Especial",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/386_EE_2019_2020.pdf"
+    },
+    {
+        "id": 387,
+        "titulo": "Exame Época Especial",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/387_EE_2020_2021.pdf"
+    },
+    {
+        "id": 388,
+        "titulo": "Exame Época Especial",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/388_EE_2021_2022.pdf"
+    },
+    {
+        "id": 389,
+        "titulo": "Exame Época Especial",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/389_EE_2023_2024.pdf"
+    },
+    {
+        "id": 390,
+        "titulo": "Exame Época Especial",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "SD",
+        "path": "files/sd/390_EE_2022_2023.pdf"
+    },
+    {
+        "id": 391,
+        "titulo": "Serialization",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/391_11_Serialization.pdf"
+    },
+    {
+        "id": 392,
+        "titulo": "Communication",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/392_10_Communication.pdf"
+    },
+    {
+        "id": 393,
+        "titulo": "Architectures",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/393_12_Architectures.pdf"
+    },
+    {
+        "id": 394,
+        "titulo": "Conditions",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/394_7_Conditions.pdf"
+    },
+    {
+        "id": 395,
+        "titulo": "Clock Synchronization",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/395_14_Clock_Synchronization.pdf"
+    },
+    {
+        "id": 396,
+        "titulo": "Final",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/396_17_Final.pdf"
+    },
+    {
+        "id": 397,
+        "titulo": "Locks",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/397_3_Locks.pdf"
+    },
+    {
+        "id": 398,
+        "titulo": "Races",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/398_1_Races.pdf"
+    },
+    {
+        "id": 399,
+        "titulo": "Mutex",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/399_5_Mutex.pdf"
+    },
+    {
+        "id": 400,
+        "titulo": "Distributed Transactions",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/400_15_Distributed_Transactions.pdf"
+    },
+    {
+        "id": 401,
+        "titulo": "RPC",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/401_13_RPC.pdf"
+    },
+    {
+        "id": 402,
+        "titulo": "Extra",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/402_8_Extra.pdf"
+    },
+    {
+        "id": 403,
+        "titulo": "Mutex",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/403_6_Mutex.pdf"
+    },
+    {
+        "id": 404,
+        "titulo": "Locks",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/404_2_Locks.pdf"
+    },
+    {
+        "id": 405,
+        "titulo": "Resource Location",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/405_16_Resource_Location.pdf"
+    },
+    {
+        "id": 406,
+        "titulo": "Intro",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/406_9_Intro.pdf"
+    },
+    {
+        "id": 407,
+        "titulo": "Locks",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "SD",
+        "path": "files/sd/407_4_Locks.pdf"
+    },
+    {
+        "id": 408,
+        "titulo": "Exercicios",
+        "ano": "2025/2026",
+        "tipo": "Exercícios",
+        "uc": "SD",
+        "path": "files/sd/408_exercicios.pdf"
+    },
+    {
+        "id": 409,
+        "titulo": "Exercicios-2",
+        "ano": "2025/2026",
+        "tipo": "Exercícios",
+        "uc": "SD",
+        "path": "files/sd/409_exercicios-2.pdf"
+    },
+    {
+        "id": 410,
+        "titulo": "Resolução Recurso",
+        "ano": "2014/2015",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/410_recurso1415p1.pdf"
+    },
+    {
+        "id": 411,
+        "titulo": "Resolução Teste 1",
+        "ano": "2014/2015",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/411_1teste1415p1.pdf"
+    },
+    {
+        "id": 412,
+        "titulo": "Teste 2",
+        "ano": "2014/2015",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/412_2teste1415.pdf"
+    },
+    {
+        "id": 413,
+        "titulo": "Teste 1",
+        "ano": "2014/2015",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/413_1teste1415.pdf"
+    },
+    {
+        "id": 414,
+        "titulo": "Resolução Recurso",
+        "ano": "2014/2015",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/414_recruso1415.pdf"
+    },
+    {
+        "id": 415,
+        "titulo": "Resolução Teste 2",
+        "ano": "2014/2015",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/415_2teste1415p1.pdf"
+    },
+    {
+        "id": 416,
+        "titulo": "Teste 1",
+        "ano": "2015/2016",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/416_1teste1516.pdf"
+    },
+    {
+        "id": 417,
+        "titulo": "Resolução Recurso",
+        "ano": "2015/2016",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/417_recurso1516p1.pdf"
+    },
+    {
+        "id": 418,
+        "titulo": "Resolução Teste 2",
+        "ano": "2015/2016",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/418_2teste1516p1.pdf"
+    },
+    {
+        "id": 419,
+        "titulo": "Recurso",
+        "ano": "2015/2016",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/419_recurso1516.pdf"
+    },
+    {
+        "id": 420,
+        "titulo": "Resolução Teste 1",
+        "ano": "2015/2016",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/420_1teste1516p1.pdf"
+    },
+    {
+        "id": 421,
+        "titulo": "Teste 2",
+        "ano": "2015/2016",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/421_2teste1516.pdf"
+    },
+    {
+        "id": 422,
+        "titulo": "Teste 1",
+        "ano": "2013/2014",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/422_1teste1314.pdf"
+    },
+    {
+        "id": 423,
+        "titulo": "Teste 2",
+        "ano": "2013/2014",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/423_2teste1314.pdf"
+    },
+    {
+        "id": 424,
+        "titulo": "Resolução Teste 2",
+        "ano": "2013/2014",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/424_2teste1314p1.pdf"
+    },
+    {
+        "id": 425,
+        "titulo": "Recurso",
+        "ano": "2013/2014",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/425_recurso1314.pdf"
+    },
+    {
+        "id": 426,
+        "titulo": "Resolução Teste 1",
+        "ano": "2013/2014",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/426_1teste1314p1.pdf"
+    },
+    {
+        "id": 427,
+        "titulo": "Resolução Recurso",
+        "ano": "2013/2014",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/427_recruso1314p1.pdf"
+    },
+    {
+        "id": 428,
+        "titulo": "Resolução Teste 2",
+        "ano": "2022/2023",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/428_2teste2223e_sol.pdf"
+    },
+    {
+        "id": 429,
+        "titulo": "Teste 2",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/429_2teste2223e.pdf"
+    },
+    {
+        "id": 430,
+        "titulo": "Resolução Teste 2",
+        "ano": "2017/2018",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/430_2teste1718p1.pdf"
+    },
+    {
+        "id": 431,
+        "titulo": "Teste 2",
+        "ano": "2017/2018",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/431_2teste1718.pdf"
+    },
+    {
+        "id": 432,
+        "titulo": "Resolução Recurso",
+        "ano": "2017/2018",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/432_recurso1718p1.pdf"
+    },
+    {
+        "id": 433,
+        "titulo": "Resolução Teste 1",
+        "ano": "2017/2018",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/433_1teste1718p1.pdf"
+    },
+    {
+        "id": 434,
+        "titulo": "Teste 1",
+        "ano": "2017/2018",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/434_1teste1718.pdf"
+    },
+    {
+        "id": 435,
+        "titulo": "Recurso",
+        "ano": "2017/2018",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/435_recruso1718.pdf"
+    },
+    {
+        "id": 436,
+        "titulo": "Resolução Recurso",
+        "ano": "2016/2017",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/436_recurso1617p1.pdf"
+    },
+    {
+        "id": 437,
+        "titulo": "Teste 1",
+        "ano": "2016/2017",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/437_1teste1617.pdf"
+    },
+    {
+        "id": 438,
+        "titulo": "Teste 2",
+        "ano": "2016/2017",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/438_2teste1617.pdf"
+    },
+    {
+        "id": 439,
+        "titulo": "Resolução Teste 2",
+        "ano": "2016/2017",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/439_2teste1617p1.pdf"
+    },
+    {
+        "id": 440,
+        "titulo": "Resolução Teste 1",
+        "ano": "2016/2017",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/440_1teste1617p1.pdf"
+    },
+    {
+        "id": 441,
+        "titulo": "Recurso",
+        "ano": "2016/2017",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/441_recurso1617.pdf"
+    },
+    {
+        "id": 442,
+        "titulo": "Resolução Teste 1",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/442_1teste2122p1.pdf"
+    },
+    {
+        "id": 443,
+        "titulo": "Teste 2",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/443_2teste2122.pdf"
+    },
+    {
+        "id": 444,
+        "titulo": "Resolução Teste 2",
+        "ano": "2021/2022",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/444_2teste2122p1.pdf"
+    },
+    {
+        "id": 445,
+        "titulo": "Teste 1",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/445_1teste2122.pdf"
+    },
+    {
+        "id": 446,
+        "titulo": "Teste 2",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/446_2teste2021.pdf"
+    },
+    {
+        "id": 447,
+        "titulo": "Resolução Teste 2",
+        "ano": "2020/2021",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/447_2teste2021p1.pdf"
+    },
+    {
+        "id": 448,
+        "titulo": "Resolução Teste 1",
+        "ano": "2020/2021",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/448_1teste2021p1.pdf"
+    },
+    {
+        "id": 449,
+        "titulo": "Teste 1",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/449_1teste2021.pdf"
+    },
+    {
+        "id": 450,
+        "titulo": "Resolução Teste 1",
+        "ano": "2012/2013",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/450_1teste_sol.pdf"
+    },
+    {
+        "id": 451,
+        "titulo": "Resolução Teste 2",
+        "ano": "2012/2013",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/451_2teste1213p1.pdf"
+    },
+    {
+        "id": 452,
+        "titulo": "Teste 2",
+        "ano": "2012/2013",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/452_2teste1213.pdf"
+    },
+    {
+        "id": 453,
+        "titulo": "Teste 1",
+        "ano": "2012/2013",
+        "tipo": "Teste/Exame",
+        "uc": "TMD",
+        "path": "files/tmd/453_1teste1213.pdf"
+    },
+    {
+        "id": 454,
+        "titulo": "Capítulo 3",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "TMD",
+        "path": "files/tmd/454_Cap3.pdf"
+    },
+    {
+        "id": 455,
+        "titulo": "Capítulo 4",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "TMD",
+        "path": "files/tmd/455_Cap4.pdf"
+    },
+    {
+        "id": 456,
+        "titulo": "Capítulo 2",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "TMD",
+        "path": "files/tmd/456_Cap2.pdf"
+    },
+    {
+        "id": 457,
+        "titulo": "Capítulo 1",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "TMD",
+        "path": "files/tmd/457_Cap1.pdf"
+    },
+    {
+        "id": 458,
+        "titulo": "Relações Binárias",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "TMD",
+        "path": "files/tmd/458_Relações Binárias.pdf"
+    },
+    {
+        "id": 459,
+        "titulo": "Teoria Elementar de Conjuntos",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "TMD",
+        "path": "files/tmd/459_Teoria Elementar de Conjuntos.pdf"
+    },
+    {
+        "id": 460,
+        "titulo": "Recurso",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "CC",
+        "path": "files/cc/460_Exame_2022_2023.pdf"
+    },
+    {
+        "id": 461,
+        "titulo": "Teste transcrito",
+        "ano": "2015/2016",
+        "tipo": "Teste/Exame",
+        "uc": "CC",
+        "path": "files/cc/461_Teste_2015_2016.pdf"
+    },
+    {
+        "id": 462,
+        "titulo": "Teste",
+        "ano": "2013/2014",
+        "tipo": "Teste/Exame",
+        "uc": "CC",
+        "path": "files/cc/462_Teste_2013_2014.pdf"
+    },
+    {
+        "id": 463,
+        "titulo": "Teste Exemplo",
+        "ano": "2015/2016",
+        "tipo": "Teste/Exame",
+        "uc": "CC",
+        "path": "files/cc/463_Teste_Exemplo.pdf"
+    },
+    {
+        "id": 464,
+        "titulo": "Resolução Recurso",
+        "ano": "2022/2023",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "CC",
+        "path": "files/cc/464_Exame_2022_2023_sol.pdf"
+    },
+    {
+        "id": 465,
+        "titulo": "Exemplo Questoes Avaliacao",
+        "ano": "2025/2026",
+        "tipo": "Teste/Exame",
+        "uc": "CC",
+        "path": "files/cc/465_Exemplo_Questoes_Avaliacao.pdf"
+    },
+    {
+        "id": 466,
+        "titulo": "3 Modulo Encaminhamento",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "CC",
+        "path": "files/cc/466_3_Modulo Encaminhamento.pdf"
+    },
+    {
+        "id": 467,
+        "titulo": "5 Modulo Seguranca Redes",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "CC",
+        "path": "files/cc/467_5_Modulo Seguranca Redes.pdf"
+    },
+    {
+        "id": 468,
+        "titulo": "1 Modulo Transporte",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "CC",
+        "path": "files/cc/468_1_Modulo Transporte.pdf"
+    },
+    {
+        "id": 469,
+        "titulo": "2 Modulo DNS",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "CC",
+        "path": "files/cc/469_2_Modulo DNS.pdf"
+    },
+    {
+        "id": 470,
+        "titulo": "4 Modulo HTTP",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "CC",
+        "path": "files/cc/470_4_Modulo HTTP.pdf"
+    },
+    {
+        "id": 471,
+        "titulo": "Resumos RC",
+        "ano": "2024/2025",
+        "tipo": "Resumos",
+        "uc": "RC",
+        "path": "files/rc/471_Resumos_RC.pdf"
+    },
+    {
+        "id": 472,
+        "titulo": "Subnetting Subnetting ficha1",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "RC",
+        "path": "files/rc/472_Subnetting_Subnetting_ficha1.pdf"
+    },
+    {
+        "id": 473,
+        "titulo": "Subnetting Routing ficha2",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "RC",
+        "path": "files/rc/473_Subnetting_Routing_ficha2.pdf"
+    },
+    {
+        "id": 474,
+        "titulo": "Subnetting ficha1 exerc1 2 sol",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "RC",
+        "path": "files/rc/474_Subnetting_ficha1_exerc1_2_sol.pdf"
+    },
+    {
+        "id": 475,
+        "titulo": "Subnetting ficha1 exerc3 sol",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "RC",
+        "path": "files/rc/475_Subnetting_ficha1_exerc3_sol.pdf"
+    },
+    {
+        "id": 476,
+        "titulo": "Recurso",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "RC",
+        "path": "files/rc/476_recurso_B_2019_2020.pdf"
+    },
+    {
+        "id": 477,
+        "titulo": "Recurso",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "RC",
+        "path": "files/rc/477_exame_recurso_2019_2020.pdf"
+    },
+    {
+        "id": 478,
+        "titulo": "Resolução Parcial Recurso",
+        "ano": "2019/2020",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "RC",
+        "path": "files/rc/478_recurso_2019_2020_sol.pdf"
+    },
+    {
+        "id": 479,
+        "titulo": "Resolução Teste",
+        "ano": "2019/2020",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "RC",
+        "path": "files/rc/479_teste_2019_2020_sol.pdf"
+    },
+    {
+        "id": 480,
+        "titulo": "Teste",
+        "ano": "2019/2020",
+        "tipo": "Teste/Exame",
+        "uc": "RC",
+        "path": "files/rc/480_teste_2019_2020.pdf"
+    },
+    {
+        "id": 481,
+        "titulo": "Capítulo 6",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "RC",
+        "path": "files/rc/481_Capitulo_6.pdf"
+    },
+    {
+        "id": 482,
+        "titulo": "Capítulo 1",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "RC",
+        "path": "files/rc/482_Capitulo_1.pdf"
+    },
+    {
+        "id": 483,
+        "titulo": "Capítulo 7",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "RC",
+        "path": "files/rc/483_Capitulo_7.pdf"
+    },
+    {
+        "id": 484,
+        "titulo": "Capítulo 4",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "RC",
+        "path": "files/rc/484_Capitulo_4.pdf"
+    },
+    {
+        "id": 485,
+        "titulo": "Teste (parte 2)",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "POO",
+        "path": "files/poo/485_teste_2023_2024_pt2.pdf"
+    },
+    {
+        "id": 486,
+        "titulo": "Recurso (parte 2)",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "POO",
+        "path": "files/poo/486_recurso_2023_2024_pt2.pdf"
+    },
+    {
+        "id": 487,
+        "titulo": "Recurso (parte 2)",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "POO",
+        "path": "files/poo/487_recurso_2024_2025_pt2.pdf"
+    },
+    {
+        "id": 488,
+        "titulo": "Teste (parte 2)",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "POO",
+        "path": "files/poo/488_teste_2022_2023_pt2.pdf"
+    },
+    {
+        "id": 489,
+        "titulo": "Recurso",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "POO",
+        "path": "files/poo/489_exame_2020_2021_pt12.pdf"
+    },
+    {
+        "id": 490,
+        "titulo": "Teste (parte 2)",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "POO",
+        "path": "files/poo/490_teste_2024_2025_pt2.pdf"
+    },
+    {
+        "id": 491,
+        "titulo": "Teste (parte 2)",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "POO",
+        "path": "files/poo/491_teste_2021_2022_pt2.pdf"
+    },
+    {
+        "id": 492,
+        "titulo": "Teste",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "POO",
+        "path": "files/poo/492_teste_2020_2021_pt12.pdf"
+    },
+    {
+        "id": 493,
+        "titulo": "Aula 13",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/493_Aula13.pdf"
+    },
+    {
+        "id": 494,
+        "titulo": "Aula 6",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/494_Aula6.pdf"
+    },
+    {
+        "id": 495,
+        "titulo": "Aula 7",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/495_Aula7.pdf"
+    },
+    {
+        "id": 496,
+        "titulo": "Aula 1",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/496_Aula1.pdf"
+    },
+    {
+        "id": 497,
+        "titulo": "Aula 9",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/497_Aula9.pdf"
+    },
+    {
+        "id": 498,
+        "titulo": "Aula 10",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/498_Aula10.pdf"
+    },
+    {
+        "id": 499,
+        "titulo": "Aula 3",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/499_Aula3.pdf"
+    },
+    {
+        "id": 500,
+        "titulo": "Aula 5",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/500_Aula5.pdf"
+    },
+    {
+        "id": 501,
+        "titulo": "Aula 12",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/501_Aula12.pdf"
+    },
+    {
+        "id": 502,
+        "titulo": "Aula 11",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/502_Aula11.pdf"
+    },
+    {
+        "id": 503,
+        "titulo": "Aula 4",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/503_Aula4.pdf"
+    },
+    {
+        "id": 504,
+        "titulo": "Aula 8",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/504_Aula8.pdf"
+    },
+    {
+        "id": 505,
+        "titulo": "Aula 2",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "POO",
+        "path": "files/poo/505_Aula2.pdf"
+    },
+    {
+        "id": 506,
+        "titulo": "Teste 1 LCC",
+        "ano": "2025/2026",
+        "tipo": "Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/506_teste_1_2025_2026_LCC.pdf"
+    },
+    {
+        "id": 507,
+        "titulo": "Teste 2 LCC",
+        "ano": "2025/2026",
+        "tipo": "Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/507_teste_2_2025_2026_LCC.pdf"
+    },
+    {
+        "id": 508,
+        "titulo": "Teste 2",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/508_teste_2.pdf"
+    },
+    {
+        "id": 509,
+        "titulo": "Teste 1",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/509_teste_1.pdf"
+    },
+    {
+        "id": 510,
+        "titulo": "Resolução Teste 1",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/510_teste_1_sol.pdf"
+    },
+    {
+        "id": 511,
+        "titulo": "Recurso",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/511_recurso.pdf"
+    },
+    {
+        "id": 512,
+        "titulo": "Teste 2",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/512_teste_2.pdf"
+    },
+    {
+        "id": 513,
+        "titulo": "Resolução Teste 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/513_teste_2_sol.pdf"
+    },
+    {
+        "id": 514,
+        "titulo": "Teste 1",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/514_teste_1.pdf"
+    },
+    {
+        "id": 515,
+        "titulo": "Resolução Teste 1",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/515_teste_1_sol.pdf"
+    },
+    {
+        "id": 516,
+        "titulo": "Teste 2",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/516_teste_2.pdf"
+    },
+    {
+        "id": 517,
+        "titulo": "Resolução Teste 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/517_teste_2_sol.pdf"
+    },
+    {
+        "id": 518,
+        "titulo": "Teste 2",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/518_teste_2.pdf"
+    },
+    {
+        "id": 519,
+        "titulo": "Resolução Teste 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/519_teste_2_sol.pdf"
+    },
+    {
+        "id": 520,
+        "titulo": "Teste 1",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/520_teste_1.pdf"
+    },
+    {
+        "id": 521,
+        "titulo": "Resolução Teste 1",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "Cálculo",
+        "path": "files/calculo/521_teste_1_sol.pdf"
+    },
+    {
+        "id": 522,
+        "titulo": "Slides 3",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/522_slides3.pdf"
+    },
+    {
+        "id": 523,
+        "titulo": "Slides 12",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/523_slides12.pdf"
+    },
+    {
+        "id": 524,
+        "titulo": "Slides 11",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/524_slides11.pdf"
+    },
+    {
+        "id": 525,
+        "titulo": "Slides 9",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/525_slides9.pdf"
+    },
+    {
+        "id": 526,
+        "titulo": "Slides 10",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/526_slides10.pdf"
+    },
+    {
+        "id": 527,
+        "titulo": "Slides 8",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/527_slides8.pdf"
+    },
+    {
+        "id": 528,
+        "titulo": "Slides 13",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/528_slides13.pdf"
+    },
+    {
+        "id": 529,
+        "titulo": "Slides 2",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/529_slides2.pdf"
+    },
+    {
+        "id": 530,
+        "titulo": "Slides 7",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/530_slides7.pdf"
+    },
+    {
+        "id": 531,
+        "titulo": "Slides 6",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/531_slides6.pdf"
+    },
+    {
+        "id": 532,
+        "titulo": "Slides 1",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/532_slides1.pdf"
+    },
+    {
+        "id": 533,
+        "titulo": "Slides 4",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/533_slides4.pdf"
+    },
+    {
+        "id": 534,
+        "titulo": "Slides 5",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "Cálculo",
+        "path": "files/calculo/534_slides5.pdf"
+    },
+    {
+        "id": 535,
+        "titulo": "Ficha 5",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Cálculo",
+        "path": "files/calculo/535_Ficha 5.pdf"
+    },
+    {
+        "id": 536,
+        "titulo": "Ficha 3",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Cálculo",
+        "path": "files/calculo/536_Ficha 3.pdf"
+    },
+    {
+        "id": 537,
+        "titulo": "Ficha 6",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Cálculo",
+        "path": "files/calculo/537_Ficha 6.pdf"
+    },
+    {
+        "id": 538,
+        "titulo": "Resolução Ficha 5",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Cálculo",
+        "path": "files/calculo/538_Ficha 5 ReSol.pdf"
+    },
+    {
+        "id": 539,
+        "titulo": "Resolução Ficha 3",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Cálculo",
+        "path": "files/calculo/539_Ficha 3 ReSol.pdf"
+    },
+    {
+        "id": 540,
+        "titulo": "Resolução Ficha 2",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Cálculo",
+        "path": "files/calculo/540_Ficha 2 ReSol.pdf"
+    },
+    {
+        "id": 541,
+        "titulo": "Resolução Ficha 6",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Cálculo",
+        "path": "files/calculo/541_Ficha 6 ReSol.pdf"
+    },
+    {
+        "id": 542,
+        "titulo": "Ficha 2",
+        "ano": "2023/2024",
+        "tipo": "Ficha",
+        "uc": "Cálculo",
+        "path": "files/calculo/542_Ficha 2.pdf"
+    },
+    {
+        "id": 543,
+        "titulo": "Resolução Ficha 1",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Ficha",
+        "uc": "Cálculo",
+        "path": "files/calculo/543_Ficha 1 ReSol.pdf"
+    },
+    {
+        "id": 544,
+        "titulo": "Formulario 2",
+        "ano": "2024/2025",
+        "tipo": "Formulário",
+        "uc": "IO",
+        "path": "files/io/544_Formulario_2.pdf"
+    },
+    {
+        "id": 545,
+        "titulo": "Formulario 5",
+        "ano": "2024/2025",
+        "tipo": "Formulário",
+        "uc": "IO",
+        "path": "files/io/545_Formulario_5.pdf"
+    },
+    {
+        "id": 546,
+        "titulo": "Formulario 3",
+        "ano": "2024/2025",
+        "tipo": "Formulário",
+        "uc": "IO",
+        "path": "files/io/546_Formulario_3.pdf"
+    },
+    {
+        "id": 547,
+        "titulo": "Formulario 1",
+        "ano": "2024/2025",
+        "tipo": "Formulário",
+        "uc": "IO",
+        "path": "files/io/547_Formulario_1.docx"
+    },
+    {
+        "id": 548,
+        "titulo": "Formulario 4",
+        "ano": "2024/2025",
+        "tipo": "Formulário",
+        "uc": "IO",
+        "path": "files/io/548_Formulario_4.pdf"
+    },
+    {
+        "id": 549,
+        "titulo": "Cábula",
+        "ano": "2024/2025",
+        "tipo": "Formulário",
+        "uc": "IO",
+        "path": "files/io/549_Cábula.pdf"
+    },
+    {
+        "id": 550,
+        "titulo": "Recurso (parte desenvolvimento)",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "DSS",
+        "path": "files/dss/550_DSSexame2223-desenv.pdf"
+    },
+    {
+        "id": 551,
+        "titulo": "Recurso",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "DSS",
+        "path": "files/dss/551_Exame_2018_2019.pdf"
+    },
+    {
+        "id": 552,
+        "titulo": "Teste exemplo",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "DSS",
+        "path": "files/dss/552_DSS-Teste exemplo 202425.pdf"
+    },
+    {
+        "id": 553,
+        "titulo": "Recurso",
+        "ano": "2017/2018",
+        "tipo": "Teste/Exame",
+        "uc": "DSS",
+        "path": "files/dss/553_Exame_2017_2018.pdf"
+    },
+    {
+        "id": 554,
+        "titulo": "Teste (parte desenvolvimento)",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "DSS",
+        "path": "files/dss/554_DSSteste2223-desenv.pdf"
+    },
+    {
+        "id": 555,
+        "titulo": "Teste",
+        "ano": "2016/2017",
+        "tipo": "Teste/Exame",
+        "uc": "DSS",
+        "path": "files/dss/555_Teste_2016_2017.pdf"
+    },
+    {
+        "id": 556,
+        "titulo": "Recurso (parte desenvolvimento)",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "DSS",
+        "path": "files/dss/556_DSSexame2324-desenv.pdf"
+    },
+    {
+        "id": 557,
+        "titulo": "Teste",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "DSS",
+        "path": "files/dss/557_Teste_2020_2021.pdf"
+    },
+    {
+        "id": 558,
+        "titulo": "Teste (parte desenvolvimento)",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "DSS",
+        "path": "files/dss/558_DSSteste2324-desenv.pdf"
+    },
+    {
+        "id": 559,
+        "titulo": "Teste",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "DSS",
+        "path": "files/dss/559_Teste_2018_2019.pdf"
+    },
+    {
+        "id": 560,
+        "titulo": "10 ORM",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/560_10_ORM.pdf"
+    },
+    {
+        "id": 561,
+        "titulo": "2 Modelação do Domínio",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/561_2_Modelação do Domínio.pdf"
+    },
+    {
+        "id": 562,
+        "titulo": "9 OCL",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/562_9_OCL.pdf"
+    },
+    {
+        "id": 563,
+        "titulo": "1 Métodos",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/563_1_Métodos.pdf"
+    },
+    {
+        "id": 564,
+        "titulo": "3 Use Cases",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/564_3_Use Cases.pdf"
+    },
+    {
+        "id": 565,
+        "titulo": "4 Diagramas de Use Case",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/565_4_Diagramas de Use Case.pdf"
+    },
+    {
+        "id": 566,
+        "titulo": "7 Modelação Estrutural",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/566_7_Modelação Estrutural.pdf"
+    },
+    {
+        "id": 567,
+        "titulo": "13 Diagrama de Instalação-Fecho",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/567_13_Diagrama de Instalação-Fecho.pdf"
+    },
+    {
+        "id": 568,
+        "titulo": "11 Diagramas de Package",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/568_11_Diagramas de Package.pdf"
+    },
+    {
+        "id": 569,
+        "titulo": "8 Diagramas de Sequencia",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/569_8_Diagramas de Sequencia.pdf"
+    },
+    {
+        "id": 570,
+        "titulo": "6 APIs e subsistemas",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/570_6_APIs e subsistemas.pdf"
+    },
+    {
+        "id": 571,
+        "titulo": "12 Máquinas de Estado",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/571_12_Máquinas de Estado.pdf"
+    },
+    {
+        "id": 572,
+        "titulo": "5 Diagramas de Actividade",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "DSS",
+        "path": "files/dss/572_5_Diagramas de Actividade.pdf"
+    },
+    {
+        "id": 573,
+        "titulo": "Teste 1",
+        "ano": "2007/2008",
+        "tipo": "Teste/Exame",
+        "uc": "FCD",
+        "path": "files/fcd/573_teste_1_2007_2008.pdf"
+    },
+    {
+        "id": 574,
+        "titulo": "Teste 1",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "FCD",
+        "path": "files/fcd/574_teste_1_2020_2021.pdf"
+    },
+    {
+        "id": 575,
+        "titulo": "Teste 2 transcrito",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "FCD",
+        "path": "files/fcd/575_teste_2_2018_2019_transcrito.pdf"
+    },
+    {
+        "id": 576,
+        "titulo": "Resolução Teste 1",
+        "ano": "2007/2008",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "FCD",
+        "path": "files/fcd/576_teste_1_2007_2008_sol.pdf"
+    },
+    {
+        "id": 577,
+        "titulo": "Resolução Teste 1",
+        "ano": "2020/2021",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "FCD",
+        "path": "files/fcd/577_teste_1_2020_2021_sol.pdf"
+    },
+    {
+        "id": 578,
+        "titulo": "1 Teoria da Informação",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "FCD",
+        "path": "files/fcd/578_1_Teoria da Informação.pdf"
+    },
+    {
+        "id": 579,
+        "titulo": "5 Análise de Sinais",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "FCD",
+        "path": "files/fcd/579_5_Análise de Sinais.pdf"
+    },
+    {
+        "id": 580,
+        "titulo": "6 Sistemas de Transmissão",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "FCD",
+        "path": "files/fcd/580_6_Sistemas de Transmissão.pdf"
+    },
+    {
+        "id": 581,
+        "titulo": "2 Digitalização",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "FCD",
+        "path": "files/fcd/581_2_Digitalização.pdf"
+    },
+    {
+        "id": 582,
+        "titulo": "4 Conceitos básicos de sistemas de comunicação",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "FCD",
+        "path": "files/fcd/582_4_Conceitos básicos de sistemas de comunicação.pdf"
+    },
+    {
+        "id": 583,
+        "titulo": "3 Multiplexagem",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "FCD",
+        "path": "files/fcd/583_3_Multiplexagem.pdf"
+    },
+    {
+        "id": 584,
+        "titulo": "7 Controlo de Erros",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "FCD",
+        "path": "files/fcd/584_7_Controlo de Erros.pdf"
+    },
+    {
+        "id": 585,
+        "titulo": "Ficha 5",
+        "ano": "2024/2025",
+        "tipo": "Exercícios",
+        "uc": "FCD",
+        "path": "files/fcd/585_Ficha 5.pdf"
+    },
+    {
+        "id": 586,
+        "titulo": "Ficha 3",
+        "ano": "2024/2025",
+        "tipo": "Exercícios",
+        "uc": "FCD",
+        "path": "files/fcd/586_Ficha 3.pdf"
+    },
+    {
+        "id": 587,
+        "titulo": "Ficha 7",
+        "ano": "2024/2025",
+        "tipo": "Exercícios",
+        "uc": "FCD",
+        "path": "files/fcd/587_Ficha 7.pdf"
+    },
+    {
+        "id": 588,
+        "titulo": "Ficha 6",
+        "ano": "2024/2025",
+        "tipo": "Exercícios",
+        "uc": "FCD",
+        "path": "files/fcd/588_Ficha 6.pdf"
+    },
+    {
+        "id": 589,
+        "titulo": "Resolução Ficha 5",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "FCD",
+        "path": "files/fcd/589_Res_Ficha_5.pdf"
+    },
+    {
+        "id": 590,
+        "titulo": "Ficha 4",
+        "ano": "2024/2025",
+        "tipo": "Exercícios",
+        "uc": "FCD",
+        "path": "files/fcd/590_Ficha 4.pdf"
+    },
+    {
+        "id": 591,
+        "titulo": "Resolução Ficha 6",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "FCD",
+        "path": "files/fcd/591_Res_Ficha_6.pdf"
+    },
+    {
+        "id": 592,
+        "titulo": "Ficha 1",
+        "ano": "2024/2025",
+        "tipo": "Exercícios",
+        "uc": "FCD",
+        "path": "files/fcd/592_Ficha 1.pdf"
+    },
+    {
+        "id": 593,
+        "titulo": "Resolução Ficha 3",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "FCD",
+        "path": "files/fcd/593_Res_Ficha_3.pdf"
+    },
+    {
+        "id": 594,
+        "titulo": "Ficha 2",
+        "ano": "2024/2025",
+        "tipo": "Exercícios",
+        "uc": "FCD",
+        "path": "files/fcd/594_Ficha 2.pdf"
+    },
+    {
+        "id": 595,
+        "titulo": "Resolução Ficha 4",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "FCD",
+        "path": "files/fcd/595_Res_Ficha_4.pdf"
+    },
+    {
+        "id": 596,
+        "titulo": "Resolução Ficha 1",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "FCD",
+        "path": "files/fcd/596_Res_Ficha_1.pdf"
+    },
+    {
+        "id": 597,
+        "titulo": "Resolução Ficha 2",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "FCD",
+        "path": "files/fcd/597_Res_Ficha_2.pdf"
+    },
+    {
+        "id": 598,
+        "titulo": "Livro PL",
+        "ano": "2020/2021",
+        "tipo": "Bibliografia",
+        "uc": "PL",
+        "path": "files/pl/598_livro_PL.pdf"
+    },
+    {
+        "id": 599,
+        "titulo": "Teste",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "PL",
+        "path": "files/pl/599_Teste_2023_2024.pdf"
+    },
+    {
+        "id": 600,
+        "titulo": "Recurso",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "PL",
+        "path": "files/pl/600_Recurso_2022_2023.pdf"
+    },
+    {
+        "id": 601,
+        "titulo": "Recurso",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "PL",
+        "path": "files/pl/601_Recurso_2023_2024.pdf"
+    },
+    {
+        "id": 602,
+        "titulo": "Teste",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "PL",
+        "path": "files/pl/602_Teste_2022_2023.pdf"
+    },
+    {
+        "id": 603,
+        "titulo": "Recurso",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "PL",
+        "path": "files/pl/603_Recurso_2024_2025.pdf"
+    },
+    {
+        "id": 604,
+        "titulo": "Teste",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "PL",
+        "path": "files/pl/604_Teste_2024_2025.pdf"
+    },
+    {
+        "id": 605,
+        "titulo": "Teste",
+        "ano": "2018/2019",
+        "tipo": "Teste/Exame",
+        "uc": "PL",
+        "path": "files/pl/605_Teste_2018_2019.pdf"
+    },
+    {
+        "id": 606,
+        "titulo": "Soluções livro",
+        "ano": "2023/2024",
+        "tipo": "Bibliografia",
+        "uc": "SC",
+        "path": "files/sc/606_soluções_livro.pdf"
+    },
+    {
+        "id": 607,
+        "titulo": "Exame",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "SC",
+        "path": "files/sc/607_exame_2021_2022.pdf"
+    },
+    {
+        "id": 608,
+        "titulo": "Teste 1",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "SC",
+        "path": "files/sc/608_teste_2023_2024_1.pdf"
+    },
+    {
+        "id": 609,
+        "titulo": "Teste 2",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "SC",
+        "path": "files/sc/609_teste_2023_2024_2.pdf"
+    },
+    {
+        "id": 610,
+        "titulo": "Teste 2",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "SC",
+        "path": "files/sc/610_teste_2022_2023_2.pdf"
+    },
+    {
+        "id": 611,
+        "titulo": "Teste 1",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "SC",
+        "path": "files/sc/611_teste_2022_2023_1.pdf"
+    },
+    {
+        "id": 612,
+        "titulo": "Teste 1",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "SC",
+        "path": "files/sc/612_teste_2021_2022_1.pdf"
+    },
+    {
+        "id": 613,
+        "titulo": "Chap1-ComputerSystems",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "SC",
+        "path": "files/sc/613_chap1-ComputerSystems.pdf"
+    },
+    {
+        "id": 614,
+        "titulo": "Chap2-RepresentationInformation",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "SC",
+        "path": "files/sc/614_chap2-RepresentationInformation.pdf"
+    },
+    {
+        "id": 615,
+        "titulo": "Chap5-Cache",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "SC",
+        "path": "files/sc/615_chap5-Cache.pdf"
+    },
+    {
+        "id": 616,
+        "titulo": "Chap6-CodeOptimisations",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "SC",
+        "path": "files/sc/616_chap6-CodeOptimisations.pdf"
+    },
+    {
+        "id": 617,
+        "titulo": "Chap3-RepresentationNumbers",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "SC",
+        "path": "files/sc/617_chap3-RepresentationNumbers.pdf"
+    },
+    {
+        "id": 618,
+        "titulo": "Chap4-IA32",
+        "ano": "2023/2024",
+        "tipo": "Slides",
+        "uc": "SC",
+        "path": "files/sc/618_chap4-IA32.pdf"
+    },
+    {
+        "id": 619,
+        "titulo": "Miniteste 4",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "FM",
+        "path": "files/fm/619_Miniteste4.pdf"
+    },
+    {
+        "id": 620,
+        "titulo": "Miniteste 1",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "FM",
+        "path": "files/fm/620_Miniteste1.pdf"
+    },
+    {
+        "id": 621,
+        "titulo": "Miniteste 3",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "FM",
+        "path": "files/fm/621_Miniteste3.pdf"
+    },
+    {
+        "id": 622,
+        "titulo": "Recurso",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "FM",
+        "path": "files/fm/622_Recurso_2020_2021.pdf"
+    },
+    {
+        "id": 623,
+        "titulo": "Resolução não oficial Recurso",
+        "ano": "2020/2021",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "FM",
+        "path": "files/fm/623_Recurso_2020_2021_sol.pdf"
+    },
+    {
+        "id": 624,
+        "titulo": "Teste 2",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "FM",
+        "path": "files/fm/624_Teste_2_2020_2021.pdf"
+    },
+    {
+        "id": 625,
+        "titulo": "Teste 1",
+        "ano": "2020/2021",
+        "tipo": "Teste/Exame",
+        "uc": "FM",
+        "path": "files/fm/625_Teste_1_2020_2021.pdf"
+    },
+    {
+        "id": 626,
+        "titulo": "Miniteste 2",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "FM",
+        "path": "files/fm/626_Miniteste2.pdf"
+    },
+    {
+        "id": 627,
+        "titulo": "Fisica Moderna",
+        "ano": "2024/2025",
+        "tipo": "Bibliografia",
+        "uc": "FM",
+        "path": "files/fm/627_Fisica Moderna_v2.pdf"
+    },
+    {
+        "id": 628,
+        "titulo": "Mini-teste 1",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "EA",
+        "path": "files/ea/628_Mini-teste_1.xlsx"
+    },
+    {
+        "id": 629,
+        "titulo": "Mini-teste 2",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "EA",
+        "path": "files/ea/629_Mini-teste_2.xlsx"
+    },
+    {
+        "id": 630,
+        "titulo": "Mini-teste 3",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "EA",
+        "path": "files/ea/630_Mini-teste_3.xlsx"
+    },
+    {
+        "id": 631,
+        "titulo": "Mini-teste 4",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "EA",
+        "path": "files/ea/631_Mini-teste_4.xlsx"
+    },
+    {
+        "id": 632,
+        "titulo": "Teste 1 Parte 2 LEI",
+        "ano": "2007/2008",
+        "tipo": "Teste/Exame",
+        "uc": "EA",
+        "path": "files/ea/632_Teste_1_Parte_2_2007_2008_LEI.pdf"
+    },
+    {
+        "id": 633,
+        "titulo": "Teste 2 Modelo LiEngMec",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "EA",
+        "path": "files/ea/633_Teste_2_modelo_LiEngMec_2022_2023.pdf"
+    },
+    {
+        "id": 634,
+        "titulo": "Resolucao Teste 2 LEI",
+        "ano": "2009/2010",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "EA",
+        "path": "files/ea/634_Teste_2_2009_2010_LEI_Resolucao.pdf"
+    },
+    {
+        "id": 635,
+        "titulo": "Teste 1 LEI",
+        "ano": "2008/2009",
+        "tipo": "Teste/Exame",
+        "uc": "EA",
+        "path": "files/ea/635_Teste_1_2008_2009_LEI.pdf"
+    },
+    {
+        "id": 636,
+        "titulo": "Resolucao Teste 1 LEI",
+        "ano": "2008/2009",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "EA",
+        "path": "files/ea/636_Teste_1_2008_2009_LEI_Resolucao.pdf"
+    },
+    {
+        "id": 637,
+        "titulo": "Teste 1 Modelo LiEngMec",
+        "ano": "2022/2023",
+        "tipo": "Teste/Exame",
+        "uc": "EA",
+        "path": "files/ea/637_Teste_1_modelo_LiEngMec_2022_2023.pdf"
+    },
+    {
+        "id": 638,
+        "titulo": "Teste 2 LEI",
+        "ano": "2009/2010",
+        "tipo": "Teste/Exame",
+        "uc": "EA",
+        "path": "files/ea/638_Teste_2_2009_2010_LEI.pdf"
+    },
+    {
+        "id": 639,
+        "titulo": "Parte02 DistProb",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "EA",
+        "path": "files/ea/639_parte02_DistProb.pdf"
+    },
+    {
+        "id": 640,
+        "titulo": "ANOVA",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "EA",
+        "path": "files/ea/640_parte09_ANOVA.pdf"
+    },
+    {
+        "id": 641,
+        "titulo": "DistribAmostral",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "EA",
+        "path": "files/ea/641_parte06_DistribAmostral.pdf"
+    },
+    {
+        "id": 642,
+        "titulo": "Estimadores",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "EA",
+        "path": "files/ea/642_parte05_Estimadores.pdf"
+    },
+    {
+        "id": 643,
+        "titulo": "ValorEsperado",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "EA",
+        "path": "files/ea/643_parte03_ ValorEsperado.pdf"
+    },
+    {
+        "id": 644,
+        "titulo": "IC",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "EA",
+        "path": "files/ea/644_parte07_IC.pdf"
+    },
+    {
+        "id": 645,
+        "titulo": "Famílias de Distribuição",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "EA",
+        "path": "files/ea/645_parte04_FamíliasDistrib.pdf"
+    },
+    {
+        "id": 646,
+        "titulo": "Descritiva",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "EA",
+        "path": "files/ea/646_parte01_Descritiva.pdf"
+    },
+    {
+        "id": 647,
+        "titulo": "RegCorrel",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "EA",
+        "path": "files/ea/647_parte11_RegCorrel.pdf"
+    },
+    {
+        "id": 648,
+        "titulo": "QuiQuadrado",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "EA",
+        "path": "files/ea/648_parte10_QuiQuadrado.pdf"
+    },
+    {
+        "id": 649,
+        "titulo": "TH",
+        "ano": "2024/2025",
+        "tipo": "Slides",
+        "uc": "EA",
+        "path": "files/ea/649_parte08_TH.pdf"
+    },
+    {
+        "id": 650,
+        "titulo": "Ficha 5",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/650_Ficha 5.pdf"
+    },
+    {
+        "id": 651,
+        "titulo": "Ficha 3",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/651_Ficha 3.pdf"
+    },
+    {
+        "id": 652,
+        "titulo": "Tabelas EA",
+        "ano": "2024/2025",
+        "tipo": "Formulário",
+        "uc": "EA",
+        "path": "files/ea/652_Tabelas_EA.pdf"
+    },
+    {
+        "id": 653,
+        "titulo": "Ficha 7",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/653_Ficha 7.pdf"
+    },
+    {
+        "id": 654,
+        "titulo": "Ficha 6",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/654_Ficha 6.pdf"
+    },
+    {
+        "id": 655,
+        "titulo": "Ficha 4",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/655_Ficha 4.pdf"
+    },
+    {
+        "id": 656,
+        "titulo": "Regressão Linear Facebook",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/656_Regressão_Linear_Facebook.pdf"
+    },
+    {
+        "id": 657,
+        "titulo": "Ficha 1",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/657_Ficha 1.pdf"
+    },
+    {
+        "id": 658,
+        "titulo": "Ficha 10",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/658_Ficha 10.pdf"
+    },
+    {
+        "id": 659,
+        "titulo": "Ficha 8",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/659_Ficha 8.pdf"
+    },
+    {
+        "id": 660,
+        "titulo": "Ficha 2",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/660_Ficha 2.pdf"
+    },
+    {
+        "id": 661,
+        "titulo": "Soluções Fichas EA",
+        "ano": "2024/2025",
+        "tipo": "Resolução de Ficha",
+        "uc": "EA",
+        "path": "files/ea/661_Soluções_EA.pdf"
+    },
+    {
+        "id": 662,
+        "titulo": "Fichas EA",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/662_Fichas_EA.pdf"
+    },
+    {
+        "id": 663,
+        "titulo": "Ficha 9",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/663_Ficha 9.pdf"
+    },
+    {
+        "id": 664,
+        "titulo": "Ficha 4",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/664_exerc4.pdf"
+    },
+    {
+        "id": 665,
+        "titulo": "Ficha 7",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/665_exerc7.pdf"
+    },
+    {
+        "id": 666,
+        "titulo": "Ficha 5",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/666_exerc5.pdf"
+    },
+    {
+        "id": 667,
+        "titulo": "Ficha 1",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/667_exerc1.pdf"
+    },
+    {
+        "id": 668,
+        "titulo": "Fichas 8 a 10",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/668_exerc8a10.pdf"
+    },
+    {
+        "id": 669,
+        "titulo": "Ficha 3",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/669_exerc3.pdf"
+    },
+    {
+        "id": 670,
+        "titulo": "Ficha 6",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/670_exerc6.pdf"
+    },
+    {
+        "id": 671,
+        "titulo": "Ficha 2",
+        "ano": "2024/2025",
+        "tipo": "Ficha",
+        "uc": "EA",
+        "path": "files/ea/671_exerc2.pdf"
+    },
+    {
+        "id": 672,
+        "titulo": "Teste",
+        "ano": "2021/2022",
+        "tipo": "Teste/Exame",
+        "uc": "IA",
+        "path": "files/ia/672_Teste_2021_2022.pdf"
+    },
+    {
+        "id": 673,
+        "titulo": "Teste Modelo",
+        "ano": "2024/2025",
+        "tipo": "Teste/Exame",
+        "uc": "IA",
+        "path": "files/ia/673_2024 - Prova Modelo.pdf"
+    },
+    {
+        "id": 674,
+        "titulo": "(T6b) - Lógica (PT)",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/674_(T6b) - Lógica (PT).pdf"
+    },
+    {
+        "id": 675,
+        "titulo": "(8T) - Representação do Conhecimento e Raciocínio (Outros)",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/675_(8T) - Representação do Conhecimento e Raciocínio (Outros).pdf"
+    },
+    {
+        "id": 676,
+        "titulo": "(T7) - Programação Lógica",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/676_(T7) - Programação Lógica.pdf"
+    },
+    {
+        "id": 677,
+        "titulo": "3 Procura em Contextos Competitivos",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/677_3_Procura em Contextos Competitivos.pdf"
+    },
+    {
+        "id": 678,
+        "titulo": "(T4) - Search in competitive contexts (EN)",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/678_(T4) - Search in competitive contexts (EN).pdf"
+    },
+    {
+        "id": 679,
+        "titulo": "(T6a) - Conhecimento e Raciocínio (PT)",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/679_(T6a) - Conhecimento e Raciocínio (PT).pdf"
+    },
+    {
+        "id": 680,
+        "titulo": "(T10) - IA e a Sociedade",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/680_(T10) - IA e a Sociedade.pdf"
+    },
+    {
+        "id": 681,
+        "titulo": "(T5) - Beyond Classic Search (EN)",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/681_(T5) - Beyond Classic Search (EN).pdf"
+    },
+    {
+        "id": 682,
+        "titulo": "2 Procura Clássica",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/682_2_Procura Clássica.pdf"
+    },
+    {
+        "id": 683,
+        "titulo": "(T6b) - Lógica (EN)",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/683_(T6b) - Lógica (EN).pdf"
+    },
+    {
+        "id": 684,
+        "titulo": "(T9) - Population Based",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/684_(T9) - Population Based.pdf"
+    },
+    {
+        "id": 685,
+        "titulo": "(8T) - Representação do Conhecimento e Raciocínio (Outros) (EN)",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/685_(8T) - Representação do Conhecimento e Raciocínio (Outros) (EN).pdf"
+    },
+    {
+        "id": 686,
+        "titulo": "(T6a) - Conhecimento e Raciocínio (EN)",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/686_(T6a) - Conhecimento e Raciocínio (EN).pdf"
+    },
+    {
+        "id": 687,
+        "titulo": "Programação Lógica (EN)",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/687_(T7) - Programação Lógica (EN).pdf"
+    },
+    {
+        "id": 688,
+        "titulo": "Para além da Procura Clássica (PT)",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/688_(T5) - Para além da Procura Clássica (PT).pdf"
+    },
+    {
+        "id": 689,
+        "titulo": "Introdução",
+        "ano": "2025/2026",
+        "tipo": "Slides",
+        "uc": "IA",
+        "path": "files/ia/689_1_Introdução.pdf"
+    },
+    {
+        "id": 690,
+        "titulo": "Recurso",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "ADI",
+        "path": "files/adi/690_Recurso2324.pdf"
+    },
+    {
+        "id": 691,
+        "titulo": "Teste",
+        "ano": "2023/2024",
+        "tipo": "Teste/Exame",
+        "uc": "ADI",
+        "path": "files/adi/691_Teste2324.pdf"
+    },
+    {
+        "id": 692,
+        "titulo": "Resolução não oficial Teste",
+        "ano": "2023/2024",
+        "tipo": "Resolução de Teste/Exame",
+        "uc": "ADI",
+        "path": "files/adi/692_resolucao.pdf"
+    }
+]

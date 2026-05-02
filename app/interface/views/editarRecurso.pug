@@ -44,7 +44,10 @@ block content
               label.form-label.fw-bold(for="ficheiro") Substituir Ficheiro (Opcional)
               .mb-2.text-primary
                 i.bi.bi-file-earmark-text.me-1
-                span Ficheiro atual: #{recurso.path.split('/').pop().replace(new RegExp(`^${recurso.id}_`), '')}
+                if recurso.ficheiro
+                  span Ficheiro atual: #{recurso.ficheiro.originalName}
+                else
+                  span Sem ficheiro associado
               input#ficheiro.form-control(type="file" name="ficheiro")
               small.text-muted Se não selecionar novo ficheiro, mantém-se o atual.
 

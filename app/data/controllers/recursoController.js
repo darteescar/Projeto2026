@@ -43,7 +43,7 @@ const recursoController = {
                 });
             }
 
-            let execQuery = Recurso.find(mongoQuery, projection);
+            let execQuery = Recurso.find(mongoQuery, projection).populate('ficheiro');
 
             if (sortField) {
                 execQuery = execQuery.sort({ [sortField]: order });
@@ -60,7 +60,7 @@ const recursoController = {
 
     getRecursoById: async function(req, res){
         try {
-            const recurso = await Recurso.findOne({ id: req.params.id });
+            const recurso = await Recurso.findOne({ id: req.params.id }).populate('ficheiro');
             if (!recurso) {
                 res.status(404).json({ message: "Recurso não encontrado." });
             } else {

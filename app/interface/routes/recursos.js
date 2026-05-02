@@ -4,15 +4,13 @@ var router = express.Router();
 var multer = require('multer');
 var fs = require('fs');
 var path = require('path');
+var os = require('os');
+var FormData = require('form-data');
 
-// Define a pasta onde o multer vai colocar os ficheiros recebidos
-var upload = multer({ dest: 'uploads/' });
+// Define a pasta onde o multer vai colocar os ficheiros temporalmente
+var upload = multer({ dest: os.tmpdir() });
 
-const API_DADOS_URL = process.env.API_DADOS_URL || 'http://localhost:16000/api';
-
-//!===================================================!//
-//!     Todas as rotas já têm o prefixo /recursos     !//
-//!===================================================!//
+const API_DADOS_URL = process.env.API_DADOS_URL || 'http://api-dados:16000/api';
 
 // GET todos os recursos, com filtros opcionais
 router.get('/', async function(req, res) {
@@ -35,12 +33,10 @@ router.get('/', async function(req, res) {
       ...selectedOrder
     };
 
-    // Propagar filtros de pesquisa
     if (req.query.uc) filtrosApi.uc = req.query.uc;
     if (req.query.tipo) filtrosApi.tipo = req.query.tipo;
     if (req.query.ano) filtrosApi.ano = req.query.ano;
 
-    // Filtros para preencher os dropdowns
     const filtrosPublicos = {
       visibilidade: 'publico',
       _select: 'uc,tipo,ano'
@@ -57,7 +53,6 @@ router.get('/', async function(req, res) {
     const recursos = responseFiltered.data;
     const todosRecursos = responseAll.data;
 
-    // Extrair UCs e Tipos únicos para os filtros do Pug
     const ucs = [...new Set(todosRecursos.map(r => r.uc).filter(Boolean))].sort();
     const tipos = [...new Set(todosRecursos.map(r => r.tipo).filter(Boolean))].sort();
     const anos = [...new Set(todosRecursos.map(r => r.ano).filter(Boolean))].sort().reverse();
@@ -65,20 +60,13 @@ router.get('/', async function(req, res) {
     res.render('recursos', { 
       title: 'Catálogo de Recursos | Recursos LEI', 
       query: { ...req.query, ordem }, 
-      recursos,
-      ucs,
-      tipos,
-      anos,
+      recursos, ucs, tipos, anos,
       id: req.user.id
     });
   } catch (err) {
     res.status(500).render('error', { message: 'Erro ao contactar API de Dados', error: err, id: req.user.id });
   }
 });
-
-//?===================================?//
-//?         Adicionar Recurso         ?//
-//?===================================?//
 
 // GET formulário para adicionar novo recurso
 router.get('/adicionar', function(req, res) {
@@ -92,33 +80,22 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
     const maxId = recursosResp.data.reduce((max, r) => Math.max(max, Number(r.id) || 0), 0);
     const novoId = (maxId + 1).toString();
 
-    let relativePath = "";
+    let fileId = null;
 
     if (req.file) {
-      // Normalizar o nome da UC
-      const ucNormalizada = req.body.uc
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')     // Remove acentos
-        .replace(/[^a-zA-Z0-9]/g, '_')       // Remove espaços e símbolos estranhos
-        .toLowerCase();
-
-      // Definir o path final
-      const dirPath = path.join(__dirname, '../public/uploads', ucNormalizada);
+      const form = new FormData();
+      form.append('uc', req.body.uc);
+      form.append('category', 'interface_upload');
+      form.append('file', fs.createReadStream(req.file.path), req.file.originalname);
       
-      // Cria a pasta caso não exista
-      if (!fs.existsSync(dirPath)) {
-        fs.mkdirSync(dirPath, { recursive: true });
-      }
-
-      // Gerar o nome final
-      const newFilename = `${novoId}_${req.file.originalname.replace(/\s+/g, '_')}`;
-      const finalFilePath = path.join(dirPath, newFilename);
+      const uploadResp = await axios.post(`${API_DADOS_URL}/upload`, form, {
+        headers: { ...form.getHeaders() }
+      });
       
-      fs.copyFileSync(req.file.path, finalFilePath);
+      fileId = uploadResp.data._id;
       fs.unlinkSync(req.file.path);
-
-      // Caminho guardado na BD para aceder depois
-      relativePath = `/uploads/${ucNormalizada}/${newFilename}`;
+    } else {
+      throw new Error('Ficheiro é obrigatório.');
     }
 
     const recurso = {
@@ -130,36 +107,31 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
       autor: req.user.id,
       data_registo: new Date().toISOString(),
       visibilidade: req.body.visibilidade,
-      tamanho_bytes: req.file ? req.file.size : 0,
       downloads: 0,
       visualizacoes: 0,
       media_avaliacoes: 0,
-      path: relativePath
+      ficheiro: fileId
     };
     
     await axios.post(`${API_DADOS_URL}/recursos`, recurso);
     res.redirect('/recursos');
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao criar novo recurso', error: err });
+    if (req.file && fs.existsSync(req.file.path)) fs.unlinkSync(req.file.path);
+    res.status(500).render('error', { message: 'Erro ao criar novo recurso', error: err, id: req.user.id });
   }
 });
-
-//?=======================================?//
-//?         Detalhe de um Recurso         ?//
-//?=======================================?//
 
 // GET detalhes de um recurso específico
 router.get('/detalhes/:id', async function(req, res) {
   try {
     const [recResp, comRes] = await Promise.all([
       axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`),
-      axios.get(`${API_DADOS_URL}/comentarios?recurso_id=${req.params.id}&_sort=data&_order=desc`)
+      axios.get(`${API_DADOS_URL}/comentarios?recurso_id=${req.params.id}&_sort=data&_order=desc`).catch(() => ({data:[]}))
     ]);
     
     let recurso = recResp.data;
     let comentarios = comRes.data;
 
-    // Obter o nome de todos os autores dos comentários
     comentarios = await Promise.all(comentarios.map(async (c) => {
       try {
         const userResp = await axios.get(`${API_DADOS_URL}/users/${c.autor}`);
@@ -179,21 +151,13 @@ router.get('/detalhes/:id', async function(req, res) {
     try {
       const userResp = await axios.get(`${API_DADOS_URL}/users/${recurso.autor}`);
       autor = `${userResp.data.nome} ${userResp.data.apelido}`;
-    } catch (errAutor) {
-      if (!(errAutor.response && errAutor.response.status === 404)) {
-        console.error("Erro ao obter o autor:", errAutor.message);
-      }
-    }
+    } catch (errAutor) {}
 
     res.render('detalhesRecurso', { title: 'Detalhes do Recurso | Recursos LEI', recurso, comentarios, autor, id: req.user.id });
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao obter dados do recurso', error: err });
+    res.status(500).render('error', { message: 'Erro ao obter dados do recurso', error: err, id: req.user.id });
   }
 });
-
-//?================================?//
-//?         Editar Recurso         ?//
-//?================================?//
 
 // GET formulário para editar um recurso específico
 router.get('/editar/:id', async function(req, res) {
@@ -202,7 +166,7 @@ router.get('/editar/:id', async function(req, res) {
     const recurso = response.data;
     res.render('editarRecurso', { title: 'Editar Recurso | Recursos LEI', recurso, id: req.user.id });
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao visualizar recurso. Não o conseguiu aceder.', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao aceder ao recurso', error: err, id: req.user.id });
   }
 });
 
@@ -211,83 +175,42 @@ router.post('/editar/:id', upload.single('ficheiro'), async function(req, res) {
   try {
     const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
     const recursoAntigo = response.data;
+    
+    let fileId = recursoAntigo.ficheiro ? recursoAntigo.ficheiro._id : null;
 
-    let relativePath = recursoAntigo.path;
-    let tamanho_bytes = recursoAntigo.tamanho_bytes;
-
-    // Normalizar a UC
-    const ucNormalizada = req.body.uc
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')     // Remove acentos
-      .replace(/[^a-zA-Z0-9]/g, '_')       // Remove espaços e símbolos estranhos
-      .toLowerCase();
-
-    // Lógica do Ficheiro
     if (req.file) {
-      // Se enviou ficheiro novo, apagar o antigo
-      if (recursoAntigo.path) {
-        const oldFilePath = path.join(__dirname, '../public', recursoAntigo.path);
-        if (fs.existsSync(oldFilePath)) {
-          fs.unlinkSync(oldFilePath);
-        }
-      }
-
-      const dirPath = path.join(__dirname, '../public/uploads', ucNormalizada);
-      if (!fs.existsSync(dirPath)) {
-        fs.mkdirSync(dirPath, { recursive: true });
-      }
-
-      const newFilename = `${req.params.id}_${req.file.originalname.replace(/\s+/g, '_')}`;
-      const finalFilePath = path.join(dirPath, newFilename);
+      const form = new FormData();
+      form.append('uc', req.body.uc);
+      form.append('category', 'interface_upload');
+      form.append('file', fs.createReadStream(req.file.path), req.file.originalname);
       
-      fs.copyFileSync(req.file.path, finalFilePath);
+      const uploadResp = await axios.post(`${API_DADOS_URL}/upload`, form, {
+        headers: { ...form.getHeaders() }
+      });
+      fileId = uploadResp.data._id;
       fs.unlinkSync(req.file.path);
 
-      relativePath = `/uploads/${ucNormalizada}/${newFilename}`;
-      tamanho_bytes = req.file.size;
-    } else if (recursoAntigo.uc !== req.body.uc && recursoAntigo.path) {
-      // Se não enviou ficheiro novo mas mudou a UC, movemos o ficheiro atual de pasta
-      const oldFilePath = path.join(__dirname, '../public', recursoAntigo.path);
-      
-      if (fs.existsSync(oldFilePath)) {
-        const dirPath = path.join(__dirname, '../public/uploads', ucNormalizada);
-        if (!fs.existsSync(dirPath)) {
-          fs.mkdirSync(dirPath, { recursive: true });
-        }
-
-        const existingFilename = recursoAntigo.path.split('/').pop();
-        const finalFilePath = path.join(dirPath, existingFilename);
-
-        // Copia para a nova UC e apaga da antiga
-        fs.copyFileSync(oldFilePath, finalFilePath);
-        fs.unlinkSync(oldFilePath);
-
-        relativePath = `/uploads/${ucNormalizada}/${existingFilename}`;
+      if (recursoAntigo.ficheiro && recursoAntigo.ficheiro._id) {
+         await axios.delete(`${API_DADOS_URL}/files/${recursoAntigo.ficheiro._id}`).catch(() => {});
       }
     }
 
-    // Juntar dados do form aos dados antigos do recurso
-    const recursoAtualizado = {
-      ...recursoAntigo, // Mantém id, autor, datas, visualizacoes, etc
+    const recursoAtualizado = Object.assign({}, recursoAntigo, {
       titulo: req.body.titulo,
       ano: req.body.ano,
       tipo: req.body.tipo,
       uc: req.body.uc,
       visibilidade: req.body.visibilidade,
-      path: relativePath,
-      tamanho_bytes: tamanho_bytes
-    };
+      ficheiro: fileId
+    });
 
     await axios.put(`${API_DADOS_URL}/recursos/${req.params.id}`, recursoAtualizado);
     res.redirect(`/recursos/detalhes/${req.params.id}`);
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao atualizar recurso', error: err });
+    if (req.file && fs.existsSync(req.file.path)) fs.unlinkSync(req.file.path);
+    res.status(500).render('error', { message: 'Erro ao atualizar recurso', error: err, id: req.user.id });
   }
 });
-
-//?================================?//
-//?         Eliminar Recurso       ?//
-//?================================?//
 
 // POST eliminar recurso específico
 router.post('/delete/:id', async function(req, res) {
@@ -295,97 +218,78 @@ router.post('/delete/:id', async function(req, res) {
     const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
     const recurso = response.data;
 
-    if (recurso.path) {
-      const filePath = path.join(__dirname, '../public', recurso.path);
-      if (fs.existsSync(filePath)) {
-        fs.unlinkSync(filePath); // Apaga o ficheiro físico
-      }
+    await axios.delete(`${API_DADOS_URL}/recursos/${req.params.id}`);
+
+    if (recurso.ficheiro && recurso.ficheiro._id) {
+       await axios.delete(`${API_DADOS_URL}/files/${recurso.ficheiro._id}`).catch(() => {});
     }
 
-    await axios.delete(`${API_DADOS_URL}/recursos/${req.params.id}`);
     res.redirect('/recursos');
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao eliminar recurso', error: err });
+    res.status(500).render('error', { message: 'Erro ao eliminar recurso', error: err, id: req.user.id });
   }
 });
-
-//?================================?//
-//?         Comentar Recurso       ?//
-//?================================?//
 
 // POST adicionar comentário a um recurso específico
 router.post('/comentar/:id', async function(req, res, next) {
   try {
-    const comentariosResp = await axios.get(`${API_DADOS_URL}/comentarios`);
+    const comentariosResp = await axios.get(`${API_DADOS_URL}/comentarios`).catch(()=>({data:[]}));
     const maxId = comentariosResp.data.reduce((max, c) => Math.max(max, Number(c.id) || 0), 0);
 
     const evalData = {
       id: maxId + 1,
       recurso_id: Number(req.params.id),
-      autor: 1, // TODO: substituir pelo id numérico do user autenticado
-      avaliacao: Number(req.body.avaliacao) || 5, // assuming no stars on UI yet, defaults to 5
+      autor: req.user ? req.user.id : "user",
+      avaliacao: Number(req.body.avaliacao) || 5,
       descricao: req.body.comentario,
       data: new Date().toISOString()
     };
     await axios.post(`${API_DADOS_URL}/comentarios`, evalData);
 
-    // Obter todas as avaliações atuais para este recurso após inserir a nova
-    const recursoComentariosResp = await axios.get(`${API_DADOS_URL}/comentarios?recurso_id=${req.params.id}`);
+    const recursoComentariosResp = await axios.get(`${API_DADOS_URL}/comentarios?recurso_id=${req.params.id}`).catch(()=>({data:[]}));
     const comentarios = recursoComentariosResp.data;
     
-    // Calcular a nova média
     const somaAvaliacoes = comentarios.reduce((acc, c) => acc + Number(c.avaliacao), 0);
     const novaMedia = comentarios.length > 0 ? (somaAvaliacoes / comentarios.length).toFixed(1) : 0;
 
-    // Atualizar a média no recurso correspondente
     const recursoResp = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
     const recursoAtualizado = { ...recursoResp.data, media_avaliacoes: Number(novaMedia) };
     await axios.put(`${API_DADOS_URL}/recursos/${req.params.id}`, recursoAtualizado);
 
     res.redirect(`/recursos/detalhes/${req.params.id}`);
   } catch (err) {
-    console.error(err);
-    res.status(500).render('error', { message: 'Falha a comentar e atualizar a classificação do recurso', error: err });
+    res.status(500).render('error', { message: 'Falha a comentar', error: err, id: req.user.id });
   }
 });
-
-//?================================?//
-//?        Download Recurso        ?//
-//?================================?//
 
 // GET para descarregar o ficheiro de um recurso específico
 router.get('/download/:id', async function(req, res, next) {
   try {
-    // Obter os dados do recurso
     const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
     const recurso = response.data;
 
-    // Verificar se o recurso tem um ficheiro (path) guardado
-    if (!recurso.path) {
-      return res.status(404).render('error', { message: 'Este recurso não tem nenhum ficheiro associado.', error: null });
+    if (!recurso.ficheiro || !recurso.ficheiro._id) {
+      return res.status(404).render('error', { message: 'Este recurso não tem nenhum ficheiro associado.', error: null, id: req.user.id });
     }
 
-    // Construir o caminho absoluto para o ficheiro no disco
-    // recurso.path tem o formato "/uploads/uc/id_ficheiro.pdf"
-    const filePath = path.join(__dirname, '../public', recurso.path);
+    const recursoAtualizado = Object.assign({}, recurso, { downloads: (recurso.downloads || 0) + 1 });
+    
+    // We update without waiting
+    axios.put(`${API_DADOS_URL}/recursos/${recurso.id}`, recursoAtualizado).catch(()=>{});
 
-    // Confirmar que o ficheiro fisicamente ainda lá está
-    if (!fs.existsSync(filePath)) {
-      return res.status(404).render('error', { message: 'Ficheiro não encontrado no servidor.', error: null });
-    }
+    // Proxy the download request directly from internal API to the client browser
+    const fileResponse = await axios({
+      method: 'get',
+      url: `${API_DADOS_URL}/download/${recurso.ficheiro._id}`,
+      responseType: 'stream'
+    });
+    
+    res.setHeader('Content-Disposition', `attachment; filename="${recurso.ficheiro.originalName}"`);
+    res.setHeader('Content-Type', recurso.ficheiro.mimeType || 'application/octet-stream');
+    fileResponse.data.pipe(res);
 
-    // Limpar o nome do ficheiro para que no browser faça download sem o prefixo do ID
-    const nomeGuardado = recurso.path.split('/').pop();
-    const nomeLimpo = nomeGuardado.replace(new RegExp(`^${recurso.id}_`), '');
-
-    // Incrementar contador de downloads
-    const recursoAtualizado = { ...recurso, downloads: (recurso.downloads || 0) + 1 };
-    await axios.put(`${API_DADOS_URL}/recursos/${recurso.id}`, recursoAtualizado);
-
-    // Enviar ficheiro
-    res.download(filePath, nomeLimpo);
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao processar o pedido de download.', error: err });
+    res.status(500).render('error', { message: 'Erro ao processar o pedido de download.', error: err, id: req.user.id });
   }
 });
 

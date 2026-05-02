@@ -98,12 +98,12 @@ block content
             li.mb-2
               i.bi.bi-hdd-fill.text-secondary.me-2
               strong Tamanho: 
-              | #{recurso.tamanho_bytes ? (recurso.tamanho_bytes / 1024).toFixed(2) + ' KB' : 'N/D'}
+              if recurso.ficheiro
+                | #{(recurso.ficheiro.size / 1024).toFixed(2)} KB
+              else
+                | N/D
               
           .d-grid.mt-4.gap-2
-            a.btn.btn-primary.btn-lg(href=(recurso.path && recurso.path.startsWith('/') ? recurso.path : '/' + recurso.path) target="_blank")
-              i.bi.bi-eye-fill.me-2
-              | Abrir
             a.btn.btn-success.btn-lg(href=`/recursos/download/${recurso.id}` onclick="const counter = document.getElementById('downloadCounter'); counter.innerText = parseInt(counter.innerText) + 1;")
               i.bi.bi-cloud-download.me-2
               | Descarregar Ficheiro

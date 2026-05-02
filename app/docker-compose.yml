@@ -24,8 +24,11 @@ services:
     environment:
       - PORT=16000
       - MONGO_URL=mongodb://mongodb:27017/recursosEscolares
+      - UPLOAD_DIR=/app/uploads
     depends_on:
       - mongodb
+    volumes:
+      - ./data/uploads:/app/uploads
     restart: always
     networks:
       - projeto-network
@@ -42,8 +45,6 @@ services:
       - API_DADOS_URL=http://api_dados_server:16000/api
     depends_on:
       - api-dados
-    volumes:
-      - ./interface/public/uploads:/app/public/uploads
     restart: always
     networks:
       - projeto-network 

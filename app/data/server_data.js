@@ -6,6 +6,7 @@ const app = express();
 const recursoRouter = require('./routes/recursoRouter');
 const comentarioRouter = require('./routes/comentarioRouter');
 const userRouter = require('./routes/userRouter');
+const fileRouter = require('./routes/fileRouter');
 
 app.use(express.json());
 
@@ -27,6 +28,7 @@ mongoose.connect(mongoHost)
 app.use('/api', recursoRouter);
 app.use('/api', comentarioRouter);
 app.use('/api', userRouter);
+app.use('/api', fileRouter);
 
 
 const PORT = process.env.PORT || 16000;
@@ -64,4 +66,11 @@ app.listen(PORT, () => {
     console.log('  GET    /api/users/:id');
     console.log('  PUT    /api/users/:id');
     console.log('  DELETE /api/users/:id');
+    console.log('  POST   /api/login_check');
+    console.log('');
+    console.log('  [FILES]');
+    console.log('  POST   /api/upload');
+    console.log('  GET    /api/ (lista ficheiros)');
+    console.log('  GET    /api/download/:id');
+    console.log('  DELETE /api/:id (apaga ficheiro)');
 });

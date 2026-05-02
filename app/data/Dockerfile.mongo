@@ -1,7 +1,6 @@
 FROM mongo:latest
  
 # Copia os dataset e o script de inicialização para dentro da imagem
-COPY recursos.json /docker-entrypoint-initdb.d/
-COPY comentarios.json /docker-entrypoint-initdb.d/
-COPY users.json /docker-entrypoint-initdb.d/
+COPY json/comentarios.json /docker-entrypoint-initdb.d/
+COPY json/users.json /docker-entrypoint-initdb.d/
 COPY mongo-init/import.sh /docker-entrypoint-initdb.d/

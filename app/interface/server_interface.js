@@ -38,7 +38,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Mount the routes
-app.use('/', verificaAcesso, require('./routes/index'));
+app.use('/', verificaAcesso, indexRouter);
 app.use('/recursos', verificaAcesso, recursosRouter);
 app.use('/users', verificaAcesso, userRouter);
 

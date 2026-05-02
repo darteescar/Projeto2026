@@ -5,10 +5,12 @@ const userSchema = new mongoose.Schema({
     nome: { type: String, required: true },
     apelido: { type: String, required: true },
     data_criacao: { type: Date, required: true },
-    role: { type: String, enum: ['admin', 'produtor', 'user'], required: true },
+    role: { type: String, enum: ['admin', 'produtor', 'user'], default: 'user', required: true },
     password: { type: String, required: true },
     email: { type: String, required: true, unique: true }
 });
+
+userSchema.index({nome: 'text', apelido: 'text', email: 'text'}); 
 
 const User = mongoose.model('User', userSchema, 'users');
 
