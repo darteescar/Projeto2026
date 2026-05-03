@@ -1,5 +1,9 @@
 # Node modules
 node_modules/
 
+# Package.json e Package-lock.json
+package.json
+package-lock.json
+
 # Pasta de uploads 
 app/data/uploads/
