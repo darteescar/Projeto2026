@@ -5,7 +5,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/1_teste_2.pdf"
+        "path": "files/algoritmos7teste_2.pdf"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/2_teste_1.pdf"
+        "path": "files/algoritmos7teste_1.pdf"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/3_recurso.pdf"
+        "path": "files/algoritmos7recurso.pdf"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/4_teste_1_sol_não_oficial.pdf"
+        "path": "files/algoritmos7teste_1_sol_não_oficial.pdf"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "ano": "2022/2023",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/5_recurso_sol_não_oficial.pdf"
+        "path": "files/algoritmos7recurso_sol_não_oficial.pdf"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "ano": "2022/2023",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/6_teste_1_sol_não_oficial.pdf"
+        "path": "files/algoritmos7teste_1_sol_não_oficial.pdf"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/7_teste_1.pdf"
+        "path": "files/algoritmos7teste_1.pdf"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/8_recurso.pdf"
+        "path": "files/algoritmos7recurso.pdf"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/9_teste_2.pdf"
+        "path": "files/algoritmos7teste_2.pdf"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "ano": "2019/2020",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/10_teste_2_sol.pdf"
+        "path": "files/algoritmos7teste_2_sol.pdf"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "ano": "2019/2020",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/11_teste_1_sol.pdf"
+        "path": "files/algoritmos7teste_1_sol.pdf"
     },
     {
         "id": 12,
@@ -93,7 +93,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/12_teste_1.pdf"
+        "path": "files/algoritmos7teste_1.pdf"
     },
     {
         "id": 13,
@@ -101,7 +101,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/13_teste_2.pdf"
+        "path": "files/algoritmos7teste_2.pdf"
     },
     {
         "id": 14,
@@ -109,7 +109,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/14_recurso.pdf"
+        "path": "files/algoritmos7recurso.pdf"
     },
     {
         "id": 15,
@@ -117,7 +117,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/15_teste_1.pdf"
+        "path": "files/algoritmos7teste_1.pdf"
     },
     {
         "id": 16,
@@ -125,7 +125,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/16_teste_1_sol.pdf"
+        "path": "files/algoritmos7teste_1_sol.pdf"
     },
     {
         "id": 17,
@@ -133,7 +133,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/17_teste_2.pdf"
+        "path": "files/algoritmos7teste_2.pdf"
     },
     {
         "id": 18,
@@ -141,7 +141,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/18_teste_2_sol.pdf"
+        "path": "files/algoritmos7teste_2_sol.pdf"
     },
     {
         "id": 19,
@@ -149,7 +149,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/19_teste_1.pdf"
+        "path": "files/algoritmos7teste_1.pdf"
     },
     {
         "id": 20,
@@ -157,7 +157,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/20_teste_2.pdf"
+        "path": "files/algoritmos7teste_2.pdf"
     },
     {
         "id": 21,
@@ -165,7 +165,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/21_recurso.pdf"
+        "path": "files/algoritmos7recurso.pdf"
     },
     {
         "id": 22,
@@ -173,7 +173,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/22_Capitulo_3 Análise de Pior Caso, Melhor Caso, e Caso Médio.pdf"
+        "path": "files/algoritmos7Capitulo_3 Análise de Pior Caso, Melhor Caso, e Caso Médio.pdf"
     },
     {
         "id": 23,
@@ -181,7 +181,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/23_Capitulo_4 Análise do Tempo de Execução de Algoritmos Recursivos.pdf"
+        "path": "files/algoritmos7Capitulo_4 Análise do Tempo de Execução de Algoritmos Recursivos.pdf"
     },
     {
         "id": 24,
@@ -189,7 +189,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/24_Capitulo_1 Especificação e Correcção de Algoritmos.pdf"
+        "path": "files/algoritmos7Capitulo_1 Especificação e Correcção de Algoritmos.pdf"
     },
     {
         "id": 25,
@@ -197,7 +197,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/25_Capitulo_6 Análise Amortizada de Algoritmos.pdf"
+        "path": "files/algoritmos7Capitulo_6 Análise Amortizada de Algoritmos.pdf"
     },
     {
         "id": 26,
@@ -205,7 +205,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/26_Capitulo_2 Tempo de Execução de Algoritmos Iterativos.pdf"
+        "path": "files/algoritmos7Capitulo_2 Tempo de Execução de Algoritmos Iterativos.pdf"
     },
     {
         "id": 27,
@@ -213,7 +213,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Algoritmos",
-        "path": "files/algoritmos/27_Capitulo_5 Tópicos sobre Algoritmos de Ordenação.pdf"
+        "path": "files/algoritmos7Capitulo_5 Tópicos sobre Algoritmos de Ordenação.pdf"
     },
     {
         "id": 28,
@@ -221,7 +221,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "IPM",
-        "path": "files/ipm/28_Teste_Exemplo_2023_2024.pdf"
+        "path": "files/ipm7Teste_Exemplo_2023_2024.pdf"
     },
     {
         "id": 29,
@@ -229,7 +229,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "IPM",
-        "path": "files/ipm/29_Recurso_2024.pdf"
+        "path": "files/ipm7Recurso_2024.pdf"
     },
     {
         "id": 30,
@@ -237,7 +237,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "IPM",
-        "path": "files/ipm/30_Teste_Exemplo_2020_2021.pdf"
+        "path": "files/ipm7Teste_Exemplo_2020_2021.pdf"
     },
     {
         "id": 31,
@@ -245,7 +245,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/31_8_2_WebFrameworks.pdf"
+        "path": "files/ipm78_2_WebFrameworks.pdf"
     },
     {
         "id": 32,
@@ -253,7 +253,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/32_11_1_VueRouting.pdf"
+        "path": "files/ipm711_1_VueRouting.pdf"
     },
     {
         "id": 33,
@@ -261,7 +261,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/33_12_1_WebAccessibility.pdf"
+        "path": "files/ipm712_1_WebAccessibility.pdf"
     },
     {
         "id": 34,
@@ -269,7 +269,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/34_8_1_Conceptual_Modelling.pdf"
+        "path": "files/ipm78_1_Conceptual_Modelling.pdf"
     },
     {
         "id": 35,
@@ -277,7 +277,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/35_9_2_Intro_to_Vue.pdf"
+        "path": "files/ipm79_2_Intro_to_Vue.pdf"
     },
     {
         "id": 36,
@@ -285,7 +285,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/36_2_HCD.pdf"
+        "path": "files/ipm72_HCD.pdf"
     },
     {
         "id": 37,
@@ -293,7 +293,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/37_12_2_AvaliacaoInterfaces.pdf"
+        "path": "files/ipm712_2_AvaliacaoInterfaces.pdf"
     },
     {
         "id": 38,
@@ -301,7 +301,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/38_4_Usabilidade.pdf"
+        "path": "files/ipm74_Usabilidade.pdf"
     },
     {
         "id": 39,
@@ -309,7 +309,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/39_9_1_WebComponents.pdf"
+        "path": "files/ipm79_1_WebComponents.pdf"
     },
     {
         "id": 40,
@@ -317,7 +317,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/40_6_HTML_CSS.pdf"
+        "path": "files/ipm76_HTML_CSS.pdf"
     },
     {
         "id": 41,
@@ -325,7 +325,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/41_10_VueComponents.pdf"
+        "path": "files/ipm710_VueComponents.pdf"
     },
     {
         "id": 42,
@@ -333,7 +333,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/42_7_JS.pdf"
+        "path": "files/ipm77_JS.pdf"
     },
     {
         "id": 43,
@@ -341,7 +341,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/43_5_Usabilidade.pdf"
+        "path": "files/ipm75_Usabilidade.pdf"
     },
     {
         "id": 44,
@@ -349,7 +349,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/44_11_2_VueStateManagement.pdf"
+        "path": "files/ipm711_2_VueStateManagement.pdf"
     },
     {
         "id": 45,
@@ -357,7 +357,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/45_1_Conceitos Base.pdf"
+        "path": "files/ipm71_Conceitos Base.pdf"
     },
     {
         "id": 46,
@@ -365,7 +365,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IPM",
-        "path": "files/ipm/46_3_Prototipagem.pdf"
+        "path": "files/ipm73_Prototipagem.pdf"
     },
     {
         "id": 47,
@@ -373,7 +373,7 @@
         "ano": "2023/2024",
         "tipo": "Formulário",
         "uc": "Lógica",
-        "path": "files/logica/47_Folha 2.pdf"
+        "path": "files/logica7Folha 2.pdf"
     },
     {
         "id": 48,
@@ -381,7 +381,7 @@
         "ano": "2023/2024",
         "tipo": "Formulário",
         "uc": "Lógica",
-        "path": "files/logica/48_Folha 1.pdf"
+        "path": "files/logica7Folha 1.pdf"
     },
     {
         "id": 49,
@@ -389,7 +389,7 @@
         "ano": "2020/2021",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/49_teste_2_2020_2021_sol.pdf"
+        "path": "files/logica7teste_2_2020_2021_sol.pdf"
     },
     {
         "id": 50,
@@ -397,7 +397,7 @@
         "ano": "2017/2018",
         "tipo": "Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/50_teste_2_2017_2018.pdf"
+        "path": "files/logica7teste_2_2017_2018.pdf"
     },
     {
         "id": 51,
@@ -405,7 +405,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/51_teste_2_2021_2022.pdf"
+        "path": "files/logica7teste_2_2021_2022.pdf"
     },
     {
         "id": 52,
@@ -413,7 +413,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/52_recurso_2020_2021.pdf"
+        "path": "files/logica7recurso_2020_2021.pdf"
     },
     {
         "id": 53,
@@ -421,7 +421,7 @@
         "ano": "2017/2018",
         "tipo": "Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/53_recurso_2017_2018.pdf"
+        "path": "files/logica7recurso_2017_2018.pdf"
     },
     {
         "id": 54,
@@ -429,7 +429,7 @@
         "ano": "2022/2023",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/54_teste_2_2022_2023_sol.pdf"
+        "path": "files/logica7teste_2_2022_2023_sol.pdf"
     },
     {
         "id": 55,
@@ -437,7 +437,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/55_teste_2_2022_2023.pdf"
+        "path": "files/logica7teste_2_2022_2023.pdf"
     },
     {
         "id": 56,
@@ -445,7 +445,7 @@
         "ano": "2017/2018",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/56_recurso_2017_2018_sol.pdf"
+        "path": "files/logica7recurso_2017_2018_sol.pdf"
     },
     {
         "id": 57,
@@ -453,7 +453,7 @@
         "ano": "2017/2018",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/57_teste_2_2017_2018_sol.pdf"
+        "path": "files/logica7teste_2_2017_2018_sol.pdf"
     },
     {
         "id": 58,
@@ -461,7 +461,7 @@
         "ano": "2018/2019",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/58_teste_2_2018_2019_sol.pdf"
+        "path": "files/logica7teste_2_2018_2019_sol.pdf"
     },
     {
         "id": 59,
@@ -469,7 +469,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/59_teste_1_2021_2022.pdf"
+        "path": "files/logica7teste_1_2021_2022.pdf"
     },
     {
         "id": 60,
@@ -477,7 +477,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/60_teste_1_2021_2022_sol.pdf"
+        "path": "files/logica7teste_1_2021_2022_sol.pdf"
     },
     {
         "id": 61,
@@ -485,7 +485,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/61_teste_2_2018_2019.pdf"
+        "path": "files/logica7teste_2_2018_2019.pdf"
     },
     {
         "id": 62,
@@ -493,7 +493,7 @@
         "ano": "2020/2021",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/62_recurso_2020_2021_sol_partI.pdf"
+        "path": "files/logica7recurso_2020_2021_sol_partI.pdf"
     },
     {
         "id": 63,
@@ -501,7 +501,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/63_recurso_2021_2022.pdf"
+        "path": "files/logica7recurso_2021_2022.pdf"
     },
     {
         "id": 64,
@@ -509,7 +509,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/64_teste_2_2021_2022_sol.pdf"
+        "path": "files/logica7teste_2_2021_2022_sol.pdf"
     },
     {
         "id": 65,
@@ -517,7 +517,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/65_teste_2_2020_2021.pdf"
+        "path": "files/logica7teste_2_2020_2021.pdf"
     },
     {
         "id": 66,
@@ -525,7 +525,7 @@
         "ano": "2018/2019",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/66_teste_1_2018_2019_sol.pdf"
+        "path": "files/logica7teste_1_2018_2019_sol.pdf"
     },
     {
         "id": 67,
@@ -533,7 +533,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Lógica",
-        "path": "files/logica/67_recurso_2021_2022_sol.pdf"
+        "path": "files/logica7recurso_2021_2022_sol.pdf"
     },
     {
         "id": 68,
@@ -541,7 +541,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Lógica",
-        "path": "files/logica/68_Ficha 5.pdf"
+        "path": "files/logica7Ficha 5.pdf"
     },
     {
         "id": 69,
@@ -549,7 +549,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Lógica",
-        "path": "files/logica/69_Ficha 3.pdf"
+        "path": "files/logica7Ficha 3.pdf"
     },
     {
         "id": 70,
@@ -557,7 +557,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Lógica",
-        "path": "files/logica/70_Ficha 4.pdf"
+        "path": "files/logica7Ficha 4.pdf"
     },
     {
         "id": 71,
@@ -565,7 +565,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Lógica",
-        "path": "files/logica/71_Ficha 1.pdf"
+        "path": "files/logica7Ficha 1.pdf"
     },
     {
         "id": 72,
@@ -573,7 +573,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Lógica",
-        "path": "files/logica/72_Ficha 2.pdf"
+        "path": "files/logica7Ficha 2.pdf"
     },
     {
         "id": 73,
@@ -581,7 +581,7 @@
         "ano": "2024/2025",
         "tipo": "Resumos",
         "uc": "BD",
-        "path": "files/bd/73_Resumos_BD.pdf"
+        "path": "files/bd7Resumos_BD.pdf"
     },
     {
         "id": 74,
@@ -589,7 +589,7 @@
         "ano": "2016/2017",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/74_teste_2016_2017_LCC.pdf"
+        "path": "files/bd7teste_2016_2017_LCC.pdf"
     },
     {
         "id": 75,
@@ -597,7 +597,7 @@
         "ano": "2014/2015",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/75_teste_2014_2015_LCC.pdf"
+        "path": "files/bd7teste_2014_2015_LCC.pdf"
     },
     {
         "id": 76,
@@ -605,7 +605,7 @@
         "ano": "2025/2026",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/76_teste_modelo_2025_2026_LEI.pdf"
+        "path": "files/bd7teste_modelo_2025_2026_LEI.pdf"
     },
     {
         "id": 77,
@@ -613,7 +613,7 @@
         "ano": "2017/2018",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/77_exame_2017_2018_LCC.pdf"
+        "path": "files/bd7exame_2017_2018_LCC.pdf"
     },
     {
         "id": 78,
@@ -621,7 +621,7 @@
         "ano": "2015/2016",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/78_exame_2015_2016_LCC.pdf"
+        "path": "files/bd7exame_2015_2016_LCC.pdf"
     },
     {
         "id": 79,
@@ -629,7 +629,7 @@
         "ano": "2016/2017",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/79_exame_2016_2017_LCC.pdf"
+        "path": "files/bd7exame_2016_2017_LCC.pdf"
     },
     {
         "id": 80,
@@ -637,7 +637,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/80_teste_2022_2023_LEI.pdf"
+        "path": "files/bd7teste_2022_2023_LEI.pdf"
     },
     {
         "id": 81,
@@ -645,7 +645,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/81_exame_2022_2023_LCC.pdf"
+        "path": "files/bd7exame_2022_2023_LCC.pdf"
     },
     {
         "id": 82,
@@ -653,7 +653,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/82_exame_2021_2022_LCC.pdf"
+        "path": "files/bd7exame_2021_2022_LCC.pdf"
     },
     {
         "id": 83,
@@ -661,7 +661,7 @@
         "ano": "2010/2011",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/83_teste_2010_2011_LCC.pdf"
+        "path": "files/bd7teste_2010_2011_LCC.pdf"
     },
     {
         "id": 84,
@@ -669,7 +669,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/84_exame_2024_2025_LEI_rec.pdf"
+        "path": "files/bd7exame_2024_2025_LEI_rec.pdf"
     },
     {
         "id": 85,
@@ -677,7 +677,7 @@
         "ano": "2014/2015",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/85_exame_2014_2015_LCC.pdf"
+        "path": "files/bd7exame_2014_2015_LCC.pdf"
     },
     {
         "id": 86,
@@ -685,7 +685,7 @@
         "ano": "2017/2018",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/86_teste_2017_2018_LCC.pdf"
+        "path": "files/bd7teste_2017_2018_LCC.pdf"
     },
     {
         "id": 87,
@@ -693,7 +693,7 @@
         "ano": "2015/2016",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/87_teste_2015_2016_LCC.pdf"
+        "path": "files/bd7teste_2015_2016_LCC.pdf"
     },
     {
         "id": 88,
@@ -701,7 +701,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/88_teste_2022_2023_LCC.pdf"
+        "path": "files/bd7teste_2022_2023_LCC.pdf"
     },
     {
         "id": 89,
@@ -709,7 +709,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/89_exame_2024_2025_LEI.pdf"
+        "path": "files/bd7exame_2024_2025_LEI.pdf"
     },
     {
         "id": 90,
@@ -717,7 +717,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/90_teste_2021_2022_LCC.pdf"
+        "path": "files/bd7teste_2021_2022_LCC.pdf"
     },
     {
         "id": 91,
@@ -725,7 +725,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/91_teste_2024_2025_LEI.pdf"
+        "path": "files/bd7teste_2024_2025_LEI.pdf"
     },
     {
         "id": 92,
@@ -733,7 +733,7 @@
         "ano": "2010/2011",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/92_exame_2010_2011_LCC.pdf"
+        "path": "files/bd7exame_2010_2011_LCC.pdf"
     },
     {
         "id": 93,
@@ -741,7 +741,7 @@
         "ano": "2009/2010",
         "tipo": "Teste/Exame",
         "uc": "BD",
-        "path": "files/bd/93_teste_2009_2010_LCC.pdf"
+        "path": "files/bd7teste_2009_2010_LCC.pdf"
     },
     {
         "id": 94,
@@ -749,7 +749,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "BD",
-        "path": "files/bd/94_Álgebra Relacional.pdf"
+        "path": "files/bd7Álgebra Relacional.pdf"
     },
     {
         "id": 95,
@@ -757,7 +757,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "BD",
-        "path": "files/bd/95_Normalização de Dados.pdf"
+        "path": "files/bd7Normalização de Dados.pdf"
     },
     {
         "id": 96,
@@ -765,7 +765,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "BD",
-        "path": "files/bd/96_Dados Informação e Conhecimento.pdf"
+        "path": "files/bd7Dados Informação e Conhecimento.pdf"
     },
     {
         "id": 97,
@@ -773,7 +773,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "BD",
-        "path": "files/bd/97_Ciclo de Vida de um SBD.pdf"
+        "path": "files/bd7Ciclo de Vida de um SBD.pdf"
     },
     {
         "id": 98,
@@ -781,7 +781,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "BD",
-        "path": "files/bd/98_A Linguagem SQL.pdf"
+        "path": "files/bd7A Linguagem SQL.pdf"
     },
     {
         "id": 99,
@@ -789,7 +789,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "BD",
-        "path": "files/bd/99_Caso de Estudo - Mercearia.pdf"
+        "path": "files/bd7Caso de Estudo - Mercearia.pdf"
     },
     {
         "id": 100,
@@ -797,7 +797,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "SSI",
-        "path": "files/ssi/100_Teste_2425.pdf"
+        "path": "files/ssi7Teste_2425.pdf"
     },
     {
         "id": 101,
@@ -805,7 +805,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Análise",
-        "path": "files/analise/101_Analise_Folha1.pdf"
+        "path": "files/analise7Analise_Folha1.pdf"
     },
     {
         "id": 102,
@@ -813,7 +813,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Análise",
-        "path": "files/analise/102_Analise_Folha5.pdf"
+        "path": "files/analise7Analise_Folha5.pdf"
     },
     {
         "id": 103,
@@ -821,7 +821,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Análise",
-        "path": "files/analise/103_Analise_Folha4.pdf"
+        "path": "files/analise7Analise_Folha4.pdf"
     },
     {
         "id": 104,
@@ -829,7 +829,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Análise",
-        "path": "files/analise/104_Analise_Folha7.pdf"
+        "path": "files/analise7Analise_Folha7.pdf"
     },
     {
         "id": 105,
@@ -837,7 +837,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Análise",
-        "path": "files/analise/105_Analise_Folha8.pdf"
+        "path": "files/analise7Analise_Folha8.pdf"
     },
     {
         "id": 106,
@@ -845,7 +845,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Análise",
-        "path": "files/analise/106_Analise_Folha3.pdf"
+        "path": "files/analise7Analise_Folha3.pdf"
     },
     {
         "id": 107,
@@ -853,7 +853,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Análise",
-        "path": "files/analise/107_Analise_Folha6.pdf"
+        "path": "files/analise7Analise_Folha6.pdf"
     },
     {
         "id": 108,
@@ -861,7 +861,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Análise",
-        "path": "files/analise/108_Analise_Folha2.pdf"
+        "path": "files/analise7Analise_Folha2.pdf"
     },
     {
         "id": 109,
@@ -869,7 +869,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Análise",
-        "path": "files/analise/109_Folha8_sol.pdf"
+        "path": "files/analise7Folha8_sol.pdf"
     },
     {
         "id": 110,
@@ -877,7 +877,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Análise",
-        "path": "files/analise/110_Folha2_sol.pdf"
+        "path": "files/analise7Folha2_sol.pdf"
     },
     {
         "id": 111,
@@ -885,7 +885,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Análise",
-        "path": "files/analise/111_Folha3_sol.pdf"
+        "path": "files/analise7Folha3_sol.pdf"
     },
     {
         "id": 112,
@@ -893,7 +893,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Análise",
-        "path": "files/analise/112_Folha7_sol.pdf"
+        "path": "files/analise7Folha7_sol.pdf"
     },
     {
         "id": 113,
@@ -901,7 +901,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Análise",
-        "path": "files/analise/113_Folha1_sol.pdf"
+        "path": "files/analise7Folha1_sol.pdf"
     },
     {
         "id": 114,
@@ -909,7 +909,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Análise",
-        "path": "files/analise/114_Folha6_sol.pdf"
+        "path": "files/analise7Folha6_sol.pdf"
     },
     {
         "id": 115,
@@ -917,7 +917,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Análise",
-        "path": "files/analise/115_Folha5_sol.pdf"
+        "path": "files/analise7Folha5_sol.pdf"
     },
     {
         "id": 116,
@@ -925,7 +925,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Análise",
-        "path": "files/analise/116_Folha4_sol.pdf"
+        "path": "files/analise7Folha4_sol.pdf"
     },
     {
         "id": 117,
@@ -933,7 +933,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/117_teste_2.pdf"
+        "path": "files/analise7teste_2.pdf"
     },
     {
         "id": 118,
@@ -941,7 +941,7 @@
         "ano": "2018/2019",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/118_teste_2_sol.pdf"
+        "path": "files/analise7teste_2_sol.pdf"
     },
     {
         "id": 119,
@@ -949,7 +949,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/119_recurso_sol.pdf"
+        "path": "files/analise7recurso_sol.pdf"
     },
     {
         "id": 120,
@@ -957,7 +957,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/120_recurso.pdf"
+        "path": "files/analise7recurso.pdf"
     },
     {
         "id": 121,
@@ -965,7 +965,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/121_teste_2.pdf"
+        "path": "files/analise7teste_2.pdf"
     },
     {
         "id": 122,
@@ -973,7 +973,7 @@
         "ano": "2018/2019",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/122_teste_2_sol.pdf"
+        "path": "files/analise7teste_2_sol.pdf"
     },
     {
         "id": 123,
@@ -981,7 +981,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/123_teste_1.pdf"
+        "path": "files/analise7teste_1.pdf"
     },
     {
         "id": 124,
@@ -989,7 +989,7 @@
         "ano": "2018/2019",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/124_teste_1_sol.pdf"
+        "path": "files/analise7teste_1_sol.pdf"
     },
     {
         "id": 125,
@@ -997,7 +997,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/125_teste_2.pdf"
+        "path": "files/analise7teste_2.pdf"
     },
     {
         "id": 126,
@@ -1005,7 +1005,7 @@
         "ano": "2018/2019",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/126_teste_2_sol.pdf"
+        "path": "files/analise7teste_2_sol.pdf"
     },
     {
         "id": 127,
@@ -1013,7 +1013,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/127_teste_1.pdf"
+        "path": "files/analise7teste_1.pdf"
     },
     {
         "id": 128,
@@ -1021,7 +1021,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/128_recurso_sol.pdf"
+        "path": "files/analise7recurso_sol.pdf"
     },
     {
         "id": 129,
@@ -1029,7 +1029,7 @@
         "ano": "2018/2019",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/129_teste_1_sol.pdf"
+        "path": "files/analise7teste_1_sol.pdf"
     },
     {
         "id": 130,
@@ -1037,7 +1037,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/130_recurso.pdf"
+        "path": "files/analise7recurso.pdf"
     },
     {
         "id": 131,
@@ -1045,7 +1045,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/131_teste_2.pdf"
+        "path": "files/analise7teste_2.pdf"
     },
     {
         "id": 132,
@@ -1053,7 +1053,7 @@
         "ano": "2018/2019",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/132_teste_2_sol.pdf"
+        "path": "files/analise7teste_2_sol.pdf"
     },
     {
         "id": 133,
@@ -1061,7 +1061,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/133_teste_1.pdf"
+        "path": "files/analise7teste_1.pdf"
     },
     {
         "id": 134,
@@ -1069,7 +1069,7 @@
         "ano": "2018/2019",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Análise",
-        "path": "files/analise/134_teste_1_sol.pdf"
+        "path": "files/analise7teste_1_sol.pdf"
     },
     {
         "id": 135,
@@ -1077,7 +1077,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Análise",
-        "path": "files/analise/135_Slides4.pdf"
+        "path": "files/analise7Slides4.pdf"
     },
     {
         "id": 136,
@@ -1085,7 +1085,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Análise",
-        "path": "files/analise/136_Slides2.pdf"
+        "path": "files/analise7Slides2.pdf"
     },
     {
         "id": 137,
@@ -1093,7 +1093,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Análise",
-        "path": "files/analise/137_Slides1.pdf"
+        "path": "files/analise7Slides1.pdf"
     },
     {
         "id": 138,
@@ -1101,7 +1101,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Análise",
-        "path": "files/analise/138_Slides3.pdf"
+        "path": "files/analise7Slides3.pdf"
     },
     {
         "id": 139,
@@ -1109,7 +1109,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Análise",
-        "path": "files/analise/139_Slides5.pdf"
+        "path": "files/analise7Slides5.pdf"
     },
     {
         "id": 140,
@@ -1117,7 +1117,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "EPTN",
-        "path": "files/eptn/140_Teste_2021_2022.pdf"
+        "path": "files/eptn7Teste_2021_2022.pdf"
     },
     {
         "id": 141,
@@ -1125,7 +1125,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "EPTN",
-        "path": "files/eptn/141_Teste_2021_2022_2.pdf"
+        "path": "files/eptn7Teste_2021_2022_2.pdf"
     },
     {
         "id": 142,
@@ -1133,7 +1133,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "EPTN",
-        "path": "files/eptn/142_Teste_2021_2022_sol.pdf"
+        "path": "files/eptn7Teste_2021_2022_sol.pdf"
     },
     {
         "id": 143,
@@ -1141,7 +1141,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "EPTN",
-        "path": "files/eptn/143_Teste_2022_2023.pdf"
+        "path": "files/eptn7Teste_2022_2023.pdf"
     },
     {
         "id": 144,
@@ -1149,7 +1149,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "EPTN",
-        "path": "files/eptn/144_3 Números primos.pdf"
+        "path": "files/eptn73 Números primos.pdf"
     },
     {
         "id": 145,
@@ -1157,7 +1157,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "EPTN",
-        "path": "files/eptn/145_6 Teoremas.pdf"
+        "path": "files/eptn76 Teoremas.pdf"
     },
     {
         "id": 146,
@@ -1165,7 +1165,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "EPTN",
-        "path": "files/eptn/146_2 Equações diofantinas.pdf"
+        "path": "files/eptn72 Equações diofantinas.pdf"
     },
     {
         "id": 147,
@@ -1173,7 +1173,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "EPTN",
-        "path": "files/eptn/147_1 Divisibilidade.pdf"
+        "path": "files/eptn71 Divisibilidade.pdf"
     },
     {
         "id": 148,
@@ -1181,7 +1181,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "EPTN",
-        "path": "files/eptn/148_5 Congruências Lineares.pdf"
+        "path": "files/eptn75 Congruências Lineares.pdf"
     },
     {
         "id": 149,
@@ -1189,7 +1189,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "EPTN",
-        "path": "files/eptn/149_4 Congruências.pdf"
+        "path": "files/eptn74 Congruências.pdf"
     },
     {
         "id": 150,
@@ -1197,7 +1197,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/150_Res_Ficha_5.pdf"
+        "path": "files/eptn7Res_Ficha_5.pdf"
     },
     {
         "id": 151,
@@ -1205,7 +1205,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/151_Res_Ficha_6.pdf"
+        "path": "files/eptn7Res_Ficha_6.pdf"
     },
     {
         "id": 152,
@@ -1213,7 +1213,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/152_Soluções Teoria de Números.pdf"
+        "path": "files/eptn7Soluções Teoria de Números.pdf"
     },
     {
         "id": 153,
@@ -1221,7 +1221,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/153_Exercicios Teoria de Numeros.pdf"
+        "path": "files/eptn7Exercicios Teoria de Numeros.pdf"
     },
     {
         "id": 154,
@@ -1229,7 +1229,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/154_Res_Ficha_3.pdf"
+        "path": "files/eptn7Res_Ficha_3.pdf"
     },
     {
         "id": 155,
@@ -1237,7 +1237,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/155_Res_Ficha_4.pdf"
+        "path": "files/eptn7Res_Ficha_4.pdf"
     },
     {
         "id": 156,
@@ -1245,7 +1245,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/156_Res_Ficha_2.pdf"
+        "path": "files/eptn7Res_Ficha_2.pdf"
     },
     {
         "id": 157,
@@ -1253,7 +1253,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "EPTN",
-        "path": "files/eptn/157_Teste_2021_2022.pdf"
+        "path": "files/eptn7Teste_2021_2022.pdf"
     },
     {
         "id": 158,
@@ -1261,7 +1261,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "EPTN",
-        "path": "files/eptn/158_Recurso_2021_2022_sol.pdf"
+        "path": "files/eptn7Recurso_2021_2022_sol.pdf"
     },
     {
         "id": 159,
@@ -1269,7 +1269,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "EPTN",
-        "path": "files/eptn/159_Teste_2023_2024.pdf"
+        "path": "files/eptn7Teste_2023_2024.pdf"
     },
     {
         "id": 160,
@@ -1277,7 +1277,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "EPTN",
-        "path": "files/eptn/160_Teste_2021_2022_sol.pdf"
+        "path": "files/eptn7Teste_2021_2022_sol.pdf"
     },
     {
         "id": 161,
@@ -1285,7 +1285,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "EPTN",
-        "path": "files/eptn/161_Recurso_2021_2022.pdf"
+        "path": "files/eptn7Recurso_2021_2022.pdf"
     },
     {
         "id": 162,
@@ -1293,7 +1293,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "EPTN",
-        "path": "files/eptn/162_Cap_I_Probabilidades.pdf"
+        "path": "files/eptn7Cap_I_Probabilidades.pdf"
     },
     {
         "id": 163,
@@ -1301,7 +1301,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "EPTN",
-        "path": "files/eptn/163_Cap_IV_DistribuicoesConhecidas.pdf"
+        "path": "files/eptn7Cap_IV_DistribuicoesConhecidas.pdf"
     },
     {
         "id": 164,
@@ -1309,7 +1309,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "EPTN",
-        "path": "files/eptn/164_Cap_II_VariaveisAleatorias.pdf"
+        "path": "files/eptn7Cap_II_VariaveisAleatorias.pdf"
     },
     {
         "id": 165,
@@ -1317,7 +1317,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "EPTN",
-        "path": "files/eptn/165_Cap_III_Parametros_e_Independencia_VA.pdf"
+        "path": "files/eptn7Cap_III_Parametros_e_Independencia_VA.pdf"
     },
     {
         "id": 166,
@@ -1325,7 +1325,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/166_EP_Solucoes_FP_4.pdf"
+        "path": "files/eptn7EP_Solucoes_FP_4.pdf"
     },
     {
         "id": 167,
@@ -1333,7 +1333,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/167_Folha3_EP.pdf"
+        "path": "files/eptn7Folha3_EP.pdf"
     },
     {
         "id": 168,
@@ -1341,7 +1341,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/168_Folha3_Supl_EP.pdf"
+        "path": "files/eptn7Folha3_Supl_EP.pdf"
     },
     {
         "id": 169,
@@ -1349,7 +1349,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/169_Folha2_EP.pdf"
+        "path": "files/eptn7Folha2_EP.pdf"
     },
     {
         "id": 170,
@@ -1357,7 +1357,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/170_Res_Folha_2.pdf"
+        "path": "files/eptn7Res_Folha_2.pdf"
     },
     {
         "id": 171,
@@ -1365,7 +1365,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/171_EP_Solucoes_FP_3.pdf"
+        "path": "files/eptn7EP_Solucoes_FP_3.pdf"
     },
     {
         "id": 172,
@@ -1373,7 +1373,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/172_Res_Folha_Sup_3.pdf"
+        "path": "files/eptn7Res_Folha_Sup_3.pdf"
     },
     {
         "id": 173,
@@ -1381,7 +1381,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/173_Res_Folha_3.pdf"
+        "path": "files/eptn7Res_Folha_3.pdf"
     },
     {
         "id": 174,
@@ -1389,7 +1389,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/174_Folha1_EP.pdf"
+        "path": "files/eptn7Folha1_EP.pdf"
     },
     {
         "id": 175,
@@ -1397,7 +1397,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/175_EP_Solucoes_FP_2.pdf"
+        "path": "files/eptn7EP_Solucoes_FP_2.pdf"
     },
     {
         "id": 176,
@@ -1405,7 +1405,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/176_Res_Folha_4.pdf"
+        "path": "files/eptn7Res_Folha_4.pdf"
     },
     {
         "id": 177,
@@ -1413,7 +1413,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/177_Folha4_Supl_EP.pdf"
+        "path": "files/eptn7Folha4_Supl_EP.pdf"
     },
     {
         "id": 178,
@@ -1421,7 +1421,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/178_EP_Solucoes_FP_1.pdf"
+        "path": "files/eptn7EP_Solucoes_FP_1.pdf"
     },
     {
         "id": 179,
@@ -1429,7 +1429,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/179_Folha4_EP.pdf"
+        "path": "files/eptn7Folha4_EP.pdf"
     },
     {
         "id": 180,
@@ -1437,7 +1437,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/180_Res_Folha_Sup_2.pdf"
+        "path": "files/eptn7Res_Folha_Sup_2.pdf"
     },
     {
         "id": 181,
@@ -1445,7 +1445,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/181_Folha2_Supl_EP.pdf"
+        "path": "files/eptn7Folha2_Supl_EP.pdf"
     },
     {
         "id": 182,
@@ -1453,7 +1453,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/182_Folha1_Supl_EP.pdf"
+        "path": "files/eptn7Folha1_Supl_EP.pdf"
     },
     {
         "id": 183,
@@ -1461,7 +1461,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "EPTN",
-        "path": "files/eptn/183_Res_Folha_1.pdf"
+        "path": "files/eptn7Res_Folha_1.pdf"
     },
     {
         "id": 184,
@@ -1469,7 +1469,7 @@
         "ano": "2023/2024",
         "tipo": "Formulário",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/184_Folha Auxílio.pdf"
+        "path": "files/arquitetura7Folha Auxílio.pdf"
     },
     {
         "id": 185,
@@ -1477,7 +1477,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/185_teste_2_modelo_2024_2025_res.pdf"
+        "path": "files/arquitetura7teste_2_modelo_2024_2025_res.pdf"
     },
     {
         "id": 186,
@@ -1485,7 +1485,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/186_teste_2_modelo_2024_2025.pdf"
+        "path": "files/arquitetura7teste_2_modelo_2024_2025.pdf"
     },
     {
         "id": 187,
@@ -1493,7 +1493,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/187_teste_2_modelo_2021_2022.pdf"
+        "path": "files/arquitetura7teste_2_modelo_2021_2022.pdf"
     },
     {
         "id": 188,
@@ -1501,7 +1501,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/188_teste_2_modelo_2023_2024.pdf"
+        "path": "files/arquitetura7teste_2_modelo_2023_2024.pdf"
     },
     {
         "id": 189,
@@ -1509,7 +1509,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/189_teste_2_Exercícios Complementares_2024_2025.pdf"
+        "path": "files/arquitetura7teste_2_Exercícios Complementares_2024_2025.pdf"
     },
     {
         "id": 190,
@@ -1517,7 +1517,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/190_teste_1_modelo_2023_2024_res.pdf"
+        "path": "files/arquitetura7teste_1_modelo_2023_2024_res.pdf"
     },
     {
         "id": 191,
@@ -1525,7 +1525,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/191_teste_1_modelo_2021_2022.pdf"
+        "path": "files/arquitetura7teste_1_modelo_2021_2022.pdf"
     },
     {
         "id": 192,
@@ -1533,7 +1533,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/192_teste_1_Exercícios Complementares_2024_2025.pdf"
+        "path": "files/arquitetura7teste_1_Exercícios Complementares_2024_2025.pdf"
     },
     {
         "id": 193,
@@ -1541,7 +1541,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/193_teste_1_modelo_2023_2024.pdf"
+        "path": "files/arquitetura7teste_1_modelo_2023_2024.pdf"
     },
     {
         "id": 194,
@@ -1549,7 +1549,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/194_teste_1_modelo_2022_2023.pdf"
+        "path": "files/arquitetura7teste_1_modelo_2022_2023.pdf"
     },
     {
         "id": 195,
@@ -1557,7 +1557,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/195_teste_1_modelo_2024_2025.pdf"
+        "path": "files/arquitetura7teste_1_modelo_2024_2025.pdf"
     },
     {
         "id": 196,
@@ -1565,7 +1565,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/196_05-Pipelining.pdf"
+        "path": "files/arquitetura705-Pipelining.pdf"
     },
     {
         "id": 197,
@@ -1573,7 +1573,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/197_09-OpenMP.pptx"
+        "path": "files/arquitetura709-OpenMP.pptx"
     },
     {
         "id": 198,
@@ -1581,7 +1581,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/198_04-HMem-Organizacao.pptx"
+        "path": "files/arquitetura704-HMem-Organizacao.pptx"
     },
     {
         "id": 199,
@@ -1589,7 +1589,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/199_05-Pipelining.pdf"
+        "path": "files/arquitetura705-Pipelining.pdf"
     },
     {
         "id": 200,
@@ -1597,7 +1597,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/200_02-MediçãoDesempenho.pdf"
+        "path": "files/arquitetura702-MediçãoDesempenho.pdf"
     },
     {
         "id": 201,
@@ -1605,7 +1605,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/201_02-MediçãoDesempenho.pdf"
+        "path": "files/arquitetura702-MediçãoDesempenho.pdf"
     },
     {
         "id": 202,
@@ -1613,7 +1613,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/202_08-ArquitecturasMulticore.pptx"
+        "path": "files/arquitetura708-ArquitecturasMulticore.pptx"
     },
     {
         "id": 203,
@@ -1621,7 +1621,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/203_08-ArquitecturasMulticore.pptx"
+        "path": "files/arquitetura708-ArquitecturasMulticore.pptx"
     },
     {
         "id": 204,
@@ -1629,7 +1629,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/204_06-SuperEscalaridade.pptx"
+        "path": "files/arquitetura706-SuperEscalaridade.pptx"
     },
     {
         "id": 205,
@@ -1637,7 +1637,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/205_07-ProcessamentoVectorial.pptx"
+        "path": "files/arquitetura707-ProcessamentoVectorial.pptx"
     },
     {
         "id": 206,
@@ -1645,7 +1645,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/206_09-OpenMP.pptx"
+        "path": "files/arquitetura709-OpenMP.pptx"
     },
     {
         "id": 207,
@@ -1653,7 +1653,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/207_06-SuperEscalaridade.pptx"
+        "path": "files/arquitetura706-SuperEscalaridade.pptx"
     },
     {
         "id": 208,
@@ -1661,7 +1661,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/208_03-HierarquiaMemoria.pdf"
+        "path": "files/arquitetura703-HierarquiaMemoria.pdf"
     },
     {
         "id": 209,
@@ -1669,7 +1669,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/209_03-HierarquiaMemoria.pdf"
+        "path": "files/arquitetura703-HierarquiaMemoria.pdf"
     },
     {
         "id": 210,
@@ -1677,7 +1677,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/210_07-ProcessamentoVectorial.pptx"
+        "path": "files/arquitetura707-ProcessamentoVectorial.pptx"
     },
     {
         "id": 211,
@@ -1685,7 +1685,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/211_01-VonNewmann.pdf"
+        "path": "files/arquitetura701-VonNewmann.pdf"
     },
     {
         "id": 212,
@@ -1693,7 +1693,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/212_04-HMem-Organizacao.pptx"
+        "path": "files/arquitetura704-HMem-Organizacao.pptx"
     },
     {
         "id": 213,
@@ -1701,7 +1701,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/213_01-VonNewmann.pdf"
+        "path": "files/arquitetura701-VonNewmann.pdf"
     },
     {
         "id": 214,
@@ -1709,7 +1709,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/214_Ficha 5.pdf"
+        "path": "files/arquitetura7Ficha 5.pdf"
     },
     {
         "id": 215,
@@ -1717,7 +1717,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/215_Ficha 3.pdf"
+        "path": "files/arquitetura7Ficha 3.pdf"
     },
     {
         "id": 216,
@@ -1725,7 +1725,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/216_Ficha 6.pdf"
+        "path": "files/arquitetura7Ficha 6.pdf"
     },
     {
         "id": 217,
@@ -1733,7 +1733,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/217_Ficha 1.pdf"
+        "path": "files/arquitetura7Ficha 1.pdf"
     },
     {
         "id": 218,
@@ -1741,7 +1741,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/218_Ficha 8.pdf"
+        "path": "files/arquitetura7Ficha 8.pdf"
     },
     {
         "id": 219,
@@ -1749,7 +1749,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "Arquitetura",
-        "path": "files/arquitetura/219_Ficha 2.pdf"
+        "path": "files/arquitetura7Ficha 2.pdf"
     },
     {
         "id": 220,
@@ -1757,7 +1757,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "PF",
-        "path": "files/pf/220_PF_EE_20_21.pdf"
+        "path": "files/pf7PF_EE_20_21.pdf"
     },
     {
         "id": 221,
@@ -1765,7 +1765,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "PF",
-        "path": "files/pf/221_PF_Recurso_23_24.pdf"
+        "path": "files/pf7PF_Recurso_23_24.pdf"
     },
     {
         "id": 222,
@@ -1773,7 +1773,7 @@
         "ano": "2025/2026",
         "tipo": "Teste/Exame",
         "uc": "PF",
-        "path": "files/pf/222_PF_Teste_Modelo_25_26.pdf"
+        "path": "files/pf7PF_Teste_Modelo_25_26.pdf"
     },
     {
         "id": 223,
@@ -1781,7 +1781,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "PF",
-        "path": "files/pf/223_PF_Teste_23_24.pdf"
+        "path": "files/pf7PF_Teste_23_24.pdf"
     },
     {
         "id": 224,
@@ -1789,7 +1789,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "PF",
-        "path": "files/pf/224_PF_EE_19_20.pdf"
+        "path": "files/pf7PF_EE_19_20.pdf"
     },
     {
         "id": 225,
@@ -1797,7 +1797,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "PF",
-        "path": "files/pf/225_PF_EE_22_23.pdf"
+        "path": "files/pf7PF_EE_22_23.pdf"
     },
     {
         "id": 226,
@@ -1805,7 +1805,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "MNONL",
-        "path": "files/mnonl/226_teste1_2020_2021.pdf"
+        "path": "files/mnonl7teste1_2020_2021.pdf"
     },
     {
         "id": 227,
@@ -1813,7 +1813,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "MNONL",
-        "path": "files/mnonl/227_teste1_2019_2020.pdf"
+        "path": "files/mnonl7teste1_2019_2020.pdf"
     },
     {
         "id": 228,
@@ -1821,7 +1821,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "MNONL",
-        "path": "files/mnonl/228_1_Erros.pdf"
+        "path": "files/mnonl71_Erros.pdf"
     },
     {
         "id": 229,
@@ -1829,7 +1829,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "MNONL",
-        "path": "files/mnonl/229_2_INTEGRA.pdf"
+        "path": "files/mnonl72_INTEGRA.pdf"
     },
     {
         "id": 230,
@@ -1837,7 +1837,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "MNONL",
-        "path": "files/mnonl/230_8_SPLINE.pdf"
+        "path": "files/mnonl78_SPLINE.pdf"
     },
     {
         "id": 231,
@@ -1845,7 +1845,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "MNONL",
-        "path": "files/mnonl/231_4_SENL.pdf"
+        "path": "files/mnonl74_SENL.pdf"
     },
     {
         "id": 232,
@@ -1853,7 +1853,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "MNONL",
-        "path": "files/mnonl/232_7_MIN_QUAD.pdf"
+        "path": "files/mnonl77_MIN_QUAD.pdf"
     },
     {
         "id": 233,
@@ -1861,7 +1861,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "MNONL",
-        "path": "files/mnonl/233_6_SEL.pdf"
+        "path": "files/mnonl76_SEL.pdf"
     },
     {
         "id": 234,
@@ -1869,7 +1869,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "MNONL",
-        "path": "files/mnonl/234_3_INTERP.pdf"
+        "path": "files/mnonl73_INTERP.pdf"
     },
     {
         "id": 235,
@@ -1877,7 +1877,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "MNONL",
-        "path": "files/mnonl/235_5_ENL.pdf"
+        "path": "files/mnonl75_ENL.pdf"
     },
     {
         "id": 236,
@@ -1885,7 +1885,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "MNONL",
-        "path": "files/mnonl/236_Solucoes MN.pdf"
+        "path": "files/mnonl7Solucoes MN.pdf"
     },
     {
         "id": 237,
@@ -1893,7 +1893,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "MNONL",
-        "path": "files/mnonl/237_Folhas MN.pdf"
+        "path": "files/mnonl7Folhas MN.pdf"
     },
     {
         "id": 238,
@@ -1901,7 +1901,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "MNONL",
-        "path": "files/mnonl/238_teste2_2020_2021.pdf"
+        "path": "files/mnonl7teste2_2020_2021.pdf"
     },
     {
         "id": 239,
@@ -1909,7 +1909,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "MNONL",
-        "path": "files/mnonl/239_1_Método DSC e Condições de Otimalidad.pdf"
+        "path": "files/mnonl71_Método DSC e Condições de Otimalidad.pdf"
     },
     {
         "id": 240,
@@ -1917,7 +1917,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "MNONL",
-        "path": "files/mnonl/240_3_Otimização diferenciável_Métodos do gradiente.pdf"
+        "path": "files/mnonl73_Otimização diferenciável_Métodos do gradiente.pdf"
     },
     {
         "id": 241,
@@ -1925,7 +1925,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "MNONL",
-        "path": "files/mnonl/241_2_Otimização não diferenciável_Método Nelder-Mead.pdf"
+        "path": "files/mnonl72_Otimização não diferenciável_Método Nelder-Mead.pdf"
     },
     {
         "id": 242,
@@ -1933,7 +1933,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "MNONL",
-        "path": "files/mnonl/242_Folhas ONL.pdf"
+        "path": "files/mnonl7Folhas ONL.pdf"
     },
     {
         "id": 243,
@@ -1941,7 +1941,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "MNONL",
-        "path": "files/mnonl/243_Solucoes ONL.pdf"
+        "path": "files/mnonl7Solucoes ONL.pdf"
     },
     {
         "id": 244,
@@ -1949,7 +1949,7 @@
         "ano": "2024/2025",
         "tipo": "Bibliografia",
         "uc": "CP",
-        "path": "files/cp/244_Calculo-de-Programas.pdf"
+        "path": "files/cp7Calculo-de-Programas.pdf"
     },
     {
         "id": 245,
@@ -1957,7 +1957,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/245_Exame_especial_2122.pdf"
+        "path": "files/cp7Exame_especial_2122.pdf"
     },
     {
         "id": 246,
@@ -1965,7 +1965,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/246_Teste_2324_2.pdf"
+        "path": "files/cp7Teste_2324_2.pdf"
     },
     {
         "id": 247,
@@ -1973,7 +1973,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/247_Teste_2324.pdf"
+        "path": "files/cp7Teste_2324.pdf"
     },
     {
         "id": 248,
@@ -1981,7 +1981,7 @@
         "ano": "2019/2020",
         "tipo": "Resolução de Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/248_Teste_1920_com_solucao_parcial.pdf"
+        "path": "files/cp7Teste_1920_com_solucao_parcial.pdf"
     },
     {
         "id": 249,
@@ -1989,7 +1989,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/249_Teste_2021.pdf"
+        "path": "files/cp7Teste_2021.pdf"
     },
     {
         "id": 250,
@@ -1997,7 +1997,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/250_Exame_1920.pdf"
+        "path": "files/cp7Exame_1920.pdf"
     },
     {
         "id": 251,
@@ -2005,7 +2005,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/251_Exame_especial_2021.pdf"
+        "path": "files/cp7Exame_especial_2021.pdf"
     },
     {
         "id": 252,
@@ -2013,7 +2013,7 @@
         "ano": "2022/2023",
         "tipo": "Resolução de Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/252_Teste_2223_2_com_solucao.pdf"
+        "path": "files/cp7Teste_2223_2_com_solucao.pdf"
     },
     {
         "id": 253,
@@ -2021,7 +2021,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/253_Teste_1920.pdf"
+        "path": "files/cp7Teste_1920.pdf"
     },
     {
         "id": 254,
@@ -2029,7 +2029,7 @@
         "ano": "2020/2021",
         "tipo": "Resolução de Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/254_Exame_especial_2021_com_solucao.pdf"
+        "path": "files/cp7Exame_especial_2021_com_solucao.pdf"
     },
     {
         "id": 255,
@@ -2037,7 +2037,7 @@
         "ano": "2022/2023",
         "tipo": "Resolução de Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/255_Teste_2223_com_solucao.pdf"
+        "path": "files/cp7Teste_2223_com_solucao.pdf"
     },
     {
         "id": 256,
@@ -2045,7 +2045,7 @@
         "ano": "2020/2021",
         "tipo": "Resolução de Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/256_Teste_2021_com_solucao.pdf"
+        "path": "files/cp7Teste_2021_com_solucao.pdf"
     },
     {
         "id": 257,
@@ -2053,7 +2053,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/257_Exame_1819.pdf"
+        "path": "files/cp7Exame_1819.pdf"
     },
     {
         "id": 258,
@@ -2061,7 +2061,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/258_Teste_2223.pdf"
+        "path": "files/cp7Teste_2223.pdf"
     },
     {
         "id": 259,
@@ -2069,7 +2069,7 @@
         "ano": "2018/2019",
         "tipo": "Resolução de Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/259_Exame_1819_com_solucao.pdf"
+        "path": "files/cp7Exame_1819_com_solucao.pdf"
     },
     {
         "id": 260,
@@ -2077,7 +2077,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/260_Exame_especial_2122_com_solucao_parcial.pdf"
+        "path": "files/cp7Exame_especial_2122_com_solucao_parcial.pdf"
     },
     {
         "id": 261,
@@ -2085,7 +2085,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/261_Teste_2223_2.pdf"
+        "path": "files/cp7Teste_2223_2.pdf"
     },
     {
         "id": 262,
@@ -2093,7 +2093,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/262_Teste_2324_2_com_resolucao.pdf"
+        "path": "files/cp7Teste_2324_2_com_resolucao.pdf"
     },
     {
         "id": 263,
@@ -2101,7 +2101,7 @@
         "ano": "2019/2020",
         "tipo": "Resolução de Teste/Exame",
         "uc": "CP",
-        "path": "files/cp/263_Exame_1920_com_solucao.pdf"
+        "path": "files/cp7Exame_1920_com_solucao.pdf"
     },
     {
         "id": 264,
@@ -2109,7 +2109,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/264_Questoes2.c"
+        "path": "files/pi7Questoes2.c"
     },
     {
         "id": 265,
@@ -2117,7 +2117,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/265_Questoes1.pdf"
+        "path": "files/pi7Questoes1.pdf"
     },
     {
         "id": 266,
@@ -2125,7 +2125,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/266_Questoes1.pdf"
+        "path": "files/pi7Questoes1.pdf"
     },
     {
         "id": 267,
@@ -2133,7 +2133,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/267_Questoes2.c"
+        "path": "files/pi7Questoes2.c"
     },
     {
         "id": 268,
@@ -2141,7 +2141,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/268_02-2324.pdf"
+        "path": "files/pi702-2324.pdf"
     },
     {
         "id": 269,
@@ -2149,7 +2149,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/269_03-2324.pdf"
+        "path": "files/pi703-2324.pdf"
     },
     {
         "id": 270,
@@ -2157,7 +2157,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/270_03-2425.pdf"
+        "path": "files/pi703-2425.pdf"
     },
     {
         "id": 271,
@@ -2165,7 +2165,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/271_01-2425.pdf"
+        "path": "files/pi701-2425.pdf"
     },
     {
         "id": 272,
@@ -2173,7 +2173,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/272_01-2324.pdf"
+        "path": "files/pi701-2324.pdf"
     },
     {
         "id": 273,
@@ -2181,7 +2181,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/273_02-2425.pdf"
+        "path": "files/pi702-2425.pdf"
     },
     {
         "id": 274,
@@ -2189,7 +2189,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/274_exame_2020_2021.pdf"
+        "path": "files/pi7exame_2020_2021.pdf"
     },
     {
         "id": 275,
@@ -2197,7 +2197,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/275_teste_2020_2021.pdf"
+        "path": "files/pi7teste_2020_2021.pdf"
     },
     {
         "id": 276,
@@ -2205,7 +2205,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/276_exame_2022_2023.pdf"
+        "path": "files/pi7exame_2022_2023.pdf"
     },
     {
         "id": 277,
@@ -2213,7 +2213,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/277_exame_2021_2022.pdf"
+        "path": "files/pi7exame_2021_2022.pdf"
     },
     {
         "id": 278,
@@ -2221,7 +2221,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/278_teste_2022_2023.pdf"
+        "path": "files/pi7teste_2022_2023.pdf"
     },
     {
         "id": 279,
@@ -2229,7 +2229,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/279_teste_2023_2024.pdf"
+        "path": "files/pi7teste_2023_2024.pdf"
     },
     {
         "id": 280,
@@ -2237,7 +2237,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "PI",
-        "path": "files/pi/280_teste_2021_2022.pdf"
+        "path": "files/pi7teste_2021_2022.pdf"
     },
     {
         "id": 281,
@@ -2245,7 +2245,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "PI",
-        "path": "files/pi/281_slides.pdf"
+        "path": "files/pi7slides.pdf"
     },
     {
         "id": 282,
@@ -2253,7 +2253,7 @@
         "ano": 2025,
         "tipo": "Resumos",
         "uc": "SO",
-        "path": "files/so/282_Resumos_SO.pdf"
+        "path": "files/so7Resumos_SO.pdf"
     },
     {
         "id": 283,
@@ -2261,7 +2261,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/283_Guiao1Esqueleto.zip"
+        "path": "files/so7Guiao1Esqueleto.zip"
     },
     {
         "id": 284,
@@ -2269,7 +2269,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/284_Guiao4EnunciadoEN.pdf"
+        "path": "files/so7Guiao4EnunciadoEN.pdf"
     },
     {
         "id": 285,
@@ -2277,7 +2277,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/285_Guiao2Slides.pdf"
+        "path": "files/so7Guiao2Slides.pdf"
     },
     {
         "id": 286,
@@ -2285,7 +2285,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/286_guiao6enunciado.pdf"
+        "path": "files/so7guiao6enunciado.pdf"
     },
     {
         "id": 287,
@@ -2293,7 +2293,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/287_Guiao6Slides.pdf"
+        "path": "files/so7Guiao6Slides.pdf"
     },
     {
         "id": 288,
@@ -2301,7 +2301,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/288_Guiao6EnunciadoEN.pdf"
+        "path": "files/so7Guiao6EnunciadoEN.pdf"
     },
     {
         "id": 289,
@@ -2309,7 +2309,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/289_ex6_skeleton.c"
+        "path": "files/so7ex6_skeleton.c"
     },
     {
         "id": 290,
@@ -2317,7 +2317,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/290_Guiao5Slides.pdf"
+        "path": "files/so7Guiao5Slides.pdf"
     },
     {
         "id": 291,
@@ -2325,7 +2325,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/291_Guiao3Slides.pdf"
+        "path": "files/so7Guiao3Slides.pdf"
     },
     {
         "id": 292,
@@ -2333,7 +2333,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/292_Guiao4Esqueleto.zip"
+        "path": "files/so7Guiao4Esqueleto.zip"
     },
     {
         "id": 293,
@@ -2341,7 +2341,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/293_Guiao5Esqueleto.zip"
+        "path": "files/so7Guiao5Esqueleto.zip"
     },
     {
         "id": 294,
@@ -2349,7 +2349,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/294_Guiao5Enunciado.pdf"
+        "path": "files/so7Guiao5Enunciado.pdf"
     },
     {
         "id": 295,
@@ -2357,7 +2357,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/295_Guiao2Enunciado.pdf"
+        "path": "files/so7Guiao2Enunciado.pdf"
     },
     {
         "id": 296,
@@ -2365,7 +2365,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/296_Guiao4Enunciado.pdf"
+        "path": "files/so7Guiao4Enunciado.pdf"
     },
     {
         "id": 297,
@@ -2373,7 +2373,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/297_Guiao1Slides.pdf"
+        "path": "files/so7Guiao1Slides.pdf"
     },
     {
         "id": 298,
@@ -2381,7 +2381,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/298_Guiao3EnunciadoEN.pdf"
+        "path": "files/so7Guiao3EnunciadoEN.pdf"
     },
     {
         "id": 299,
@@ -2389,7 +2389,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/299_Guiao4Slides.pdf"
+        "path": "files/so7Guiao4Slides.pdf"
     },
     {
         "id": 300,
@@ -2397,7 +2397,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/300_Guiao2EnunciadoEN.pdf"
+        "path": "files/so7Guiao2EnunciadoEN.pdf"
     },
     {
         "id": 301,
@@ -2405,7 +2405,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/301_Guiao2Esqueleto.zip"
+        "path": "files/so7Guiao2Esqueleto.zip"
     },
     {
         "id": 302,
@@ -2413,7 +2413,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/302_Guiao1EnunciadoEN.pdf"
+        "path": "files/so7Guiao1EnunciadoEN.pdf"
     },
     {
         "id": 303,
@@ -2421,7 +2421,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/303_Guiao1Enunciado.pdf"
+        "path": "files/so7Guiao1Enunciado.pdf"
     },
     {
         "id": 304,
@@ -2429,7 +2429,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/304_Guiao5EnunciadoEN.pdf"
+        "path": "files/so7Guiao5EnunciadoEN.pdf"
     },
     {
         "id": 305,
@@ -2437,7 +2437,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/305_Guiao3Esqueleto.zip"
+        "path": "files/so7Guiao3Esqueleto.zip"
     },
     {
         "id": 306,
@@ -2445,7 +2445,7 @@
         "ano": 2025,
         "tipo": "Ficha",
         "uc": "SO",
-        "path": "files/so/306_Guiao3ENunciado.pdf"
+        "path": "files/so7Guiao3ENunciado.pdf"
     },
     {
         "id": 307,
@@ -2453,7 +2453,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "SO",
-        "path": "files/so/307_recurso_2023_2024_PT.pdf"
+        "path": "files/so7recurso_2023_2024_PT.pdf"
     },
     {
         "id": 308,
@@ -2461,7 +2461,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "SO",
-        "path": "files/so/308_teste_2023_2024_PT.pdf"
+        "path": "files/so7teste_2023_2024_PT.pdf"
     },
     {
         "id": 309,
@@ -2469,7 +2469,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "SO",
-        "path": "files/so/309_recurso_2021_2022_PT.pdf"
+        "path": "files/so7recurso_2021_2022_PT.pdf"
     },
     {
         "id": 310,
@@ -2477,7 +2477,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "SO",
-        "path": "files/so/310_teste_modelo_2024_2025_EN.pdf"
+        "path": "files/so7teste_modelo_2024_2025_EN.pdf"
     },
     {
         "id": 311,
@@ -2485,7 +2485,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "SO",
-        "path": "files/so/311_teste_2021_2022_PT.pdf"
+        "path": "files/so7teste_2021_2022_PT.pdf"
     },
     {
         "id": 312,
@@ -2493,7 +2493,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "SO",
-        "path": "files/so/312_teste_2022_2023_PT.pdf"
+        "path": "files/so7teste_2022_2023_PT.pdf"
     },
     {
         "id": 313,
@@ -2501,7 +2501,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "SO",
-        "path": "files/so/313_recurso_2022_2023_PT.pdf"
+        "path": "files/so7recurso_2022_2023_PT.pdf"
     },
     {
         "id": 314,
@@ -2509,7 +2509,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "SO",
-        "path": "files/so/314_teste_modelo_2024_2025_PT.pdf"
+        "path": "files/so7teste_modelo_2024_2025_PT.pdf"
     },
     {
         "id": 315,
@@ -2517,7 +2517,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "SO",
-        "path": "files/so/315_3 - CPU Virtualization Mechanisms.pdf"
+        "path": "files/so73 - CPU Virtualization Mechanisms.pdf"
     },
     {
         "id": 316,
@@ -2525,7 +2525,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "SO",
-        "path": "files/so/316_6 - Paging and Virtual Memory.pdf"
+        "path": "files/so76 - Paging and Virtual Memory.pdf"
     },
     {
         "id": 317,
@@ -2533,7 +2533,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "SO",
-        "path": "files/so/317_7 - IO Devices.pdf"
+        "path": "files/so77 - IO Devices.pdf"
     },
     {
         "id": 318,
@@ -2541,7 +2541,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "SO",
-        "path": "files/so/318_2 - Processes.pdf"
+        "path": "files/so72 - Processes.pdf"
     },
     {
         "id": 319,
@@ -2549,7 +2549,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "SO",
-        "path": "files/so/319_5 - Memory Virtualization Abstractions and Mechanisms.pdf"
+        "path": "files/so75 - Memory Virtualization Abstractions and Mechanisms.pdf"
     },
     {
         "id": 320,
@@ -2557,7 +2557,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "SO",
-        "path": "files/so/320_8 - File System Interface and Design.pdf"
+        "path": "files/so78 - File System Interface and Design.pdf"
     },
     {
         "id": 321,
@@ -2565,7 +2565,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "SO",
-        "path": "files/so/321_0 - Presentation.pdf"
+        "path": "files/so70 - Presentation.pdf"
     },
     {
         "id": 322,
@@ -2573,7 +2573,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "SO",
-        "path": "files/so/322_4 - CPU Scheduling.pdf"
+        "path": "files/so74 - CPU Scheduling.pdf"
     },
     {
         "id": 323,
@@ -2581,7 +2581,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "SO",
-        "path": "files/so/323_1 - OS Intro.pdf"
+        "path": "files/so71 - OS Intro.pdf"
     },
     {
         "id": 324,
@@ -2589,7 +2589,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "CG",
-        "path": "files/cg/324_Recurso_22_23.pdf"
+        "path": "files/cg7Recurso_22_23.pdf"
     },
     {
         "id": 325,
@@ -2597,7 +2597,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "CG",
-        "path": "files/cg/325_Teste_22_23.pdf"
+        "path": "files/cg7Teste_22_23.pdf"
     },
     {
         "id": 326,
@@ -2605,7 +2605,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "CG",
-        "path": "files/cg/326_EE_23_24.pdf"
+        "path": "files/cg7EE_23_24.pdf"
     },
     {
         "id": 327,
@@ -2613,7 +2613,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "CG",
-        "path": "files/cg/327_Teste_24_25_B.pdf"
+        "path": "files/cg7Teste_24_25_B.pdf"
     },
     {
         "id": 328,
@@ -2621,7 +2621,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "CG",
-        "path": "files/cg/328_Teste_23_24_B.pdf"
+        "path": "files/cg7Teste_23_24_B.pdf"
     },
     {
         "id": 329,
@@ -2629,7 +2629,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "CG",
-        "path": "files/cg/329_Teste_23_24_A.pdf"
+        "path": "files/cg7Teste_23_24_A.pdf"
     },
     {
         "id": 330,
@@ -2637,7 +2637,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "CG",
-        "path": "files/cg/330_Recurso_22_23_ov.pdf"
+        "path": "files/cg7Recurso_22_23_ov.pdf"
     },
     {
         "id": 331,
@@ -2645,7 +2645,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "CG",
-        "path": "files/cg/331_Recurso_23_24_B.pdf"
+        "path": "files/cg7Recurso_23_24_B.pdf"
     },
     {
         "id": 332,
@@ -2653,7 +2653,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "CG",
-        "path": "files/cg/332_Recurso_23_24_A.pdf"
+        "path": "files/cg7Recurso_23_24_A.pdf"
     },
     {
         "id": 333,
@@ -2661,7 +2661,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "CG",
-        "path": "files/cg/333_Teste_20_21.pdf"
+        "path": "files/cg7Teste_20_21.pdf"
     },
     {
         "id": 334,
@@ -2669,7 +2669,7 @@
         "ano": "2023/2024",
         "tipo": "Formulário",
         "uc": "Álgebra",
-        "path": "files/algebra/334_Folha Auxílio.pdf"
+        "path": "files/algebra7Folha Auxílio.pdf"
     },
     {
         "id": 335,
@@ -2677,7 +2677,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Álgebra",
-        "path": "files/algebra/335_Apontamentos.pdf"
+        "path": "files/algebra7Apontamentos.pdf"
     },
     {
         "id": 336,
@@ -2685,7 +2685,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/336_teste_2_CC_2023_2024_sol.pdf"
+        "path": "files/algebra7teste_2_CC_2023_2024_sol.pdf"
     },
     {
         "id": 337,
@@ -2693,7 +2693,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/337_recurso_B_2024_2025_sol.pdf"
+        "path": "files/algebra7recurso_B_2024_2025_sol.pdf"
     },
     {
         "id": 338,
@@ -2701,7 +2701,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/338_teste_2_B_2023_2024_sol.pdf"
+        "path": "files/algebra7teste_2_B_2023_2024_sol.pdf"
     },
     {
         "id": 339,
@@ -2709,7 +2709,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/339_recurso_B_2024_2025.pdf"
+        "path": "files/algebra7recurso_B_2024_2025.pdf"
     },
     {
         "id": 340,
@@ -2717,7 +2717,7 @@
         "ano": "2020/2021",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/340_teste_2_2020_2021_sol.pdf"
+        "path": "files/algebra7teste_2_2020_2021_sol.pdf"
     },
     {
         "id": 341,
@@ -2725,7 +2725,7 @@
         "ano": "2022/2023",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/341_teste_1_2022_2023_sol.pdf"
+        "path": "files/algebra7teste_1_2022_2023_sol.pdf"
     },
     {
         "id": 342,
@@ -2733,7 +2733,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/342_teste_1_CC_2023_2024_sol.pdf"
+        "path": "files/algebra7teste_1_CC_2023_2024_sol.pdf"
     },
     {
         "id": 343,
@@ -2741,7 +2741,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/343_teste_1_2024_2025.pdf"
+        "path": "files/algebra7teste_1_2024_2025.pdf"
     },
     {
         "id": 344,
@@ -2749,7 +2749,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/344_teste_2_CC_2023_2024.pdf"
+        "path": "files/algebra7teste_2_CC_2023_2024.pdf"
     },
     {
         "id": 345,
@@ -2757,7 +2757,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/345_recurso_CC_2023_2024_sol.pdf"
+        "path": "files/algebra7recurso_CC_2023_2024_sol.pdf"
     },
     {
         "id": 346,
@@ -2765,7 +2765,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/346_recurso_A_2024_2025.pdf"
+        "path": "files/algebra7recurso_A_2024_2025.pdf"
     },
     {
         "id": 347,
@@ -2773,7 +2773,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/347_teste_2_A_2023_2024_sol.pdf"
+        "path": "files/algebra7teste_2_A_2023_2024_sol.pdf"
     },
     {
         "id": 348,
@@ -2781,7 +2781,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/348_teste_1_2020_2021.pdf"
+        "path": "files/algebra7teste_1_2020_2021.pdf"
     },
     {
         "id": 349,
@@ -2789,7 +2789,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/349_teste_2_A_2023_2024.pdf"
+        "path": "files/algebra7teste_2_A_2023_2024.pdf"
     },
     {
         "id": 350,
@@ -2797,7 +2797,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/350_teste_1_2024_2025_sol.pdf"
+        "path": "files/algebra7teste_1_2024_2025_sol.pdf"
     },
     {
         "id": 351,
@@ -2805,7 +2805,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/351_teste_1_2022_2023.pdf"
+        "path": "files/algebra7teste_1_2022_2023.pdf"
     },
     {
         "id": 352,
@@ -2813,7 +2813,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/352_teste_1_2021_2022.pdf"
+        "path": "files/algebra7teste_1_2021_2022.pdf"
     },
     {
         "id": 353,
@@ -2821,7 +2821,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/353_teste_1_2021_2022_sol.pdf"
+        "path": "files/algebra7teste_1_2021_2022_sol.pdf"
     },
     {
         "id": 354,
@@ -2829,7 +2829,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/354_teste_2_B_2023_2024.pdf"
+        "path": "files/algebra7teste_2_B_2023_2024.pdf"
     },
     {
         "id": 355,
@@ -2837,7 +2837,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/355_teste_1_CC_2023_2024.pdf"
+        "path": "files/algebra7teste_1_CC_2023_2024.pdf"
     },
     {
         "id": 356,
@@ -2845,7 +2845,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/356_recurso_A_2024_2025_sol.pdf"
+        "path": "files/algebra7recurso_A_2024_2025_sol.pdf"
     },
     {
         "id": 357,
@@ -2853,7 +2853,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/357_recurso_CC_2023_2024.pdf"
+        "path": "files/algebra7recurso_CC_2023_2024.pdf"
     },
     {
         "id": 358,
@@ -2861,7 +2861,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/358_teste_2_2024_2025_sol.pdf"
+        "path": "files/algebra7teste_2_2024_2025_sol.pdf"
     },
     {
         "id": 359,
@@ -2869,7 +2869,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/359_teste_2_2020_2021.pdf"
+        "path": "files/algebra7teste_2_2020_2021.pdf"
     },
     {
         "id": 360,
@@ -2877,7 +2877,7 @@
         "ano": "2020/2021",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Álgebra",
-        "path": "files/algebra/360_teste_1_2020_2021_sol.pdf"
+        "path": "files/algebra7teste_1_2020_2021_sol.pdf"
     },
     {
         "id": 361,
@@ -2885,7 +2885,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "Álgebra",
-        "path": "files/algebra/361_Capitulo_2_Sistemas_de_equações_lineares.pdf"
+        "path": "files/algebra7Capitulo_2_Sistemas_de_equações_lineares.pdf"
     },
     {
         "id": 362,
@@ -2893,7 +2893,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "Álgebra",
-        "path": "files/algebra/362_Capitulo_3_Determinantes.pdf"
+        "path": "files/algebra7Capitulo_3_Determinantes.pdf"
     },
     {
         "id": 363,
@@ -2901,7 +2901,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "Álgebra",
-        "path": "files/algebra/363_Capitulo_1_Matriz.pdf"
+        "path": "files/algebra7Capitulo_1_Matriz.pdf"
     },
     {
         "id": 364,
@@ -2909,7 +2909,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "Álgebra",
-        "path": "files/algebra/364_Capitulo_6_Valores_e_Vetores_Próprios.pdf"
+        "path": "files/algebra7Capitulo_6_Valores_e_Vetores_Próprios.pdf"
     },
     {
         "id": 365,
@@ -2917,7 +2917,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "Álgebra",
-        "path": "files/algebra/365_Capitulo_5_Transformações_Lineares.pdf"
+        "path": "files/algebra7Capitulo_5_Transformações_Lineares.pdf"
     },
     {
         "id": 366,
@@ -2925,7 +2925,7 @@
         "ano": 2025,
         "tipo": "Slides",
         "uc": "Álgebra",
-        "path": "files/algebra/366_Capitulo_4_Espaços_Vetoriais.pdf"
+        "path": "files/algebra7Capitulo_4_Espaços_Vetoriais.pdf"
     },
     {
         "id": 367,
@@ -2933,7 +2933,7 @@
         "ano": 2026,
         "tipo": "Ficha",
         "uc": "Álgebra",
-        "path": "files/algebra/367_Exercícios_Sistemas_Equaçoes_Lineares.pdf"
+        "path": "files/algebra7Exercícios_Sistemas_Equaçoes_Lineares.pdf"
     },
     {
         "id": 368,
@@ -2941,7 +2941,7 @@
         "ano": 2026,
         "tipo": "Ficha",
         "uc": "Álgebra",
-        "path": "files/algebra/368_Exercícios_Determinantes.pdf"
+        "path": "files/algebra7Exercícios_Determinantes.pdf"
     },
     {
         "id": 369,
@@ -2949,7 +2949,7 @@
         "ano": 2026,
         "tipo": "Ficha",
         "uc": "Álgebra",
-        "path": "files/algebra/369_Exercicios_Matrizes.pdf"
+        "path": "files/algebra7Exercicios_Matrizes.pdf"
     },
     {
         "id": 370,
@@ -2957,7 +2957,7 @@
         "ano": 2026,
         "tipo": "Ficha",
         "uc": "Álgebra",
-        "path": "files/algebra/370_Exercícios_Algebra_Vetorial.pdf"
+        "path": "files/algebra7Exercícios_Algebra_Vetorial.pdf"
     },
     {
         "id": 371,
@@ -2965,7 +2965,7 @@
         "ano": 2026,
         "tipo": "Ficha",
         "uc": "Álgebra",
-        "path": "files/algebra/371_Exercícios_Aplicações_Lineares.pdf"
+        "path": "files/algebra7Exercícios_Aplicações_Lineares.pdf"
     },
     {
         "id": 372,
@@ -2973,7 +2973,7 @@
         "ano": 2026,
         "tipo": "Resolução de Ficha",
         "uc": "Álgebra",
-        "path": "files/algebra/372_Exercicios_Resolucao.pdf"
+        "path": "files/algebra7Exercicios_Resolucao.pdf"
     },
     {
         "id": 373,
@@ -2981,7 +2981,7 @@
         "ano": 2026,
         "tipo": "Ficha",
         "uc": "Álgebra",
-        "path": "files/algebra/373_Exercícios_Espaços Vetoriais.pdf"
+        "path": "files/algebra7Exercícios_Espaços Vetoriais.pdf"
     },
     {
         "id": 374,
@@ -2989,7 +2989,7 @@
         "ano": 2026,
         "tipo": "Ficha",
         "uc": "Álgebra",
-        "path": "files/algebra/374_Exercícios_Valores_Vetores_Proprios.pdf"
+        "path": "files/algebra7Exercícios_Valores_Vetores_Proprios.pdf"
     },
     {
         "id": 375,
@@ -2997,7 +2997,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/375_Recurso_2024_2025_1.pdf"
+        "path": "files/sd7Recurso_2024_2025_1.pdf"
     },
     {
         "id": 376,
@@ -3005,7 +3005,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/376_Recurso_2022_2023.pdf"
+        "path": "files/sd7Recurso_2022_2023.pdf"
     },
     {
         "id": 377,
@@ -3013,7 +3013,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/377_Recurso_2023_2024.pdf"
+        "path": "files/sd7Recurso_2023_2024.pdf"
     },
     {
         "id": 378,
@@ -3021,7 +3021,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/378_Recurso_2019_2020.pdf"
+        "path": "files/sd7Recurso_2019_2020.pdf"
     },
     {
         "id": 379,
@@ -3029,7 +3029,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/379_Recurso_2021_2022.pdf"
+        "path": "files/sd7Recurso_2021_2022.pdf"
     },
     {
         "id": 380,
@@ -3037,7 +3037,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/380_Recurso_2024_2025_2.pdf"
+        "path": "files/sd7Recurso_2024_2025_2.pdf"
     },
     {
         "id": 381,
@@ -3045,7 +3045,7 @@
         "ano": "2025/2026",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/381_Teste_2025_2026.pdf"
+        "path": "files/sd7Teste_2025_2026.pdf"
     },
     {
         "id": 382,
@@ -3053,7 +3053,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/382_Teste_2021_2022.pdf"
+        "path": "files/sd7Teste_2021_2022.pdf"
     },
     {
         "id": 383,
@@ -3061,7 +3061,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/383_Teste_2023_2024.pdf"
+        "path": "files/sd7Teste_2023_2024.pdf"
     },
     {
         "id": 384,
@@ -3069,7 +3069,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/384_Teste_2022_2023.pdf"
+        "path": "files/sd7Teste_2022_2023.pdf"
     },
     {
         "id": 385,
@@ -3077,7 +3077,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/385_Teste_2024_2025.pdf"
+        "path": "files/sd7Teste_2024_2025.pdf"
     },
     {
         "id": 386,
@@ -3085,7 +3085,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/386_EE_2019_2020.pdf"
+        "path": "files/sd7EE_2019_2020.pdf"
     },
     {
         "id": 387,
@@ -3093,7 +3093,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/387_EE_2020_2021.pdf"
+        "path": "files/sd7EE_2020_2021.pdf"
     },
     {
         "id": 388,
@@ -3101,7 +3101,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/388_EE_2021_2022.pdf"
+        "path": "files/sd7EE_2021_2022.pdf"
     },
     {
         "id": 389,
@@ -3109,7 +3109,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/389_EE_2023_2024.pdf"
+        "path": "files/sd7EE_2023_2024.pdf"
     },
     {
         "id": 390,
@@ -3117,7 +3117,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "SD",
-        "path": "files/sd/390_EE_2022_2023.pdf"
+        "path": "files/sd7EE_2022_2023.pdf"
     },
     {
         "id": 391,
@@ -3125,7 +3125,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/391_11_Serialization.pdf"
+        "path": "files/sd711_Serialization.pdf"
     },
     {
         "id": 392,
@@ -3133,7 +3133,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/392_10_Communication.pdf"
+        "path": "files/sd710_Communication.pdf"
     },
     {
         "id": 393,
@@ -3141,7 +3141,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/393_12_Architectures.pdf"
+        "path": "files/sd712_Architectures.pdf"
     },
     {
         "id": 394,
@@ -3149,7 +3149,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/394_7_Conditions.pdf"
+        "path": "files/sd77_Conditions.pdf"
     },
     {
         "id": 395,
@@ -3157,7 +3157,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/395_14_Clock_Synchronization.pdf"
+        "path": "files/sd714_Clock_Synchronization.pdf"
     },
     {
         "id": 396,
@@ -3165,7 +3165,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/396_17_Final.pdf"
+        "path": "files/sd717_Final.pdf"
     },
     {
         "id": 397,
@@ -3173,7 +3173,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/397_3_Locks.pdf"
+        "path": "files/sd73_Locks.pdf"
     },
     {
         "id": 398,
@@ -3181,7 +3181,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/398_1_Races.pdf"
+        "path": "files/sd71_Races.pdf"
     },
     {
         "id": 399,
@@ -3189,7 +3189,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/399_5_Mutex.pdf"
+        "path": "files/sd75_Mutex.pdf"
     },
     {
         "id": 400,
@@ -3197,7 +3197,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/400_15_Distributed_Transactions.pdf"
+        "path": "files/sd715_Distributed_Transactions.pdf"
     },
     {
         "id": 401,
@@ -3205,7 +3205,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/401_13_RPC.pdf"
+        "path": "files/sd713_RPC.pdf"
     },
     {
         "id": 402,
@@ -3213,7 +3213,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/402_8_Extra.pdf"
+        "path": "files/sd78_Extra.pdf"
     },
     {
         "id": 403,
@@ -3221,7 +3221,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/403_6_Mutex.pdf"
+        "path": "files/sd76_Mutex.pdf"
     },
     {
         "id": 404,
@@ -3229,7 +3229,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/404_2_Locks.pdf"
+        "path": "files/sd72_Locks.pdf"
     },
     {
         "id": 405,
@@ -3237,7 +3237,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/405_16_Resource_Location.pdf"
+        "path": "files/sd716_Resource_Location.pdf"
     },
     {
         "id": 406,
@@ -3245,7 +3245,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/406_9_Intro.pdf"
+        "path": "files/sd79_Intro.pdf"
     },
     {
         "id": 407,
@@ -3253,7 +3253,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "SD",
-        "path": "files/sd/407_4_Locks.pdf"
+        "path": "files/sd74_Locks.pdf"
     },
     {
         "id": 408,
@@ -3261,7 +3261,7 @@
         "ano": "2025/2026",
         "tipo": "Exercícios",
         "uc": "SD",
-        "path": "files/sd/408_exercicios.pdf"
+        "path": "files/sd7exercicios.pdf"
     },
     {
         "id": 409,
@@ -3269,7 +3269,7 @@
         "ano": "2025/2026",
         "tipo": "Exercícios",
         "uc": "SD",
-        "path": "files/sd/409_exercicios-2.pdf"
+        "path": "files/sd7exercicios-2.pdf"
     },
     {
         "id": 410,
@@ -3277,7 +3277,7 @@
         "ano": "2014/2015",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/410_recurso1415p1.pdf"
+        "path": "files/tmd7recurso1415p1.pdf"
     },
     {
         "id": 411,
@@ -3285,7 +3285,7 @@
         "ano": "2014/2015",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/411_1teste1415p1.pdf"
+        "path": "files/tmd71teste1415p1.pdf"
     },
     {
         "id": 412,
@@ -3293,7 +3293,7 @@
         "ano": "2014/2015",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/412_2teste1415.pdf"
+        "path": "files/tmd72teste1415.pdf"
     },
     {
         "id": 413,
@@ -3301,7 +3301,7 @@
         "ano": "2014/2015",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/413_1teste1415.pdf"
+        "path": "files/tmd71teste1415.pdf"
     },
     {
         "id": 414,
@@ -3309,7 +3309,7 @@
         "ano": "2014/2015",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/414_recruso1415.pdf"
+        "path": "files/tmd7recruso1415.pdf"
     },
     {
         "id": 415,
@@ -3317,7 +3317,7 @@
         "ano": "2014/2015",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/415_2teste1415p1.pdf"
+        "path": "files/tmd72teste1415p1.pdf"
     },
     {
         "id": 416,
@@ -3325,7 +3325,7 @@
         "ano": "2015/2016",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/416_1teste1516.pdf"
+        "path": "files/tmd71teste1516.pdf"
     },
     {
         "id": 417,
@@ -3333,7 +3333,7 @@
         "ano": "2015/2016",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/417_recurso1516p1.pdf"
+        "path": "files/tmd7recurso1516p1.pdf"
     },
     {
         "id": 418,
@@ -3341,7 +3341,7 @@
         "ano": "2015/2016",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/418_2teste1516p1.pdf"
+        "path": "files/tmd72teste1516p1.pdf"
     },
     {
         "id": 419,
@@ -3349,7 +3349,7 @@
         "ano": "2015/2016",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/419_recurso1516.pdf"
+        "path": "files/tmd7recurso1516.pdf"
     },
     {
         "id": 420,
@@ -3357,7 +3357,7 @@
         "ano": "2015/2016",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/420_1teste1516p1.pdf"
+        "path": "files/tmd71teste1516p1.pdf"
     },
     {
         "id": 421,
@@ -3365,7 +3365,7 @@
         "ano": "2015/2016",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/421_2teste1516.pdf"
+        "path": "files/tmd72teste1516.pdf"
     },
     {
         "id": 422,
@@ -3373,7 +3373,7 @@
         "ano": "2013/2014",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/422_1teste1314.pdf"
+        "path": "files/tmd71teste1314.pdf"
     },
     {
         "id": 423,
@@ -3381,7 +3381,7 @@
         "ano": "2013/2014",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/423_2teste1314.pdf"
+        "path": "files/tmd72teste1314.pdf"
     },
     {
         "id": 424,
@@ -3389,7 +3389,7 @@
         "ano": "2013/2014",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/424_2teste1314p1.pdf"
+        "path": "files/tmd72teste1314p1.pdf"
     },
     {
         "id": 425,
@@ -3397,7 +3397,7 @@
         "ano": "2013/2014",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/425_recurso1314.pdf"
+        "path": "files/tmd7recurso1314.pdf"
     },
     {
         "id": 426,
@@ -3405,7 +3405,7 @@
         "ano": "2013/2014",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/426_1teste1314p1.pdf"
+        "path": "files/tmd71teste1314p1.pdf"
     },
     {
         "id": 427,
@@ -3413,7 +3413,7 @@
         "ano": "2013/2014",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/427_recruso1314p1.pdf"
+        "path": "files/tmd7recruso1314p1.pdf"
     },
     {
         "id": 428,
@@ -3421,7 +3421,7 @@
         "ano": "2022/2023",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/428_2teste2223e_sol.pdf"
+        "path": "files/tmd72teste2223e_sol.pdf"
     },
     {
         "id": 429,
@@ -3429,7 +3429,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/429_2teste2223e.pdf"
+        "path": "files/tmd72teste2223e.pdf"
     },
     {
         "id": 430,
@@ -3437,7 +3437,7 @@
         "ano": "2017/2018",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/430_2teste1718p1.pdf"
+        "path": "files/tmd72teste1718p1.pdf"
     },
     {
         "id": 431,
@@ -3445,7 +3445,7 @@
         "ano": "2017/2018",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/431_2teste1718.pdf"
+        "path": "files/tmd72teste1718.pdf"
     },
     {
         "id": 432,
@@ -3453,7 +3453,7 @@
         "ano": "2017/2018",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/432_recurso1718p1.pdf"
+        "path": "files/tmd7recurso1718p1.pdf"
     },
     {
         "id": 433,
@@ -3461,7 +3461,7 @@
         "ano": "2017/2018",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/433_1teste1718p1.pdf"
+        "path": "files/tmd71teste1718p1.pdf"
     },
     {
         "id": 434,
@@ -3469,7 +3469,7 @@
         "ano": "2017/2018",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/434_1teste1718.pdf"
+        "path": "files/tmd71teste1718.pdf"
     },
     {
         "id": 435,
@@ -3477,7 +3477,7 @@
         "ano": "2017/2018",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/435_recruso1718.pdf"
+        "path": "files/tmd7recruso1718.pdf"
     },
     {
         "id": 436,
@@ -3485,7 +3485,7 @@
         "ano": "2016/2017",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/436_recurso1617p1.pdf"
+        "path": "files/tmd7recurso1617p1.pdf"
     },
     {
         "id": 437,
@@ -3493,7 +3493,7 @@
         "ano": "2016/2017",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/437_1teste1617.pdf"
+        "path": "files/tmd71teste1617.pdf"
     },
     {
         "id": 438,
@@ -3501,7 +3501,7 @@
         "ano": "2016/2017",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/438_2teste1617.pdf"
+        "path": "files/tmd72teste1617.pdf"
     },
     {
         "id": 439,
@@ -3509,7 +3509,7 @@
         "ano": "2016/2017",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/439_2teste1617p1.pdf"
+        "path": "files/tmd72teste1617p1.pdf"
     },
     {
         "id": 440,
@@ -3517,7 +3517,7 @@
         "ano": "2016/2017",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/440_1teste1617p1.pdf"
+        "path": "files/tmd71teste1617p1.pdf"
     },
     {
         "id": 441,
@@ -3525,7 +3525,7 @@
         "ano": "2016/2017",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/441_recurso1617.pdf"
+        "path": "files/tmd7recurso1617.pdf"
     },
     {
         "id": 442,
@@ -3533,7 +3533,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/442_1teste2122p1.pdf"
+        "path": "files/tmd71teste2122p1.pdf"
     },
     {
         "id": 443,
@@ -3541,7 +3541,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/443_2teste2122.pdf"
+        "path": "files/tmd72teste2122.pdf"
     },
     {
         "id": 444,
@@ -3549,7 +3549,7 @@
         "ano": "2021/2022",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/444_2teste2122p1.pdf"
+        "path": "files/tmd72teste2122p1.pdf"
     },
     {
         "id": 445,
@@ -3557,7 +3557,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/445_1teste2122.pdf"
+        "path": "files/tmd71teste2122.pdf"
     },
     {
         "id": 446,
@@ -3565,7 +3565,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/446_2teste2021.pdf"
+        "path": "files/tmd72teste2021.pdf"
     },
     {
         "id": 447,
@@ -3573,7 +3573,7 @@
         "ano": "2020/2021",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/447_2teste2021p1.pdf"
+        "path": "files/tmd72teste2021p1.pdf"
     },
     {
         "id": 448,
@@ -3581,7 +3581,7 @@
         "ano": "2020/2021",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/448_1teste2021p1.pdf"
+        "path": "files/tmd71teste2021p1.pdf"
     },
     {
         "id": 449,
@@ -3589,7 +3589,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/449_1teste2021.pdf"
+        "path": "files/tmd71teste2021.pdf"
     },
     {
         "id": 450,
@@ -3597,7 +3597,7 @@
         "ano": "2012/2013",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/450_1teste_sol.pdf"
+        "path": "files/tmd71teste_sol.pdf"
     },
     {
         "id": 451,
@@ -3605,7 +3605,7 @@
         "ano": "2012/2013",
         "tipo": "Resolução de Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/451_2teste1213p1.pdf"
+        "path": "files/tmd72teste1213p1.pdf"
     },
     {
         "id": 452,
@@ -3613,7 +3613,7 @@
         "ano": "2012/2013",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/452_2teste1213.pdf"
+        "path": "files/tmd72teste1213.pdf"
     },
     {
         "id": 453,
@@ -3621,7 +3621,7 @@
         "ano": "2012/2013",
         "tipo": "Teste/Exame",
         "uc": "TMD",
-        "path": "files/tmd/453_1teste1213.pdf"
+        "path": "files/tmd71teste1213.pdf"
     },
     {
         "id": 454,
@@ -3629,7 +3629,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "TMD",
-        "path": "files/tmd/454_Cap3.pdf"
+        "path": "files/tmd7Cap3.pdf"
     },
     {
         "id": 455,
@@ -3637,7 +3637,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "TMD",
-        "path": "files/tmd/455_Cap4.pdf"
+        "path": "files/tmd7Cap4.pdf"
     },
     {
         "id": 456,
@@ -3645,7 +3645,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "TMD",
-        "path": "files/tmd/456_Cap2.pdf"
+        "path": "files/tmd7Cap2.pdf"
     },
     {
         "id": 457,
@@ -3653,7 +3653,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "TMD",
-        "path": "files/tmd/457_Cap1.pdf"
+        "path": "files/tmd7Cap1.pdf"
     },
     {
         "id": 458,
@@ -3661,7 +3661,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "TMD",
-        "path": "files/tmd/458_Relações Binárias.pdf"
+        "path": "files/tmd7Relações Binárias.pdf"
     },
     {
         "id": 459,
@@ -3669,7 +3669,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "TMD",
-        "path": "files/tmd/459_Teoria Elementar de Conjuntos.pdf"
+        "path": "files/tmd7Teoria Elementar de Conjuntos.pdf"
     },
     {
         "id": 460,
@@ -3677,7 +3677,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "CC",
-        "path": "files/cc/460_Exame_2022_2023.pdf"
+        "path": "files/cc7Exame_2022_2023.pdf"
     },
     {
         "id": 461,
@@ -3685,7 +3685,7 @@
         "ano": "2015/2016",
         "tipo": "Teste/Exame",
         "uc": "CC",
-        "path": "files/cc/461_Teste_2015_2016.pdf"
+        "path": "files/cc7Teste_2015_2016.pdf"
     },
     {
         "id": 462,
@@ -3693,7 +3693,7 @@
         "ano": "2013/2014",
         "tipo": "Teste/Exame",
         "uc": "CC",
-        "path": "files/cc/462_Teste_2013_2014.pdf"
+        "path": "files/cc7Teste_2013_2014.pdf"
     },
     {
         "id": 463,
@@ -3701,7 +3701,7 @@
         "ano": "2015/2016",
         "tipo": "Teste/Exame",
         "uc": "CC",
-        "path": "files/cc/463_Teste_Exemplo.pdf"
+        "path": "files/cc7Teste_Exemplo.pdf"
     },
     {
         "id": 464,
@@ -3709,7 +3709,7 @@
         "ano": "2022/2023",
         "tipo": "Resolução de Teste/Exame",
         "uc": "CC",
-        "path": "files/cc/464_Exame_2022_2023_sol.pdf"
+        "path": "files/cc7Exame_2022_2023_sol.pdf"
     },
     {
         "id": 465,
@@ -3717,7 +3717,7 @@
         "ano": "2025/2026",
         "tipo": "Teste/Exame",
         "uc": "CC",
-        "path": "files/cc/465_Exemplo_Questoes_Avaliacao.pdf"
+        "path": "files/cc7Exemplo_Questoes_Avaliacao.pdf"
     },
     {
         "id": 466,
@@ -3725,7 +3725,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "CC",
-        "path": "files/cc/466_3_Modulo Encaminhamento.pdf"
+        "path": "files/cc73_Modulo Encaminhamento.pdf"
     },
     {
         "id": 467,
@@ -3733,7 +3733,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "CC",
-        "path": "files/cc/467_5_Modulo Seguranca Redes.pdf"
+        "path": "files/cc75_Modulo Seguranca Redes.pdf"
     },
     {
         "id": 468,
@@ -3741,7 +3741,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "CC",
-        "path": "files/cc/468_1_Modulo Transporte.pdf"
+        "path": "files/cc71_Modulo Transporte.pdf"
     },
     {
         "id": 469,
@@ -3749,7 +3749,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "CC",
-        "path": "files/cc/469_2_Modulo DNS.pdf"
+        "path": "files/cc72_Modulo DNS.pdf"
     },
     {
         "id": 470,
@@ -3757,7 +3757,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "CC",
-        "path": "files/cc/470_4_Modulo HTTP.pdf"
+        "path": "files/cc74_Modulo HTTP.pdf"
     },
     {
         "id": 471,
@@ -3765,7 +3765,7 @@
         "ano": "2024/2025",
         "tipo": "Resumos",
         "uc": "RC",
-        "path": "files/rc/471_Resumos_RC.pdf"
+        "path": "files/rc7Resumos_RC.pdf"
     },
     {
         "id": 472,
@@ -3773,7 +3773,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "RC",
-        "path": "files/rc/472_Subnetting_Subnetting_ficha1.pdf"
+        "path": "files/rc7Subnetting_Subnetting_ficha1.pdf"
     },
     {
         "id": 473,
@@ -3781,7 +3781,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "RC",
-        "path": "files/rc/473_Subnetting_Routing_ficha2.pdf"
+        "path": "files/rc7Subnetting_Routing_ficha2.pdf"
     },
     {
         "id": 474,
@@ -3789,7 +3789,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "RC",
-        "path": "files/rc/474_Subnetting_ficha1_exerc1_2_sol.pdf"
+        "path": "files/rc7Subnetting_ficha1_exerc1_2_sol.pdf"
     },
     {
         "id": 475,
@@ -3797,7 +3797,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "RC",
-        "path": "files/rc/475_Subnetting_ficha1_exerc3_sol.pdf"
+        "path": "files/rc7Subnetting_ficha1_exerc3_sol.pdf"
     },
     {
         "id": 476,
@@ -3805,7 +3805,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "RC",
-        "path": "files/rc/476_recurso_B_2019_2020.pdf"
+        "path": "files/rc7recurso_B_2019_2020.pdf"
     },
     {
         "id": 477,
@@ -3813,7 +3813,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "RC",
-        "path": "files/rc/477_exame_recurso_2019_2020.pdf"
+        "path": "files/rc7exame_recurso_2019_2020.pdf"
     },
     {
         "id": 478,
@@ -3821,7 +3821,7 @@
         "ano": "2019/2020",
         "tipo": "Resolução de Teste/Exame",
         "uc": "RC",
-        "path": "files/rc/478_recurso_2019_2020_sol.pdf"
+        "path": "files/rc7recurso_2019_2020_sol.pdf"
     },
     {
         "id": 479,
@@ -3829,7 +3829,7 @@
         "ano": "2019/2020",
         "tipo": "Resolução de Teste/Exame",
         "uc": "RC",
-        "path": "files/rc/479_teste_2019_2020_sol.pdf"
+        "path": "files/rc7teste_2019_2020_sol.pdf"
     },
     {
         "id": 480,
@@ -3837,7 +3837,7 @@
         "ano": "2019/2020",
         "tipo": "Teste/Exame",
         "uc": "RC",
-        "path": "files/rc/480_teste_2019_2020.pdf"
+        "path": "files/rc7teste_2019_2020.pdf"
     },
     {
         "id": 481,
@@ -3845,7 +3845,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "RC",
-        "path": "files/rc/481_Capitulo_6.pdf"
+        "path": "files/rc7Capitulo_6.pdf"
     },
     {
         "id": 482,
@@ -3853,7 +3853,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "RC",
-        "path": "files/rc/482_Capitulo_1.pdf"
+        "path": "files/rc7Capitulo_1.pdf"
     },
     {
         "id": 483,
@@ -3861,7 +3861,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "RC",
-        "path": "files/rc/483_Capitulo_7.pdf"
+        "path": "files/rc7Capitulo_7.pdf"
     },
     {
         "id": 484,
@@ -3869,7 +3869,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "RC",
-        "path": "files/rc/484_Capitulo_4.pdf"
+        "path": "files/rc7Capitulo_4.pdf"
     },
     {
         "id": 485,
@@ -3877,7 +3877,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "POO",
-        "path": "files/poo/485_teste_2023_2024_pt2.pdf"
+        "path": "files/poo7teste_2023_2024_pt2.pdf"
     },
     {
         "id": 486,
@@ -3885,7 +3885,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "POO",
-        "path": "files/poo/486_recurso_2023_2024_pt2.pdf"
+        "path": "files/poo7recurso_2023_2024_pt2.pdf"
     },
     {
         "id": 487,
@@ -3893,7 +3893,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "POO",
-        "path": "files/poo/487_recurso_2024_2025_pt2.pdf"
+        "path": "files/poo7recurso_2024_2025_pt2.pdf"
     },
     {
         "id": 488,
@@ -3901,7 +3901,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "POO",
-        "path": "files/poo/488_teste_2022_2023_pt2.pdf"
+        "path": "files/poo7teste_2022_2023_pt2.pdf"
     },
     {
         "id": 489,
@@ -3909,7 +3909,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "POO",
-        "path": "files/poo/489_exame_2020_2021_pt12.pdf"
+        "path": "files/poo7exame_2020_2021_pt12.pdf"
     },
     {
         "id": 490,
@@ -3917,7 +3917,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "POO",
-        "path": "files/poo/490_teste_2024_2025_pt2.pdf"
+        "path": "files/poo7teste_2024_2025_pt2.pdf"
     },
     {
         "id": 491,
@@ -3925,7 +3925,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "POO",
-        "path": "files/poo/491_teste_2021_2022_pt2.pdf"
+        "path": "files/poo7teste_2021_2022_pt2.pdf"
     },
     {
         "id": 492,
@@ -3933,7 +3933,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "POO",
-        "path": "files/poo/492_teste_2020_2021_pt12.pdf"
+        "path": "files/poo7teste_2020_2021_pt12.pdf"
     },
     {
         "id": 493,
@@ -3941,7 +3941,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/493_Aula13.pdf"
+        "path": "files/poo7Aula13.pdf"
     },
     {
         "id": 494,
@@ -3949,7 +3949,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/494_Aula6.pdf"
+        "path": "files/poo7Aula6.pdf"
     },
     {
         "id": 495,
@@ -3957,7 +3957,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/495_Aula7.pdf"
+        "path": "files/poo7Aula7.pdf"
     },
     {
         "id": 496,
@@ -3965,7 +3965,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/496_Aula1.pdf"
+        "path": "files/poo7Aula1.pdf"
     },
     {
         "id": 497,
@@ -3973,7 +3973,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/497_Aula9.pdf"
+        "path": "files/poo7Aula9.pdf"
     },
     {
         "id": 498,
@@ -3981,7 +3981,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/498_Aula10.pdf"
+        "path": "files/poo7Aula10.pdf"
     },
     {
         "id": 499,
@@ -3989,7 +3989,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/499_Aula3.pdf"
+        "path": "files/poo7Aula3.pdf"
     },
     {
         "id": 500,
@@ -3997,7 +3997,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/500_Aula5.pdf"
+        "path": "files/poo7Aula5.pdf"
     },
     {
         "id": 501,
@@ -4005,7 +4005,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/501_Aula12.pdf"
+        "path": "files/poo7Aula12.pdf"
     },
     {
         "id": 502,
@@ -4013,7 +4013,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/502_Aula11.pdf"
+        "path": "files/poo7Aula11.pdf"
     },
     {
         "id": 503,
@@ -4021,7 +4021,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/503_Aula4.pdf"
+        "path": "files/poo7Aula4.pdf"
     },
     {
         "id": 504,
@@ -4029,7 +4029,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/504_Aula8.pdf"
+        "path": "files/poo7Aula8.pdf"
     },
     {
         "id": 505,
@@ -4037,7 +4037,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "POO",
-        "path": "files/poo/505_Aula2.pdf"
+        "path": "files/poo7Aula2.pdf"
     },
     {
         "id": 506,
@@ -4045,7 +4045,7 @@
         "ano": "2025/2026",
         "tipo": "Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/506_teste_1_2025_2026_LCC.pdf"
+        "path": "files/calculo7teste_1_2025_2026_LCC.pdf"
     },
     {
         "id": 507,
@@ -4053,7 +4053,7 @@
         "ano": "2025/2026",
         "tipo": "Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/507_teste_2_2025_2026_LCC.pdf"
+        "path": "files/calculo7teste_2_2025_2026_LCC.pdf"
     },
     {
         "id": 508,
@@ -4061,7 +4061,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/508_teste_2.pdf"
+        "path": "files/calculo7teste_2.pdf"
     },
     {
         "id": 509,
@@ -4069,7 +4069,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/509_teste_1.pdf"
+        "path": "files/calculo7teste_1.pdf"
     },
     {
         "id": 510,
@@ -4077,7 +4077,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/510_teste_1_sol.pdf"
+        "path": "files/calculo7teste_1_sol.pdf"
     },
     {
         "id": 511,
@@ -4085,7 +4085,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/511_recurso.pdf"
+        "path": "files/calculo7recurso.pdf"
     },
     {
         "id": 512,
@@ -4093,7 +4093,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/512_teste_2.pdf"
+        "path": "files/calculo7teste_2.pdf"
     },
     {
         "id": 513,
@@ -4101,7 +4101,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/513_teste_2_sol.pdf"
+        "path": "files/calculo7teste_2_sol.pdf"
     },
     {
         "id": 514,
@@ -4109,7 +4109,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/514_teste_1.pdf"
+        "path": "files/calculo7teste_1.pdf"
     },
     {
         "id": 515,
@@ -4117,7 +4117,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/515_teste_1_sol.pdf"
+        "path": "files/calculo7teste_1_sol.pdf"
     },
     {
         "id": 516,
@@ -4125,7 +4125,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/516_teste_2.pdf"
+        "path": "files/calculo7teste_2.pdf"
     },
     {
         "id": 517,
@@ -4133,7 +4133,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/517_teste_2_sol.pdf"
+        "path": "files/calculo7teste_2_sol.pdf"
     },
     {
         "id": 518,
@@ -4141,7 +4141,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/518_teste_2.pdf"
+        "path": "files/calculo7teste_2.pdf"
     },
     {
         "id": 519,
@@ -4149,7 +4149,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/519_teste_2_sol.pdf"
+        "path": "files/calculo7teste_2_sol.pdf"
     },
     {
         "id": 520,
@@ -4157,7 +4157,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/520_teste_1.pdf"
+        "path": "files/calculo7teste_1.pdf"
     },
     {
         "id": 521,
@@ -4165,7 +4165,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "Cálculo",
-        "path": "files/calculo/521_teste_1_sol.pdf"
+        "path": "files/calculo7teste_1_sol.pdf"
     },
     {
         "id": 522,
@@ -4173,7 +4173,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/522_slides3.pdf"
+        "path": "files/calculo7slides3.pdf"
     },
     {
         "id": 523,
@@ -4181,7 +4181,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/523_slides12.pdf"
+        "path": "files/calculo7slides12.pdf"
     },
     {
         "id": 524,
@@ -4189,7 +4189,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/524_slides11.pdf"
+        "path": "files/calculo7slides11.pdf"
     },
     {
         "id": 525,
@@ -4197,7 +4197,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/525_slides9.pdf"
+        "path": "files/calculo7slides9.pdf"
     },
     {
         "id": 526,
@@ -4205,7 +4205,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/526_slides10.pdf"
+        "path": "files/calculo7slides10.pdf"
     },
     {
         "id": 527,
@@ -4213,7 +4213,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/527_slides8.pdf"
+        "path": "files/calculo7slides8.pdf"
     },
     {
         "id": 528,
@@ -4221,7 +4221,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/528_slides13.pdf"
+        "path": "files/calculo7slides13.pdf"
     },
     {
         "id": 529,
@@ -4229,7 +4229,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/529_slides2.pdf"
+        "path": "files/calculo7slides2.pdf"
     },
     {
         "id": 530,
@@ -4237,7 +4237,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/530_slides7.pdf"
+        "path": "files/calculo7slides7.pdf"
     },
     {
         "id": 531,
@@ -4245,7 +4245,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/531_slides6.pdf"
+        "path": "files/calculo7slides6.pdf"
     },
     {
         "id": 532,
@@ -4253,7 +4253,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/532_slides1.pdf"
+        "path": "files/calculo7slides1.pdf"
     },
     {
         "id": 533,
@@ -4261,7 +4261,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/533_slides4.pdf"
+        "path": "files/calculo7slides4.pdf"
     },
     {
         "id": 534,
@@ -4269,7 +4269,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Cálculo",
-        "path": "files/calculo/534_slides5.pdf"
+        "path": "files/calculo7slides5.pdf"
     },
     {
         "id": 535,
@@ -4277,7 +4277,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Cálculo",
-        "path": "files/calculo/535_Ficha 5.pdf"
+        "path": "files/calculo7Ficha 5.pdf"
     },
     {
         "id": 536,
@@ -4285,7 +4285,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Cálculo",
-        "path": "files/calculo/536_Ficha 3.pdf"
+        "path": "files/calculo7Ficha 3.pdf"
     },
     {
         "id": 537,
@@ -4293,7 +4293,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Cálculo",
-        "path": "files/calculo/537_Ficha 6.pdf"
+        "path": "files/calculo7Ficha 6.pdf"
     },
     {
         "id": 538,
@@ -4301,7 +4301,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Cálculo",
-        "path": "files/calculo/538_Ficha 5 ReSol.pdf"
+        "path": "files/calculo7Ficha 5 ReSol.pdf"
     },
     {
         "id": 539,
@@ -4309,7 +4309,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Cálculo",
-        "path": "files/calculo/539_Ficha 3 ReSol.pdf"
+        "path": "files/calculo7Ficha 3 ReSol.pdf"
     },
     {
         "id": 540,
@@ -4317,7 +4317,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Cálculo",
-        "path": "files/calculo/540_Ficha 2 ReSol.pdf"
+        "path": "files/calculo7Ficha 2 ReSol.pdf"
     },
     {
         "id": 541,
@@ -4325,7 +4325,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Cálculo",
-        "path": "files/calculo/541_Ficha 6 ReSol.pdf"
+        "path": "files/calculo7Ficha 6 ReSol.pdf"
     },
     {
         "id": 542,
@@ -4333,7 +4333,7 @@
         "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Cálculo",
-        "path": "files/calculo/542_Ficha 2.pdf"
+        "path": "files/calculo7Ficha 2.pdf"
     },
     {
         "id": 543,
@@ -4341,7 +4341,7 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Cálculo",
-        "path": "files/calculo/543_Ficha 1 ReSol.pdf"
+        "path": "files/calculo7Ficha 1 ReSol.pdf"
     },
     {
         "id": 544,
@@ -4349,7 +4349,7 @@
         "ano": "2024/2025",
         "tipo": "Formulário",
         "uc": "IO",
-        "path": "files/io/544_Formulario_2.pdf"
+        "path": "files/io7Formulario_2.pdf"
     },
     {
         "id": 545,
@@ -4357,7 +4357,7 @@
         "ano": "2024/2025",
         "tipo": "Formulário",
         "uc": "IO",
-        "path": "files/io/545_Formulario_5.pdf"
+        "path": "files/io7Formulario_5.pdf"
     },
     {
         "id": 546,
@@ -4365,7 +4365,7 @@
         "ano": "2024/2025",
         "tipo": "Formulário",
         "uc": "IO",
-        "path": "files/io/546_Formulario_3.pdf"
+        "path": "files/io7Formulario_3.pdf"
     },
     {
         "id": 547,
@@ -4373,7 +4373,7 @@
         "ano": "2024/2025",
         "tipo": "Formulário",
         "uc": "IO",
-        "path": "files/io/547_Formulario_1.docx"
+        "path": "files/io7Formulario_1.docx"
     },
     {
         "id": 548,
@@ -4381,7 +4381,7 @@
         "ano": "2024/2025",
         "tipo": "Formulário",
         "uc": "IO",
-        "path": "files/io/548_Formulario_4.pdf"
+        "path": "files/io7Formulario_4.pdf"
     },
     {
         "id": 549,
@@ -4389,7 +4389,7 @@
         "ano": "2024/2025",
         "tipo": "Formulário",
         "uc": "IO",
-        "path": "files/io/549_Cábula.pdf"
+        "path": "files/io7Cábula.pdf"
     },
     {
         "id": 550,
@@ -4397,7 +4397,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "DSS",
-        "path": "files/dss/550_DSSexame2223-desenv.pdf"
+        "path": "files/dss7DSSexame2223-desenv.pdf"
     },
     {
         "id": 551,
@@ -4405,7 +4405,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "DSS",
-        "path": "files/dss/551_Exame_2018_2019.pdf"
+        "path": "files/dss7Exame_2018_2019.pdf"
     },
     {
         "id": 552,
@@ -4413,7 +4413,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "DSS",
-        "path": "files/dss/552_DSS-Teste exemplo 202425.pdf"
+        "path": "files/dss7DSS-Teste exemplo 202425.pdf"
     },
     {
         "id": 553,
@@ -4421,7 +4421,7 @@
         "ano": "2017/2018",
         "tipo": "Teste/Exame",
         "uc": "DSS",
-        "path": "files/dss/553_Exame_2017_2018.pdf"
+        "path": "files/dss7Exame_2017_2018.pdf"
     },
     {
         "id": 554,
@@ -4429,7 +4429,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "DSS",
-        "path": "files/dss/554_DSSteste2223-desenv.pdf"
+        "path": "files/dss7DSSteste2223-desenv.pdf"
     },
     {
         "id": 555,
@@ -4437,7 +4437,7 @@
         "ano": "2016/2017",
         "tipo": "Teste/Exame",
         "uc": "DSS",
-        "path": "files/dss/555_Teste_2016_2017.pdf"
+        "path": "files/dss7Teste_2016_2017.pdf"
     },
     {
         "id": 556,
@@ -4445,7 +4445,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "DSS",
-        "path": "files/dss/556_DSSexame2324-desenv.pdf"
+        "path": "files/dss7DSSexame2324-desenv.pdf"
     },
     {
         "id": 557,
@@ -4453,7 +4453,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "DSS",
-        "path": "files/dss/557_Teste_2020_2021.pdf"
+        "path": "files/dss7Teste_2020_2021.pdf"
     },
     {
         "id": 558,
@@ -4461,7 +4461,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "DSS",
-        "path": "files/dss/558_DSSteste2324-desenv.pdf"
+        "path": "files/dss7DSSteste2324-desenv.pdf"
     },
     {
         "id": 559,
@@ -4469,7 +4469,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "DSS",
-        "path": "files/dss/559_Teste_2018_2019.pdf"
+        "path": "files/dss7Teste_2018_2019.pdf"
     },
     {
         "id": 560,
@@ -4477,7 +4477,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/560_10_ORM.pdf"
+        "path": "files/dss710_ORM.pdf"
     },
     {
         "id": 561,
@@ -4485,7 +4485,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/561_2_Modelação do Domínio.pdf"
+        "path": "files/dss72_Modelação do Domínio.pdf"
     },
     {
         "id": 562,
@@ -4493,7 +4493,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/562_9_OCL.pdf"
+        "path": "files/dss79_OCL.pdf"
     },
     {
         "id": 563,
@@ -4501,7 +4501,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/563_1_Métodos.pdf"
+        "path": "files/dss71_Métodos.pdf"
     },
     {
         "id": 564,
@@ -4509,7 +4509,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/564_3_Use Cases.pdf"
+        "path": "files/dss73_Use Cases.pdf"
     },
     {
         "id": 565,
@@ -4517,7 +4517,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/565_4_Diagramas de Use Case.pdf"
+        "path": "files/dss74_Diagramas de Use Case.pdf"
     },
     {
         "id": 566,
@@ -4525,7 +4525,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/566_7_Modelação Estrutural.pdf"
+        "path": "files/dss77_Modelação Estrutural.pdf"
     },
     {
         "id": 567,
@@ -4533,7 +4533,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/567_13_Diagrama de Instalação-Fecho.pdf"
+        "path": "files/dss713_Diagrama de Instalação-Fecho.pdf"
     },
     {
         "id": 568,
@@ -4541,7 +4541,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/568_11_Diagramas de Package.pdf"
+        "path": "files/dss711_Diagramas de Package.pdf"
     },
     {
         "id": 569,
@@ -4549,7 +4549,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/569_8_Diagramas de Sequencia.pdf"
+        "path": "files/dss78_Diagramas de Sequencia.pdf"
     },
     {
         "id": 570,
@@ -4557,7 +4557,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/570_6_APIs e subsistemas.pdf"
+        "path": "files/dss76_APIs e subsistemas.pdf"
     },
     {
         "id": 571,
@@ -4565,7 +4565,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/571_12_Máquinas de Estado.pdf"
+        "path": "files/dss712_Máquinas de Estado.pdf"
     },
     {
         "id": 572,
@@ -4573,7 +4573,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "DSS",
-        "path": "files/dss/572_5_Diagramas de Actividade.pdf"
+        "path": "files/dss75_Diagramas de Actividade.pdf"
     },
     {
         "id": 573,
@@ -4581,7 +4581,7 @@
         "ano": "2007/2008",
         "tipo": "Teste/Exame",
         "uc": "FCD",
-        "path": "files/fcd/573_teste_1_2007_2008.pdf"
+        "path": "files/fcd7teste_1_2007_2008.pdf"
     },
     {
         "id": 574,
@@ -4589,7 +4589,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "FCD",
-        "path": "files/fcd/574_teste_1_2020_2021.pdf"
+        "path": "files/fcd7teste_1_2020_2021.pdf"
     },
     {
         "id": 575,
@@ -4597,7 +4597,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "FCD",
-        "path": "files/fcd/575_teste_2_2018_2019_transcrito.pdf"
+        "path": "files/fcd7teste_2_2018_2019_transcrito.pdf"
     },
     {
         "id": 576,
@@ -4605,7 +4605,7 @@
         "ano": "2007/2008",
         "tipo": "Resolução de Teste/Exame",
         "uc": "FCD",
-        "path": "files/fcd/576_teste_1_2007_2008_sol.pdf"
+        "path": "files/fcd7teste_1_2007_2008_sol.pdf"
     },
     {
         "id": 577,
@@ -4613,7 +4613,7 @@
         "ano": "2020/2021",
         "tipo": "Resolução de Teste/Exame",
         "uc": "FCD",
-        "path": "files/fcd/577_teste_1_2020_2021_sol.pdf"
+        "path": "files/fcd7teste_1_2020_2021_sol.pdf"
     },
     {
         "id": 578,
@@ -4621,7 +4621,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "FCD",
-        "path": "files/fcd/578_1_Teoria da Informação.pdf"
+        "path": "files/fcd71_Teoria da Informação.pdf"
     },
     {
         "id": 579,
@@ -4629,7 +4629,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "FCD",
-        "path": "files/fcd/579_5_Análise de Sinais.pdf"
+        "path": "files/fcd75_Análise de Sinais.pdf"
     },
     {
         "id": 580,
@@ -4637,7 +4637,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "FCD",
-        "path": "files/fcd/580_6_Sistemas de Transmissão.pdf"
+        "path": "files/fcd76_Sistemas de Transmissão.pdf"
     },
     {
         "id": 581,
@@ -4645,7 +4645,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "FCD",
-        "path": "files/fcd/581_2_Digitalização.pdf"
+        "path": "files/fcd72_Digitalização.pdf"
     },
     {
         "id": 582,
@@ -4653,7 +4653,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "FCD",
-        "path": "files/fcd/582_4_Conceitos básicos de sistemas de comunicação.pdf"
+        "path": "files/fcd74_Conceitos básicos de sistemas de comunicação.pdf"
     },
     {
         "id": 583,
@@ -4661,7 +4661,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "FCD",
-        "path": "files/fcd/583_3_Multiplexagem.pdf"
+        "path": "files/fcd73_Multiplexagem.pdf"
     },
     {
         "id": 584,
@@ -4669,7 +4669,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "FCD",
-        "path": "files/fcd/584_7_Controlo de Erros.pdf"
+        "path": "files/fcd77_Controlo de Erros.pdf"
     },
     {
         "id": 585,
@@ -4677,7 +4677,7 @@
         "ano": "2024/2025",
         "tipo": "Exercícios",
         "uc": "FCD",
-        "path": "files/fcd/585_Ficha 5.pdf"
+        "path": "files/fcd7Ficha 5.pdf"
     },
     {
         "id": 586,
@@ -4685,7 +4685,7 @@
         "ano": "2024/2025",
         "tipo": "Exercícios",
         "uc": "FCD",
-        "path": "files/fcd/586_Ficha 3.pdf"
+        "path": "files/fcd7Ficha 3.pdf"
     },
     {
         "id": 587,
@@ -4693,7 +4693,7 @@
         "ano": "2024/2025",
         "tipo": "Exercícios",
         "uc": "FCD",
-        "path": "files/fcd/587_Ficha 7.pdf"
+        "path": "files/fcd7Ficha 7.pdf"
     },
     {
         "id": 588,
@@ -4701,7 +4701,7 @@
         "ano": "2024/2025",
         "tipo": "Exercícios",
         "uc": "FCD",
-        "path": "files/fcd/588_Ficha 6.pdf"
+        "path": "files/fcd7Ficha 6.pdf"
     },
     {
         "id": 589,
@@ -4709,7 +4709,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "FCD",
-        "path": "files/fcd/589_Res_Ficha_5.pdf"
+        "path": "files/fcd7Res_Ficha_5.pdf"
     },
     {
         "id": 590,
@@ -4717,7 +4717,7 @@
         "ano": "2024/2025",
         "tipo": "Exercícios",
         "uc": "FCD",
-        "path": "files/fcd/590_Ficha 4.pdf"
+        "path": "files/fcd7Ficha 4.pdf"
     },
     {
         "id": 591,
@@ -4725,7 +4725,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "FCD",
-        "path": "files/fcd/591_Res_Ficha_6.pdf"
+        "path": "files/fcd7Res_Ficha_6.pdf"
     },
     {
         "id": 592,
@@ -4733,7 +4733,7 @@
         "ano": "2024/2025",
         "tipo": "Exercícios",
         "uc": "FCD",
-        "path": "files/fcd/592_Ficha 1.pdf"
+        "path": "files/fcd7Ficha 1.pdf"
     },
     {
         "id": 593,
@@ -4741,7 +4741,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "FCD",
-        "path": "files/fcd/593_Res_Ficha_3.pdf"
+        "path": "files/fcd7Res_Ficha_3.pdf"
     },
     {
         "id": 594,
@@ -4749,7 +4749,7 @@
         "ano": "2024/2025",
         "tipo": "Exercícios",
         "uc": "FCD",
-        "path": "files/fcd/594_Ficha 2.pdf"
+        "path": "files/fcd7Ficha 2.pdf"
     },
     {
         "id": 595,
@@ -4757,7 +4757,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "FCD",
-        "path": "files/fcd/595_Res_Ficha_4.pdf"
+        "path": "files/fcd7Res_Ficha_4.pdf"
     },
     {
         "id": 596,
@@ -4765,7 +4765,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "FCD",
-        "path": "files/fcd/596_Res_Ficha_1.pdf"
+        "path": "files/fcd7Res_Ficha_1.pdf"
     },
     {
         "id": 597,
@@ -4773,7 +4773,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "FCD",
-        "path": "files/fcd/597_Res_Ficha_2.pdf"
+        "path": "files/fcd7Res_Ficha_2.pdf"
     },
     {
         "id": 598,
@@ -4781,7 +4781,7 @@
         "ano": "2020/2021",
         "tipo": "Bibliografia",
         "uc": "PL",
-        "path": "files/pl/598_livro_PL.pdf"
+        "path": "files/pl7livro_PL.pdf"
     },
     {
         "id": 599,
@@ -4789,7 +4789,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "PL",
-        "path": "files/pl/599_Teste_2023_2024.pdf"
+        "path": "files/pl7Teste_2023_2024.pdf"
     },
     {
         "id": 600,
@@ -4797,7 +4797,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "PL",
-        "path": "files/pl/600_Recurso_2022_2023.pdf"
+        "path": "files/pl7Recurso_2022_2023.pdf"
     },
     {
         "id": 601,
@@ -4805,7 +4805,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "PL",
-        "path": "files/pl/601_Recurso_2023_2024.pdf"
+        "path": "files/pl7Recurso_2023_2024.pdf"
     },
     {
         "id": 602,
@@ -4813,7 +4813,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "PL",
-        "path": "files/pl/602_Teste_2022_2023.pdf"
+        "path": "files/pl7Teste_2022_2023.pdf"
     },
     {
         "id": 603,
@@ -4821,7 +4821,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "PL",
-        "path": "files/pl/603_Recurso_2024_2025.pdf"
+        "path": "files/pl7Recurso_2024_2025.pdf"
     },
     {
         "id": 604,
@@ -4829,7 +4829,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "PL",
-        "path": "files/pl/604_Teste_2024_2025.pdf"
+        "path": "files/pl7Teste_2024_2025.pdf"
     },
     {
         "id": 605,
@@ -4837,7 +4837,7 @@
         "ano": "2018/2019",
         "tipo": "Teste/Exame",
         "uc": "PL",
-        "path": "files/pl/605_Teste_2018_2019.pdf"
+        "path": "files/pl7Teste_2018_2019.pdf"
     },
     {
         "id": 606,
@@ -4845,7 +4845,7 @@
         "ano": "2023/2024",
         "tipo": "Bibliografia",
         "uc": "SC",
-        "path": "files/sc/606_soluções_livro.pdf"
+        "path": "files/sc7soluções_livro.pdf"
     },
     {
         "id": 607,
@@ -4853,7 +4853,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "SC",
-        "path": "files/sc/607_exame_2021_2022.pdf"
+        "path": "files/sc7exame_2021_2022.pdf"
     },
     {
         "id": 608,
@@ -4861,7 +4861,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "SC",
-        "path": "files/sc/608_teste_2023_2024_1.pdf"
+        "path": "files/sc7teste_2023_2024_1.pdf"
     },
     {
         "id": 609,
@@ -4869,7 +4869,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "SC",
-        "path": "files/sc/609_teste_2023_2024_2.pdf"
+        "path": "files/sc7teste_2023_2024_2.pdf"
     },
     {
         "id": 610,
@@ -4877,7 +4877,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "SC",
-        "path": "files/sc/610_teste_2022_2023_2.pdf"
+        "path": "files/sc7teste_2022_2023_2.pdf"
     },
     {
         "id": 611,
@@ -4885,7 +4885,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "SC",
-        "path": "files/sc/611_teste_2022_2023_1.pdf"
+        "path": "files/sc7teste_2022_2023_1.pdf"
     },
     {
         "id": 612,
@@ -4893,7 +4893,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "SC",
-        "path": "files/sc/612_teste_2021_2022_1.pdf"
+        "path": "files/sc7teste_2021_2022_1.pdf"
     },
     {
         "id": 613,
@@ -4901,7 +4901,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "SC",
-        "path": "files/sc/613_chap1-ComputerSystems.pdf"
+        "path": "files/sc7chap1-ComputerSystems.pdf"
     },
     {
         "id": 614,
@@ -4909,7 +4909,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "SC",
-        "path": "files/sc/614_chap2-RepresentationInformation.pdf"
+        "path": "files/sc7chap2-RepresentationInformation.pdf"
     },
     {
         "id": 615,
@@ -4917,7 +4917,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "SC",
-        "path": "files/sc/615_chap5-Cache.pdf"
+        "path": "files/sc7chap5-Cache.pdf"
     },
     {
         "id": 616,
@@ -4925,7 +4925,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "SC",
-        "path": "files/sc/616_chap6-CodeOptimisations.pdf"
+        "path": "files/sc7chap6-CodeOptimisations.pdf"
     },
     {
         "id": 617,
@@ -4933,7 +4933,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "SC",
-        "path": "files/sc/617_chap3-RepresentationNumbers.pdf"
+        "path": "files/sc7chap3-RepresentationNumbers.pdf"
     },
     {
         "id": 618,
@@ -4941,7 +4941,7 @@
         "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "SC",
-        "path": "files/sc/618_chap4-IA32.pdf"
+        "path": "files/sc7chap4-IA32.pdf"
     },
     {
         "id": 619,
@@ -4949,7 +4949,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "FM",
-        "path": "files/fm/619_Miniteste4.pdf"
+        "path": "files/fm7Miniteste4.pdf"
     },
     {
         "id": 620,
@@ -4957,7 +4957,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "FM",
-        "path": "files/fm/620_Miniteste1.pdf"
+        "path": "files/fm7Miniteste1.pdf"
     },
     {
         "id": 621,
@@ -4965,7 +4965,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "FM",
-        "path": "files/fm/621_Miniteste3.pdf"
+        "path": "files/fm7Miniteste3.pdf"
     },
     {
         "id": 622,
@@ -4973,7 +4973,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "FM",
-        "path": "files/fm/622_Recurso_2020_2021.pdf"
+        "path": "files/fm7Recurso_2020_2021.pdf"
     },
     {
         "id": 623,
@@ -4981,7 +4981,7 @@
         "ano": "2020/2021",
         "tipo": "Resolução de Teste/Exame",
         "uc": "FM",
-        "path": "files/fm/623_Recurso_2020_2021_sol.pdf"
+        "path": "files/fm7Recurso_2020_2021_sol.pdf"
     },
     {
         "id": 624,
@@ -4989,7 +4989,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "FM",
-        "path": "files/fm/624_Teste_2_2020_2021.pdf"
+        "path": "files/fm7Teste_2_2020_2021.pdf"
     },
     {
         "id": 625,
@@ -4997,7 +4997,7 @@
         "ano": "2020/2021",
         "tipo": "Teste/Exame",
         "uc": "FM",
-        "path": "files/fm/625_Teste_1_2020_2021.pdf"
+        "path": "files/fm7Teste_1_2020_2021.pdf"
     },
     {
         "id": 626,
@@ -5005,7 +5005,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "FM",
-        "path": "files/fm/626_Miniteste2.pdf"
+        "path": "files/fm7Miniteste2.pdf"
     },
     {
         "id": 627,
@@ -5013,7 +5013,7 @@
         "ano": "2024/2025",
         "tipo": "Bibliografia",
         "uc": "FM",
-        "path": "files/fm/627_Fisica Moderna_v2.pdf"
+        "path": "files/fm7Fisica Moderna_v2.pdf"
     },
     {
         "id": 628,
@@ -5021,7 +5021,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Teste/Exame",
         "uc": "EA",
-        "path": "files/ea/628_Mini-teste_1.xlsx"
+        "path": "files/ea7Mini-teste_1.xlsx"
     },
     {
         "id": 629,
@@ -5029,7 +5029,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Teste/Exame",
         "uc": "EA",
-        "path": "files/ea/629_Mini-teste_2.xlsx"
+        "path": "files/ea7Mini-teste_2.xlsx"
     },
     {
         "id": 630,
@@ -5037,7 +5037,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Teste/Exame",
         "uc": "EA",
-        "path": "files/ea/630_Mini-teste_3.xlsx"
+        "path": "files/ea7Mini-teste_3.xlsx"
     },
     {
         "id": 631,
@@ -5045,7 +5045,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Teste/Exame",
         "uc": "EA",
-        "path": "files/ea/631_Mini-teste_4.xlsx"
+        "path": "files/ea7Mini-teste_4.xlsx"
     },
     {
         "id": 632,
@@ -5053,7 +5053,7 @@
         "ano": "2007/2008",
         "tipo": "Teste/Exame",
         "uc": "EA",
-        "path": "files/ea/632_Teste_1_Parte_2_2007_2008_LEI.pdf"
+        "path": "files/ea7Teste_1_Parte_2_2007_2008_LEI.pdf"
     },
     {
         "id": 633,
@@ -5061,7 +5061,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "EA",
-        "path": "files/ea/633_Teste_2_modelo_LiEngMec_2022_2023.pdf"
+        "path": "files/ea7Teste_2_modelo_LiEngMec_2022_2023.pdf"
     },
     {
         "id": 634,
@@ -5069,7 +5069,7 @@
         "ano": "2009/2010",
         "tipo": "Resolução de Teste/Exame",
         "uc": "EA",
-        "path": "files/ea/634_Teste_2_2009_2010_LEI_Resolucao.pdf"
+        "path": "files/ea7Teste_2_2009_2010_LEI_Resolucao.pdf"
     },
     {
         "id": 635,
@@ -5077,7 +5077,7 @@
         "ano": "2008/2009",
         "tipo": "Teste/Exame",
         "uc": "EA",
-        "path": "files/ea/635_Teste_1_2008_2009_LEI.pdf"
+        "path": "files/ea7Teste_1_2008_2009_LEI.pdf"
     },
     {
         "id": 636,
@@ -5085,7 +5085,7 @@
         "ano": "2008/2009",
         "tipo": "Resolução de Teste/Exame",
         "uc": "EA",
-        "path": "files/ea/636_Teste_1_2008_2009_LEI_Resolucao.pdf"
+        "path": "files/ea7Teste_1_2008_2009_LEI_Resolucao.pdf"
     },
     {
         "id": 637,
@@ -5093,7 +5093,7 @@
         "ano": "2022/2023",
         "tipo": "Teste/Exame",
         "uc": "EA",
-        "path": "files/ea/637_Teste_1_modelo_LiEngMec_2022_2023.pdf"
+        "path": "files/ea7Teste_1_modelo_LiEngMec_2022_2023.pdf"
     },
     {
         "id": 638,
@@ -5101,7 +5101,7 @@
         "ano": "2009/2010",
         "tipo": "Teste/Exame",
         "uc": "EA",
-        "path": "files/ea/638_Teste_2_2009_2010_LEI.pdf"
+        "path": "files/ea7Teste_2_2009_2010_LEI.pdf"
     },
     {
         "id": 639,
@@ -5109,7 +5109,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "EA",
-        "path": "files/ea/639_parte02_DistProb.pdf"
+        "path": "files/ea7parte02_DistProb.pdf"
     },
     {
         "id": 640,
@@ -5117,7 +5117,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "EA",
-        "path": "files/ea/640_parte09_ANOVA.pdf"
+        "path": "files/ea7parte09_ANOVA.pdf"
     },
     {
         "id": 641,
@@ -5125,7 +5125,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "EA",
-        "path": "files/ea/641_parte06_DistribAmostral.pdf"
+        "path": "files/ea7parte06_DistribAmostral.pdf"
     },
     {
         "id": 642,
@@ -5133,7 +5133,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "EA",
-        "path": "files/ea/642_parte05_Estimadores.pdf"
+        "path": "files/ea7parte05_Estimadores.pdf"
     },
     {
         "id": 643,
@@ -5141,7 +5141,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "EA",
-        "path": "files/ea/643_parte03_ ValorEsperado.pdf"
+        "path": "files/ea7parte03_ ValorEsperado.pdf"
     },
     {
         "id": 644,
@@ -5149,7 +5149,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "EA",
-        "path": "files/ea/644_parte07_IC.pdf"
+        "path": "files/ea7parte07_IC.pdf"
     },
     {
         "id": 645,
@@ -5157,7 +5157,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "EA",
-        "path": "files/ea/645_parte04_FamíliasDistrib.pdf"
+        "path": "files/ea7parte04_FamíliasDistrib.pdf"
     },
     {
         "id": 646,
@@ -5165,7 +5165,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "EA",
-        "path": "files/ea/646_parte01_Descritiva.pdf"
+        "path": "files/ea7parte01_Descritiva.pdf"
     },
     {
         "id": 647,
@@ -5173,7 +5173,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "EA",
-        "path": "files/ea/647_parte11_RegCorrel.pdf"
+        "path": "files/ea7parte11_RegCorrel.pdf"
     },
     {
         "id": 648,
@@ -5181,7 +5181,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "EA",
-        "path": "files/ea/648_parte10_QuiQuadrado.pdf"
+        "path": "files/ea7parte10_QuiQuadrado.pdf"
     },
     {
         "id": 649,
@@ -5189,7 +5189,7 @@
         "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "EA",
-        "path": "files/ea/649_parte08_TH.pdf"
+        "path": "files/ea7parte08_TH.pdf"
     },
     {
         "id": 650,
@@ -5197,7 +5197,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/650_Ficha 5.pdf"
+        "path": "files/ea7Ficha 5.pdf"
     },
     {
         "id": 651,
@@ -5205,7 +5205,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/651_Ficha 3.pdf"
+        "path": "files/ea7Ficha 3.pdf"
     },
     {
         "id": 652,
@@ -5213,7 +5213,7 @@
         "ano": "2024/2025",
         "tipo": "Formulário",
         "uc": "EA",
-        "path": "files/ea/652_Tabelas_EA.pdf"
+        "path": "files/ea7Tabelas_EA.pdf"
     },
     {
         "id": 653,
@@ -5221,7 +5221,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/653_Ficha 7.pdf"
+        "path": "files/ea7Ficha 7.pdf"
     },
     {
         "id": 654,
@@ -5229,7 +5229,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/654_Ficha 6.pdf"
+        "path": "files/ea7Ficha 6.pdf"
     },
     {
         "id": 655,
@@ -5237,7 +5237,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/655_Ficha 4.pdf"
+        "path": "files/ea7Ficha 4.pdf"
     },
     {
         "id": 656,
@@ -5245,7 +5245,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/656_Regressão_Linear_Facebook.pdf"
+        "path": "files/ea7Regressão_Linear_Facebook.pdf"
     },
     {
         "id": 657,
@@ -5253,7 +5253,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/657_Ficha 1.pdf"
+        "path": "files/ea7Ficha 1.pdf"
     },
     {
         "id": 658,
@@ -5261,7 +5261,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/658_Ficha 10.pdf"
+        "path": "files/ea7Ficha 10.pdf"
     },
     {
         "id": 659,
@@ -5269,7 +5269,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/659_Ficha 8.pdf"
+        "path": "files/ea7Ficha 8.pdf"
     },
     {
         "id": 660,
@@ -5277,7 +5277,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/660_Ficha 2.pdf"
+        "path": "files/ea7Ficha 2.pdf"
     },
     {
         "id": 661,
@@ -5285,7 +5285,7 @@
         "ano": "2024/2025",
         "tipo": "Resolução de Ficha",
         "uc": "EA",
-        "path": "files/ea/661_Soluções_EA.pdf"
+        "path": "files/ea7Soluções_EA.pdf"
     },
     {
         "id": 662,
@@ -5293,7 +5293,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/662_Fichas_EA.pdf"
+        "path": "files/ea7Fichas_EA.pdf"
     },
     {
         "id": 663,
@@ -5301,7 +5301,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/663_Ficha 9.pdf"
+        "path": "files/ea7Ficha 9.pdf"
     },
     {
         "id": 664,
@@ -5309,7 +5309,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/664_exerc4.pdf"
+        "path": "files/ea7exerc4.pdf"
     },
     {
         "id": 665,
@@ -5317,7 +5317,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/665_exerc7.pdf"
+        "path": "files/ea7exerc7.pdf"
     },
     {
         "id": 666,
@@ -5325,7 +5325,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/666_exerc5.pdf"
+        "path": "files/ea7exerc5.pdf"
     },
     {
         "id": 667,
@@ -5333,7 +5333,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/667_exerc1.pdf"
+        "path": "files/ea7exerc1.pdf"
     },
     {
         "id": 668,
@@ -5341,7 +5341,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/668_exerc8a10.pdf"
+        "path": "files/ea7exerc8a10.pdf"
     },
     {
         "id": 669,
@@ -5349,7 +5349,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/669_exerc3.pdf"
+        "path": "files/ea7exerc3.pdf"
     },
     {
         "id": 670,
@@ -5357,7 +5357,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/670_exerc6.pdf"
+        "path": "files/ea7exerc6.pdf"
     },
     {
         "id": 671,
@@ -5365,7 +5365,7 @@
         "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "EA",
-        "path": "files/ea/671_exerc2.pdf"
+        "path": "files/ea7exerc2.pdf"
     },
     {
         "id": 672,
@@ -5373,7 +5373,7 @@
         "ano": "2021/2022",
         "tipo": "Teste/Exame",
         "uc": "IA",
-        "path": "files/ia/672_Teste_2021_2022.pdf"
+        "path": "files/ia7Teste_2021_2022.pdf"
     },
     {
         "id": 673,
@@ -5381,7 +5381,7 @@
         "ano": "2024/2025",
         "tipo": "Teste/Exame",
         "uc": "IA",
-        "path": "files/ia/673_2024 - Prova Modelo.pdf"
+        "path": "files/ia72024 - Prova Modelo.pdf"
     },
     {
         "id": 674,
@@ -5389,7 +5389,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/674_(T6b) - Lógica (PT).pdf"
+        "path": "files/ia7(T6b) - Lógica (PT).pdf"
     },
     {
         "id": 675,
@@ -5397,7 +5397,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/675_(8T) - Representação do Conhecimento e Raciocínio (Outros).pdf"
+        "path": "files/ia7(8T) - Representação do Conhecimento e Raciocínio (Outros).pdf"
     },
     {
         "id": 676,
@@ -5405,7 +5405,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/676_(T7) - Programação Lógica.pdf"
+        "path": "files/ia7(T7) - Programação Lógica.pdf"
     },
     {
         "id": 677,
@@ -5413,7 +5413,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/677_3_Procura em Contextos Competitivos.pdf"
+        "path": "files/ia73_Procura em Contextos Competitivos.pdf"
     },
     {
         "id": 678,
@@ -5421,7 +5421,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/678_(T4) - Search in competitive contexts (EN).pdf"
+        "path": "files/ia7(T4) - Search in competitive contexts (EN).pdf"
     },
     {
         "id": 679,
@@ -5429,7 +5429,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/679_(T6a) - Conhecimento e Raciocínio (PT).pdf"
+        "path": "files/ia7(T6a) - Conhecimento e Raciocínio (PT).pdf"
     },
     {
         "id": 680,
@@ -5437,7 +5437,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/680_(T10) - IA e a Sociedade.pdf"
+        "path": "files/ia7(T10) - IA e a Sociedade.pdf"
     },
     {
         "id": 681,
@@ -5445,7 +5445,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/681_(T5) - Beyond Classic Search (EN).pdf"
+        "path": "files/ia7(T5) - Beyond Classic Search (EN).pdf"
     },
     {
         "id": 682,
@@ -5453,7 +5453,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/682_2_Procura Clássica.pdf"
+        "path": "files/ia72_Procura Clássica.pdf"
     },
     {
         "id": 683,
@@ -5461,7 +5461,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/683_(T6b) - Lógica (EN).pdf"
+        "path": "files/ia7(T6b) - Lógica (EN).pdf"
     },
     {
         "id": 684,
@@ -5469,7 +5469,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/684_(T9) - Population Based.pdf"
+        "path": "files/ia7(T9) - Population Based.pdf"
     },
     {
         "id": 685,
@@ -5477,7 +5477,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/685_(8T) - Representação do Conhecimento e Raciocínio (Outros) (EN).pdf"
+        "path": "files/ia7(8T) - Representação do Conhecimento e Raciocínio (Outros) (EN).pdf"
     },
     {
         "id": 686,
@@ -5485,7 +5485,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/686_(T6a) - Conhecimento e Raciocínio (EN).pdf"
+        "path": "files/ia7(T6a) - Conhecimento e Raciocínio (EN).pdf"
     },
     {
         "id": 687,
@@ -5493,7 +5493,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/687_(T7) - Programação Lógica (EN).pdf"
+        "path": "files/ia7(T7) - Programação Lógica (EN).pdf"
     },
     {
         "id": 688,
@@ -5501,7 +5501,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/688_(T5) - Para além da Procura Clássica (PT).pdf"
+        "path": "files/ia7(T5) - Para além da Procura Clássica (PT).pdf"
     },
     {
         "id": 689,
@@ -5509,7 +5509,7 @@
         "ano": "2025/2026",
         "tipo": "Slides",
         "uc": "IA",
-        "path": "files/ia/689_1_Introdução.pdf"
+        "path": "files/ia71_Introdução.pdf"
     },
     {
         "id": 690,
@@ -5517,7 +5517,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "ADI",
-        "path": "files/adi/690_Recurso2324.pdf"
+        "path": "files/adi7Recurso2324.pdf"
     },
     {
         "id": 691,
@@ -5525,7 +5525,7 @@
         "ano": "2023/2024",
         "tipo": "Teste/Exame",
         "uc": "ADI",
-        "path": "files/adi/691_Teste2324.pdf"
+        "path": "files/adi7Teste2324.pdf"
     },
     {
         "id": 692,
@@ -5533,6 +5533,6 @@
         "ano": "2023/2024",
         "tipo": "Resolução de Teste/Exame",
         "uc": "ADI",
-        "path": "files/adi/692_resolucao.pdf"
+        "path": "files/adi7resolucao.pdf"
     }
 ]
