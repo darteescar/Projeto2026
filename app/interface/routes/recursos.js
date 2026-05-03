@@ -86,6 +86,7 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
       const form = new FormData();
       form.append('uc', req.body.uc);
       form.append('category', 'interface_upload');
+      if (req.body.uc) form.append('tags', req.body.uc);
       form.append('file', fs.createReadStream(req.file.path), req.file.originalname);
       
       const uploadResp = await axios.post(`${API_DADOS_URL}/files/upload`, form, {
@@ -182,6 +183,7 @@ router.post('/editar/:id', upload.single('ficheiro'), async function(req, res) {
       const form = new FormData();
       form.append('uc', req.body.uc);
       form.append('category', 'interface_upload');
+      if (req.body.uc) form.append('tags', req.body.uc);
       form.append('file', fs.createReadStream(req.file.path), req.file.originalname);
       
       const uploadResp = await axios.post(`${API_DADOS_URL}/files/upload`, form, {

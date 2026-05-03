@@ -48,6 +48,8 @@ const PORT = process.env.PORT || 16000;
 
 // Arrancar o servidor
 app.listen(PORT, () => {
+    console.log('Swagger UI disponível em http://localhost:16000/api-docs');
+    console.log('')
     console.log(`API de dados a correr em http://localhost:${PORT}`);
     console.log('Rotas disponíveis:');
     console.log('  [RECURSOS]');
@@ -88,5 +90,4 @@ app.listen(PORT, () => {
     console.log('  GET    /api/files/download/:id');
     console.log('  DELETE /api/files/:id');
     console.log('');
-    console.log(' Swagger UI disponível em http://localhost:16000/api-docs');
 });
