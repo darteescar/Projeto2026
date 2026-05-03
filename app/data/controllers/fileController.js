@@ -1,9 +1,8 @@
-const File = require('../models/File');
+const File = require('../models/File')
 const fs = require('fs').promises
-const path = require('path')
 
 const fileController = {
-    uploadFile: async (req, res) => {
+    uploadFile: async function(req, res){
         try{
             if(!req.file) 
                 return res.status(400).json({message: "Nenhum ficheiro enviado!"})
@@ -28,7 +27,7 @@ const fileController = {
     },
 
 
-    getFiles: async (req, res) => {
+    getFiles: async function(req, res){
         try{
             const {search, category} = req.query
             let query = {}
@@ -46,7 +45,7 @@ const fileController = {
         }
     },
 
-    downloadFile: async (req, res) => {
+    downloadFile: async function(req, res){
         try{
             const file = await File.findById(req.params.id)
             if(!file)
@@ -59,7 +58,7 @@ const fileController = {
         }
     },
 
-    deleteFile: async (req, res) => {
+    deleteFile: async function(req, res){
         try{
             const file = await File.findById(req.params.id)
             if(!file)

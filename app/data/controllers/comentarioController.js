@@ -7,7 +7,7 @@ const comentarioController = {
             await newComentario.save();
             res.status(201).json(newComentario);
         } catch (error) {
-            res.status(400).json({ message: error.message });
+            res.status(500).json({ message: error.message });
         }
     },
 
@@ -80,7 +80,7 @@ const comentarioController = {
                 res.json(comentario);
             }
         } catch (error) {
-            res.status(400).json({ message: error.message });
+            res.status(500).json({ message: error.message });
         }
     },
 

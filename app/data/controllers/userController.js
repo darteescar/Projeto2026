@@ -21,9 +21,9 @@ const userController = {
         } catch (error) {
             console.error('createUser error:', error);
             if (error.code === 11000) {
-                return res.status(400).json({ message: 'Email já registado.' });
+                return res.status(400).json({ message: 'Email já existe.' });
             }
-            res.status(400).json({ message: error.message });
+            res.status(500).json({ message: error.message });
         }
     },
 
@@ -78,7 +78,7 @@ const userController = {
         try {
             const user = await User.findOne({ id: req.params.id });
             if (!user) {
-                res.status(404).json({ message: "Usuário não encontrado." });
+                res.status(404).json({ message: "User não encontrado." });
             } else {
                 res.json(user);
             }
@@ -91,12 +91,12 @@ const userController = {
         try {
             const user = await User.findOneAndUpdate({ id: req.params.id }, req.body, { new: true });
             if (!user) {
-                res.status(404).json({ message: "Usuário não encontrado." });
+                res.status(404).json({ message: "User não encontrado." });
             } else {
                 res.json(user);
             }
         } catch (error) {
-            res.status(400).json({ message: error.message });
+            res.status(500).json({ message: error.message });
         }
     },
 
@@ -104,9 +104,9 @@ const userController = {
         try {
             const user = await User.findOneAndDelete({ id: req.params.id });
             if (!user) {
-                res.status(404).json({ message: "Usuário não encontrado." });
+                res.status(404).json({ message: "User não encontrado." });
             } else {
-                res.json({ message: "Usuário apagado com sucesso." });
+                res.json({ message: "User apagado com sucesso." });
             }
         } catch (error) {
             res.status(500).json({ message: error.message });
@@ -117,7 +117,7 @@ const userController = {
 module.exports = userController;
 module.exports.login = async (email, password) => {
     const user = await User.findOne({ email });
-    if (user && user.password === password) { // Se usares bcrypt, usa o compare aqui
+    if (user && user.password === password) {
         return user;
     }
     throw new Error('Incorreto');
