@@ -14,8 +14,8 @@ RUN npm install
 # Copiar o código da aplicação para dentro da imagem
 COPY . .
 
-# Expor a porta da API
+# Expor a porta em que o servidor corre (16000)
 EXPOSE 16000
 
-# Comando para arrancar a aplicação
+# Comando para arrancar o servidor
 CMD ["node", "server_data.js"]

@@ -33,9 +33,11 @@ services:
     networks:
       - projeto-network
 
-  # 3. Serviço de Autenticação
+  # 3. Serviço de Autenticação (JWT + Cookies)
   auth-server:
-    build: ./auth
+    build:
+      context: ./auth
+      dockerfile: Dockerfile.auth
     container_name: auth_server
     ports:
       - "16001:16001"
@@ -44,12 +46,13 @@ services:
       - API_DADOS_URL=http://api_dados_server:16000/api
       - JWT_SECRET=${JWT_SECRET:-secret_default_2026}
       - COOKIE_NAME=auth_token
+      - INTERFACE_URL=http://localhost:16002/
     depends_on:
       - api-dados
     restart: always
     networks:
       - projeto-network
-      
+
   # 4. Serviço de Interface Web
   interface:
     build:
@@ -61,8 +64,13 @@ services:
     environment:
       - PORT=16002
       - API_DADOS_URL=http://api_dados_server:16000/api
+      - JWT_SECRET=${JWT_SECRET:-secret_default_2026}
+      - COOKIE_NAME=auth_token
+      - AUTH_SERVER_URL=http://localhost:16001
+      - LOGOUT_URL=http://localhost:16001/logout
     depends_on:
       - api-dados
+      - auth-server
     restart: always
     networks:
       - projeto-network 
