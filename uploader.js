@@ -18,7 +18,7 @@ async function startImport() {
 
         for (const rec of recursos) {
             try {
-                // 1. Verificar se o ficheiro físico existe no path relativo
+                // 1. Verificar se o ficheiro existe no path relativo
                 const filePath = path.join(__dirname, rec.path)
                 if (!fs.existsSync(filePath)) {
                     console.warn(`[Aviso] Ficheiro físico não encontrado, recurso ignorado: ${filePath}`)
@@ -27,13 +27,13 @@ async function startImport() {
 
                 // 2. Fazer o Upload do Ficheiro primeiro
                 const form = new FormData()
-                form.append('uc', rec.uc) // Passar a UC permite que o multer crie/aloje na subpasta correta
+                form.append('uc', rec.uc) // Passar a UC permite que o multer crie na subpasta correta
                 form.append('category', 'batch_import')
                 form.append('file', fs.createReadStream(filePath))
 
                 console.log(`A enviar: ${rec.path}...`)
                 
-                const uploadResponse = await axios.post(`${API_BASE_URL}/upload`, form, {
+                const uploadResponse = await axios.post(`${API_BASE_URL}/files/upload`, form, {
                     headers: { ...form.getHeaders() }
                 })
                 
