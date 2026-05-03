@@ -88,7 +88,7 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
       form.append('category', 'interface_upload');
       form.append('file', fs.createReadStream(req.file.path), req.file.originalname);
       
-      const uploadResp = await axios.post(`${API_DADOS_URL}/upload`, form, {
+      const uploadResp = await axios.post(`${API_DADOS_URL}/files/upload`, form, {
         headers: { ...form.getHeaders() }
       });
       
@@ -184,7 +184,7 @@ router.post('/editar/:id', upload.single('ficheiro'), async function(req, res) {
       form.append('category', 'interface_upload');
       form.append('file', fs.createReadStream(req.file.path), req.file.originalname);
       
-      const uploadResp = await axios.post(`${API_DADOS_URL}/upload`, form, {
+      const uploadResp = await axios.post(`${API_DADOS_URL}/files/upload`, form, {
         headers: { ...form.getHeaders() }
       });
       fileId = uploadResp.data._id;
@@ -280,7 +280,7 @@ router.get('/download/:id', async function(req, res, next) {
     // Proxy the download request directly from internal API to the client browser
     const fileResponse = await axios({
       method: 'get',
-      url: `${API_DADOS_URL}/download/${recurso.ficheiro._id}`,
+      url: `${API_DADOS_URL}/files/download/${recurso.ficheiro._id}`,
       responseType: 'stream'
     });
     

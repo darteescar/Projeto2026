@@ -7,7 +7,7 @@ const API_DADOS_URL = process.env.API_DADOS_URL || 'http://api_dados_server:1600
 // GET página principal
 router.get('/', async function(req, res) {
   try{
-    const response = await axios.get(`${API_DADOS_URL}/recursos`);
+    const response = await axios.get(`${API_DADOS_URL}/recursos?visibilidade=publico`);
     const recursos = response.data;
 
     // Arrays para os recentes e top10
