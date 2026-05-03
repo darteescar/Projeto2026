@@ -76,10 +76,6 @@ router.get('/adicionar', function(req, res) {
 // POST adicionar novo recurso à base de dados 
 router.post('/adicionar', upload.single('ficheiro'), async function(req, res, next) {
   try {
-    const recursosResp = await axios.get(`${API_DADOS_URL}/recursos`);
-    const maxId = recursosResp.data.reduce((max, r) => Math.max(max, Number(r.id) || 0), 0);
-    const novoId = (maxId + 1).toString();
-
     let fileId = null;
 
     if (req.file) {
@@ -100,7 +96,6 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
     }
 
     const recurso = {
-      id: novoId,
       titulo: req.body.titulo,
       ano: req.body.ano,
       tipo: req.body.tipo,
@@ -235,11 +230,7 @@ router.post('/delete/:id', async function(req, res) {
 // POST adicionar comentário a um recurso específico
 router.post('/comentar/:id', async function(req, res, next) {
   try {
-    const comentariosResp = await axios.get(`${API_DADOS_URL}/comentarios`).catch(()=>({data:[]}));
-    const maxId = comentariosResp.data.reduce((max, c) => Math.max(max, Number(c.id) || 0), 0);
-
     const evalData = {
-      id: maxId + 1,
       recurso_id: Number(req.params.id),
       autor: req.user ? req.user.id : "user",
       avaliacao: Number(req.body.avaliacao) || 5,
