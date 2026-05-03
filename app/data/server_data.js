@@ -66,7 +66,7 @@ app.listen(PORT, () => {
     console.log('  POST   /api/comentarios');
     console.log('  GET    /api/comentarios');
     console.log('  GET    /api/comentarios?recurso_id=xxxx');
-    console.log('  GET    /api/comentarios?q=texto&_select=descricao,avaliacao&_sort=data&_order=desc');
+    console.log('  GET    /api/comentarios?_select=descricao,avaliacao&_sort=data&_order=desc');
     console.log('  GET    /api/comentarios?recurso_id=xxxx&_sort=data&_order=desc');
     console.log('  GET    /api/comentarios/:id');
     console.log('  PUT    /api/comentarios/:id');

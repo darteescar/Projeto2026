@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: API de Gestão de Recursos Escolares
-  description: Serviço para publicação, pesquisa, consulta de recursos, documentação escolar, ficheiros anexos, utilizadores e comentários/avaliações.
+  description: Serviço para publicação, pesquisa, consulta de recursos escolares, ficheiros anexos, utilizadores e comentários.
   version: 1.0.0
 
 servers:
@@ -10,18 +10,18 @@ servers:
 
 tags:
   - name: Recursos
-    description: Gestão de recursos letivos
+    description: Gestão de recursos escolares
   - name: Comentários
-    description: Gestão de comentários e avaliações aos recursos
+    description: Gestão de comentários dos recursos
   - name: Utilizadores
     description: Gestão de utilizadores da plataforma
   - name: Ficheiros
-    description: Operações sobre o upload, download e remoção de ficheiros físicos
+    description: Operações sobre o upload, download, listagem e remoção de ficheiros físicos
 
 paths:
   /recursos:
     get:
-      summary: Lista e pesquisa todos os recursos escolares
+      summary: Lista e pesquisa todos os recursos
       tags: [Recursos]
       parameters:
         - name: q
@@ -66,7 +66,7 @@ paths:
             type: string
       responses:
         200:
-          description: Lista de recursos encontrados.
+          description: Lista dos recursos encontrados.
         500:
           description: Erro interno de base de dados.
     post:
@@ -78,10 +78,8 @@ paths:
           application/json:
             schema:
               type: object
-              required: [id, titulo, ano, tipo, uc, autor, data_registo, visibilidade, ficheiro]
+              required: [titulo, ano, tipo, uc, autor, data_registo, visibilidade, ficheiro]
               properties:
-                id:
-                  type: integer
                 titulo:
                   type: string
                 ano:
@@ -104,12 +102,12 @@ paths:
       responses:
         201:
           description: Recurso criado com sucesso.
-        400:
+        500:
           description: Erro ao criar o recurso.
 
   /recursos/{id}:
     get:
-      summary: Obtém um recurso específico pelo ID customizado
+      summary: Obtém um recurso específico pelo ID especificado
       tags: [Recursos]
       parameters:
         - name: id
@@ -120,13 +118,13 @@ paths:
             type: integer
       responses:
         200:
-          description: Detalhes do recurso (incluindo file populado).
+          description: Recurso encontrado com sucesso.
         404:
           description: Recurso não encontrado.
         500:
           description: Erro ao obter o recurso.
     put:
-      summary: Atualiza um recurso escolar
+      summary: Atualiza um recurso dado o seu ID
       tags: [Recursos]
       parameters:
         - name: id
@@ -158,13 +156,13 @@ paths:
                   description: Novo ObjectId (caso o ficheiro seja reescrito)
       responses:
         200:
-          description: Atualizado com sucesso.
+          description: Recurso atualizado com sucesso.
         404:
           description: Recurso não encontrado.
         500:
           description: Erro ao atualizar o recurso.
     delete:
-      summary: Apaga um recurso escolar
+      summary: Apaga um recurso dado o seu ID
       tags: [Recursos]
       parameters:
         - name: id
@@ -174,7 +172,7 @@ paths:
             type: integer
       responses:
         200:
-          description: Apagado com sucesso.
+          description: Recurso apagado com sucesso.
         404:
           description: Recurso não encontrado.
         500:
@@ -182,7 +180,7 @@ paths:
 
   /comentarios:
     get:
-      summary: Lista todos os comentários e avaliações 
+      summary: Lista e pesquisa todos os comentários
       tags: [Comentários]
       parameters:
         - name: recurso_id
@@ -192,11 +190,11 @@ paths:
             type: integer
       responses:
         200:
-          description: Comentários do recurso.
+          description: Lista dos comentários encontrados.
         500:
           description: Erro ao obter os comentários.
     post:
-      summary: Adiciona um comentário
+      summary: Adiciona um novo comentário
       tags: [Comentários]
       requestBody:
         required: true
@@ -204,10 +202,8 @@ paths:
           application/json:
             schema:
               type: object
-              required: [id, recurso_id, autor, avaliacao, descricao, data]
+              required: [recurso_id, autor, avaliacao, descricao, data]
               properties:
-                id:
-                  type: integer
                 recurso_id:
                   type: integer
                 autor:
@@ -223,13 +219,13 @@ paths:
                   format: date-time
       responses:
         201:
-          description: Comentário bem sucedido.
+          description: Comentário criado com sucesso.
         500:
           description: Erro ao adicionar o comentário.
 
   /comentarios/{id}:
     get:
-      summary: Retorna um comentário pelo seu ID Numérico
+      summary: Obtém um comentário específico pelo ID especificado
       tags: [Comentários]
       parameters:
         - name: id
@@ -239,13 +235,13 @@ paths:
             type: integer
       responses:
         200:
-          description: Sucesso.
+          description: Comentário encontrado com sucesso.
         404:
           description: Comentário não encontrado.
         500:
           description: Erro ao obter o comentário.
     put:
-      summary: Atualiza um comentário existente
+      summary: Atualiza um comentário dado o seu ID
       tags: [Comentários]
       parameters:
         - name: id
@@ -264,13 +260,13 @@ paths:
                   type: string
       responses:
         200:
-          description: Sucesso.
+          description: Comentário atualizado com sucesso.
         404:
           description: Comentário não encontrado.
         500:
           description: Erro ao atualizar o comentário.
     delete:
-      summary: Apaga um comentário
+      summary: Apaga um comentário dado o seu ID
       tags: [Comentários]
       parameters:
         - name: id
@@ -280,14 +276,14 @@ paths:
             type: integer
       responses:
         200:
-          description: Apagado com sucesso.
+          description: Comentário apagado com sucesso.
         404:
           description: Comentário não encontrado.
         500:
           description: Erro ao apagar o comentário.
   /users:
     get:
-      summary: Resgata utilizadores
+      summary: Lista e pesquisa todos os utilizadores
       tags: [Utilizadores]
       parameters:
         - name: q
@@ -297,11 +293,11 @@ paths:
             type: string
       responses:
         200:
-          description: Lista de Utilizadores.
+          description: Lista dos utilizadores encontrados.
         500:
           description: Erro ao obter os utilizadores.
     post:
-      summary: Regista um novo utilizador
+      summary: Adiciona um novo utilizador
       tags: [Utilizadores]
       requestBody:
         required: true
@@ -325,7 +321,7 @@ paths:
                   default: 'user'
       responses:
         201:
-          description: Criado com sucesso.
+          description: Utilizador criado com sucesso.
         400:
           description: Exceção (eg. Email já utilizado).
         500:
@@ -333,7 +329,7 @@ paths:
 
   /users/{id}:
     get:
-      summary: Dados de um perfil
+      summary: Obtém um utilizador específico pelo ID especificado
       tags: [Utilizadores]
       parameters:
         - name: id
@@ -343,13 +339,13 @@ paths:
             type: integer
       responses:
         200:
-          description: Retorna Utilizador
+          description: Utilizador encontrado com sucesso.
         404:
           description: Utilizador não encontrado.
         500:
           description: Erro ao obter o utilizador
     put:
-      summary: Regista atualizações de palavra passe/perfil
+      summary: Atualiza um utilizador dado o seu ID
       tags: [Utilizadores]
       parameters:
         - name: id
@@ -372,13 +368,13 @@ paths:
                   type: string
       responses:
         200:
-          description: Aceito e atualizado.
+          description: Utilizador atualizado com sucesso.
         404:
           description: Utilizador não encontrado.
         500:
           description: Erro ao atualizar o utilizador.
     delete:
-      summary: Elimina utilizador
+      summary: Apaga um utilizador dado o seu ID
       tags: [Utilizadores]
       parameters:
         - name: id
@@ -389,6 +385,10 @@ paths:
       responses:
         200:
           description: Apagado com sucesso.
+        404:
+          description: Utilizador não encontrado.
+        500:
+          description: Erro ao apagar o utilizador.
 
   /login_check:
     post:
@@ -414,7 +414,7 @@ paths:
 
   /files/upload:
     post:
-      summary: Faz o upload do ficheiro e insere metadados na base de dados
+      summary: Faz o upload do ficheiro e adiciona os metadados
       tags: [Ficheiros]
       requestBody:
         required: true
@@ -439,13 +439,13 @@ paths:
                   description: Tags a associar no metadado.
       responses:
         201:
-          description: Metadados do File no Mongo c/ Storage Info inserida com sucesso.
+          description: Ficheiro carregado e metadados criados com sucesso.
         500:
           description: Erro ao fazer o upload do ficheiro.
 
   /files:
     get:
-      summary: Lista e pesquisa ficheiros (Metadata)
+      summary: Lista e pesquisa todos os ficheiros (Metadados)
       tags: [Ficheiros]
       parameters:
         - name: search
@@ -458,13 +458,13 @@ paths:
             type: string
       responses:
         200:
-          description: Devolve entidades Ficheiro persistidas.
+          description: Lista dos ficheiros obtida com sucesso.
         500:
           description: Erro ao obter os ficheiros.
 
   /files/download/{id}:
     get:
-      summary: Faz o download do ficheiro
+      summary: Faz o download do ficheiro dado o seu ID (Mongo ObjectId)
       tags: [Ficheiros]
       parameters:
         - name: id
@@ -481,14 +481,14 @@ paths:
               schema:
                 type: string
                 format: binary
-        401:
+        404:
           description: Ficheiro não encontrado.
         500:
           description: Erro ao fazer o download do ficheiro.
 
   /files/{id}:
     delete:
-      summary: Apaga metadados da base de dados e o ficheiro do armazenamento
+      summary: Apaga os metadados e o ficheiro do armazenamento dado o seu ID (Mongo ObjectId)
       tags: [Ficheiros]
       parameters:
         - name: id
@@ -499,8 +499,8 @@ paths:
             type: string
       responses:
         200:
-          description: Ficheiro apagado de base de dados e do armazenamento.
-        401:
+          description: Ficheiro apagado de base de dados e do armazenamento com sucesso.
+        404:
           description: Ficheiro não encontrado.
         500:
           description: Erro ao apagar o ficheiro.
