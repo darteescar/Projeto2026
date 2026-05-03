@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const app = express();
+const fs = require('fs');
 
 // Routers
 const recursoRouter = require('./routes/recursoRouter');
@@ -8,7 +8,19 @@ const comentarioRouter = require('./routes/comentarioRouter');
 const userRouter = require('./routes/userRouter');
 const fileRouter = require('./routes/fileRouter');
 
+// Swager
+const swaggerUi = require('swagger-ui-express');
+const YAML = require('yamljs');
+const swaggerDocument = YAML.load('./swagger.yaml');
+
+const app = express();
+
 app.use(express.json());
+app.use(express.urlencoded({extended: true}))
+
+if(!fs.existsSync('./uploads')){
+    fs.mkdirSync('./uploads')
+}
 
 // Logger
 app.use(function(req, res, next) {
@@ -29,6 +41,7 @@ app.use('/api', recursoRouter);
 app.use('/api', comentarioRouter);
 app.use('/api', userRouter);
 app.use('/api', fileRouter);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 
 const PORT = process.env.PORT || 16000;
@@ -69,8 +82,11 @@ app.listen(PORT, () => {
     console.log('  POST   /api/login_check');
     console.log('');
     console.log('  [FILES]');
-    console.log('  POST   /api/upload');
-    console.log('  GET    /api/ (lista ficheiros)');
-    console.log('  GET    /api/download/:id');
-    console.log('  DELETE /api/:id (apaga ficheiro)');
+    console.log('  POST   /api/files/upload');
+    console.log('  GET    /api/files');
+    console.log('  GET    /api/files?search=xxxx&category=yyyy');
+    console.log('  GET    /api/files/download/:id');
+    console.log('  DELETE /api/files/:id');
+    console.log('');
+    console.log(' Swagger UI disponível em http://localhost:16000/api-docs');
 });
