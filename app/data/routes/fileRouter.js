@@ -4,15 +4,15 @@ const fileController = require('../controllers/fileController')
 const upload = require('../config/multer')
 
 // Novo ficheiro
-router.post('/upload', upload.single('file'), fileController.uploadFile)
+router.post('/files/upload', upload.single('file'), fileController.uploadFile)
 
 // Listar ficheiros
-router.get('/', fileController.getFiles)
+router.get('/files', fileController.getFiles)
 
 // Download de ficheiro por ID
-router.get('/download/:id', fileController.downloadFile)
+router.get('/files/download/:id', fileController.downloadFile)
 
 // Apagar ficheiro por ID
-router.delete('/:id', fileController.deleteFile)
+router.delete('/files/:id', fileController.deleteFile)
 
 module.exports = router
