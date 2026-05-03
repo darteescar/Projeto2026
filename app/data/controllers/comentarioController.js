@@ -3,7 +3,15 @@ const Comentario = require('../models/Comentario');
 const comentarioController = {
     createComentario: async function(req, res){
         try {
-            const newComentario = new Comentario(req.body);
+            const lastComentario = await Comentario.findOne().sort({ id: -1 }).exec();
+            const nextId = lastComentario ? lastComentario.id + 1 : 1;
+
+            const comentarioData = { ...req.body, id: nextId };
+            if (!comentarioData.data) {
+                comentarioData.data = new Date();
+            }
+
+            const newComentario = new Comentario(comentarioData);
             await newComentario.save();
             res.status(201).json(newComentario);
         } catch (error) {

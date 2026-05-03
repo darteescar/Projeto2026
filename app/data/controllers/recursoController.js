@@ -3,11 +3,19 @@ const Recurso = require('../models/Recurso');
 const recursoController = {
     createRecurso: async function(req, res){
         try {
-            const newRecurso = new Recurso(req.body);
+            const lastRecurso = await Recurso.findOne().sort({ id: -1 }).exec();
+            const nextId = lastRecurso ? lastRecurso.id + 1 : 1;
+
+            const recursoData = { ...req.body, id: nextId };
+            if (!recursoData.data_registo) {
+                recursoData.data_registo = new Date();
+            }
+
+            const newRecurso = new Recurso(recursoData);
             await newRecurso.save();
             res.status(201).json(newRecurso);
         } catch (error) {
-            res.status(400).json({ message: error.message });
+            res.status(500).json({ message: error.message });
         }
     },
 

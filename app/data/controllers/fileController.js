@@ -49,7 +49,7 @@ const fileController = {
         try{
             const file = await File.findById(req.params.id)
             if(!file)
-                return res.status(401).json({message: "Ficheiro não encontrado."})
+                return res.status(404).json({message: "Ficheiro não encontrado."})
             else
                 return res.download(file.path, file.originalName)
         }
@@ -62,7 +62,7 @@ const fileController = {
         try{
             const file = await File.findById(req.params.id)
             if(!file)
-                return res.status(401).json({message: "Ficheiro não encontrado."})
+                return res.status(404).json({message: "Ficheiro não encontrado."})
             else{
                 await fs.unlink(file.path)
                 await file.deleteOne()
