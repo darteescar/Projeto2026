@@ -5,17 +5,16 @@ const fs = require('fs');
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    // Usa a UC passada no body e normaliza (ex: "Álgebra" -> "algebra", "SC" -> "sc"). Falha segura para "geral"
+    // Normalizar o nome da uc, caso não exista vai para 'geral'
     let uc = 'geral';
     if (req.body.uc) {
       uc = req.body.uc.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
     }
     
-    // Suporte para usar variável de ambiente UPLOAD_DIR no Docker ou path local
     const baseUploadPath = process.env.UPLOAD_DIR || path.join(__dirname, '..', 'uploads');
     const uploadPath = path.join(baseUploadPath, uc);
 
-    // Garante que o diretório é criado caso não exista
+    // Garante que a diretoria é criada caso não exista
     fs.mkdirSync(uploadPath, { recursive: true });
 
     cb(null, uploadPath);
