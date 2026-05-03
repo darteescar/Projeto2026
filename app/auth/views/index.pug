@@ -1,12 +1,12 @@
 extends layout
 
 block content
-  .container.mt-5
-    .row.justify-content-center
-      .col-md-6.text-center
+  .container.py-5.my-5.d-flex.justify-content-center.align-items-center(style="min-height: 70vh;")
+    .row.justify-content-center.w-100
+      .col-md-8.col-lg-6.text-center
         .card.shadow-sm.border-0.p-5
-          h1 Bem-vindo à Plataforma
+          h1 Bem-vindo à Plataforma de Recursos de LEI
           p Escolha uma opção para aceder aos recursos:
           .d-grid.gap-3.mt-4
-            a.btn.btn-primary.btn-lg(href="/login") Entrar (Login)
-            a.btn.btn-outline-secondary.btn-lg(href="/register") Criar Conta (Registo)
+            a.btn.btn-primary.btn-lg(href="/login") Entrar
+            a.btn.btn-outline-secondary.btn-lg(href="/register") Criar Conta

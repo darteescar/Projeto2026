@@ -1,13 +1,18 @@
- const express = require('express');
-const path = require('path');
-const cookieParser = require('cookie-parser');
+const express = require('express');
 const axios = require('axios');
+const path = require('path');
 const jwt = require('jsonwebtoken');
+const cookieParser = require('cookie-parser');
 
 const app = express();
-const SECRET = "ENGWEB_PROJETO_2026";
-const DATA_API = process.env.API_DADOS_URL || 'http://api_dados_server:16000/api';
+
+// --- Variáveis de ambiente ---
 const PORT = process.env.PORT || 16001;
+const API_DADOS_URL = process.env.API_DADOS_URL || "http://api_dados_server:16000/api";
+const JWT_SECRET = process.env.JWT_SECRET || "ENGWEB_PROJETO_2026";
+const COOKIE_NAME = process.env.COOKIE_NAME || "auth_token";
+const INTERFACE_URL = process.env.INTERFACE_URL || "http://localhost:16002/";
+
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
@@ -15,77 +20,87 @@ app.set('view engine', 'pug');
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Rota de escolha (Ponto de entrada para não autenticados)
 app.get('/', (req, res) => {
-    res.render('index'); 
+    res.render('index', { title: 'Recursos LEI' }); 
 });
 
-app.get('/login', (req, res) => res.render('login'));
-app.get('/register', (req, res) => res.render('register'));
 
+// GET login
+app.get('/login', (req, res) => {
+    res.render('login', { title: 'Login | Recursos LEI' });
+});
+
+
+// GET register
+app.get('/register', (req, res) => {
+    res.render('register', { title: 'Registo | Recursos LEI' });
+});
+
+
+// GET logout
 app.get('/logout', (req, res) => {
-    res.clearCookie('token');
+    res.clearCookie(COOKIE_NAME);
     res.redirect('/');
 });
 
-// Processar Registo
-app.post('/register', (req, res) => {
-    axios.post(`${DATA_API}/users`, req.body)
-        .then(() => res.redirect('/login'))
-        .catch(err => {
-            console.error('Auth register error:', err.response ? err.response.data : err.message);
-            let errorMessage = "Erro no registo. Verifique os dados e tente novamente.";
-            if (err.response && err.response.data && err.response.data.message === 'Email já registado.') {
-                errorMessage = "Email já registado. Escolha outro.";
-            }
-            res.render('register', {
-                error: errorMessage,
-                formData: { nome: req.body.nome, apelido: req.body.apelido, email: req.body.email }
-            });
-        });
-});
 
-// Processar Login
-app.post('/login', (req, res) => {
-    axios.post(`${DATA_API}/login_check`, {
-        email: req.body.email,
-        password: req.body.password
-    })
-        .then(response => {
-            const user = response.data;
+// POST login: gera o JWT e guarda no cookie
+app.post('/login', async (req, res) => {
+    const { email, password } = req.body;
+    try {
+        const response = await axios.get(`${API_DADOS_URL}/users?email=${email}&password=${password}`);
+        const users = response.data;
+
+        if (users.length > 0) {
+            const user = users[0];
             const token = jwt.sign(
-                { email: user.email, role: user.role, nome: user.nome, apelido: user.apelido, id: user.id },
-                SECRET, { expiresIn: '1d' }
+                { sub: user.id, email: user.email, nome: user.nome, apelido: user.apelido, role: user.role },
+                JWT_SECRET,
+                { expiresIn: '1h' }
             );
-            res.cookie('token', token, { httpOnly: true });
-            res.redirect('http://localhost:16002/'); // Redireciona para a Interface
+
+            res.cookie(COOKIE_NAME, token, {
+                httpOnly: true, // Segurança contra XSS
+                secure: process.env.NODE_ENV === 'production', 
+                maxAge: 3600000 // 1 hora
+            });
+
+            return res.redirect(INTERFACE_URL);
+        } else {
+            res.render('login', { error: "Credenciais inválidas", titulo: "Login | Recursos LEI" });
+        }
+    } catch (err) {
+        res.status(500).render('error', { message: "Erro na API de Dados", error: err });
+    }
+});
+
+
+// POST register
+app.post('/register', (req, res) => {
+    const { nome, apelido, email, password, confirmPassword } = req.body;
+
+    if (password !== confirmPassword) {
+        return res.render('register', { error: "As passwords não coincidem", formData: req.body, title: "Registo | Recursos LEI" });
+    }
+
+    axios.post(`${API_DADOS_URL}/users`, { nome, apelido, email, password })
+        .then(() => {
+            res.redirect('/login');
         })
-        .catch(() => res.render('login', { 
-            error: "Credenciais inválidas!",
-            formData: { email: req.body.email }
-        }));
+        .catch(err => {
+            if (err.response && err.response.status === 400) {
+                res.render('register', { error: "Email já registado", formData: req.body, title: "Registo | Recursos LEI" });
+            } else {
+                res.status(500).render('error', { message: "Erro na API de Dados" , error: err});
+            }
+        });
+ 
 });
 
-app.listen(PORT, () => console.log("Auth Service na porta 16001"));
 
-
-/**
-// ========================================================
-// TODO: estas rotas depois devem ir para a autenticação
-// ========================================================
-router.get('/login', function(req, res, next) {
-  res.render('login', { title: 'Login | Recursos LEI' });
+app.listen(PORT, () => {
+    console.log(`Auth Server a correr em http://localhost:${PORT}`)
 });
-
-router.get('/registo', function(req, res, next) {
-  res.render('register', { title: 'Registo | Recursos LEI' });
-});
-
-router.post('/login', function(req, res, next) {
-  res.redirect('/');
-});
-
-router.post('/registo', function(req, res, next) {
-  res.redirect('/login');
-}); */

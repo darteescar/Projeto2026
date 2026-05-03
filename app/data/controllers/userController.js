@@ -115,10 +115,3 @@ const userController = {
 };
 
 module.exports = userController;
-module.exports.login = async (email, password) => {
-    const user = await User.findOne({ email });
-    if (user && user.password === password) {
-        return user;
-    }
-    throw new Error('Incorreto');
-};

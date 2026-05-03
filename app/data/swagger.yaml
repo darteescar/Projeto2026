@@ -390,28 +390,6 @@ paths:
         500:
           description: Erro ao apagar o utilizador.
 
-  /login_check:
-    post:
-      summary: Autentica credenciais diretamente
-      tags: [Utilizadores]
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              type: object
-              required: [email, password]
-              properties:
-                email:
-                  type: string
-                password:
-                  type: string
-      responses:
-        200:
-          description: Retorna objeto user validado.
-        401:
-          description: Credenciais Incorretas ("Incorreto").
-
   /files/upload:
     post:
       summary: Faz o upload do ficheiro e adiciona os metadados

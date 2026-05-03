@@ -11,20 +11,20 @@ block content
           form(action="/register" method="POST")
             .row.mb-3
               .col-md-6
-                label.form-label(for="nome") Nome Próprio
-                input#nome.form-control(type="text" name="nome" placeholder="Seu nome" required value=(formData && formData.nome) ? formData.nome : '')
+                label.form-label(for="nome") Nome
+                input#nome.form-control(type="text" name="nome" placeholder="Insira o seu nome" required value=(formData && formData.nome) ? formData.nome : '')
               .col-md-6
                 label.form-label(for="apelido") Apelido
-                input#apelido.form-control(type="text" name="apelido" placeholder="Seu apelido" required value=(formData && formData.apelido) ? formData.apelido : '')
+                input#apelido.form-control(type="text" name="apelido" placeholder="Insira o seu apelido" required value=(formData && formData.apelido) ? formData.apelido : '')
             .mb-3
               label.form-label(for="email") E-mail
-              input#email.form-control(type="email" name="email" placeholder="username@exemplo.com" required value=(formData && formData.email) ? formData.email : '')
+              input#email.form-control(type="email" name="email" placeholder="nome@email.com" required value=(formData && formData.email) ? formData.email : '')
             .mb-3
               label.form-label(for="password") Palavra-passe
-              input#password.form-control(type="password" name="password" placeholder="Crie uma password" required)
+              input#password.form-control(type="password" name="password" placeholder="Crie uma palavra-passe" required)
             .mb-3
               label.form-label(for="confirm-password") Confirmar Palavra-passe
-              input#confirm-password.form-control(type="password" name="confirm-password" placeholder="Repita a password" required)
+              input#confirm-password.form-control(type="password" name="confirmPassword" placeholder="Repita a palavra-passe" required)
             .d-grid.gap-2.mt-4
               button.btn.btn-primary(type="submit") Registar Conta
           .text-center.mt-3
