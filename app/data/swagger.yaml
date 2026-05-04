@@ -54,14 +54,19 @@ paths:
           description: Filtrar por visibilidade (publico ou privado).
           schema:
             type: string
+        - name: _select
+          in: query
+          description: Campos a selecionar separados por vírgula.
+          schema:
+            type: string
         - name: _sort
           in: query
-          description: Campo pelo qual ordenar os resultados.
+          description: Campos pelos quais ordenar os resultados, separados por vírgula.
           schema:
             type: string
         - name: _order
           in: query
-          description: Ordem de ordenação (asc ou desc).
+          description: Ordens de ordenação (asc ou desc) separadas por vírgula.
           schema:
             type: string
       responses:
@@ -188,6 +193,21 @@ paths:
           description: ID do recurso alvo das avaliações.
           schema:
             type: integer
+        - name: _select
+          in: query
+          description: Campos a selecionar separados por vírgula.
+          schema:
+            type: string
+        - name: _sort
+          in: query
+          description: Campos pelos quais ordenar os resultados, separados por vírgula.
+          schema:
+            type: string
+        - name: _order
+          in: query
+          description: Ordens de ordenação (asc ou desc) separadas por vírgula.
+          schema:
+            type: string
       responses:
         200:
           description: Lista dos comentários encontrados.
@@ -289,6 +309,31 @@ paths:
         - name: q
           in: query
           description: Pesquisa por nome, email ou apelido.
+          schema:
+            type: string
+        - name: email
+          in: query
+          description: Filtrar por email.
+          schema:
+            type: string
+        - name: password
+          in: query
+          description: Filtrar por password.
+          schema:
+            type: string
+        - name: _select
+          in: query
+          description: Campos a selecionar separados por vírgula.
+          schema:
+            type: string
+        - name: _sort
+          in: query
+          description: Campos pelos quais ordenar os resultados, separados por vírgula.
+          schema:
+            type: string
+        - name: _order
+          in: query
+          description: Ordens de ordenação (asc ou desc) separadas por vírgula.
           schema:
             type: string
       responses:
