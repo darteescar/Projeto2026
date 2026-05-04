@@ -17,9 +17,29 @@ block content
             .row.mb-3
               .col-md-6
                 label.form-label.fw-bold(for="uc") Unidade Curricular (UC)
+                - var ucsArray = (typeof ucs !== 'undefined' && ucs) ? ucs : []
+                - var hasCurrentUc = recurso.uc && ucsArray.indexOf(recurso.uc) !== -1
                 select#uc.form-select(name="uc" required)
-                  each val in ['Álgebra', 'Algoritmos', 'Análise', 'Arquitetura', 'BD', 'CC', 'CG', 'CP', 'Cálculo', 'DSS', 'EA', 'EPTN', 'FCD', 'FM', 'IA', 'IO', 'IPM', 'Lógica', 'MNONL', 'PF', 'PI', 'PL', 'POO', 'RC', 'SC', 'SD', 'SO', 'TMD']
+                  each val in ucsArray
                     option(value=val selected=(recurso.uc === val))= val
+                  if recurso.uc && !hasCurrentUc
+                    option(value=recurso.uc selected=true)= recurso.uc
+                  option(value="outra") Outra
+                
+                .mt-2#outraContainer(style="display:none")
+                  label.form-label.fw-bold(for="uc_outra") Especificar UC
+                  input#uc_outra.form-control(type="text" name="uc_outra" placeholder="Escreva a UC que pretende" value=(showOutra ? recurso.uc : ''))
+
+                script.
+                  (function(){
+                    var sel = document.getElementById('uc');
+                    var cont = document.getElementById('outraContainer');
+                    var inp = document.getElementById('uc_outra');
+                    sel.addEventListener('change', function(e){
+                      if(this.value === 'outra'){ cont.style.display='block'; inp.required = true; }
+                      else { cont.style.display='none'; inp.required = false; }
+                    });
+                  })();
               .col-md-6
                 label.form-label.fw-bold(for="ano") Ano Letivo
                 input#ano.form-control(type="text" name="ano" value=recurso.ano required)
@@ -27,9 +47,30 @@ block content
             .row.mb-3
               .col-md-6
                 label.form-label.fw-bold(for="tipo") Tipo de Recurso
+                - var tiposArray = (typeof tipos !== 'undefined' && tipos) ? tipos : []
+                - var hasCurrentTipo = recurso.tipo && tiposArray.indexOf(recurso.tipo) !== -1
                 select#tipo.form-select(name="tipo" required)
-                  each val in ['Bibliografia', 'Exercícios', 'Ficha', 'Formulário', 'Resolução de Ficha', 'Resolução de Teste/Exame', 'Resumos', 'Slides', 'Teste/Exame']
+                  each val in tiposArray
                     option(value=val selected=(recurso.tipo === val))= val
+                  if recurso.tipo && !hasCurrentTipo
+                    option(value=recurso.tipo selected=true)= recurso.tipo
+                  option(value="outro") Outro
+                
+                - var showOutro = (typeof tipos === 'undefined' || tipos.indexOf(recurso.tipo) === -1)
+                .mt-2#outroContainer(style= showOutro ? "display:block" : "display:none")
+                  label.form-label.fw-bold(for="tipo_outro") Especificar Tipo
+                  input#tipo_outro.form-control(type="text" name="tipo_outro" placeholder="Escreva o Tipo que pretende" value=(showOutro ? recurso.tipo : ''))
+
+                script.
+                  (function(){
+                    var selTipo = document.getElementById('tipo');
+                    var contTipo = document.getElementById('outroContainer');
+                    var inpTipo = document.getElementById('tipo_outro');
+                    selTipo.addEventListener('change', function(e){
+                      if(this.value === 'outro'){ contTipo.style.display='block'; inpTipo.required = true; }
+                      else { contTipo.style.display='none'; inpTipo.required = false; }
+                    });
+                  })();
               .col-md-6
                 label.form-label.fw-bold Visibilidade
                 .mt-2

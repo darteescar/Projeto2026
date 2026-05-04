@@ -4,22 +4,19 @@ var router = express.Router();
 
 const API_DADOS_URL = process.env.API_DADOS_URL || 'http://api_dados_server:16000/api';
 
-//!===================================================!//
-//!     Todas as rotas já têm o prefixo /users        !//
-//!===================================================!//
 
-//?================================?//
-//?          Ver Perfil            ?//
-//?================================?//
+// Rota default
+router.get('/', function(req, res, next) {
+  res.redirect('/users/perfil');
+});
 
 // GET perfil do utilizador atual
 router.get('/perfil', function(req, res, next) {
-  // TODO: depois com os users is buscar a informação direita
-  res.render('profile', { title: 'O Meu Perfil | Recursos LEI', id: req.user.id });
+  res.redirect(`/users/perfil/${res.locals.auth_id}`);
 });
 
 // GET perfil de um utilizador específico
-router.get('/perfil/:id', async function(req, res, next) {
+router.get('/perfil/:id', async function(req, res) {
   try {
     const [userResp, recResp] = await Promise.all([
       axios.get(`${API_DADOS_URL}/users/${req.params.id}`),
@@ -34,30 +31,25 @@ router.get('/perfil/:id', async function(req, res, next) {
       user, 
       recursos, 
       contribuicoes: recursos.length,
-      id: req.user.id
     });
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao carregar perfil', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao carregar perfil', error: err });
   }
 });
 
-//?================================?//
-//?         Editar Perfil          ?//
-//?================================?//
-
 // GET formulário para editar o perfil
-router.get('/perfil/editar/:id', async function(req, res, next) {
+router.get('/perfil/editar/:id', async function(req, res) {
   try {
     const userResp = await axios.get(`${API_DADOS_URL}/users/${req.params.id}`);
     const user = userResp.data;
-    res.render('editarPerfil', { title: 'Editar Perfil | Recursos LEI', user, id: req.user.id });
+    res.render('editarPerfil', { title: 'Editar Perfil | Recursos LEI', user });
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao carregar edição de perfil', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao carregar edição de perfil', error: err });
   }
 });
 
 // POST atualizar perfil específico
-router.post('/perfil/editar/:id', async function(req, res, next) {
+router.post('/perfil/editar/:id', async function(req, res) {
   try {
     const { nome, apelido, password_atual, password_nova } = req.body;
     
@@ -67,12 +59,11 @@ router.post('/perfil/editar/:id', async function(req, res, next) {
     user.nome = nome;
     user.apelido = apelido;
 
-    // TODO: talvez isto vá para a autenticação
     if (password_atual && password_nova) {
       if (user.password === password_atual) {
         user.password = password_nova;
       } else {
-        return res.status(400).render('error', { message: 'A palavra-passe atual está incorreta.', error: { status: 400 }, id: req.user.id });
+        return res.status(400).render('editarPerfil', { title: 'Editar Perfil | Recursos LEI', user, error: 'A palavra-passe atual está incorreta.' });
       }
     }
 
@@ -80,7 +71,7 @@ router.post('/perfil/editar/:id', async function(req, res, next) {
 
     res.redirect(`/users/perfil/${req.params.id}`);
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao atualizar o perfil', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao atualizar o perfil', error: err });
   }
 });
 

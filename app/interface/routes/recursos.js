@@ -1,9 +1,9 @@
 var axios = require('axios');
 var express = require('express');
 var router = express.Router();
+
 var multer = require('multer');
 var fs = require('fs');
-var path = require('path');
 var os = require('os');
 var FormData = require('form-data');
 
@@ -69,8 +69,16 @@ router.get('/', async function(req, res) {
 });
 
 // GET formulário para adicionar novo recurso
-router.get('/adicionar', function(req, res) {
-  res.render('adicionarRecurso', { title: 'Adicionar Recurso | Recursos LEI', id: req.user.id });
+router.get('/adicionar', async function(req, res) {
+  try {
+    const resp = await axios.get(`${API_DADOS_URL}/recursos?visibilidade=publico&_select=uc,tipo`);
+    const ucs = [...new Set(resp.data.map(r => r.uc).filter(Boolean))].sort();
+    const tipos = [...new Set(resp.data.map(r => r.tipo).filter(Boolean))].sort();
+    res.render('adicionarRecurso', { title: 'Adicionar Recurso | Recursos LEI', id: req.user.id, ucs, tipos });
+  } catch (err) {
+    res.render('adicionarRecurso', { title: 'Adicionar Recurso | Recursos LEI', id: req.user.id, ucs: [], tipos: [] });
+  }
+
 });
 
 // POST adicionar novo recurso à base de dados 
@@ -95,11 +103,19 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
       throw new Error('Ficheiro é obrigatório.');
     }
 
+    // tratar caso escolha "Outra" UC
+    let ucValue = req.body.uc;
+    if (ucValue === 'outra' && req.body.uc_outra) ucValue = req.body.uc_outra;
+
+    // tratar caso escolha "Outro" Tipo
+    let tipoValue = req.body.tipo;
+    if (tipoValue === 'outro' && req.body.tipo_outro) tipoValue = req.body.tipo_outro;
+
     const recurso = {
       titulo: req.body.titulo,
       ano: req.body.ano,
-      tipo: req.body.tipo,
-      uc: req.body.uc,
+      tipo: tipoValue,
+      uc: ucValue,
       autor: req.user.id,
       data_registo: new Date().toISOString(),
       visibilidade: req.body.visibilidade,
@@ -160,7 +176,15 @@ router.get('/editar/:id', async function(req, res) {
   try {
     const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
     const recurso = response.data;
-    res.render('editarRecurso', { title: 'Editar Recurso | Recursos LEI', recurso, id: req.user.id });
+
+    try {
+      const resp = await axios.get(`${API_DADOS_URL}/recursos?visibilidade=publico&_select=uc,tipo`);
+      const ucs = [...new Set(resp.data.map(r => r.uc).filter(Boolean))].sort();
+      const tipos = [...new Set(resp.data.map(r => r.tipo).filter(Boolean))].sort();
+      res.render('editarRecurso', { title: 'Editar Recurso | Recursos LEI', recurso, id: req.user.id, ucs, tipos });
+    } catch (e) {
+      res.render('editarRecurso', { title: 'Editar Recurso | Recursos LEI', recurso, id: req.user.id, ucs: [], tipos: [] });
+    }
   } catch (err) {
     res.status(500).render('error', { message: 'Erro ao aceder ao recurso', error: err, id: req.user.id });
   }
@@ -192,11 +216,19 @@ router.post('/editar/:id', upload.single('ficheiro'), async function(req, res) {
       }
     }
 
+    // tratar caso escolha "Outra" UC
+    let ucValue = req.body.uc;
+    if (ucValue === 'outra' && req.body.uc_outra) ucValue = req.body.uc_outra;
+
+    // tratar caso escolha "Outro" Tipo
+    let tipoValue = req.body.tipo;
+    if (tipoValue === 'outro' && req.body.tipo_outro) tipoValue = req.body.tipo_outro;
+
     const recursoAtualizado = Object.assign({}, recursoAntigo, {
       titulo: req.body.titulo,
       ano: req.body.ano,
-      tipo: req.body.tipo,
-      uc: req.body.uc,
+      tipo: tipoValue,
+      uc: ucValue,
       visibilidade: req.body.visibilidade,
       ficheiro: fileId
     });
@@ -255,6 +287,31 @@ router.post('/comentar/:id', async function(req, res, next) {
   }
 });
 
+// GET para pré-visualizar o ficheiro de um recurso específico (inline)
+router.get('/preview/:id', async function(req, res, next) {
+  try {
+    const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
+    const recurso = response.data;
+
+    if (!recurso.ficheiro || !recurso.ficheiro._id) {
+      return res.status(404).render('error', { message: 'Este recurso não tem nenhum ficheiro associado.', error: null, id: req.user.id });
+    }
+
+    const fileResponse = await axios({
+      method: 'get',
+      url: `${API_DADOS_URL}/files/download/${recurso.ficheiro._id}`,
+      responseType: 'stream'
+    });
+
+    // Forçar inline para permitir visualização em iframe/modal
+    res.setHeader('Content-Disposition', `inline; filename="${recurso.ficheiro.originalName}"`);
+    res.setHeader('Content-Type', recurso.ficheiro.mimeType || 'application/octet-stream');
+    fileResponse.data.pipe(res);
+  } catch (err) {
+    res.status(500).render('error', { message: 'Erro ao processar a pré-visualização.', error: err, id: req.user.id });
+  }
+});
+
 // GET para descarregar o ficheiro de um recurso específico
 router.get('/download/:id', async function(req, res, next) {
   try {
@@ -267,10 +324,8 @@ router.get('/download/:id', async function(req, res, next) {
 
     const recursoAtualizado = Object.assign({}, recurso, { downloads: (recurso.downloads || 0) + 1 });
     
-    // We update without waiting
     axios.put(`${API_DADOS_URL}/recursos/${recurso.id}`, recursoAtualizado).catch(()=>{});
 
-    // Proxy the download request directly from internal API to the client browser
     const fileResponse = await axios({
       method: 'get',
       url: `${API_DADOS_URL}/files/download/${recurso.ficheiro._id}`,

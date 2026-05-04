@@ -9,6 +9,8 @@ block content
             i.bi.bi-person-lines-fill.me-2
             | Editar Perfil
         .card-body.p-4
+          if error
+            .alert.alert-danger= error
           form(action=`/users/perfil/editar/${user.id}` method="POST")
             .row.mb-3
               .col-md-6

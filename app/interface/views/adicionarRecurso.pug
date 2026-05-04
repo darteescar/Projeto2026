@@ -17,10 +17,26 @@ block content
             .row.mb-3
               .col-md-6
                 label.form-label.fw-bold(for="uc") Unidade Curricular (UC)
+                - var ucsArray = (typeof ucs !== 'undefined' && ucs) ? ucs : []
                 select#uc.form-select(name="uc" required)
                   option(value="" disabled selected) Selecione uma opção...
-                  each val in ['Álgebra', 'Algoritmos', 'Análise', 'Arquitetura', 'BD', 'CC', 'CG', 'CP', 'Cálculo', 'DSS', 'EA', 'EPTN', 'FCD', 'FM', 'IA', 'IO', 'IPM', 'Lógica', 'MNONL', 'PF', 'PI', 'PL', 'POO', 'RC', 'SC', 'SD', 'SO', 'TMD']
+                  each val in ucsArray
                     option(value=val)= val
+                  option(value="outra") Outra
+                .mt-2#outraContainer(style="display:none")
+                  label.form-label.fw-bold(for="uc_outra") Especificar UC
+                  input#uc_outra.form-control(type="text" name="uc_outra" placeholder="Escreva a UC que pretende")
+
+                script.
+                  (function(){
+                    var sel = document.getElementById('uc');
+                    var cont = document.getElementById('outraContainer');
+                    var inp = document.getElementById('uc_outra');
+                    sel.addEventListener('change', function(e){
+                      if(this.value === 'outra'){ cont.style.display='block'; inp.required = true; }
+                      else { cont.style.display='none'; inp.required = false; }
+                    });
+                  })();
               .col-md-6
                 label.form-label.fw-bold(for="ano") Ano Letivo
                 input#ano.form-control(type="text" name="ano" placeholder="Ex: 2025/2026" required)
@@ -28,10 +44,27 @@ block content
             .row.mb-3
               .col-md-6
                 label.form-label.fw-bold(for="tipo") Tipo de Recurso
+                - var tiposArray = (typeof tipos !== 'undefined' && tipos) ? tipos : []
                 select#tipo.form-select(name="tipo" required)
                   option(value="" disabled selected) Selecione uma opção...
-                  each val in ['Bibliografia', 'Exercícios', 'Ficha', 'Formulário', 'Resolução de Ficha', 'Resolução de Teste/Exame', 'Resumos', 'Slides', 'Teste/Exame']
+                  each val in tiposArray
                     option(value=val)= val
+                  option(value="outro") Outro
+                
+                .mt-2#outroContainer(style="display:none")
+                  label.form-label.fw-bold(for="tipo_outro") Especificar Tipo
+                  input#tipo_outro.form-control(type="text" name="tipo_outro" placeholder="Escreva o Tipo que pretende")
+
+                script.
+                  (function(){
+                    var selTipo = document.getElementById('tipo');
+                    var contTipo = document.getElementById('outroContainer');
+                    var inpTipo = document.getElementById('tipo_outro');
+                    selTipo.addEventListener('change', function(e){
+                      if(this.value === 'outro'){ contTipo.style.display='block'; inpTipo.required = true; }
+                      else { contTipo.style.display='none'; inpTipo.required = false; }
+                    });
+                  })();
               .col-md-6
                 label.form-label.fw-bold Visibilidade
                 .mt-2
