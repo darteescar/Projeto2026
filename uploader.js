@@ -60,8 +60,8 @@ async function startImport() {
                     autor: 1, // hardcoded a autor 1 (admin)
                     data_registo: "2026-01-01T00:00:00.000Z", // fixada a 1 de Janeiro de 2026
                     visibilidade: 'publico', // publico por omissao inicial
-                    downloads: Math.floor(Math.random() * 26), // 0 a 25
-                    visualizacoes: Math.floor(Math.random() * 41) + 10, // 10 a 50
+                    downloads: Math.floor(Math.random() * 51), // 0 a 50
+                    visualizacoes: Math.floor(Math.random() * 91) + 10, // 10 a 100
                     media_avaliacoes: mediaAvaliacoes,
                     ficheiro: fileId // ligação 
                 }
