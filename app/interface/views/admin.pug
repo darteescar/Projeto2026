@@ -1,0 +1,60 @@
+extends layout
+
+block content
+  .d-flex.justify-content-between.align-items-center.mb-4.mt-3
+    h2.mb-0 Administração - Utilizadores
+
+  .card.shadow-sm.border-0
+    .card-body.p-0
+      .table-responsive
+        table.table.table-striped.table-hover.align-middle.mb-0
+          thead.table-dark
+            tr
+              th.px-4.py-3 Nome
+              th.px-4.py-3 Apelido
+              th.px-4.py-3 Data de Registo
+              th.px-4.py-3 Role
+              th.px-4.py-3.text-end Ações
+          tbody
+            if users
+              each u in users
+                tr
+                  td.px-4.fw-bold= u.nome
+                  td.px-4= u.apelido
+                  td.px-4= u.data_criacao ? new Date(u.data_criacao).toLocaleDateString('pt-PT') : 'N/D'
+                  td.px-4
+                    if u.role === 'admin'
+                      span.badge.bg-danger Administrador
+                    else if u.role === 'produtor'
+                      span.badge.bg-warning.text-dark Produtor
+                    else
+                      span.badge.bg-primary Consumidor
+                  td.px-4.text-end
+                    a.btn.btn-sm.btn-outline-primary.me-1(href=`/users/perfil/${u.id || u._id}` title="Visualizar Perfil")
+                      i.bi.bi-eye
+                    a.btn.btn-sm.btn-outline-warning.me-1(href=`/admin/users/editar/${u.id || u._id}` title="Editar Role")
+                      i.bi.bi-pencil
+                    button.btn.btn-sm.btn-outline-danger(data-bs-toggle="modal" data-bs-target="#deleteModal" onclick=`setDeleteAction('${u.id || u._id}')` title="Eliminar User")
+                      i.bi.bi-trash
+              else
+                tr
+                  td(colspan="5").text-center.text-muted.py-4 Nenhum utilizador encontrado
+
+  // Delete Confirmation Modal
+  .modal.fade#deleteModal(tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true")
+    .modal-dialog
+      .modal-content
+        .modal-header
+          h5.modal-title#deleteModalLabel Confirmar Eliminação
+          button.btn-close(type="button" data-bs-dismiss="modal" aria-label="Close")
+        .modal-body
+          p Tem a certeza que pretende apagar este utilizador?
+        .modal-footer
+          button.btn.btn-secondary(type="button" data-bs-dismiss="modal") Cancelar
+          form#deleteForm(action="" method="POST")
+            button.btn.btn-danger(type="submit") Eliminar
+
+  script.
+    function setDeleteAction(userId) {
+      document.getElementById('deleteForm').action = '/admin/users/delete/' + userId;
+    }

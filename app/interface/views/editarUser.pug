@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  .row.justify-content-center
+    .col-lg-8
+      .card.shadow-sm.border-0.mt-4
+        .card-header.bg-warning.py-3
+          h3.mb-0.text-dark
+            i.bi.bi-person-lines-fill.me-2
+            | Editar Utilizador
+        .card-body.p-4
+          if error
+            .alert.alert-danger= error
+          form(action=`/admin/users/editar/${user.id || user._id}` method="POST")
+            .row.mb-3
+              .col-md-6
+                label.form-label.fw-bold(for="nome") Nome
+                input#nome.form-control(type="text" name="nome" value=user.nome readonly)
+              .col-md-6
+                label.form-label.fw-bold(for="apelido") Apelido
+                input#apelido.form-control(type="text" name="apelido" value=user.apelido readonly)
+            
+            hr.my-4
+
+            h5.mb-3 Alterar Role
+
+            .mb-3
+              .form-check.mb-2
+                input.form-check-input#roleAdmin(type="radio" name="role" value="admin" checked=(user.role === 'admin'))
+                label.form-check-label(for="roleAdmin") Administrador
+              .form-check.mb-2
+                input.form-check-input#roleProdutor(type="radio" name="role" value="produtor" checked=(user.role === 'produtor'))
+                label.form-check-label(for="roleProdutor") Produtor
+              .form-check.mb-2
+                input.form-check-input#roleUser(type="radio" name="role" value="user" checked=(user.role === 'user'))
+                label.form-check-label(for="roleUser") Consumidor
+
+            hr.mb-4
+            
+            .d-flex.justify-content-end.gap-2
+              a.btn.btn-outline-secondary(href="/admin/users") Cancelar
+              button.btn.btn-warning(type="submit")
+                i.bi.bi-save.me-1
+                | Guardar Alterações

@@ -18,6 +18,7 @@ const LOGOUT_URL = process.env.LOGOUT_URL || "http://localhost:16001/logout";
 const indexRouter = require('./routes/index');
 const recursosRouter = require('./routes/recursos');
 const userRouter = require('./routes/users');
+const adminRouter = require('./routes/admin');
 
 // Set views directory and view engine
 app.set('views', path.join(__dirname, 'views'));
@@ -70,6 +71,15 @@ const verificarAutenticacao = (req, res, next) => {
 app.use('/', verificarAutenticacao, indexRouter);
 app.use('/recursos', verificarAutenticacao, recursosRouter);
 app.use('/users', verificarAutenticacao, userRouter);
+app.use('/admin', verificarAutenticacao, adminRouter);
+
+// Middleware para tratar rotas não encontradas (404)
+app.use((req, res) => {
+    res.status(404).render('error', { 
+        message: "404 - Página não encontrada", 
+        error: { status: 404, stack: "A rota solicitada não foi encontrada neste servidor." } 
+    });
+});
 
 app.listen(PORT, () => {
     console.log(`Interface a correr em http://localhost:${PORT}`);

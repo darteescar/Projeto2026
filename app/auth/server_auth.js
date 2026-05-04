@@ -100,6 +100,13 @@ app.post('/register', (req, res) => {
  
 });
 
+// Middleware para tratar rotas não encontradas (404)
+app.use((req, res) => {
+    res.status(404).render('error', { 
+        message: "404 - Página não encontrada", 
+        error: { status: 404, stack: "A rota a que tentou aceder não existe neste servidor." } 
+    });
+});
 
 app.listen(PORT, () => {
     console.log(`Auth Server a correr em http://localhost:${PORT}`)
