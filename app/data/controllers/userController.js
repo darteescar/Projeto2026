@@ -33,8 +33,8 @@ const userController = {
 
             const searchTerm = queryObj.q;
             const fields = queryObj._select;
-            const sortField = queryObj._sort;
-            const order = queryObj._order === 'desc' ? -1 : 1;
+            const sortFields = queryObj._sort;
+            const sortOrders = queryObj._order;
 
             delete queryObj.q;
             delete queryObj._select;
@@ -61,10 +61,18 @@ const userController = {
 
             let execQuery = User.find(mongoQuery, projection);
 
-            if (sortField) {
-                execQuery = execQuery.sort({ [sortField]: order });
-            } else if (searchTerm) {
+            if (sortFields) {
+                const fieldsArray = sortFields.split(',');
+                const ordersArray = sortOrders ? sortOrders.split(',') : [];
+
+                fieldsArray.forEach((field, index) => {
+                    const orderValue = ordersArray[index] === 'desc' ? -1 : 1;
+                    mongoSort[field.trim()] = orderValue;
+                });
+
                 execQuery = execQuery.sort(mongoSort);
+            } else if (searchTerm) {
+                execQuery = execQuery.sort({ score: { $meta: 'textScore' } });
             }
 
             const users = await execQuery.exec();
