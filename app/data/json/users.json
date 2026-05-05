@@ -31,7 +31,7 @@
         "nome": "João",
         "apelido": "Silva",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "joao",
         "email": "joao@email.com"
     },
@@ -40,7 +40,7 @@
         "nome": "Maria",
         "apelido": "Santos",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "maria",
         "email": "maria@email.com"
     },
@@ -49,7 +49,7 @@
         "nome": "Ana",
         "apelido": "Costa",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "ana",
         "email": "ana@email.com"
     },
@@ -58,7 +58,7 @@
         "nome": "Pedro",
         "apelido": "Martins",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "pedro",
         "email": "pedro@email.com"
     },
@@ -67,7 +67,7 @@
         "nome": "Rui",
         "apelido": "Rodrigues",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "rui",
         "email": "rui@email.com"
     },
@@ -76,7 +76,7 @@
         "nome": "Nuno",
         "apelido": "Fernandes",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "nuno",
         "email": "nuno@email.com"
     },
@@ -85,7 +85,7 @@
         "nome": "Catarina",
         "apelido": "Pereira",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "catarina",
         "email": "catarina@email.com"
     },
@@ -94,7 +94,7 @@
         "nome": "Miguel",
         "apelido": "Gomes",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "miguel",
         "email": "miguel@email.com"
     },
@@ -103,7 +103,7 @@
         "nome": "Marta",
         "apelido": "Sousa",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "marta",
         "email": "marta@email.com"
     },
@@ -112,7 +112,7 @@
         "nome": "Bruno",
         "apelido": "Lopes",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "bruno",
         "email": "bruno@email.com"
     },
@@ -121,7 +121,7 @@
         "nome": "Inês",
         "apelido": "Carvalho",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "ines",
         "email": "ines@email.com"
     },
@@ -130,7 +130,7 @@
         "nome": "Tomé",
         "apelido": "Oliveira",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "tome",
         "email": "tome@email.com"
     },
@@ -139,7 +139,7 @@
         "nome": "Rita",
         "apelido": "Almeida",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "rita",
         "email": "rita@email.com"
     },
@@ -148,7 +148,7 @@
         "nome": "Hugo",
         "apelido": "Ribeiro",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "hugo",
         "email": "hugo@email.com"
     },
@@ -157,7 +157,7 @@
         "nome": "Joana",
         "apelido": "Pinto",
         "data_criacao": "2026-01-01T00:00:00Z",
-        "role": "user",
+        "role": "consumidor",
         "password": "joana",
         "email": "joana@email.com"
     }

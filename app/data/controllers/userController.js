@@ -13,7 +13,7 @@ const userController = {
                 email: req.body.email,
                 password: req.body.password,
                 data_criacao: new Date(),
-                role: req.body.role || 'user'
+                role: req.body.role || 'consumidor'
             });
 
             await newUser.save();

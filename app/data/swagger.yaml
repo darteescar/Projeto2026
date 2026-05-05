@@ -362,8 +362,8 @@ paths:
                   type: string
                 role:
                   type: string
-                  enum: [admin, produtor, user]
-                  default: 'user'
+                  enum: [admin, produtor, consumidor]
+                  default: 'consumidor'
       responses:
         201:
           description: Utilizador criado com sucesso.
