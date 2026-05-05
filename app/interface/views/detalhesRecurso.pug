@@ -10,12 +10,13 @@ block content
               i.bi.bi-file-earmark-text.text-primary.me-2
               | #{recurso.titulo}
             .d-flex.gap-2
-              a.btn.btn-outline-primary.btn-sm(href=`/recursos/editar/${recurso.id}`)
-                i.bi.bi-pencil-square.me-1
-                | Editar
-              button.btn.btn-outline-danger.btn-sm(data-bs-toggle="modal" data-bs-target="#deleteModal")
-                i.bi.bi-trash.me-1
-                | Eliminar
+              if AUTH_LEVEL === 3 || (AUTH_LEVEL === 2 && recurso.autor === AUTH_ID)
+                a.btn.btn-outline-primary.btn-sm(href=`/recursos/editar/${recurso.id}`)
+                  i.bi.bi-pencil-square.me-1
+                  | Editar
+                button.btn.btn-outline-danger.btn-sm(data-bs-toggle="modal" data-bs-target="#deleteModal")
+                  i.bi.bi-trash.me-1
+                  | Eliminar
               
           span.badge.bg-info.text-dark.fs-6.mb-3= recurso.tipo
           span.badge.bg-secondary.fs-6.ms-2= recurso.uc

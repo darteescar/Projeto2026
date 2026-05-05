@@ -22,10 +22,15 @@ html(lang="pt")
               a.nav-link(href="/") Início
             li.nav-item
               a.nav-link(href="/recursos") Recursos
-            li.nav-item
-              a.nav-link(href="/recursos/adicionar") Adicionar Recurso
-            li.nav-item
-              a.nav-link(href="/admin") Administração
+
+            if AUTH_LEVEL >= 2 
+              li.nav-item
+                a.nav-link(href="/recursos/adicionar") Adicionar Recurso
+
+            if AUTH_LEVEL === 3
+              li.nav-item
+                a.nav-link(href="/admin") Administração
+
             li.nav-item
               a.nav-link(href="/sobre") Sobre
           ul.navbar-nav

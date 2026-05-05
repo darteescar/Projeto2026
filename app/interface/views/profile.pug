@@ -8,7 +8,8 @@ block content
           .card-body.p-5
             img.rounded-circle.mb-3.shadow(src="/images/default-avatar.png" alt="User Profile Image" style="width: 150px; height: 150px; object-fit: cover;")
             h3.mb-3 #{user.nome} #{user.apelido}
-            a.btn.btn-outline-primary.btn-sm.w-100(href=`/users/perfil/editar/${user.id}`) Editar Perfil
+            if user.id === AUTH_ID
+              a.btn.btn-outline-primary.btn-sm.w-100(href=`/users/perfil/editar/${user.id}`) Editar Perfil
           .card-footer.bg-transparent.border-0.text-start.px-4.pb-4
             p.mb-2
               i.bi.bi-file-earmark-arrow-up.me-2
