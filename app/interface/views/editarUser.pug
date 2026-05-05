@@ -11,7 +11,7 @@ block content
         .card-body.p-4
           if error
             .alert.alert-danger= error
-          form(action=`/admin/users/editar/${user.id || user._id}` method="POST")
+          form(action=`/admin/users/editar/${user.id}` method="POST")
             .row.mb-3
               .col-md-6
                 label.form-label.fw-bold(for="nome") Nome
@@ -32,8 +32,8 @@ block content
                 input.form-check-input#roleProdutor(type="radio" name="role" value="produtor" checked=(user.role === 'produtor'))
                 label.form-check-label(for="roleProdutor") Produtor
               .form-check.mb-2
-                input.form-check-input#roleUser(type="radio" name="role" value="user" checked=(user.role === 'user'))
-                label.form-check-label(for="roleUser") Consumidor
+                input.form-check-input#roleConsumidor(type="radio" name="role" value="consumidor" checked=(user.role === 'consumidor'))
+                label.form-check-label(for="roleConsumidor") Consumidor
 
             hr.mb-4
             

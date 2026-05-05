@@ -30,11 +30,11 @@ block content
                     else
                       span.badge.bg-primary Consumidor
                   td.px-4.text-end
-                    a.btn.btn-sm.btn-outline-primary.me-1(href=`/users/perfil/${u.id || u._id}` title="Visualizar Perfil")
+                    a.btn.btn-sm.btn-outline-primary.me-1(href=`/users/perfil/${u.id}` title="Visualizar Perfil")
                       i.bi.bi-eye
-                    a.btn.btn-sm.btn-outline-warning.me-1(href=`/admin/users/editar/${u.id || u._id}` title="Editar Role")
+                    a.btn.btn-sm.btn-outline-warning.me-1(href=`/admin/users/editar/${u.id}` title="Editar Role")
                       i.bi.bi-pencil
-                    button.btn.btn-sm.btn-outline-danger(data-bs-toggle="modal" data-bs-target="#deleteModal" onclick=`setDeleteAction('${u.id || u._id}')` title="Eliminar User")
+                    button.btn.btn-sm.btn-outline-danger(data-bs-toggle="modal" data-bs-target="#deleteModal" onclick=`setDeleteAction('${u.id}')` title="Eliminar User")
                       i.bi.bi-trash
               else
                 tr

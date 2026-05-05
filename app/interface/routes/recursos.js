@@ -61,10 +61,9 @@ router.get('/', async function(req, res) {
       title: 'Catálogo de Recursos | Recursos LEI', 
       query: { ...req.query, ordem }, 
       recursos, ucs, tipos, anos,
-      id: req.user.id
     });
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao contactar API de Dados', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao contactar API de Dados', error: err });
   }
 });
 
@@ -74,9 +73,9 @@ router.get('/adicionar', async function(req, res) {
     const resp = await axios.get(`${API_DADOS_URL}/recursos?visibilidade=publico&_select=uc,tipo`);
     const ucs = [...new Set(resp.data.map(r => r.uc).filter(Boolean))].sort();
     const tipos = [...new Set(resp.data.map(r => r.tipo).filter(Boolean))].sort();
-    res.render('adicionarRecurso', { title: 'Adicionar Recurso | Recursos LEI', id: req.user.id, ucs, tipos });
+    res.render('adicionarRecurso', { title: 'Adicionar Recurso | Recursos LEI', ucs, tipos });
   } catch (err) {
-    res.render('adicionarRecurso', { title: 'Adicionar Recurso | Recursos LEI', id: req.user.id, ucs: [], tipos: [] });
+    res.render('adicionarRecurso', { title: 'Adicionar Recurso | Recursos LEI', ucs: [], tipos: [] });
   }
 
 });
@@ -129,7 +128,7 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
     res.redirect('/recursos');
   } catch (err) {
     if (req.file && fs.existsSync(req.file.path)) fs.unlinkSync(req.file.path);
-    res.status(500).render('error', { message: 'Erro ao criar novo recurso', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao criar novo recurso', error: err });
   }
 });
 
@@ -165,9 +164,9 @@ router.get('/detalhes/:id', async function(req, res) {
       autor = `${userResp.data.nome} ${userResp.data.apelido}`;
     } catch (errAutor) {}
 
-    res.render('detalhesRecurso', { title: 'Detalhes do Recurso | Recursos LEI', recurso, comentarios, autor, id: req.user.id });
+    res.render('detalhesRecurso', { title: 'Detalhes do Recurso | Recursos LEI', recurso, comentarios, autor });
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao obter dados do recurso', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao obter dados do recurso', error: err });
   }
 });
 
@@ -181,12 +180,12 @@ router.get('/editar/:id', async function(req, res) {
       const resp = await axios.get(`${API_DADOS_URL}/recursos?visibilidade=publico&_select=uc,tipo`);
       const ucs = [...new Set(resp.data.map(r => r.uc).filter(Boolean))].sort();
       const tipos = [...new Set(resp.data.map(r => r.tipo).filter(Boolean))].sort();
-      res.render('editarRecurso', { title: 'Editar Recurso | Recursos LEI', recurso, id: req.user.id, ucs, tipos });
+      res.render('editarRecurso', { title: 'Editar Recurso | Recursos LEI', recurso, ucs, tipos });
     } catch (e) {
-      res.render('editarRecurso', { title: 'Editar Recurso | Recursos LEI', recurso, id: req.user.id, ucs: [], tipos: [] });
+      res.render('editarRecurso', { title: 'Editar Recurso | Recursos LEI', recurso, ucs: [], tipos: [] });
     }
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao aceder ao recurso', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao aceder ao recurso', error: err });
   }
 });
 
@@ -237,7 +236,7 @@ router.post('/editar/:id', upload.single('ficheiro'), async function(req, res) {
     res.redirect(`/recursos/detalhes/${req.params.id}`);
   } catch (err) {
     if (req.file && fs.existsSync(req.file.path)) fs.unlinkSync(req.file.path);
-    res.status(500).render('error', { message: 'Erro ao atualizar recurso', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao atualizar recurso', error: err });
   }
 });
 
@@ -255,7 +254,7 @@ router.post('/delete/:id', async function(req, res) {
 
     res.redirect('/recursos');
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao eliminar recurso', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao eliminar recurso', error: err });
   }
 });
 
@@ -283,7 +282,7 @@ router.post('/comentar/:id', async function(req, res, next) {
 
     res.redirect(`/recursos/detalhes/${req.params.id}`);
   } catch (err) {
-    res.status(500).render('error', { message: 'Falha a comentar', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Falha a comentar', error: err });
   }
 });
 
@@ -294,7 +293,7 @@ router.get('/preview/:id', async function(req, res, next) {
     const recurso = response.data;
 
     if (!recurso.ficheiro || !recurso.ficheiro._id) {
-      return res.status(404).render('error', { message: 'Este recurso não tem nenhum ficheiro associado.', error: null, id: req.user.id });
+      return res.status(404).render('error', { message: 'Este recurso não tem nenhum ficheiro associado.', error: null });
     }
 
     const fileResponse = await axios({
@@ -308,7 +307,7 @@ router.get('/preview/:id', async function(req, res, next) {
     res.setHeader('Content-Type', recurso.ficheiro.mimeType || 'application/octet-stream');
     fileResponse.data.pipe(res);
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao processar a pré-visualização.', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao processar a pré-visualização.', error: err });
   }
 });
 
@@ -319,7 +318,7 @@ router.get('/download/:id', async function(req, res, next) {
     const recurso = response.data;
 
     if (!recurso.ficheiro || !recurso.ficheiro._id) {
-      return res.status(404).render('error', { message: 'Este recurso não tem nenhum ficheiro associado.', error: null, id: req.user.id });
+      return res.status(404).render('error', { message: 'Este recurso não tem nenhum ficheiro associado.', error: null });
     }
 
     const recursoAtualizado = Object.assign({}, recurso, { downloads: (recurso.downloads || 0) + 1 });
@@ -337,7 +336,7 @@ router.get('/download/:id', async function(req, res, next) {
     fileResponse.data.pipe(res);
 
   } catch (err) {
-    res.status(500).render('error', { message: 'Erro ao processar o pedido de download.', error: err, id: req.user.id });
+    res.status(500).render('error', { message: 'Erro ao processar o pedido de download.', error: err });
   }
 });
 
