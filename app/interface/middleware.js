@@ -35,7 +35,7 @@ const verificarAutenticacao = (req, res, next) => {
             // Preenche variáveis para as views aqui, após validação do token
             res.locals.logoutUrl = LOGOUT_URL;
             res.locals.AUTH_ID = payload.id;
-            
+
             res.locals.AUTH_LEVEL = ROLE_HIERARCHY[payload.role] || 0;
             res.locals.ROLE_LEVELS = ROLE_HIERARCHY;
             next();
@@ -107,10 +107,37 @@ const isOwnerProfile = (req, res, next) => {
     }
 };
 
+// Callback para verificar se o utilizador pode visualizar um recurso (público, ou dono/admin se privado)
+const canViewResource = async (req, res, next) => {
+    try {
+        const userLevel = res.locals.AUTH_LEVEL || 0;
+        const currentID = res.locals.AUTH_ID;
+
+        const resp = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
+        const recurso = resp.data;
+
+        // Se for público, todos podem ver. Se for privado, apenas admin ou o próprio autor
+        if (recurso.visibilidade === 'publico' || userLevel >= 3 || Number(recurso.autor) === Number(currentID)) {
+            return next();
+        }
+        
+        res.status(403).render('error', { 
+            message: "403 - Acesso Negado", 
+            error: { status: 403, stack: "Este recurso é privado. Não tem permissões para o visualizar." } 
+        });
+    } catch (err) {
+        if (err.response && err.response.status === 404) {
+            return res.status(404).render('error', { message: "404 - Não Encontrado", error: { status: 404, stack: "Recurso não encontrado." } });
+        }
+        res.status(500).render('error', { message: 'Erro ao verificar permissões de visualização.', error: err });
+    }
+};
+
 module.exports = {
     ROLE_HIERARCHY,
     verificarAutenticacao,
     requireMinimumRole,
     isOwnerResourceOrAdmin,
-    isOwnerProfile
+    isOwnerProfile,
+    canViewResource
 };

@@ -20,9 +20,19 @@ router.get('/perfil', function(req, res, next) {
 // GET perfil de um utilizador específico
 router.get('/perfil/:id', async function(req, res) {
   try {
+    const currentID = res.locals.AUTH_ID;
+    const userLevel = res.locals.AUTH_LEVEL || 0;
+    const targetID = req.params.id;
+
+    // Apenas pode ver os ficheiros privados se for o dono ou um admin
+    let recursosUrl = `${API_DADOS_URL}/recursos?autor=${targetID}&_sort=data_registo&_order=desc`;
+    if (Number(targetID) !== Number(currentID) && userLevel < 3) {
+      recursosUrl += `&visibilidade=publico`;
+    }
+
     const [userResp, recResp] = await Promise.all([
-      axios.get(`${API_DADOS_URL}/users/${req.params.id}`),
-      axios.get(`${API_DADOS_URL}/recursos?autor=${req.params.id}&_sort=data_registo&_order=desc`)
+      axios.get(`${API_DADOS_URL}/users/${targetID}`),
+      axios.get(recursosUrl)
     ]);
     
     const user = userResp.data;

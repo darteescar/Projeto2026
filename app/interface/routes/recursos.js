@@ -10,7 +10,8 @@ const FormData = require('form-data');
 // Middlewares
 const {
   requireMinimumRole,
-  isOwnerResourceOrAdmin
+  isOwnerResourceOrAdmin,
+  canViewResource
 } = require('../middleware');
 
 // Define a pasta onde o multer vai colocar os ficheiros temporalmente
@@ -139,7 +140,7 @@ router.post('/adicionar', upload.single('ficheiro'), requireMinimumRole('produto
 });
 
 // GET detalhes de um recurso específico
-router.get('/detalhes/:id', async function(req, res) {
+router.get('/detalhes/:id', canViewResource, async function(req, res) {
   try {
     const [recResp, comRes] = await Promise.all([
       axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`),
@@ -265,7 +266,7 @@ router.post('/delete/:id', requireMinimumRole('produtor'), isOwnerResourceOrAdmi
 });
 
 // POST adicionar comentário a um recurso específico
-router.post('/comentar/:id', async function(req, res, next) {
+router.post('/comentar/:id', canViewResource, async function(req, res, next) {
   try {
     const evalData = {
       recurso_id: Number(req.params.id),
@@ -293,7 +294,7 @@ router.post('/comentar/:id', async function(req, res, next) {
 });
 
 // GET para pré-visualizar o ficheiro de um recurso específico (inline)
-router.get('/preview/:id', async function(req, res, next) {
+router.get('/preview/:id', canViewResource, async function(req, res, next) {
   try {
     const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
     const recurso = response.data;
@@ -318,7 +319,7 @@ router.get('/preview/:id', async function(req, res, next) {
 });
 
 // GET para descarregar o ficheiro de um recurso específico
-router.get('/download/:id', async function(req, res, next) {
+router.get('/download/:id', canViewResource, async function(req, res, next) {
   try {
     const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
     const recurso = response.data;
