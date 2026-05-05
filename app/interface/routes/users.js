@@ -2,6 +2,8 @@ var axios = require('axios');
 var express = require('express');
 var router = express.Router();
 
+const { isOwnerProfile } = require('../middleware');
+
 const API_DADOS_URL = process.env.API_DADOS_URL || 'http://api_dados_server:16000/api';
 
 
@@ -12,7 +14,7 @@ router.get('/', function(req, res, next) {
 
 // GET perfil do utilizador atual
 router.get('/perfil', function(req, res, next) {
-  res.redirect(`/users/perfil/${res.locals.auth_id}`);
+  res.redirect(`/users/perfil/${res.locals.AUTH_ID}`);
 });
 
 // GET perfil de um utilizador específico
@@ -38,7 +40,7 @@ router.get('/perfil/:id', async function(req, res) {
 });
 
 // GET formulário para editar o perfil
-router.get('/perfil/editar/:id', async function(req, res) {
+router.get('/perfil/editar/:id', isOwnerProfile, async function(req, res) {
   try {
     const userResp = await axios.get(`${API_DADOS_URL}/users/${req.params.id}`);
     const user = userResp.data;
@@ -49,7 +51,7 @@ router.get('/perfil/editar/:id', async function(req, res) {
 });
 
 // POST atualizar perfil específico
-router.post('/perfil/editar/:id', async function(req, res) {
+router.post('/perfil/editar/:id', isOwnerProfile, async function(req, res) {
   try {
     const { nome, apelido, password_atual, password_nova } = req.body;
     

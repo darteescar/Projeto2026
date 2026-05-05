@@ -1,11 +1,17 @@
-var axios = require('axios');
-var express = require('express');
-var router = express.Router();
+const axios = require('axios');
+const express = require('express');
+const router = express.Router();
 
-var multer = require('multer');
-var fs = require('fs');
-var os = require('os');
-var FormData = require('form-data');
+const multer = require('multer');
+const fs = require('fs');
+const os = require('os');
+const FormData = require('form-data');
+
+// Middlewares
+const {
+  requireMinimumRole,
+  isOwnerResourceOrAdmin
+} = require('../middleware');
 
 // Define a pasta onde o multer vai colocar os ficheiros temporalmente
 var upload = multer({ dest: os.tmpdir() });
@@ -68,7 +74,7 @@ router.get('/', async function(req, res) {
 });
 
 // GET formulário para adicionar novo recurso
-router.get('/adicionar', async function(req, res) {
+router.get('/adicionar', requireMinimumRole('produtor'), async function(req, res) {
   try {
     const resp = await axios.get(`${API_DADOS_URL}/recursos?visibilidade=publico&_select=uc,tipo`);
     const ucs = [...new Set(resp.data.map(r => r.uc).filter(Boolean))].sort();
@@ -81,7 +87,7 @@ router.get('/adicionar', async function(req, res) {
 });
 
 // POST adicionar novo recurso à base de dados 
-router.post('/adicionar', upload.single('ficheiro'), async function(req, res, next) {
+router.post('/adicionar', upload.single('ficheiro'), requireMinimumRole('produtor'), async function(req, res, next) {
   try {
     let fileId = null;
 
@@ -115,7 +121,7 @@ router.post('/adicionar', upload.single('ficheiro'), async function(req, res, ne
       ano: req.body.ano,
       tipo: tipoValue,
       uc: ucValue,
-      autor: req.user.id,
+      autor: Number(res.locals.AUTH_ID),
       data_registo: new Date().toISOString(),
       visibilidade: req.body.visibilidade,
       downloads: 0,
@@ -171,7 +177,7 @@ router.get('/detalhes/:id', async function(req, res) {
 });
 
 // GET formulário para editar um recurso específico
-router.get('/editar/:id', async function(req, res) {
+router.get('/editar/:id', requireMinimumRole('produtor'), isOwnerResourceOrAdmin, async function(req, res) {
   try {
     const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
     const recurso = response.data;
@@ -190,7 +196,7 @@ router.get('/editar/:id', async function(req, res) {
 });
 
 // POST atualizar recurso específico
-router.post('/editar/:id', upload.single('ficheiro'), async function(req, res) {
+router.post('/editar/:id', upload.single('ficheiro'), requireMinimumRole('produtor'), isOwnerResourceOrAdmin, async function(req, res) {
   try {
     const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
     const recursoAntigo = response.data;
@@ -241,7 +247,7 @@ router.post('/editar/:id', upload.single('ficheiro'), async function(req, res) {
 });
 
 // POST eliminar recurso específico
-router.post('/delete/:id', async function(req, res) {
+router.post('/delete/:id', requireMinimumRole('produtor'), isOwnerResourceOrAdmin, async function(req, res) {
   try {
     const response = await axios.get(`${API_DADOS_URL}/recursos/${req.params.id}`);
     const recurso = response.data;
@@ -263,7 +269,7 @@ router.post('/comentar/:id', async function(req, res, next) {
   try {
     const evalData = {
       recurso_id: Number(req.params.id),
-      autor: req.user ? req.user.id : "user",
+      autor: Number(res.locals.AUTH_ID),
       avaliacao: Number(req.body.avaliacao) || 5,
       descricao: req.body.comentario,
       data: new Date().toISOString()
