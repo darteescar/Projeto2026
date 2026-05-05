@@ -1,18 +1,5 @@
-fazer a parte de autenticação
-na pagina principal, os news e top10 so podem ser publicos
-garantir que apenas o dono de um recurso pode editar ou apagar
-apenas o dono do perfil pode apagar
-garantir que no perfil, o dono veja todos os seus recursos, mas quem visita, apenas vê os publicos
-encriptar as passwords
-garantir que todos os user com role produtor podem criar novos recursos
-criar area de admin, para ver todos os users, dar permissões de role aos users
-garantir que a area de admin so é acedida por admin
-
--- diferença de soluções para editar/apagar recurso OU ao criar recurso
-1. os botoes estao sempre la, e se um user sem ser o dono do recurso,
-clicar em qualquer um, vai aparecer um pop up de erro "Não tem permissão" 
-OU no caso de ser criar recrurso 
-
-2. os botoes ficam visiveis apenas quando é o dono a visitar
-OU no caso de ser produtor
-=> DEPOIS VER QUAL A MELHOR
+passwords encriptadas
+obrigar que password tenha:
+- 1 numero
+- 1 letra maiuscula e 1 minuscula
+- carcter especial
