@@ -1,6 +1,6 @@
-var axios = require('axios');
-var express = require('express');
-var router = express.Router();
+const axios = require('axios');
+const express = require('express');
+const router = express.Router();
 
 const API_DADOS_URL = process.env.API_DADOS_URL || 'http://api_dados_server:16000/api';
 
