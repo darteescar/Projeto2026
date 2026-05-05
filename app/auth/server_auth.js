@@ -78,6 +78,28 @@ app.post('/login', async (req, res) => {
 });
 
 
+// POST alterar password (API interna)
+app.post('/api/change-password', async (req, res) => {
+    const { userId, password_atual, password_nova } = req.body;
+
+    try {
+        const response = await axios.get(`${API_DADOS_URL}/users/${userId}`);
+        let user = response.data;
+
+        if (user.password !== password_atual) {
+            return res.status(400).json({ error: 'A palavra-passe atual está incorreta.' });
+        }
+
+        user.password = password_nova;
+        await axios.put(`${API_DADOS_URL}/users/${userId}`, user);
+
+        res.status(200).json({ message: 'Password atualizada com sucesso' });
+    } catch (err) {
+        res.status(500).json({ error: 'Erro ao comunicar com a API de Dados' });
+    }
+});
+
+
 // POST register
 app.post('/register', (req, res) => {
     const { nome, apelido, email, password, confirmPassword } = req.body;

@@ -64,6 +64,7 @@ services:
     environment:
       - PORT=16002
       - API_DADOS_URL=http://api_dados_server:16000/api
+      - AUTH_API_URL=http://auth_server:16001/api
       - JWT_SECRET=${JWT_SECRET:-secret_default_2026}
       - COOKIE_NAME=auth_token
       - AUTH_SERVER_URL=http://localhost:16001

@@ -5,6 +5,7 @@ const router = express.Router();
 const { isOwnerProfile } = require('../middleware');
 
 const API_DADOS_URL = process.env.API_DADOS_URL || 'http://api_dados_server:16000/api';
+const AUTH_API_URL = process.env.AUTH_API_URL || 'http://auth_server:16001/api';
 
 
 // Rota default
@@ -71,15 +72,22 @@ router.post('/perfil/editar/:id', isOwnerProfile, async function(req, res) {
     user.nome = nome;
     user.apelido = apelido;
 
+    // Guarda as informações básicas na API de dados
+    await axios.put(`${API_DADOS_URL}/users/${req.params.id}`, user);
+
+    // O servidor de autenticação é o reponsável pela alteração da password
     if (password_atual && password_nova) {
-      if (user.password === password_atual) {
-        user.password = password_nova;
-      } else {
-        return res.status(400).render('editarPerfil', { title: 'Editar Perfil | Recursos LEI', user, error: 'A palavra-passe atual está incorreta.' });
+      try {
+        await axios.post(`${AUTH_API_URL}/change-password`, {
+          userId: req.params.id,
+          password_atual,
+          password_nova
+        });
+      } catch (authErr) {
+        const errorMsg = authErr.response?.data?.error || 'Erro ao alterar a palavra-passe.';
+        return res.status(400).render('editarPerfil', { title: 'Editar Perfil | Recursos LEI', user, error: errorMsg });
       }
     }
-
-    await axios.put(`${API_DADOS_URL}/users/${req.params.id}`, user);
 
     res.redirect(`/users/perfil/${req.params.id}`);
   } catch (err) {
