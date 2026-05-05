@@ -160,5 +160,14 @@
         "role": "consumidor",
         "password": "joana",
         "email": "joana@email.com"
+    },
+    {
+        "id": 19,
+        "nome": "José Carlos",
+        "apelido": "Ramalho",
+        "data_criacao": "2026-01-01T00:00:00Z",
+        "role": "produtor",
+        "password": "jcr",
+        "email": "jcr@email.com"
     }
 ]
