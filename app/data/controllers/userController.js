@@ -1,4 +1,5 @@
 const User = require('../models/User');
+const bcrypt = require('bcrypt');
 
 const userController = {
     createUser: async function(req, res){
@@ -6,12 +7,14 @@ const userController = {
             const lastUser = await User.findOne().sort({ id: -1 }).exec();
             const nextId = lastUser ? lastUser.id + 1 : 1;
 
+            const hashedPassword = await bcrypt.hash(req.body.password, 10);
+
             const newUser = new User({
                 id: nextId,
                 nome: req.body.nome,
                 apelido: req.body.apelido,
                 email: req.body.email,
-                password: req.body.password,
+                password: hashedPassword,
                 data_criacao: new Date(),
                 role: req.body.role || 'consumidor'
             });
@@ -40,6 +43,7 @@ const userController = {
             delete queryObj._select;
             delete queryObj._sort;
             delete queryObj._order;
+            delete queryObj.password; // Não permitir filtrar por password
 
             let mongoQuery = {};
             let projection = {};
@@ -97,6 +101,9 @@ const userController = {
 
     updateUser: async function(req, res){
         try {
+            if (req.body.password) {
+                req.body.password = await bcrypt.hash(req.body.password, 10);
+            }
             const user = await User.findOneAndUpdate({ id: req.params.id }, req.body, { new: true });
             if (!user) {
                 res.status(404).json({ message: "User não encontrado." });
