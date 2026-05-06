@@ -16,8 +16,12 @@ const INTERFACE_URL = process.env.INTERFACE_URL || "http://localhost:16002/";
 
 // Função para validar senha forte
 function validatePassword(password) {
-    const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
-    return regex.test(password);
+    const hasLength = password.length >= 8;
+    const hasUpper = /[A-Z]/.test(password);
+    const hasLower = /[a-z]/.test(password);
+    const hasDigit = /[0-9]/.test(password);
+
+    return hasLength && hasUpper && hasLower && hasDigit;
 }
 
 app.set('views', path.join(__dirname, 'views'));
@@ -63,7 +67,7 @@ app.post('/login', async (req, res) => {
         if (users.length > 0) {
             const user = users[0];
             const isPasswordValid = await bcrypt.compare(password, user.password);
-            if (isPasswordValid || user.password === password) {
+            if (isPasswordValid) {
                 const token = jwt.sign(
                     { id: user.id, email: user.email, nome: user.nome, apelido: user.apelido, role: user.role },
                     JWT_SECRET,
@@ -94,7 +98,7 @@ app.post('/api/change-password', async (req, res) => {
     const { userId, password_atual, password_nova } = req.body;
 
     if (!validatePassword(password_nova)) {
-        return res.status(400).json({ error: 'A nova palavra-passe deve ter pelo menos 8 caracteres, incluindo 1 minúscula, 1 maiúscula, 1 número e 1 carácter especial.' });
+        return res.status(400).json({ error: 'A nova palavra-passe deve ter pelo menos 8 caracteres, incluindo 1 minúscula, 1 maiúscula e 1 dígito.' });
     }
 
     try {
@@ -118,29 +122,34 @@ app.post('/api/change-password', async (req, res) => {
 
 
 // POST register
-app.post('/register', (req, res) => {
+app.post('/register', async (req, res) => {
     const { nome, apelido, email, password, confirmPassword } = req.body;
+
+    const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    if (!emailRegex.test(email)) {
+        return res.render('register', { error: "O formato do email inserido não é válido", formData: req.body, title: "Registo | Recursos LEI" });
+    }
 
     if (password !== confirmPassword) {
         return res.render('register', { error: "As passwords não coincidem", formData: req.body, title: "Registo | Recursos LEI" });
     }
 
     if (!validatePassword(password)) {
-        return res.render('register', { error: "A palavra-passe deve ter pelo menos 8 caracteres, incluindo 1 minúscula, 1 maiúscula, 1 número e 1 carácter especial.", formData: req.body, title: "Registo | Recursos LEI" });
+        return res.render('register', { error: "A palavra-passe deve ter pelo menos 8 caracteres, incluindo 1 minúscula, 1 maiúscula e 1 dígito.", formData: req.body, title: "Registo | Recursos LEI" });
     }
 
-    axios.post(`${API_DADOS_URL}/users`, { nome, apelido, email, password })
-        .then(() => {
-            res.redirect('/login');
-        })
-        .catch(err => {
-            if (err.response && err.response.status === 400) {
-                res.render('register', { error: "Email já registado", formData: req.body, title: "Registo | Recursos LEI" });
-            } else {
-                res.status(500).render('error', { message: "Erro na API de Dados" , error: err});
-            }
-        });
- 
+    try {
+        const hashedPassword = await bcrypt.hash(password, 10);
+        
+        await axios.post(`${API_DADOS_URL}/users`, { nome, apelido, email, password: hashedPassword });
+        res.redirect('/login');
+    } catch (err) {
+        if (err.response && err.response.status === 400) {
+            res.render('register', { error: "Email já registado", formData: req.body, title: "Registo | Recursos LEI" });
+        } else {
+            res.status(500).render('error', { message: "Erro na API de Dados" , error: err});
+        }
+    }
 });
 
 // Middleware para tratar rotas não encontradas (404)
