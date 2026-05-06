@@ -1,5 +1,0 @@
-passwords encriptadas
-obrigar que password tenha:
-- 1 numero
-- 1 letra maiuscula e 1 minuscula
-- carcter especial
