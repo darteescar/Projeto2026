@@ -2242,7 +2242,7 @@
     {
         "id": 281,
         "titulo": "Slides",
-        "ano": 2025,
+        "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "PI",
         "path": "files/pi/slides.pdf"
@@ -2250,7 +2250,7 @@
     {
         "id": 282,
         "titulo": "Resumos SO",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Resumos",
         "uc": "SO",
         "path": "files/so/Resumos_SO.pdf"
@@ -2258,7 +2258,7 @@
     {
         "id": 283,
         "titulo": "Guiao 1 Esqueleto",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao1Esqueleto.zip"
@@ -2266,7 +2266,7 @@
     {
         "id": 284,
         "titulo": "Guiao 4 Enunciado EN",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao4EnunciadoEN.pdf"
@@ -2274,7 +2274,7 @@
     {
         "id": 285,
         "titulo": "Guiao 2 Slides",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao2Slides.pdf"
@@ -2282,7 +2282,7 @@
     {
         "id": 286,
         "titulo": "Guiao 6 Enunciado",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/guiao6enunciado.pdf"
@@ -2290,7 +2290,7 @@
     {
         "id": 287,
         "titulo": "Guiao 6 Slides",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao6Slides.pdf"
@@ -2298,7 +2298,7 @@
     {
         "id": 288,
         "titulo": "Guiao 6 Enunciado EN",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao6EnunciadoEN.pdf"
@@ -2306,7 +2306,7 @@
     {
         "id": 289,
         "titulo": "Ex6 skeleton",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/ex6_skeleton.c"
@@ -2314,7 +2314,7 @@
     {
         "id": 290,
         "titulo": "Guiao 5 Slides",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao5Slides.pdf"
@@ -2322,7 +2322,7 @@
     {
         "id": 291,
         "titulo": "Guiao 3 Slides",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao3Slides.pdf"
@@ -2330,7 +2330,7 @@
     {
         "id": 292,
         "titulo": "Guiao 4 Esqueleto",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao4Esqueleto.zip"
@@ -2338,7 +2338,7 @@
     {
         "id": 293,
         "titulo": "Guiao 5 Esqueleto",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao5Esqueleto.zip"
@@ -2346,7 +2346,7 @@
     {
         "id": 294,
         "titulo": "Guiao 5 Enunciado",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao5Enunciado.pdf"
@@ -2354,7 +2354,7 @@
     {
         "id": 295,
         "titulo": "Guiao 2 Enunciado",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao2Enunciado.pdf"
@@ -2362,7 +2362,7 @@
     {
         "id": 296,
         "titulo": "Guiao 4 Enunciado",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao4Enunciado.pdf"
@@ -2370,7 +2370,7 @@
     {
         "id": 297,
         "titulo": "Guiao 1 Slides",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao1Slides.pdf"
@@ -2378,7 +2378,7 @@
     {
         "id": 298,
         "titulo": "Guiao 3 Enunciado EN",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao3EnunciadoEN.pdf"
@@ -2386,7 +2386,7 @@
     {
         "id": 299,
         "titulo": "Guiao 4 Slides",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao4Slides.pdf"
@@ -2394,7 +2394,7 @@
     {
         "id": 300,
         "titulo": "Guiao 2 Enunciado EN",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao2EnunciadoEN.pdf"
@@ -2402,7 +2402,7 @@
     {
         "id": 301,
         "titulo": "Guiao 2 Esqueleto",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao2Esqueleto.zip"
@@ -2410,7 +2410,7 @@
     {
         "id": 302,
         "titulo": "Guiao 1 Enunciado EN",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao1EnunciadoEN.pdf"
@@ -2418,7 +2418,7 @@
     {
         "id": 303,
         "titulo": "Guiao 1 Enunciado",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao1Enunciado.pdf"
@@ -2426,7 +2426,7 @@
     {
         "id": 304,
         "titulo": "Guiao 5 Enunciado EN",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao5EnunciadoEN.pdf"
@@ -2434,7 +2434,7 @@
     {
         "id": 305,
         "titulo": "Guiao 3 Esqueleto",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao3Esqueleto.zip"
@@ -2442,7 +2442,7 @@
     {
         "id": 306,
         "titulo": "Guiao 3 Enunciado",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Ficha",
         "uc": "SO",
         "path": "files/so/Guiao3ENunciado.pdf"
@@ -2514,7 +2514,7 @@
     {
         "id": 315,
         "titulo": "3 - CPU Virtualization Mechanisms",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "SO",
         "path": "files/so/3 - CPU Virtualization Mechanisms.pdf"
@@ -2522,7 +2522,7 @@
     {
         "id": 316,
         "titulo": "6 - Paging and Virtual Memory",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "SO",
         "path": "files/so/6 - Paging and Virtual Memory.pdf"
@@ -2530,7 +2530,7 @@
     {
         "id": 317,
         "titulo": "7 - IO Devices",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "SO",
         "path": "files/so/7 - IO Devices.pdf"
@@ -2538,7 +2538,7 @@
     {
         "id": 318,
         "titulo": "2 - Processes",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "SO",
         "path": "files/so/2 - Processes.pdf"
@@ -2546,7 +2546,7 @@
     {
         "id": 319,
         "titulo": "5 - Memory Virtualization Abstractions and Mechanisms",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "SO",
         "path": "files/so/5 - Memory Virtualization Abstractions and Mechanisms.pdf"
@@ -2554,7 +2554,7 @@
     {
         "id": 320,
         "titulo": "8 - File System Interface and Design",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "SO",
         "path": "files/so/8 - File System Interface and Design.pdf"
@@ -2562,7 +2562,7 @@
     {
         "id": 321,
         "titulo": "0 - Presentation",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "SO",
         "path": "files/so/0 - Presentation.pdf"
@@ -2570,7 +2570,7 @@
     {
         "id": 322,
         "titulo": "4 - CPU Scheduling",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "SO",
         "path": "files/so/4 - CPU Scheduling.pdf"
@@ -2578,7 +2578,7 @@
     {
         "id": 323,
         "titulo": "1 - OS Intro",
-        "ano": 2025,
+        "ano": "2024/2025",
         "tipo": "Slides",
         "uc": "SO",
         "path": "files/so/1 - OS Intro.pdf"
@@ -2882,7 +2882,7 @@
     {
         "id": 361,
         "titulo": "Sistemas de equações lineares",
-        "ano": 2025,
+        "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Álgebra",
         "path": "files/algebra/Capitulo_2_Sistemas_de_equações_lineares.pdf"
@@ -2890,7 +2890,7 @@
     {
         "id": 362,
         "titulo": "Determinantes",
-        "ano": 2025,
+        "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Álgebra",
         "path": "files/algebra/Capitulo_3_Determinantes.pdf"
@@ -2898,7 +2898,7 @@
     {
         "id": 363,
         "titulo": "Matriz",
-        "ano": 2025,
+        "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Álgebra",
         "path": "files/algebra/Capitulo_1_Matriz.pdf"
@@ -2906,7 +2906,7 @@
     {
         "id": 364,
         "titulo": "Valores e Vetores Próprios",
-        "ano": 2025,
+        "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Álgebra",
         "path": "files/algebra/Capitulo_6_Valores_e_Vetores_Próprios.pdf"
@@ -2914,7 +2914,7 @@
     {
         "id": 365,
         "titulo": "Transformações Lineares",
-        "ano": 2025,
+        "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Álgebra",
         "path": "files/algebra/Capitulo_5_Transformações_Lineares.pdf"
@@ -2922,7 +2922,7 @@
     {
         "id": 366,
         "titulo": "Espaços Vetoriais",
-        "ano": 2025,
+        "ano": "2023/2024",
         "tipo": "Slides",
         "uc": "Álgebra",
         "path": "files/algebra/Capitulo_4_Espaços_Vetoriais.pdf"
@@ -2930,7 +2930,7 @@
     {
         "id": 367,
         "titulo": "Exercícios Sistemas Equaçoes Lineares",
-        "ano": 2026,
+        "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Álgebra",
         "path": "files/algebra/Exercícios_Sistemas_Equaçoes_Lineares.pdf"
@@ -2938,7 +2938,7 @@
     {
         "id": 368,
         "titulo": "Exercícios Determinantes",
-        "ano": 2026,
+        "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Álgebra",
         "path": "files/algebra/Exercícios_Determinantes.pdf"
@@ -2946,7 +2946,7 @@
     {
         "id": 369,
         "titulo": "Exercicios Matrizes",
-        "ano": 2026,
+        "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Álgebra",
         "path": "files/algebra/Exercicios_Matrizes.pdf"
@@ -2954,7 +2954,7 @@
     {
         "id": 370,
         "titulo": "Exercícios Algebra Vetorial",
-        "ano": 2026,
+        "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Álgebra",
         "path": "files/algebra/Exercícios_Algebra_Vetorial.pdf"
@@ -2962,7 +2962,7 @@
     {
         "id": 371,
         "titulo": "Exercícios Aplicações Lineares",
-        "ano": 2026,
+        "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Álgebra",
         "path": "files/algebra/Exercícios_Aplicações_Lineares.pdf"
@@ -2970,7 +2970,7 @@
     {
         "id": 372,
         "titulo": "Exercicios Resolucao",
-        "ano": 2026,
+        "ano": "2023/2024",
         "tipo": "Resolução de Ficha",
         "uc": "Álgebra",
         "path": "files/algebra/Exercicios_Resolucao.pdf"
@@ -2978,7 +2978,7 @@
     {
         "id": 373,
         "titulo": "Exercícios Espaços Vetoriais",
-        "ano": 2026,
+        "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Álgebra",
         "path": "files/algebra/Exercícios_Espaços Vetoriais.pdf"
@@ -2986,7 +2986,7 @@
     {
         "id": 374,
         "titulo": "Exercícios Valores Vetores Proprios",
-        "ano": 2026,
+        "ano": "2023/2024",
         "tipo": "Ficha",
         "uc": "Álgebra",
         "path": "files/algebra/Exercícios_Valores_Vetores_Proprios.pdf"
