@@ -2,7 +2,7 @@
 
 ## Engenharia Web
 
-### Plataforma de Recursos Educativos
+### Plataforma de Gestão e Disponibilização de Recursos Educativos
 
 ---
 
@@ -20,19 +20,30 @@
 
 ## Índice
 
-1. [Introdução](#1-introdução)
-2. [Arquitetura do Sistema](#2-arquitetura-do-sistema)
-3. [Servidor de Dados](#3-servidor-de-dados)
-4. [Servidor de Autenticação](#4-servidor-de-autenticação)
-5. [Servidor de Interface](#5-servidor-de-interface)
-6. [Deployment com Docker](#6-deployment-com-docker)
-7. [Conclusão](#7-conclusão)
+- [1. Introdução](#1-introdução)
+- [2. Arquitetura do Sistema](#2-arquitetura-do-sistema)
+- [3. Base de Dados](#3-base-de-dados)
+  - [Inicialização](#inicialização)
+  - [Coleções](#coleções)
+- [4. Servidor de Autenticação](#4-servidor-de-autenticação)
+  - [Fluxo de Autenticação](#fluxo-de-autenticação)
+- [5. Servidor de Interface](#5-servidor-de-interface)
+  - [Roles de Utilizador](#roles-de-utilizador)
+  - [Controlo de Acesso](#controlo-de-acesso)
+  - [Rotas Principais](#rotas-principais)
+- [6. Servidor de Dados](#6-servidor-de-dados)
+  - [Rotas](#rotas)
+  - [Documentação Swagger](#documentação-swagger)
+- [7. Deployment com Docker](#7-deployment-com-docker)
+  - [Arranque](#arranque)
+  - [Ordem de Inicialização](#ordem-de-inicialização)
+- [8. Conclusão](#8-conclusão)
 
 ---
 
 ## 1. Introdução
 
-No âmbito da unidade curricular de Engenharia Web, foi proposto o desenvolvimento de uma plataforma web para gestão e partilha de recursos educativos entre estudantes e docentes. O sistema desenvolvido permite o upload, organização, pesquisa e avaliação de materiais académicos — como apontamentos, exames e soluções — organizados por unidade curricular e ano letivo.
+No âmbito da unidade curricular de Engenharia Web, foi proposto o desenvolvimento de uma plataforma web para gestão e partilha de recursos educativos entre estudantes e docentes. O sistema desenvolvido permite o upload, organização, pesquisa e avaliação de materiais académicos — como testes e exames, fichas e soluções — organizados por unidade curricular e ano letivo e tipo de recurso.
 
 O projeto foi desenvolvido em Node.js com Express, seguindo uma arquitetura de microserviços composta por três servidores independentes e uma base de dados MongoDB, todos orquestrados através de Docker Compose.
 
@@ -57,7 +68,7 @@ O browser comunica exclusivamente com o servidor de interface e este, por sua ve
 
 <br>
 
-![Arquitetura do Sistema](arquitetura.png)
+![Arquitetura do Sistema](./assets/arquitetura.png)
 
 ---
 ## 3. Base de Dados
@@ -74,7 +85,7 @@ Por outro lado, as coleções `recursos` e `files` não são populadas nesta fas
 node uploader.js
 ```
 
-Este script lê um [json](recursos.json) com os recursos, faz upload de cada ficheiro para a API de dados e cria os registos correspondentes nas coleções `recursos` e `files`. A partir daaqui, ambas as coleções também crescem sempre que um utilizador fizer upload de um novo recurso pela interface.
+Este script lê um [json](recursos.json) com os recursos, faz upload de cada ficheiro para a API de dados e cria os registos correspondentes nas coleções `recursos` e `files`. A partir daqui, ambas as coleções também crescem sempre que um utilizador fizer upload de um novo recurso pela interface.
 
 ### Coleções
 
@@ -198,7 +209,7 @@ Visto que o sistema tem diferentes tipos de utilizadores, cada um com permissõe
 
 ### Controlo de Acesso
 
-O controlo de acesso é aplicado em duas camadas complementares. A primeira atua no servidor, já que cada pedido passa por um middleware que valida o JWT presente no cookie e, caso esteja ausente ou inválido, redireciona imediatamente para o servidor de autenticação. Se o token for válido, o middleware extrai o role do utilizador e bloqueia o acesso a rotas que exijam permissões superiores às que possui.Nas rotas de edição e remoção de recursos existe ainda uma verificação adicional pois não basta ter o role adequado: o sistema confirma que o utilizador é o autor do recurso ou um administrador, impedindo que um produtor modifique conteúdo criado por outro utilizador.
+O controlo de acesso é aplicado em duas camadas complementares. A primeira atua no servidor, já que cada pedido passa por um middleware que valida o JWT presente no cookie e, caso esteja ausente ou inválido, redireciona imediatamente para o servidor de autenticação. Se o token for válido, o middleware extrai o role do utilizador e bloqueia o acesso a rotas que exijam permissões superiores às que possui. Nas rotas de edição e remoção de recursos existe ainda uma verificação adicional pois não basta ter o role adequado: o sistema confirma que o utilizador é o autor do recurso ou um administrador, impedindo que um produtor modifique conteúdo criado por outro utilizador.
 
 A segunda camada atua nos templates, injetando o role do utilizador pelo middleware em variáveis disponíveis a todas as páginas, que utilizam-nas para mostrar ou ocultar elementos da interface. Por exemplo, a opção "Adicionar Recurso" na barra de navegação só é visível a produtores e admins, e os botões de editar e eliminar numa página de detalhe só aparecem se o utilizador tiver permissão para o fazer.
 
@@ -288,4 +299,4 @@ O desenvolvimento deste projeto permitiu implementar com sucesso uma plataforma 
 
 A separação do sistema em três servidores independentes revelou-se uma escolha adequada: o servidor de dados ficou responsável exclusivamente pela lógica de persistência, o servidor de autenticação pelo ciclo de vida das sessões, e o servidor de interface pela experiência do utilizador. Esta divisão simplificou o desenvolvimento e facilita a manutenção futura de cada componente de forma independente.
 
-Como trabalho futuro, poderiam ser exploradas melhorias como a paginação de resultados na interface, notificações em tempo real com WebSockets, e a possibilidade de os utilizadores organizarem recursos em coleções pessoais.
+Como trabalho futuro, poderiam ser feitas melhorias como a paginação de resultados na interface, notificações em tempo real, e a possibilidade dos utilizadores organizarem recursos em coleções pessoais.
