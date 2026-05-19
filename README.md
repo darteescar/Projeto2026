@@ -5,6 +5,8 @@ Os serviços são depois montados e orquestrados com o `Docker Compose`.
 
 Relativamente ao tema do projeto, a aplicação foi desenvolvida com o foco de gerir e disponibilizar recursos educativos do curso de `LEI` (Licenciatura em Engenharia Informática) da `UM` (Universidade do Minho).
 
+### Nota Final: 19 / 20 ⭐️
+
 <p>
   <img src="./assets/home.png" width="49%" />
   <img src="./assets/recursos.png" width="49%" />
@@ -61,6 +63,8 @@ Group project developed for the Web Engineering course. The project consists of 
 The services are then built and orchestrated using `Docker Compose`.
 
 Regarding the project theme, the application was developed with a focus on managing and providing educational resources for the `LEI` (Bachelor's in Software Engineering) course at `UM` (University of Minho).
+
+### Nota Final: 19 / 20 ⭐️
 
 <p>
   <img src="./assets/home.png" width="49%" />
