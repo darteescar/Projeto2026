@@ -64,7 +64,7 @@ The services are then built and orchestrated using `Docker Compose`.
 
 Regarding the project theme, the application was developed with a focus on managing and providing educational resources for the `LEI` (Bachelor's in Software Engineering) course at `UM` (University of Minho).
 
-### Nota Final: 19 / 20 ⭐️
+### Final Grade: 19 / 20 ⭐️
 
 <p>
   <img src="./assets/home.png" width="49%" />
